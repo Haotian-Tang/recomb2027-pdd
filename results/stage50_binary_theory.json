@@ -1,0 +1,84 @@
+{
+  "stage": 50,
+  "role": "Machine-readable research derivation; no reader-facing report or sent-manuscript change.",
+  "status": "Constructive strictly binary extension candidate. General conclusion rests on the proof below; implementation checks and internal scrutiny do not establish publication priority or replace human review.",
+  "theorem": {
+    "statement": "Exact fixed-pendant distance deconvolution with arbitrary missing original-leaf observations is W[1]-hard parameterized by the source budget H, even on positive-rational unrooted strictly binary trees, with pendant fixed to 1. Hardness persists under the promise that an explicit strict explanation using at most H+1 sources is supplied.",
+    "source": "K-list positive integer SUM, composed with the frozen Stage49 deterministic Multicolored Clique encoding.",
+    "parameter": "H=K+1, where K is the number of SUM lists. For t-colored Clique, H=t+binomial(t,2)+1, apart from a fixed constant-budget NO mapping.",
+    "stronger_soundness": "A NO SUM input excludes even H arbitrary positive point sources on closed original edges, allowing vertices and repeated edges.",
+    "promise_gap": "For targets inside the sum-of-list-minima/maxima interval, the minimum is H on SUM YES and H+1 on SUM NO.",
+    "not_claimed": ["W[1] membership or completeness", "strong NP-hardness", "bounded geometric aspect ratios", "uniform abundance or position margins", "approximation or noise hardness", "biological generating-composition recovery", "literature priority clearance"]
+  },
+  "input_and_constants": {
+    "input": "K>=2 nonempty finite sets A_i of positive integers, target B>0. Deduplicate each set. Put A=max union_i A_i.",
+    "alpha": "1/2",
+    "baseline_calibration_mass": "1/2",
+    "c": "1/[2(K+B)]",
+    "tau": "c/16",
+    "epsilon": "c/[100 K(A+2)]",
+    "q": "1/2-tau",
+    "Delta0": "1/2-tau",
+    "simple_bounds": "A>=1, K>=2, B>=1 imply 0<c<=1/6, tau<=1/96, epsilon>0. All constants have polynomial binary encoding length."
+  },
+  "binary_tree": {
+    "root": "Create root o with two observed leaf neighbors z and p, each joined by an edge of length 1. Its third edge enters a full rooted binary fan with K arm slots and K-1 internal fan vertices.",
+    "fan": "The fan has K-1 core edges counting o-to-fan-root. Give every core edge length epsilon/(K-1). Attach active arm i directly to the internal fan vertex c_i at its slot; do not create an extra degree-two port vertex. Different arms may share c_i. Every o-to-c_i path has length h_i in (0,epsilon]. Either a balanced fan or a caterpillar is valid.",
+    "active_arm": "At each slot create a path of total length 1 ending at observed leaf r_i. At every distinct coordinate s_a=1/(1+a), a in A_i, measured from c_i, keep a gate and attach one hidden leaf by an edge of length 1. Split visible arm edges by the sorted gate coordinates.",
+    "degree_check": "Root o has degree three; every fan internal vertex has one parent and two children/arms; every gate has two visible neighbors and one hidden leaf. All other vertices are leaves. Thus every internal original vertex has degree exactly three, and every original edge is positive.",
+    "size": "With M=sum_i |A_i|, the tree has M+K+2 original leaves, M+K internal vertices, and 2M+2K+1 original edges. Exactly K+2=H+1 leaves are observed; M are hidden. Every original edge length is at most 1.",
+    "observations": {
+      "pendant": "1",
+      "d_z": "3+K*c-2*tau",
+      "d_p": "2+K*c",
+      "d_r_i": "3+(K-2)*c-2*tau for every i",
+      "contrasts": "d_z-d_p=2*q and d_z-d_r_i=2*c."
+    }
+  },
+  "core_geometry": {
+    "matrix": "Let b_ij be the length common to the o-to-c_i and o-to-c_j paths; let Bcore=(b_ij). Then 0<=b_ij<=min(h_i,h_j)<=epsilon. Bcore is symmetric positive semidefinite, as a sum over core edges of length times the outer product of its descendant-arm indicator vector.",
+    "one_source_per_arm_identity": "If arm i has one source of mass p_i, projection coordinate s_i, and hidden depth t_i (zero if visible), while the calibration source has mass p0 and coordinate x on op, put R_i=p_i*s_i and P=sum_i p_i. The leaf contrasts give p0*x=q and R_i+sum_j b_ij*p_j=c+h_i/2.",
+    "sentinel_identity": "For any such mixture, d_z=2+q+sum_i p_i*(h_i+s_i+t_i). Consequently total hidden moment Z=sum_i p_i*t_i equals Delta0+K*c-sum_i p_i*(h_i+s_i).",
+    "derivation": "An arm-j source is at distance 1+h_j+s_j+t_j from z and at distance 1+h_i+h_j-2*b_ij+s_j+t_j-2*s_i*1(i=j) from r_i. A calibration source has distances 1+x from z and 1+h_i+x from r_i. Normalization gives d_z-d_r_i=-h_i+2*sum_j b_ij*p_j+2*p_i*s_i."
+  },
+  "completeness_exact_construction": {
+    "selection": "Given a_i in A_i with sum_i a_i=B, put s_i=1/(1+a_i), D=diag(s_i), and p_i_star=c*(1+a_i). Then sum_i p_i_star=1/2 and D*p_star=c*1.",
+    "linear_solve": "Solve (D+Bcore)*p=c*1+h/2 exactly over the rationals. This matrix is positive definite. Set p0=1-sum_i p_i, calibration coordinate x=q/p0, and Z=Delta0+K*c-sum_i p_i*(h_i+s_i). Place every arm source on its chosen hidden leaf edge at common coordinate t=Z/P, where P=sum_i p_i.",
+    "perturbation_identity": "Writing delta=p-p_star yields (D+Bcore)*delta=r, with r=h/2-Bcore*p_star. Since p_star is positive and sums to 1/2, every r_i lies in [0,h_i/2], hence ||r||_infinity<=epsilon/2.",
+    "neumann_bound": "rho=||D^(-1)Bcore||_infinity<=K(A+1)*epsilon<c/100<1/2. Thus ||delta||_infinity <= (A+1)*epsilon/[2(1-rho)] <= (A+1)*epsilon. Put beta=K(A+1)*epsilon<c/100. Then |P-1/2|<=beta and |p0-1/2|<=beta.",
+    "positive_weights": "Every p_i_star>=2c. Since |delta_i|<c/(100K)<c, all p_i>0. Also p0>=1/2-beta>0. The weights sum to 1 by definition.",
+    "calibration_strictness": "q=1/2-tau>0 and tau=c/16>beta, so p0-q>=tau-beta>0. Hence 0<x=q/p0<1.",
+    "hidden_moment_bounds": "After weight positivity, use R_i=c+h_i/2-sum_j b_ij*p_j. Since 0<P<1, |R_i-c|<=epsilon/2. Therefore 1/2-tau-(K/2+1)*epsilon <= Z <= 1/2-tau+K*epsilon/2.",
+    "hidden_strictness_constants": "Let E=(K/2+1)*epsilon. For K>=2, E<=K*epsilon<=c/300. Also beta+E<c/100+c/300=c/75<c/16=tau. Thus Z<=1/2-tau+E<1/2-beta<=P. Meanwhile Z>=1/2-tau-E>=1/2-c*(1/16+1/300)>0. Hence 0<t=Z/P<1.",
+    "exact_replay": "The linear system gives all active contrasts exactly; x gives the calibration contrast exactly; the definition of Z gives d_z exactly. Thus every observed distance is exactly matched with pendant 1. The K hidden edges and op are distinct original edges, so this is a strict explanation using exactly H=K+1 sources."
+  },
+  "soundness_for_arbitrary_closed_competitors": {
+    "step_1_arm_forcing": "For an arbitrary normalized nonnegative point mixture, root the tree at o. Let R_z be its total weighted coordinate on oz. For each i, let C_i be the expected length common to the o-to-r_i and o-to-source paths. Exact contrasts imply C_i=c+h_i/2+R_z. If no source has strictly positive projection coordinate on active arm i, then every common-path length is at most h_i, so C_i<=h_i. This is impossible because c>h_i/2. Therefore each of the K disjoint active arm regions must contain a source.",
+    "step_2_calibration_forcing": "The calibration contrast is d_z-d_p=2*(R_p-R_z)=2*q>0. Therefore the op branch must contain a positive-coordinate source. This region is disjoint from all K active arm regions.",
+    "step_3_budget": "A budget of at most H=K+1 forces exactly one source in each active arm and exactly one on op, with no other sources. In particular R_z=0. Write their weights p_i and p0, so p0*x=q, x in (0,1], and P=sum p_i=1-p0<=1/2+tau. Closed endpoints and repeated-edge competitors have not been excluded by assumption; the forcing argument handles them.",
+    "step_4_moment_bounds": "The exact core identity gives R_i=p_i*s_i=c+h_i/2-sum_j b_ij*p_j, so |R_i-c|<=epsilon/2. The sentinel identity gives Z=Delta0+K*c-sum_i p_i*(h_i+s_i), hence Z>=1/2-tau-(K/2+1)*epsilon. All active projection coordinates lie in (0,1].",
+    "step_5_force_all_hidden": "Suppose one arm source is visible, including any observed-arm vertex. It has hidden depth zero and weight p_i>=R_i>=c-epsilon/2. Every hidden edge has length 1, so every other source has hidden depth at most 1. Thus Z<=P-p_i<=1/2+tau-c+epsilon/2. Combined with the lower bound, this would imply c<=2*tau+(K+3)*epsilon/2. But 2*tau+(K+3)*epsilon/2 = c/8+c*(K+3)/[200*K*(A+2)] <= c*(1/8+1/240)=31c/240<c. Contradiction. Hence all active sources lie at positive depth on hidden edges.",
+    "step_6_discrete_choices": "Each active hidden source therefore selects one original gate a_i in A_i, with s_i=1/(1+a_i). Its weight satisfies p_i=(1+a_i)*R_i. Put S=sum_i a_i. Then P=c*(K+S)+e, where |e|<=epsilon*sum_i(1+a_i)/2<=K(A+1)*epsilon/2<c/200.",
+    "step_7_integer_gap": "Because every hidden depth is at most 1, P>=Z>=1/2-tau-E with E=(K/2+1)*epsilon<=c/300. Also P<=1/2+tau. Since c*(K+B)=1/2, these inequalities give -[tau+E+c/200] < c*(S-B) < tau+c/200. Therefore |S-B|<1/16+1/300+1/200=17/240<1. S and B are integers, so S=B.",
+    "closed_scope": "The inequalities used in soundness allow calibration x=1 and hidden depth 1. A gate vertex has depth zero and was excluded by Step5. Thus the NO proof covers arbitrary closed point mixtures, not merely generator-shaped strict supports."
+  },
+  "supplied_generator_and_exact_gap": {
+    "interval_preprocessing": "If any list is empty, or B lies outside [sum min A_i,sum max A_i], the original SUM instance is immediately NO and can be mapped to the fixed NO input A_1=A_2={1,3}, B=3. Otherwise perform the construction below without deciding SUM.",
+    "effective_values": "Greedily increase list means from their minima to maxima until their sum reaches B. At most one list has an intermediate mean a_bar_i; express that mean as a convex combination lambda_ij of its minimum and maximum. Every other list uses a single actual value. Thus sum_i a_bar_i=B and at most K+1 positive value coefficients are used overall.",
+    "effective_solve": "Set s_eff_i=1/(1+a_bar_i), solve (diag(s_eff)+Bcore)*p=c*1+h/2, and compute p0,x,P,Z exactly as in completeness. The same bounds apply since 1<=a_bar_i<=A and sum a_bar_i=B.",
+    "split_weights": "For each positive coefficient lambda_ij at actual value a_ij, put a hidden source at its original gate with weight w_ij=p_i*lambda_ij*(1+a_ij)/(1+a_bar_i). These weights sum within arm i to p_i, and their weighted projection coordinates sum to p_i/(1+a_bar_i). Put every hidden source at the same depth t=Z/P and use the calibration source of mass p0 at x.",
+    "count_and_replay": "All weights and positions are strict. The gate choices on a split arm are distinct. There are at most K+1 hidden sources plus one calibration source, hence H+1=K+2 sources. The exact core identities depend only on arm total mass and projected moment, so all observed distances replay exactly.",
+    "gap": "The region-forcing argument gives minimum>=H on every constructed profile. SUM YES has an H-source witness; SUM NO excludes H even in the closed model but has the supplied strict H+1 witness. Thus the promised minimum is exactly H versus H+1."
+  },
+  "bit_complexity_and_parameterization": {
+    "reduction": "Sorting rational gate coordinates and emitting the positive binary tree and observation fractions takes polynomial time. All parameters, gate differences, and positive core lengths have polynomial bit length in the binary SUM input. Core size O(K) and total tree size O(sum list sizes+K) are polynomial.",
+    "witnesses": "The K-by-K rational system has a unique solution; exact Gaussian elimination or determinant bounds give polynomial-bit rational weights. Greedy means, coefficient splits, and all final source positions likewise have polynomial bit length. The supplied H+1 witness is computable in polynomial time without solving SUM.",
+    "hardness_composition": "The frozen Stage49 incidence-digit reduction maps t-Multicolored Clique to K=t+binomial(t,2) positive lists, using O(t^2 log M) bits per integer. Composing with this binary realization gives an fpt many-one reduction with H=K+1. Consequently an f(H)*poly(input bits) exact solver for this binary missing-reference fixed-pendant model would imply FPT=W[1].",
+    "precision_scope": "The proof uses positive core edges that may be very short relative to the unit hidden edges. No bounded-aspect-ratio or noise-robust claim follows."
+  },
+  "relation_to_previous_work": {
+    "stage49": "The high-degree hub is replaced by a positive binary fan. Merely contracting short core edges would not give exact completeness. The extra forced calibration source supplies continuous normalization slack, and constant hidden-edge length plus fixed pendant supplies the opposite mass inequality; integer separation recovers the discrete SUM equality.",
+    "stage16": "This uses the general idea of preserving an integer gap under a positive binary-core perturbation, but the construction and parameter count differ: only one extra source is charged, the pendant is fixed to 1, and missing observations occur at all gate-attached hidden leaves. The earlier complete-observation NP-hardness construction had a budget depending on the number of input items.",
+    "generic_tools": "Root-path tree distances, rational linear systems, norm perturbation bounds, convex interpolation and integer-gap arguments are classical tools. The proposed contribution is their exact constrained PDD realization and the resulting parameterized complexity boundary; global novelty remains unconfirmed."
+  }
+}

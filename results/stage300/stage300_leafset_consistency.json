@@ -1,0 +1,8 @@
+{
+ "stage": 300,
+ "step": "leafset_consistency",
+ "n_cases_checked": 385,
+ "n_mismatch": 0,
+ "mismatches": [],
+ "note": "stage 298 computed Theta_1 on the reference panel reported as N (small cases) or n_leaves (travellers); stage 300 evaluates every configuration on the panel read from the same case file.  The comparison R_dd >= Theta_1 is only meaningful if the two panels coincide case by case."
+}

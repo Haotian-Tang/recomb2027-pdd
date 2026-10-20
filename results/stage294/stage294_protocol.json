@@ -1,0 +1,294 @@
+{
+ "stage": 294,
+ "track": "noisy_reference_incompleteness",
+ "registered_utc": "2026-10-18T13:43:29.013490+00:00",
+ "question": "Does the downward bias that reference incompleteness puts on the inferred constituent count survive real estimation error, and does structured loss still hurt more than random loss, when the inference is done by the only tool that runs on noisy data?",
+ "design": {
+  "panel": "the complete krepp_estimated_10k family, 296 cases, real krepp ANI distances estimated from reads; no subsampling",
+  "paired_exact": "each case is paired 1:1 by instance stem with the exact_10k case built from the same tree, the same generating sources and the same abundances; verified identical edges and generating_sources in all 296 pairs, identical observed leaf sets in 135 (the rest differ only by the 1-3 references for which krepp returned no ANI estimate, and the noisy panel is a subset of the exact panel in all 296)",
+  "draws": "levels, regimes, replicate counts, the removal-count rule and the three synthetic regimes are imported from stage288_incompleteness / stage288_common; the random seed key uses the PAIRED EXACT case name so a random draw is byte-identical to the stage 288 draw wherever the two panels agree",
+  "seed": 2880003,
+  "levels": [
+   "one",
+   "0.10",
+   "0.25",
+   "0.50",
+   "0.75"
+  ],
+  "regimes": [
+   "random",
+   "clade",
+   "nearest",
+   "taxon"
+  ],
+  "replicates": {
+   "random": 2,
+   "clade": 2,
+   "nearest": 1,
+   "taxon": 2
+  },
+  "taxon_regime": {
+   "rule": "drop WHOLE taxonomic groups at the finest operable rank (genus, else species), taking groups largest-first (replicate 0) or smallest-first (replicate 1) while neither overshooting the target removal count nor leaving fewer than three references",
+   "source": {
+    "stage": 294,
+    "registered_utc": "2026-10-18T13:39:37.725379+00:00",
+    "source": {
+     "project": "Web of Life (WoL)",
+     "repository": "https://github.com/biocore/wol",
+     "reference": "Zhu et al. 2019, Nat Commun 10:5477",
+     "repository_head_commit": "ff92d2251c0ea72299a2ead1aecfd748a9acd698",
+     "repository_head_commit_date": "2023-02-16T20:28:37Z",
+     "fetched_utc": "2026-10-18T13:39:37.725399+00:00"
+    },
+    "files": {
+     "taxonomy_ncbi_ranks.tsv.xz": {
+      "url": "https://raw.githubusercontent.com/biocore/wol/master/data/taxonomy/ncbi/ranks.tsv.xz",
+      "repo_path": "data/taxonomy/ncbi/ranks.tsv.xz",
+      "bytes": 117712,
+      "sha256": "1e443141312cab3eab52d5b19f590fb876d725ec7f9d3dca00046c4349ad1661",
+      "github_blob_sha": "5f64c67831003ba0aee73d0dc4dfa2d104769e09",
+      "rows": 10576
+     },
+     "taxonomy_ncbi_lineages.txt.xz": {
+      "url": "https://raw.githubusercontent.com/biocore/wol/master/data/taxonomy/ncbi/lineages.txt.xz",
+      "repo_path": "data/taxonomy/ncbi/lineages.txt.xz",
+      "bytes": 127432,
+      "sha256": "6c7c7e9838258cbf1027591f9242fc81bb47a7d8e9ccd4030583e6d210fe443e",
+      "github_blob_sha": "73fe94031fad04a8eb1b1dcc693ed5376d446249",
+      "rows": 10575
+     },
+     "taxonomy_gtdb_lineages.txt.xz": {
+      "url": "https://raw.githubusercontent.com/biocore/wol/master/data/taxonomy/gtdb/lineages.txt.xz",
+      "repo_path": "data/taxonomy/gtdb/lineages.txt.xz",
+      "bytes": 118972,
+      "sha256": "0c461e5eadcdf1c1442b8fed37397f7e3a70554d46fcfe48f769f7f4acb0bae4",
+      "github_blob_sha": "ec8fd7c0adae5277f020d9de6253c12e55af7ddb",
+      "rows": 9732
+     },
+     "genomes_metadata.tsv.xz": {
+      "url": "https://raw.githubusercontent.com/biocore/wol/master/data/genomes/metadata.tsv.xz",
+      "repo_path": "data/genomes/metadata.tsv.xz",
+      "bytes": 971240,
+      "sha256": "b811ff3c69b6a6f9a94d55cc9a177bced4dddd8b1132603c47669bf132c84e9b",
+      "github_blob_sha": "8d95f82b0f9a6b5c88dee9d9475fa812785a6eac",
+      "rows": 10576
+     }
+    },
+    "taxonomy_used": {
+     "file": "taxonomy_ncbi_ranks.tsv.xz",
+     "columns": [
+      "genome",
+      "kingdom",
+      "phylum",
+      "class",
+      "order",
+      "family",
+      "genus",
+      "species"
+     ],
+     "genomes": 10575
+    },
+    "match": {
+     "distinct_accessions_in_noisy_panel": 441,
+     "matched_in_ranks_table": 441,
+     "observations": 16631,
+     "matched_observations": 16631,
+     "match_fraction": 1.0
+    },
+    "panel_taxonomic_breadth": {
+     "kingdom": {
+      "min": 1,
+      "median": 1,
+      "max": 1,
+      "cases_with_one_group": 296,
+      "cases_with_at_least_two": 0
+     },
+     "phylum": {
+      "min": 1,
+      "median": 1,
+      "max": 2,
+      "cases_with_one_group": 268,
+      "cases_with_at_least_two": 28
+     },
+     "class": {
+      "min": 1,
+      "median": 1,
+      "max": 2,
+      "cases_with_one_group": 268,
+      "cases_with_at_least_two": 28
+     },
+     "order": {
+      "min": 1,
+      "median": 1,
+      "max": 6,
+      "cases_with_one_group": 162,
+      "cases_with_at_least_two": 134
+     },
+     "family": {
+      "min": 1,
+      "median": 1,
+      "max": 7,
+      "cases_with_one_group": 162,
+      "cases_with_at_least_two": 134
+     },
+     "genus": {
+      "min": 1,
+      "median": 3,
+      "max": 24,
+      "cases_with_one_group": 104,
+      "cases_with_at_least_two": 192
+     },
+     "species": {
+      "min": 19,
+      "median": 39,
+      "max": 124,
+      "cases_with_one_group": 0,
+      "cases_with_at_least_two": 296
+     }
+    },
+    "unassigned_rank_values_by_rank": {
+     "kingdom": 0,
+     "phylum": 28,
+     "class": 28,
+     "order": 88,
+     "family": 88,
+     "genus": 170,
+     "species": 0
+    },
+    "operable_ranks": {
+     "rule": "a rank is operable for a case when its panel spans at least two groups there",
+     "conclusion": "genus is operable in the cases whose panel spans more than one genus, species elsewhere; no rank above genus is operable on this benchmark, because a 10k-dataset instance panel is typically a single family",
+     "used_by_stage294": [
+      "genus",
+      "species"
+     ]
+    }
+   },
+   "granularity_note": "whole-group granularity means the achieved removal count can fall short of the nominal level; both are recorded and the analysis bins on the achieved fraction as well as the level",
+   "panel_breadth": "these benchmark panels are taxonomically narrow -- a median of one phylum, one class, one order and one family per case -- so no rank above genus is operable; this is a property of the published 10k benchmark, reported rather than worked around"
+  },
+  "removal_convention": "observations are removed; the reference tree keeps every edge. DecoDiPhy prunes the leaves absent from its distance file itself (stage 293 convention, stage 288 variant B)",
+  "baseline": "level \"none\" is the full panel. The measured quantity is the CHANGE relative to the same tool, same arm, same case at level \"none\" -- not the deviation from the published truth, which is already large at the full panel",
+  "arms": {
+   "dd_default": "DecoDiPhy 1.5.0 documented defaults, k by its own stopping rules",
+   "dd_true_k": "DecoDiPhy 1.5.0 with -k K_true -f 1",
+   "exact_matched": "frozen stage43_partial.solve_partial on the paired exact instance restricted to the same retained references; K in (3, 5) only, because stage 292 established the frozen minimum pass does not complete at K = 10 within 3,600 s"
+  },
+  "workers_imported_verbatim": "dd_worker, exact_worker and make_exact_post are imported from stage293_abundance without modification",
+  "determinism": "DecoDiPhy 1.5.0 at seed 1142 is deterministic: the stage 289 krepp runs agree in k, loss and support across both repetitions in 575 of 575 cases where both completed, so one run per draw is recorded",
+  "wasserstein": "stage289_headtohead_analyze.wasserstein with point_distances, applied in the analysis step, so the numbers are comparable to stage 289",
+  "limits": {
+   "workers": 30,
+   "dd_wall_seconds": 120.0,
+   "dd_address_space_bytes": 3221225472,
+   "exact_wall_seconds": 30.0,
+   "exact_address_space_bytes": 4294967296
+  },
+  "decodiphy_tuning": "none; documented defaults, only the k control named in the arm",
+  "failure_policy": "every run is retained. DecoDiPhy 1.5.0 writes all_rounds.json (cli.py:379) before its jplace writer (cli.py:384), and that writer raises on anchors that pruning contracted away; a run whose fit finished and whose all_rounds.json exists is recorded as a result with jplace_writer_crashed set, exactly as in stage 293. A run with no all_rounds.json is recorded as an error with its exception"
+ },
+ "n_cases": 296,
+ "n_draws": 10656,
+ "n_dd_jobs": 21312,
+ "n_exact_matched_jobs": 7200,
+ "draws_by_level_and_regime": {
+  "none": {
+   "none": 296
+  },
+  "one": {
+   "random": 592,
+   "clade": 592,
+   "nearest": 296,
+   "taxon": 592
+  },
+  "0.10": {
+   "random": 592,
+   "clade": 592,
+   "nearest": 296,
+   "taxon": 592
+  },
+  "0.25": {
+   "random": 592,
+   "clade": 592,
+   "nearest": 296,
+   "taxon": 592
+  },
+  "0.50": {
+   "random": 592,
+   "clade": 592,
+   "nearest": 296,
+   "taxon": 592
+  },
+  "0.75": {
+   "random": 592,
+   "clade": 592,
+   "nearest": 296,
+   "taxon": 592
+  }
+ },
+ "plan_sha256": "879fce98bba2023c8f8842ff59c0e78a8817116ea40f353d3f76482d6f263083",
+ "predictions": [
+  "H1 the inferred count falls as references are removed, relative to the same tool on the same case at the full panel, at a rate comparable to the 22.9 per cent of draws / 59.1 per cent at 75 per cent loss stage 288 measured exactly.",
+  "H2 structured loss (clade, nearest, taxon) depresses the count more than random loss, as it does on exact data (about threefold in draw frequency).",
+  "H3 no prediction is registered for whether estimation error amplifies or masks the effect; a null result is reported as plainly as a positive one, and would mean the thesis is a statement about the exact model and must be scoped to it."
+ ],
+ "inputs": {
+  "bank_index": "bf53a419d5cec84a744337721cb32a2ead605015f344bbf4d63283dd48c0b2ce",
+  "bank_protocol": "1aebf33c0f1e6d12f7ac9addfc28033a849e5ca2ffefb46c04337483dcafc127",
+  "stage288_protocol": "64b32e55762d7188518d92030a4cc6618bbbf9f83122e4f613b67f80059a6696",
+  "stage289_headtohead_protocol": "efdc31e44b3576d959362190f73ce5775bb40a35876fd6c6a49bf6e584ac19cc",
+  "stage293_protocol": "61627132967882b2e886aadd0000dd0fd8354e6ddd5e9c16317a5e1f3cfcbca5",
+  "taxonomy_manifest": "fc02df8a4082e721bfef165f33f7fa39562dcae71eaf2b5c65eb59b78fb2dd84"
+ },
+ "code_hashes": {
+  "stage23_two_source_envelope.py": "527930cd95e0ab9c684bb04bea5b2e63172794c2ac5000754449e718a316ab1a",
+  "stage25_deficit_extension.py": "4d5925cfb38f627430739833f39893dbaf63bd63230a4bffcff3c945476704e3",
+  "stage26_missing_leaf.py": "e69a281e6eb9ea5199d9687ee6a864d8436116410f33568fcc50131ca82196a1",
+  "stage27_general_fpt.py": "8cc530db67f6becd9fc5ce5f2635a386956307e3ed9b5c3421da54236eddee4d",
+  "stage288_common.py": "e00a56c6f2f059886b9c80829fae042a864e2098061a77e3b10d2903fe0a85a4",
+  "stage288_incompleteness.py": "ecde7d1f470760aed4eced503ef56dfdf58b8f82bdde6896ec9d10f59e5adc71",
+  "stage289_decodiphy_bridge.py": "377c59870690991ff14746532059eabf0099a86c7b0a6ad6ceacf89b479beb4d",
+  "stage289_headtohead_analyze.py": "1d455378287e00061bb603d476e27787977788804a0f81dcf73da4b6698d1de5",
+  "stage293_abundance.py": "dd51a938012743af1779878c4e62e80c698d320fcedf8251b5853ca47bf7153f",
+  "stage293_fibre.py": "27f8b0fdbccd7c1e501e94c134284c2131e361aa8e408507c602c620a471b29f",
+  "stage294_analyze.py": "b9232784b73f1c6df9dfd57d3dba751965b15afe7d655814285b7f1c63813709",
+  "stage294_common.py": "3e2ac8bd6666363af35eb263b3ceca78b12db60c49f0946919d80077573dbbaf",
+  "stage294_noisy.py": "52808cceb3b117703d04f2a372427f1d2aa99df6a7139e6a49c6a9e0963b8b2a",
+  "stage294_taxonomy.py": "8cc94730aa11e1c28b1ea744c4de88568cf2b819ca685dfa174c0def30bbc301",
+  "stage41_partial_fpt.py": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+  "stage42_benchmark.py": "7e0e8412b6218d2690d8e2298d39677cf0a795daea18918a3326bd2b050faafa",
+  "stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66"
+ },
+ "dependency_closure": [
+  "check_stage43_fixed_one_missing.py",
+  "stage17_strict_bounds.py",
+  "stage23_two_source_envelope.py",
+  "stage24_three_source.py",
+  "stage25_benchmark.py",
+  "stage25_bounded_error.py",
+  "stage25_deficit_extension.py",
+  "stage25_three_source_linear.py",
+  "stage26_missing_leaf.py",
+  "stage26_scale.py",
+  "stage27_general_fpt.py",
+  "stage288_common.py",
+  "stage288_incompleteness.py",
+  "stage289_decodiphy_bridge.py",
+  "stage289_support_feasibility.py",
+  "stage293_abundance.py",
+  "stage293_fibre.py",
+  "stage294_common.py",
+  "stage294_noisy.py",
+  "stage41_partial_fpt.py",
+  "stage42_benchmark.py",
+  "stage43_fixed_one_missing.py",
+  "stage43_partial_fpt.py"
+ ],
+ "environment": {
+  "python": "3.12.3",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "project_venv": "/home/haotian/projects/recomb2027_novelty/.venv/bin/python",
+  "decodiphy_venv": "/home/haotian/projects/recomb2027_novelty/data/stage289_decodiphy/venv/bin/python",
+  "decodiphy_version": "1.5.0"
+ }
+}

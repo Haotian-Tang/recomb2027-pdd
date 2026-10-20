@@ -1,0 +1,16 @@
+{
+ "stage": 295,
+ "check": "static census determinism replay under the registered script hash",
+ "why": "The static census was run and its results file written BEFORE the protocol was registered, which is a deviation from the house pattern. The census carries no timing or LP content, so this replay establishes that the saved file is exactly reproducible from the registered code and inputs.",
+ "registered_script_sha256": "fb378044966c30cefaabd83cb021a53c049381d8a588441c64d8a91e7d1eccb7",
+ "current_script_sha256": "fb378044966c30cefaabd83cb021a53c049381d8a588441c64d8a91e7d1eccb7",
+ "script_hash_matches_registration": true,
+ "rows_compared": 28,
+ "all_non_timing_fields_identical": true,
+ "fields_excluded_from_comparison": [
+  "census_seconds",
+  "preamble_seconds"
+ ],
+ "saved_file_sha256": "8be5fc02d990b09e95cf8f58c62ecd7e5fd71bc8b98eeb8a261bcda44a66b470",
+ "replay_file_sha256": "9347e7395937d47710f55196b799f11f7006590dffa0ade75e90efb69d7a8fdb"
+}

@@ -1,0 +1,214 @@
+{
+  "stage": 44,
+  "registered_utc": "2026-10-14T12:41:09.232609+00:00",
+  "purpose": "Posthoc correctness-only follow-up on the sole case unknown to every primary method; no tuning and no primary benchmark alteration",
+  "selection": "Chosen after primary results by the all-methods-UNKNOWN criterion; this is not held-out performance evidence",
+  "case": {
+    "name": "fixed_random_15_n12_cap5_g6_hidden0",
+    "task": "fixed_one_missing",
+    "group": "budget_tightened",
+    "edges": [
+      [
+        4,
+        14,
+        "11/8"
+      ],
+      [
+        20,
+        10,
+        "1"
+      ],
+      [
+        5,
+        15,
+        "13/7"
+      ],
+      [
+        13,
+        2,
+        "17/9"
+      ],
+      [
+        12,
+        13,
+        "4/9"
+      ],
+      [
+        18,
+        8,
+        "1"
+      ],
+      [
+        7,
+        17,
+        "6/5"
+      ],
+      [
+        6,
+        17,
+        "1"
+      ],
+      [
+        15,
+        14,
+        "9"
+      ],
+      [
+        13,
+        16,
+        "8/3"
+      ],
+      [
+        18,
+        1,
+        "19/8"
+      ],
+      [
+        16,
+        14,
+        "2/3"
+      ],
+      [
+        12,
+        0,
+        "9/2"
+      ],
+      [
+        19,
+        3,
+        "13/4"
+      ],
+      [
+        20,
+        21,
+        "19/5"
+      ],
+      [
+        17,
+        16,
+        "19/7"
+      ],
+      [
+        9,
+        21,
+        "11/2"
+      ],
+      [
+        19,
+        15,
+        "15/2"
+      ],
+      [
+        18,
+        12,
+        "14/3"
+      ],
+      [
+        11,
+        21,
+        "3/2"
+      ],
+      [
+        20,
+        19,
+        "19/6"
+      ]
+    ],
+    "observed": {
+      "0": "3004891/180180",
+      "1": "6925697/360360",
+      "2": "2454341/180180",
+      "3": "435791/30030",
+      "4": "1245779/120120",
+      "6": "5329/420",
+      "7": "774899/60060",
+      "8": "3215101/180180",
+      "9": "1276861/60060",
+      "10": "876307/60060",
+      "11": "1064341/60060"
+    },
+    "cap": 5,
+    "pendant": "1/6",
+    "hidden_leaves": [
+      5
+    ],
+    "generating_sources": [
+      {
+        "edge": 16,
+        "p": "2/13",
+        "x": "8/11"
+      },
+      {
+        "edge": 13,
+        "p": "3/26",
+        "x": "2/11"
+      },
+      {
+        "edge": 11,
+        "p": "2/13",
+        "x": "8/11"
+      },
+      {
+        "edge": 7,
+        "p": "1/26",
+        "x": "9/11"
+      },
+      {
+        "edge": 9,
+        "p": "7/26",
+        "x": "10/11"
+      },
+      {
+        "edge": 17,
+        "p": "7/26",
+        "x": "10/11"
+      }
+    ],
+    "generating_pendant": "1/6",
+    "source_selection_mode": "mixed",
+    "hidden_source_in_generator": false,
+    "vertices": 22,
+    "original_leaves": 12,
+    "observed_leaves": 11,
+    "generating_count": 6,
+    "source_edge_types": [
+      "terminal",
+      "terminal",
+      "internal",
+      "terminal",
+      "internal",
+      "internal"
+    ],
+    "cherries": 3,
+    "missing_fraction": "1/12"
+  },
+  "methods": [
+    "original_fixed_oracle",
+    "stage43_fixed_one"
+  ],
+  "repetitions": 1,
+  "per_job_hard_wall_seconds": 30.0,
+  "per_job_address_space_bytes": 1073741824,
+  "analysis": "Preserve primary 2 s UNKNOWN statuses and all primary completion/timing tables. Compare exact answers if both complete. Validate any witness on original tree with prescribed pendant. These extended-cap timings cannot enter primary benchmark ratios.",
+  "primary_protocol_sha256": "012b4a193cb270331acb7123ff7bc975931835087b55a179985613ad909ee932",
+  "primary_results_sha256": "28ed03b399714969e0db782c2bc8b3beed4b80144e4089909ec60e9db78cff22",
+  "script_hashes": {
+    "check_stage43_fixed_one_missing.py": "f41141d906d3641b192ce43cc7b4c3280a40c82421eb92088db44a53dc42a5ef",
+    "stage17_strict_bounds.py": "23e4a8fa104078bdfb0d504009f32f51f2e2f8d67248db198be515ea00c19e89",
+    "stage23_two_source_envelope.py": "527930cd95e0ab9c684bb04bea5b2e63172794c2ac5000754449e718a316ab1a",
+    "stage24_three_source.py": "a6dd7ce1b72a922b3723445822ab132513368bd55487b63a704780b42763717e",
+    "stage25_benchmark.py": "169a5df796df38bb73a217b2acae0cf5899d23edebc7273c4ed1497e432848f6",
+    "stage25_bounded_error.py": "e4891791e19f9a813885f8a8304add879696a4d60da421e946536c9af4d3ab84",
+    "stage25_deficit_extension.py": "4d5925cfb38f627430739833f39893dbaf63bd63230a4bffcff3c945476704e3",
+    "stage25_three_source_linear.py": "9e7c12df85f9b8047046d318b8af5417df56625de6846f0c40dd4754d8c9d117",
+    "stage26_missing_leaf.py": "e69a281e6eb9ea5199d9687ee6a864d8436116410f33568fcc50131ca82196a1",
+    "stage26_scale.py": "76b788f6aa6d2ee0c0e081b0f19bfa435de0a47eb127100465b5b718fb715148",
+    "stage27_general_fpt.py": "8cc530db67f6becd9fc5ce5f2635a386956307e3ed9b5c3421da54236eddee4d",
+    "stage41_partial_fpt.py": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+    "stage42_benchmark.py": "7e0e8412b6218d2690d8e2298d39677cf0a795daea18918a3326bd2b050faafa",
+    "stage43_fixed_one_missing.py": "b9f50c96c5aeaf07851f54de86d5a1db56bda47383421f4191a8e5bb7f73e2ba",
+    "stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+    "stage44_confirmation.py": "1423277c500ddce801f07ddb15bc408f05cd71da107fd311f16bbd618be5f6df",
+    "stage44_confirmation_posthoc.py": "182a7d4495547afb485b62b3294a37a753817fd7ab62668e85a1140403593041"
+  }
+}

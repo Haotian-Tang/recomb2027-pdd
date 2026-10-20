@@ -1,0 +1,36 @@
+{
+ "stage": 298,
+ "kind": "post_registration_code_hashes",
+ "registered_utc": "2026-10-19T06:29:02.555676+00:00",
+ "note": "The protocol was registered before any timed run.  stage298_analyze.py was an empty placeholder at registration and stage298_report.py / stage298_td_k2cost.py did not exist yet; none of the three decides a Theta_k value - they read the retained run records.  Their hashes at the time the reported numbers were produced are recorded here, with the hash each carried in the original protocol for comparison.",
+ "hashes_at_analysis": {
+  "stage298_analyze.py": "92d5e6ed02020cf28c82f37ca26b1641be922b5405c7abb64899a3ab23fc63ab",
+  "stage298_report.py": "20faf0cfe3459dfdd712a5908bc6a984907e583d1ccab530164f7d1c6a325e17",
+  "stage298_td_k2cost.py": "6c0347a9799fc2c2e5e227e78bfed286f7a057769e9a593aa7672a2bc2ef07a2"
+ },
+ "hashes_at_registration": {
+  "stage298_analyze.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stage298_report.py": null,
+  "stage298_td_k2cost.py": null
+ },
+ "measurement_code_unchanged": {
+  "stage286_newick.py": true,
+  "stage287_build_bank.py": true,
+  "stage287_pdd_cases.py": true,
+  "stage287_verify_bank.py": true,
+  "stage288_common.py": true,
+  "stage296_common.py": true,
+  "stage298_common.py": true,
+  "stage298_placement.py": true,
+  "stage298_residuals.py": true,
+  "stage298_sweep.py": true,
+  "stage298_td.py": true,
+  "stage42_benchmark.py": true,
+  "stage43_partial_fpt.py": true
+ },
+ "figure": {
+  "path": "results/stage298/stage298_real_data_axis.png",
+  "sha256": "be257549cb0695cb012a51bedbd180c8e29fececa900e002c22f7ec2726e4b12",
+  "rendered_with": "matplotlib, from stage298_figure_data.json"
+ }
+}

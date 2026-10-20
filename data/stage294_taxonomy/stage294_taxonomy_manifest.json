@@ -1,0 +1,144 @@
+{
+ "stage": 294,
+ "registered_utc": "2026-10-18T13:47:15.399843+00:00",
+ "source": {
+  "project": "Web of Life (WoL)",
+  "repository": "https://github.com/biocore/wol",
+  "reference": "Zhu et al. 2019, Nat Commun 10:5477",
+  "repository_head_commit": "ff92d2251c0ea72299a2ead1aecfd748a9acd698",
+  "repository_head_commit_date": "2023-02-16T20:28:37Z",
+  "fetched_utc": "2026-10-18T13:47:15.399861+00:00"
+ },
+ "files": {
+  "taxonomy_ncbi_ranks.tsv.xz": {
+   "url": "https://raw.githubusercontent.com/biocore/wol/master/data/taxonomy/ncbi/ranks.tsv.xz",
+   "repo_path": "data/taxonomy/ncbi/ranks.tsv.xz",
+   "bytes": 117712,
+   "sha256": "1e443141312cab3eab52d5b19f590fb876d725ec7f9d3dca00046c4349ad1661",
+   "github_blob_sha": "5f64c67831003ba0aee73d0dc4dfa2d104769e09",
+   "rows": 10576
+  },
+  "taxonomy_ncbi_lineages.txt.xz": {
+   "url": "https://raw.githubusercontent.com/biocore/wol/master/data/taxonomy/ncbi/lineages.txt.xz",
+   "repo_path": "data/taxonomy/ncbi/lineages.txt.xz",
+   "bytes": 127432,
+   "sha256": "6c7c7e9838258cbf1027591f9242fc81bb47a7d8e9ccd4030583e6d210fe443e",
+   "github_blob_sha": "73fe94031fad04a8eb1b1dcc693ed5376d446249",
+   "rows": 10575
+  },
+  "taxonomy_gtdb_lineages.txt.xz": {
+   "url": "https://raw.githubusercontent.com/biocore/wol/master/data/taxonomy/gtdb/lineages.txt.xz",
+   "repo_path": "data/taxonomy/gtdb/lineages.txt.xz",
+   "bytes": 118972,
+   "sha256": "0c461e5eadcdf1c1442b8fed37397f7e3a70554d46fcfe48f769f7f4acb0bae4",
+   "github_blob_sha": "ec8fd7c0adae5277f020d9de6253c12e55af7ddb",
+   "rows": 9732
+  },
+  "genomes_metadata.tsv.xz": {
+   "url": "https://raw.githubusercontent.com/biocore/wol/master/data/genomes/metadata.tsv.xz",
+   "repo_path": "data/genomes/metadata.tsv.xz",
+   "bytes": 971240,
+   "sha256": "b811ff3c69b6a6f9a94d55cc9a177bced4dddd8b1132603c47669bf132c84e9b",
+   "github_blob_sha": "8d95f82b0f9a6b5c88dee9d9475fa812785a6eac",
+   "rows": 10576
+  }
+ },
+ "taxonomy_used": {
+  "file": "taxonomy_ncbi_ranks.tsv.xz",
+  "columns": [
+   "genome",
+   "kingdom",
+   "phylum",
+   "class",
+   "order",
+   "family",
+   "genus",
+   "species"
+  ],
+  "genomes": 10575
+ },
+ "match": {
+  "distinct_accessions_in_noisy_panel": 441,
+  "matched_in_ranks_table": 441,
+  "observations": 16631,
+  "matched_observations": 16631,
+  "match_fraction": 1.0
+ },
+ "panel_taxonomic_breadth": {
+  "kingdom": {
+   "min": 1,
+   "median": 1,
+   "max": 1,
+   "cases_with_one_group": 296,
+   "cases_with_at_least_two": 0
+  },
+  "phylum": {
+   "min": 1,
+   "median": 1,
+   "max": 2,
+   "cases_with_one_group": 268,
+   "cases_with_at_least_two": 28
+  },
+  "class": {
+   "min": 1,
+   "median": 1,
+   "max": 2,
+   "cases_with_one_group": 268,
+   "cases_with_at_least_two": 28
+  },
+  "order": {
+   "min": 1,
+   "median": 1,
+   "max": 6,
+   "cases_with_one_group": 162,
+   "cases_with_at_least_two": 134
+  },
+  "family": {
+   "min": 1,
+   "median": 1,
+   "max": 7,
+   "cases_with_one_group": 162,
+   "cases_with_at_least_two": 134
+  },
+  "genus": {
+   "min": 1,
+   "median": 3,
+   "max": 24,
+   "cases_with_one_group": 104,
+   "cases_with_at_least_two": 192
+  },
+  "species": {
+   "min": 19,
+   "median": 39,
+   "max": 124,
+   "cases_with_one_group": 0,
+   "cases_with_at_least_two": 296
+  }
+ },
+ "unassigned_rank_values_by_rank": {
+  "kingdom": 0,
+  "phylum": 28,
+  "class": 28,
+  "order": 88,
+  "family": 88,
+  "genus": 170,
+  "species": 0
+ },
+ "operable_ranks": {
+  "rule": "a rank is operable for a case when its panel spans at least two groups there",
+  "operable_cases_by_rank": {
+   "kingdom": 0,
+   "phylum": 28,
+   "class": 28,
+   "order": 134,
+   "family": 134,
+   "genus": 192,
+   "species": 296
+  },
+  "conclusion": "by that rule species is operable in all 296 cases, genus in 192, family and order in 134 each, phylum and class in 28 each, and kingdom in none. Stage 294 drops whole groups at the FINEST operable rank -- genus where the panel spans more than one genus, species elsewhere -- so every case receives a taxonomic draw. The coarser ranks are operable in a minority of cases (134 of 296 at family and order, 28 at phylum) and are left unused by design, not by impossibility: a regime defined only where the rank is operable would change the case set between levels and regimes and break the draw-for-draw pairing with stage 288. Panel breadth is the limiting fact either way -- 162 of 296 panels span a single family and 268 of 296 a single phylum.",
+  "used_by_stage294": [
+   "genus",
+   "species"
+  ]
+ }
+}

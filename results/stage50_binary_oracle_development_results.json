@@ -1,0 +1,515 @@
+{
+  "stage": 50,
+  "protocol_sha256": "7489f0de1faeb1df47042e57dba4eade4703a09681dc495d9c23807cb8941744",
+  "code_sha256": {
+    "scripts/stage47_hidden_depth_checks.py": "0cc3268a0e03a4bb61c84fd0f4944860d5b55c8567a81d68552be52c02678a2d",
+    "scripts/stage50_binary_oracle_development.py": "4bf698a636ee748bb16016bae577358876566d94cc7cadea615aac79a458387e",
+    "scripts/stage50_binary_reduction.py": "ef1935a3cda382253cc5367200d8c1291dc1397d11e9927cd0e669e3fd7ba244"
+  },
+  "cases": 12,
+  "counts": {
+    "PASS": 11,
+    "FAIL": 0,
+    "UNKNOWN": 1,
+    "ERROR": 0
+  },
+  "answers": [
+    {
+      "name": "binary_development_00",
+      "status": "PASS",
+      "expected_minimum": 3,
+      "oracle": {
+        "minimum": 3,
+        "witness": [
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "63/64"
+          },
+          {
+            "edge": 4,
+            "p": "1/4",
+            "x": "1181/1200"
+          },
+          {
+            "edge": 7,
+            "p": "1/4",
+            "x": "1181/1200"
+          }
+        ],
+        "replay": {
+          "r0": "191/64",
+          "r1": "191/64",
+          "sentinel": "207/64",
+          "calibration": "9/4"
+        },
+        "statistics": {
+          "supports_examined": 87,
+          "active_sets_examined": 883
+        }
+      },
+      "returned_witness_replayed": true,
+      "seconds": 0.27438586624339223
+    },
+    {
+      "name": "binary_development_01",
+      "status": "PASS",
+      "expected_minimum": 3,
+      "oracle": {
+        "minimum": 3,
+        "witness": [
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "79/80"
+          },
+          {
+            "edge": 4,
+            "p": "1/5",
+            "x": "6299/6400"
+          },
+          {
+            "edge": 7,
+            "p": "3/10",
+            "x": "9499/9600"
+          }
+        ],
+        "replay": {
+          "r0": "239/80",
+          "r1": "239/80",
+          "sentinel": "51/16",
+          "calibration": "11/5"
+        },
+        "statistics": {
+          "supports_examined": 87,
+          "active_sets_examined": 883
+        }
+      },
+      "returned_witness_replayed": true,
+      "seconds": 0.28148068161681294
+    },
+    {
+      "name": "binary_development_02",
+      "status": "PASS",
+      "expected_minimum": 3,
+      "oracle": {
+        "minimum": 3,
+        "witness": [
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "63/64"
+          },
+          {
+            "edge": 6,
+            "p": "1/4",
+            "x": "3937/4000"
+          },
+          {
+            "edge": 11,
+            "p": "1/4",
+            "x": "3937/4000"
+          }
+        ],
+        "replay": {
+          "r0": "191/64",
+          "r1": "191/64",
+          "sentinel": "207/64",
+          "calibration": "9/4"
+        },
+        "statistics": {
+          "supports_examined": 196,
+          "active_sets_examined": 2367
+        }
+      },
+      "returned_witness_replayed": true,
+      "seconds": 0.5882954741828144
+    },
+    {
+      "name": "binary_development_03",
+      "status": "PASS",
+      "expected_minimum": null,
+      "oracle": {
+        "minimum": null,
+        "witness": null,
+        "statistics": {
+          "supports_examined": 377,
+          "active_sets_examined": 2744
+        }
+      },
+      "returned_witness_replayed": null,
+      "seconds": 0.7337149381637573
+    },
+    {
+      "name": "binary_development_04",
+      "status": "PASS",
+      "expected_minimum": 3,
+      "oracle": {
+        "minimum": 3,
+        "witness": [
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "95/96"
+          },
+          {
+            "edge": 4,
+            "p": "1/3",
+            "x": "7937/8000"
+          },
+          {
+            "edge": 11,
+            "p": "1/6",
+            "x": "3937/4000"
+          }
+        ],
+        "replay": {
+          "r0": "287/96",
+          "r1": "287/96",
+          "sentinel": "101/32",
+          "calibration": "13/6"
+        },
+        "statistics": {
+          "supports_examined": 183,
+          "active_sets_examined": 2031
+        }
+      },
+      "returned_witness_replayed": true,
+      "seconds": 0.5160830458626151
+    },
+    {
+      "name": "binary_development_05",
+      "status": "PASS",
+      "expected_minimum": null,
+      "oracle": {
+        "minimum": null,
+        "witness": null,
+        "statistics": {
+          "supports_examined": 377,
+          "active_sets_examined": 2744
+        }
+      },
+      "returned_witness_replayed": null,
+      "seconds": 0.7197781228460371
+    },
+    {
+      "name": "binary_development_06",
+      "status": "PASS",
+      "expected_minimum": 3,
+      "oracle": {
+        "minimum": 3,
+        "witness": [
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "127/128"
+          },
+          {
+            "edge": 4,
+            "p": "5/16",
+            "x": "1739/1750"
+          },
+          {
+            "edge": 11,
+            "p": "3/16",
+            "x": "1039/1050"
+          }
+        ],
+        "replay": {
+          "r0": "383/128",
+          "r1": "383/128",
+          "sentinel": "399/128",
+          "calibration": "17/8"
+        },
+        "statistics": {
+          "supports_examined": 183,
+          "active_sets_examined": 2031
+        }
+      },
+      "returned_witness_replayed": true,
+      "seconds": 0.5099451607093215
+    },
+    {
+      "name": "binary_development_07",
+      "status": "PASS",
+      "expected_minimum": null,
+      "oracle": {
+        "minimum": null,
+        "witness": null,
+        "statistics": {
+          "supports_examined": 377,
+          "active_sets_examined": 2744
+        }
+      },
+      "returned_witness_replayed": null,
+      "seconds": 0.7286281348206103
+    },
+    {
+      "name": "binary_development_08",
+      "status": "PASS",
+      "expected_minimum": 4,
+      "oracle": {
+        "minimum": 4,
+        "witness": [
+          {
+            "edge": 1,
+            "p": "1458390007/2916864014",
+            "x": "208555777001/210008161008"
+          },
+          {
+            "edge": 5,
+            "p": "162048000/1458432007",
+            "x": "51951131163361/52503552000000"
+          },
+          {
+            "edge": 8,
+            "p": "486162003/2916864014",
+            "x": "78205823649361/78758244486000"
+          },
+          {
+            "edge": 11,
+            "p": "324108002/1458432007",
+            "x": "104458571811361/105010992648000"
+          }
+        ],
+        "replay": {
+          "r0": "439/144",
+          "r1": "439/144",
+          "r2": "439/144",
+          "sentinel": "455/144",
+          "calibration": "13/6"
+        },
+        "statistics": {
+          "supports_examined": 720,
+          "active_sets_examined": 40592
+        }
+      },
+      "returned_witness_replayed": true,
+      "seconds": 15.232642056886107
+    },
+    {
+      "name": "binary_development_09",
+      "status": "UNKNOWN",
+      "reason": "30 second process deadline",
+      "seconds": 30.033384033944458
+    },
+    {
+      "name": "binary_development_10",
+      "status": "PASS",
+      "expected_minimum": 4,
+      "oracle": {
+        "minimum": 4,
+        "witness": [
+          {
+            "edge": 1,
+            "p": "324073801/648162002",
+            "x": "51528879159/51851808160"
+          },
+          {
+            "edge": 5,
+            "p": "32408100/324081001",
+            "x": "3463307848237/3500074800000"
+          },
+          {
+            "edge": 8,
+            "p": "1296360005/5185296016",
+            "x": "8713663081987/8750430033750"
+          },
+          {
+            "edge": 13,
+            "p": "777816003/5185296016",
+            "x": "5213491068487/5250258020250"
+          }
+        ],
+        "replay": {
+          "r0": "487/160",
+          "r1": "487/160",
+          "r2": "487/160",
+          "sentinel": "503/160",
+          "calibration": "43/20"
+        },
+        "statistics": {
+          "supports_examined": 1125,
+          "active_sets_examined": 62096
+        }
+      },
+      "returned_witness_replayed": true,
+      "seconds": 23.729538531042635
+    },
+    {
+      "name": "binary_development_11",
+      "status": "PASS",
+      "expected_minimum": null,
+      "oracle": {
+        "minimum": null,
+        "witness": null,
+        "statistics": {
+          "supports_examined": 1940,
+          "active_sets_examined": 71744
+        }
+      },
+      "returned_witness_replayed": null,
+      "seconds": 27.050070082768798
+    }
+  ],
+  "independently_replayed_forward_witnesses": [
+    {
+      "name": "binary_development_00",
+      "sources": [
+        {
+          "edge": 4,
+          "p": "1/4",
+          "x": "1181/1200"
+        },
+        {
+          "edge": 7,
+          "p": "1/4",
+          "x": "1181/1200"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "63/64"
+        }
+      ],
+      "direct_replay": true
+    },
+    {
+      "name": "binary_development_01",
+      "sources": [
+        {
+          "edge": 4,
+          "p": "1/5",
+          "x": "7899/8000"
+        },
+        {
+          "edge": 7,
+          "p": "3/10",
+          "x": "7899/8000"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "79/80"
+        }
+      ],
+      "direct_replay": true
+    },
+    {
+      "name": "binary_development_02",
+      "sources": [
+        {
+          "edge": 6,
+          "p": "1/4",
+          "x": "3937/4000"
+        },
+        {
+          "edge": 11,
+          "p": "1/4",
+          "x": "3937/4000"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "63/64"
+        }
+      ],
+      "direct_replay": true
+    },
+    {
+      "name": "binary_development_04",
+      "sources": [
+        {
+          "edge": 6,
+          "p": "1/6",
+          "x": "1979/2000"
+        },
+        {
+          "edge": 9,
+          "p": "1/3",
+          "x": "1979/2000"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "95/96"
+        }
+      ],
+      "direct_replay": true
+    },
+    {
+      "name": "binary_development_06",
+      "sources": [
+        {
+          "edge": 6,
+          "p": "1/8",
+          "x": "1389/1400"
+        },
+        {
+          "edge": 9,
+          "p": "3/8",
+          "x": "1389/1400"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "127/128"
+        }
+      ],
+      "direct_replay": true
+    },
+    {
+      "name": "binary_development_08",
+      "sources": [
+        {
+          "edge": 5,
+          "p": "162048000/1458432007",
+          "x": "78205175541361/78757596378000"
+        },
+        {
+          "edge": 8,
+          "p": "486162003/2916864014",
+          "x": "78205175541361/78757596378000"
+        },
+        {
+          "edge": 11,
+          "p": "324108002/1458432007",
+          "x": "78205175541361/78757596378000"
+        },
+        {
+          "edge": 1,
+          "p": "1458390007/2916864014",
+          "x": "208555777001/210008161008"
+        }
+      ],
+      "direct_replay": true
+    },
+    {
+      "name": "binary_development_10",
+      "sources": [
+        {
+          "edge": 5,
+          "p": "32408100/324081001",
+          "x": "5796820666237/5833587618000"
+        },
+        {
+          "edge": 8,
+          "p": "1296360005/5185296016",
+          "x": "5796820666237/5833587618000"
+        },
+        {
+          "edge": 13,
+          "p": "777816003/5185296016",
+          "x": "5796820666237/5833587618000"
+        },
+        {
+          "edge": 1,
+          "p": "324073801/648162002",
+          "x": "51528879159/51851808160"
+        }
+      ],
+      "direct_replay": true
+    }
+  ],
+  "limitations": "Development examples only; no finite suite replaces the reduction proof. All timeouts retained."
+}

@@ -1,0 +1,46 @@
+{
+ "stage": 297,
+ "registered_utc": "2026-10-18T16:48:19.868180+00:00",
+ "status": "ADDENDUM_REGISTERED_BEFORE_EXECUTION_OF_THE_BATCH_IT_COVERS",
+ "extends": [
+  "results/stage297/stage297_protocol.json"
+ ],
+ "covers": [
+  "results/stage297/stage297_bridge_main_k10.jsonl"
+ ],
+ "why": "the main K = 10 threshold batch was registered in the protocol as \"SPECIFICATION FIXED BY ADDENDUM once the pilot has calibrated cost\". The pilot baselines are in and fix it.",
+ "pilot_calibration": {
+  "file": "results/stage297/stage297_bridge_pilot_k10_baseline.jsonl",
+  "cases_complete": 8,
+  "baseline_seconds_min": 38.45462391292676,
+  "baseline_seconds_median": 66.7290992939379,
+  "baseline_seconds_max": 281.72959754196927,
+  "note": "every pilot K = 10 baseline completed; no resource stop"
+ },
+ "batch": {
+  "name": "main_k10",
+  "Ks": [
+   10
+  ],
+  "cases_per_distinct_R": 3,
+  "n_cases": 60,
+  "probe_seconds": 1200,
+  "per_case_wall_seconds": 7200,
+  "workers": 15,
+  "memory_bytes": 10737418240,
+  "mode": "combined",
+  "regimes": "stage292_bridge.REGIMES (all five)",
+  "selection": "stage297_common.stratified: 3 cases per distinct reference-set size, deterministic"
+ },
+ "code_change": {
+  "file": "scripts/stage297_bridge.py",
+  "sha256_as_registered_in_protocol": "d4ebfdefcc7c1a8cf368cac6c189cc492331aba577884354e2c7d516acf4465e",
+  "sha256_now": "2845742f634f00ddc3c2d4b1a48dadd85bbd012d9a2e5406927aee7a9e5b076c",
+  "copy_of_registered_version": "results/stage297/stage297_bridge_v1_as_registered.py",
+  "change": "one new PLANS entry \"main_k10\"; no other line differs"
+ },
+ "superseded": {
+  "batch": "pilot_k10_threshold",
+  "reason": "the 6 cases of that registered batch are exactly the first per-size picks of main_k10, so running it separately would duplicate work; it is NOT executed and main_k10 covers it"
+ }
+}

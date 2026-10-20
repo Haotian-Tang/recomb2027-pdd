@@ -1,0 +1,1882 @@
+{
+  "stage": 290,
+  "survey": {
+    "n_rows": 1213,
+    "n_pass": 1213,
+    "n_fail": 0,
+    "failures": [],
+    "n_bank": 893,
+    "n_panel": 320,
+    "checks": {
+      "rank_identity_bank": 893,
+      "rank_identity_panel": 320,
+      "reduction_checked": 892,
+      "reduction_agrees": 892,
+      "witness_checked": 1213,
+      "brute_complete": 886,
+      "brute_agrees": 886,
+      "brute_limited": 7,
+      "brute_subsets_tested": 392966,
+      "brute_agreement_rate": 1.0
+    },
+    "bank_tolerance": {
+      "distribution": {
+        "0": 866,
+        "1": 19,
+        "2": 8
+      },
+      "zero_fraction": 0.9697648376259799,
+      "max": 2,
+      "by_family": {
+        "exact_10k": {
+          "0": 290,
+          "1": 4,
+          "2": 2
+        },
+        "exact_16k": {
+          "0": 1
+        },
+        "exact_biotrees": {
+          "0": 575,
+          "1": 15,
+          "2": 6
+        }
+      },
+      "by_K": {
+        "2": {
+          "0": 106,
+          "1": 9,
+          "2": 5
+        },
+        "3": {
+          "0": 209,
+          "1": 8,
+          "2": 3
+        },
+        "5": {
+          "0": 218,
+          "1": 2
+        },
+        "7": {
+          "0": 119
+        },
+        "10": {
+          "0": 213
+        },
+        "12": {
+          "0": 1
+        }
+      },
+      "by_tree": {
+        "bio_1kp__1kp-concat-fig2.tre": {
+          "0": 46,
+          "1": 3,
+          "2": 1
+        },
+        "bio_bees-bosseret__bees-bosseret.tre": {
+          "0": 49,
+          "1": 1
+        },
+        "bio_beetles-Johnson__beetles-Johnson.tre": {
+          "0": 46,
+          "1": 1,
+          "2": 3
+        },
+        "bio_birds-jarvis__birds-jarvis.tre.rerooted": {
+          "0": 49,
+          "1": 1
+        },
+        "bio_birds-stiller__birds-stiller-castlepro.tre": {
+          "0": 48,
+          "1": 2
+        },
+        "bio_fish-Troyer__fish-Troyer.tre.rerooted": {
+          "0": 48,
+          "1": 2
+        },
+        "bio_fish_hughes__fish_hughes_1105examl.tre.rerooted": {
+          "0": 50
+        },
+        "bio_hemipteroid-johnson__hemipteroid-johnson.tre.rerooted": {
+          "0": 49,
+          "2": 1
+        },
+        "bio_mammals-foley__mammals-foley-concat-heutral-241.tre": {
+          "0": 49,
+          "1": 1
+        },
+        "bio_mammals-song__mammals-song-castlespro.tre": {
+          "0": 46,
+          "1": 1
+        },
+        "bio_pancrustacean-Bernot__pancrustacean-Bernot.tre.rerooted": {
+          "0": 48,
+          "1": 1
+        },
+        "bio_tilapia-Ciezarek__tilapia-Ciezarek.tre.rerooted": {
+          "0": 47,
+          "1": 2,
+          "2": 1
+        },
+        "k10k_tree_10": {
+          "0": 30
+        },
+        "k10k_tree_11": {
+          "0": 28,
+          "2": 2
+        },
+        "k10k_tree_12": {
+          "0": 30
+        },
+        "k10k_tree_13": {
+          "0": 30
+        },
+        "k10k_tree_14": {
+          "0": 28
+        },
+        "k10k_tree_15": {
+          "0": 28,
+          "1": 2
+        },
+        "k10k_tree_16": {
+          "0": 30
+        },
+        "k10k_tree_17": {
+          "0": 28,
+          "1": 2
+        },
+        "k10k_tree_8": {
+          "0": 30
+        },
+        "k10k_tree_9": {
+          "0": 28
+        },
+        "k16k_n100_SRS014343_s1_exact": {
+          "0": 1
+        }
+      }
+    },
+    "structural_law": {
+      "n_full_rank_cut": 823,
+      "n_cases": 893,
+      "holds": 816,
+      "violations": [
+        {
+          "name": "k10k_tree_11_k3_s2_exp_exact",
+          "delta": 1,
+          "min_small_side": 2,
+          "s": 5,
+          "P": 5
+        },
+        {
+          "name": "k10k_tree_11_k3_s2_uniform_exact",
+          "delta": 1,
+          "min_small_side": 2,
+          "s": 5,
+          "P": 5
+        },
+        {
+          "name": "bio_beetles-Johnson__beetles-Johnson.tre_k2_s4_noise0_exact",
+          "delta": 3,
+          "min_small_side": 4,
+          "s": 4,
+          "P": 4
+        },
+        {
+          "name": "bio_beetles-Johnson__beetles-Johnson.tre_k3_s4_noise0_exact",
+          "delta": 3,
+          "min_small_side": 4,
+          "s": 6,
+          "P": 6
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s2_noise0_exact",
+          "delta": 1,
+          "min_small_side": 2,
+          "s": 3,
+          "P": 3
+        },
+        {
+          "name": "bio_pancrustacean-Bernot__pancrustacean-Bernot.tre.rerooted_k2_s2_noise0_exact",
+          "delta": 1,
+          "min_small_side": 3,
+          "s": 4,
+          "P": 4
+        },
+        {
+          "name": "bio_pancrustacean-Bernot__pancrustacean-Bernot.tre.rerooted_k3_s2_noise0_exact",
+          "delta": 1,
+          "min_small_side": 3,
+          "s": 6,
+          "P": 6
+        }
+      ],
+      "upper_bound_holds_all": 893,
+      "deficient_cut_cases": 70,
+      "rate": 0.991494532199271
+    },
+    "pendant": {
+      "with_pendant_support": 861,
+      "tolerance_zero_given_pendant": 861,
+      "tolerance_zero_given_no_pendant": 5,
+      "n_no_pendant": 32
+    },
+    "fibre": {
+      "matching_support": 734,
+      "dim_zero": 823,
+      "dim_distribution": {
+        "0": 823,
+        "1": 38,
+        "2": 18,
+        "3": 10,
+        "4": 3,
+        "5": 1
+      },
+      "dim_2H_distribution": {
+        "0": 703,
+        "1": 118,
+        "2": 36,
+        "3": 21,
+        "4": 5,
+        "5": 5,
+        "6": 5
+      }
+    },
+    "correlations": {
+      "tolerance_vs_panel_size": 0.05186247752619787,
+      "tolerance_vs_K": -0.20265098909419535,
+      "tolerance_vs_min_small_side": 0.9155031247588759,
+      "s_vs_2H": 0.9874355930590045
+    },
+    "panels": [
+      {
+        "leaves": 1178,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1178,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1178,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1178,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1178,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1178,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1178,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1178,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1672,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1672,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1672,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1672,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1672,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1672,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1672,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1672,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1962,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1962,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          2,
+          2,
+          6
+        ],
+        "median": 2
+      },
+      {
+        "leaves": 1962,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1962,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1962,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1962,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          0,
+          1,
+          1,
+          1,
+          2
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 1962,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 1962,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 4591,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 4591,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          3,
+          3
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 4591,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 4591,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 4591,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 4591,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 4591,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 4591,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 10575,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 10575,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 10575,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 10575,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 10575,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 10575,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 10575,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 10575,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 15953,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 15953,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          2,
+          2,
+          4
+        ],
+        "median": 2
+      },
+      {
+        "leaves": 15953,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 15953,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 15953,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 15953,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 15953,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 15953,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 31177,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          6
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 31177,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 31177,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 31177,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 31177,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 31177,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 31177,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 31177,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 47151,
+        "K": 3,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 47151,
+        "K": 3,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 47151,
+        "K": 5,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 47151,
+        "K": 5,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 47151,
+        "K": 10,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 47151,
+        "K": 10,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      },
+      {
+        "leaves": 47151,
+        "K": 12,
+        "mode": "any",
+        "n": 5,
+        "tolerances": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "median": 0
+      },
+      {
+        "leaves": 47151,
+        "K": 12,
+        "mode": "internal",
+        "n": 5,
+        "tolerances": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "median": 1
+      }
+    ],
+    "panel_summary": {
+      "any_mode_zero": 0.96875,
+      "internal_mode_zero": 0.025,
+      "internal_tolerance": {
+        "0": 4,
+        "1": 139,
+        "2": 10,
+        "3": 5,
+        "4": 1,
+        "6": 1
+      },
+      "any_tolerance": {
+        "0": 155,
+        "1": 4,
+        "6": 1
+      },
+      "max_leaves": 47151
+    }
+  },
+  "bridge": {
+    "n_rows": 130,
+    "n_pass": 130,
+    "n_fail": 0,
+    "failures": [],
+    "validation": {
+      "ground_truth_cases": 90,
+      "ground_truth_agrees": 90,
+      "ground_truth_rate": 1.0,
+      "frozen_solver_agrees": 130,
+      "rank_identity": 130,
+      "baseline_unique_true": 128,
+      "prefilter_margin_min": 7.564148516176795e-06,
+      "prefilter_survivor_rate": 0.008740512804681745
+    },
+    "n_measurements": 650,
+    "by_regime": {
+      "adversarial_nearest": {
+        "n": 130,
+        "censored_unknown": 0,
+        "censored_known": 0,
+        "t_known_median": 0.0,
+        "t_known_distribution": {
+          "0": 79,
+          "1": 14,
+          "2": 11,
+          "3": 4,
+          "4": 3,
+          "6": 1,
+          "7": 2,
+          "8": 1,
+          "9": 4,
+          "10": 2,
+          "12": 2,
+          "14": 4,
+          "16": 2,
+          "23": 1
+        },
+        "t_unknown_median": 2.0,
+        "t_unknown_distribution": {
+          "0": 12,
+          "1": 30,
+          "2": 27,
+          "3": 20,
+          "4": 7,
+          "5": 4,
+          "6": 3,
+          "7": 1,
+          "8": 2,
+          "9": 4,
+          "11": 2,
+          "12": 6,
+          "14": 4,
+          "15": 1,
+          "16": 1,
+          "17": 2,
+          "23": 1,
+          "29": 1,
+          "30": 2
+        },
+        "unknown_ge_cogirth": 130,
+        "unknown_lt_cogirth": 0,
+        "unknown_ge_known": 128,
+        "unknown_lt_known": 2,
+        "unknown_eq_known": 44,
+        "n_both": 130,
+        "gap_median": 1.0,
+        "gap_max": 16,
+        "spearman_known_unknown": 0.4356484073229203,
+        "spearman_cogirth_unknown": -0.02436547378209887,
+        "spearman_R_unknown": 0.08604123544114728
+      },
+      "random": {
+        "n": 260,
+        "censored_unknown": 0,
+        "censored_known": 0,
+        "t_known_median": 14.0,
+        "t_known_distribution": {
+          "0": 15,
+          "1": 16,
+          "2": 19,
+          "3": 4,
+          "4": 15,
+          "5": 12,
+          "6": 9,
+          "7": 9,
+          "8": 6,
+          "9": 5,
+          "10": 5,
+          "11": 3,
+          "12": 5,
+          "13": 5,
+          "14": 7,
+          "15": 9,
+          "16": 3,
+          "17": 10,
+          "18": 3,
+          "19": 8,
+          "20": 8,
+          "21": 9,
+          "23": 3,
+          "24": 4,
+          "25": 1,
+          "26": 3,
+          "29": 2,
+          "30": 2,
+          "31": 1,
+          "33": 1,
+          "34": 1,
+          "35": 2,
+          "36": 3,
+          "37": 2,
+          "38": 3,
+          "39": 2,
+          "41": 2,
+          "42": 2,
+          "44": 1,
+          "46": 1,
+          "50": 3,
+          "51": 1,
+          "52": 2,
+          "53": 2,
+          "55": 2,
+          "56": 2,
+          "57": 2,
+          "59": 1,
+          "61": 1,
+          "62": 1,
+          "65": 2,
+          "66": 1,
+          "67": 1,
+          "68": 1,
+          "69": 1,
+          "70": 1,
+          "72": 1,
+          "74": 1,
+          "75": 2,
+          "80": 1,
+          "83": 1,
+          "84": 2,
+          "85": 1,
+          "90": 1,
+          "92": 1,
+          "93": 2,
+          "97": 1,
+          "101": 1
+        },
+        "t_unknown_median": 21.0,
+        "t_unknown_distribution": {
+          "0": 6,
+          "1": 3,
+          "2": 6,
+          "3": 3,
+          "4": 13,
+          "5": 5,
+          "6": 2,
+          "7": 7,
+          "8": 4,
+          "9": 6,
+          "10": 4,
+          "11": 6,
+          "12": 6,
+          "13": 8,
+          "14": 5,
+          "15": 9,
+          "16": 2,
+          "17": 7,
+          "18": 8,
+          "19": 11,
+          "20": 8,
+          "21": 16,
+          "22": 10,
+          "23": 8,
+          "24": 5,
+          "25": 1,
+          "26": 3,
+          "27": 2,
+          "28": 2,
+          "29": 1,
+          "30": 2,
+          "31": 4,
+          "33": 1,
+          "34": 1,
+          "35": 2,
+          "36": 1,
+          "37": 1,
+          "38": 2,
+          "39": 1,
+          "40": 1,
+          "41": 3,
+          "44": 1,
+          "46": 1,
+          "47": 4,
+          "51": 1,
+          "53": 1,
+          "55": 2,
+          "56": 2,
+          "59": 1,
+          "60": 2,
+          "62": 3,
+          "63": 1,
+          "64": 1,
+          "65": 2,
+          "66": 1,
+          "67": 1,
+          "68": 1,
+          "69": 1,
+          "70": 1,
+          "71": 1,
+          "74": 1,
+          "75": 1,
+          "77": 2,
+          "78": 1,
+          "79": 2,
+          "80": 2,
+          "81": 2,
+          "83": 1,
+          "84": 3,
+          "85": 1,
+          "86": 3,
+          "87": 2,
+          "89": 2,
+          "91": 1,
+          "92": 2,
+          "93": 1,
+          "94": 1,
+          "96": 1,
+          "97": 2,
+          "98": 1,
+          "101": 1,
+          "102": 2,
+          "109": 1
+        },
+        "unknown_ge_cogirth": 260,
+        "unknown_lt_cogirth": 0,
+        "unknown_ge_known": 253,
+        "unknown_lt_known": 7,
+        "unknown_eq_known": 92,
+        "n_both": 260,
+        "gap_median": 4.0,
+        "gap_max": 86,
+        "spearman_known_unknown": 0.7868963468713139,
+        "spearman_cogirth_unknown": 0.2265862963849728,
+        "spearman_R_unknown": 0.7499818422104015
+      },
+      "whole_clade": {
+        "n": 260,
+        "censored_unknown": 0,
+        "censored_known": 0,
+        "t_known_median": 12.0,
+        "t_known_distribution": {
+          "0": 15,
+          "1": 12,
+          "2": 7,
+          "3": 16,
+          "4": 11,
+          "5": 12,
+          "6": 17,
+          "7": 7,
+          "8": 3,
+          "9": 9,
+          "10": 6,
+          "11": 10,
+          "12": 7,
+          "13": 3,
+          "14": 5,
+          "15": 11,
+          "16": 5,
+          "17": 4,
+          "18": 10,
+          "19": 5,
+          "20": 6,
+          "21": 5,
+          "22": 2,
+          "23": 3,
+          "24": 4,
+          "25": 8,
+          "26": 1,
+          "27": 2,
+          "29": 1,
+          "30": 1,
+          "31": 1,
+          "32": 1,
+          "33": 4,
+          "34": 3,
+          "35": 2,
+          "36": 3,
+          "37": 2,
+          "38": 1,
+          "40": 1,
+          "41": 2,
+          "42": 1,
+          "43": 1,
+          "44": 2,
+          "45": 1,
+          "48": 3,
+          "49": 1,
+          "50": 2,
+          "56": 1,
+          "59": 1,
+          "60": 1,
+          "61": 1,
+          "64": 3,
+          "66": 2,
+          "67": 1,
+          "70": 1,
+          "71": 2,
+          "75": 2,
+          "76": 3,
+          "77": 1,
+          "79": 1,
+          "87": 1
+        },
+        "t_unknown_median": 15.0,
+        "t_unknown_distribution": {
+          "0": 7,
+          "1": 4,
+          "2": 6,
+          "3": 17,
+          "4": 6,
+          "5": 17,
+          "6": 11,
+          "7": 8,
+          "8": 2,
+          "9": 9,
+          "10": 6,
+          "11": 11,
+          "12": 8,
+          "13": 5,
+          "14": 7,
+          "15": 11,
+          "16": 8,
+          "17": 4,
+          "18": 11,
+          "19": 5,
+          "20": 9,
+          "21": 6,
+          "22": 1,
+          "23": 3,
+          "24": 2,
+          "25": 5,
+          "26": 6,
+          "28": 1,
+          "29": 1,
+          "30": 1,
+          "31": 1,
+          "33": 4,
+          "34": 2,
+          "35": 2,
+          "36": 2,
+          "37": 4,
+          "38": 2,
+          "40": 1,
+          "41": 3,
+          "42": 1,
+          "43": 1,
+          "44": 1,
+          "45": 2,
+          "47": 1,
+          "48": 3,
+          "49": 1,
+          "50": 2,
+          "53": 1,
+          "56": 1,
+          "57": 1,
+          "58": 1,
+          "59": 2,
+          "60": 1,
+          "61": 3,
+          "64": 3,
+          "66": 1,
+          "68": 1,
+          "70": 2,
+          "74": 1,
+          "75": 2,
+          "76": 2,
+          "77": 1,
+          "79": 2,
+          "85": 1,
+          "87": 1,
+          "91": 1,
+          "93": 1
+        },
+        "unknown_ge_cogirth": 260,
+        "unknown_lt_cogirth": 0,
+        "unknown_ge_known": 250,
+        "unknown_lt_known": 10,
+        "unknown_eq_known": 154,
+        "n_both": 260,
+        "gap_median": 0.0,
+        "gap_max": 68,
+        "spearman_known_unknown": 0.8561388851180854,
+        "spearman_cogirth_unknown": 0.13345052158167012,
+        "spearman_R_unknown": 0.606885574365596
+      }
+    },
+    "overall": {
+      "n_both": 650,
+      "n_unknown_measured": 650,
+      "unknown_ge_known": 631,
+      "unknown_lt_known": 19,
+      "unknown_ge_cogirth": 650,
+      "violations_unknown_lt_cogirth": [],
+      "violations_unknown_lt_known": [
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 2,
+          "R": 34,
+          "regime": "random",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 23,
+          "t_unknown": 11,
+          "status": "found",
+          "emax": 31,
+          "fibre_dim": 0,
+          "s": 3,
+          "pendant": 0
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 2,
+          "R": 34,
+          "regime": "whole_clade",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 20,
+          "t_unknown": 14,
+          "status": "found",
+          "emax": 31,
+          "fibre_dim": 0,
+          "s": 3,
+          "pendant": 0
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 2,
+          "R": 34,
+          "regime": "whole_clade",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 1,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 31,
+          "fibre_dim": 0,
+          "s": 3,
+          "pendant": 0
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 2,
+          "R": 34,
+          "regime": "adversarial_nearest",
+          "seed": 0,
+          "cogirth_tolerance": 0,
+          "t_known": 1,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 31,
+          "fibre_dim": 0,
+          "s": 3,
+          "pendant": 0
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_exp_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "random",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 17,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_exp_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "random",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 4,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_exp_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "whole_clade",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 3,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_exp_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "whole_clade",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 18,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_uniform_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "random",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 17,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_uniform_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "random",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 4,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_uniform_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "whole_clade",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 3,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "k10k_tree_17_k3_s1_uniform_exact",
+          "family": "exact_10k",
+          "K": 3,
+          "R": 31,
+          "regime": "whole_clade",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 18,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 28,
+          "fibre_dim": 1,
+          "s": 4,
+          "pendant": 1
+        },
+        {
+          "name": "bio_bees-bosseret__bees-bosseret.tre_k3_s10_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 3,
+          "R": 27,
+          "regime": "whole_clade",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 11,
+          "t_unknown": 4,
+          "status": "found",
+          "emax": 24,
+          "fibre_dim": 0,
+          "s": 5,
+          "pendant": 2
+        },
+        {
+          "name": "bio_bees-bosseret__bees-bosseret.tre_k3_s10_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 3,
+          "R": 27,
+          "regime": "whole_clade",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 18,
+          "t_unknown": 16,
+          "status": "found",
+          "emax": 24,
+          "fibre_dim": 0,
+          "s": 5,
+          "pendant": 2
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k3_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 3,
+          "R": 33,
+          "regime": "random",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 6,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 30,
+          "fibre_dim": 0,
+          "s": 5,
+          "pendant": 1
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k3_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 3,
+          "R": 33,
+          "regime": "random",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 9,
+          "t_unknown": 5,
+          "status": "found",
+          "emax": 30,
+          "fibre_dim": 0,
+          "s": 5,
+          "pendant": 1
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k3_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 3,
+          "R": 33,
+          "regime": "whole_clade",
+          "seed": 11,
+          "cogirth_tolerance": 0,
+          "t_known": 4,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 30,
+          "fibre_dim": 0,
+          "s": 5,
+          "pendant": 1
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k3_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 3,
+          "R": 33,
+          "regime": "whole_clade",
+          "seed": 23,
+          "cogirth_tolerance": 0,
+          "t_known": 1,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 30,
+          "fibre_dim": 0,
+          "s": 5,
+          "pendant": 1
+        },
+        {
+          "name": "bio_mammals-song__mammals-song-castlespro.tre_k3_s2_noise0_exact",
+          "family": "exact_biotrees",
+          "K": 3,
+          "R": 33,
+          "regime": "adversarial_nearest",
+          "seed": 0,
+          "cogirth_tolerance": 0,
+          "t_known": 1,
+          "t_unknown": 0,
+          "status": "found",
+          "emax": 30,
+          "fibre_dim": 0,
+          "s": 5,
+          "pendant": 1
+        }
+      ],
+      "spearman_known_unknown": 0.8334265876108737,
+      "spearman_cogirth_unknown": 0.12026372761781898
+    }
+  },
+  "figures": []
+}

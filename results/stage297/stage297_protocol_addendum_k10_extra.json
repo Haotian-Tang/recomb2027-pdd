@@ -1,0 +1,48 @@
+{
+ "stage": 297,
+ "registered_utc": "2026-10-18T18:35:37.026572+00:00",
+ "status": "ADDENDUM_REGISTERED_BEFORE_EXECUTION_OF_THE_BATCH_IT_COVERS",
+ "extends": [
+  "results/stage297/stage297_protocol.json",
+  "results/stage297/stage297_protocol_addendum_main_k10.json"
+ ],
+ "covers": [
+  "results/stage297/stage297_bridge_main_k10_extra.jsonl"
+ ],
+ "why": "at K = 10 the threshold is only defined for cases whose full-panel answer is the unique true support; in the first 31 records of main_k10 only 12 of 31 qualify (the exact minimum falls below K, or there are several minimisers), so the measured sample is thinner than the Stage292 per-K samples. This batch adds two further cases per distinct |R| to thicken it.",
+ "interim_main_k10": {
+  "records": 31,
+  "unique_true": 12,
+  "minimum_equals_K": 18,
+  "minima": {
+   "min10": 18,
+   "min9": 10,
+   "min7": 1,
+   "min8": 2
+  }
+ },
+ "batch": {
+  "name": "main_k10_extra",
+  "Ks": [
+   10
+  ],
+  "cases_per_distinct_R": "5 minus the 3 of main_k10",
+  "n_cases": 40,
+  "probe_seconds": 1200,
+  "per_case_wall_seconds": 7200,
+  "workers": 10,
+  "skip": "STAGE297_SKIP=results/stage297/stage297_main_k10_manifest.jsonl (the 60 names of main_k10)",
+  "mode": "combined",
+  "regimes": "stage292_bridge.REGIMES (all five)"
+ },
+ "code_change": {
+  "file": "scripts/stage297_bridge.py",
+  "sha256_main_k10_version": "2845742f634f00ddc3c2d4b1a48dadd85bbd012d9a2e5406927aee7a9e5b076c",
+  "sha256_now": "477e9949769be2f9be466c790e2655dff82b7f636d7a409e96508efdaf820522",
+  "copies_kept": [
+   "results/stage297/stage297_bridge_v1_as_registered.py",
+   "results/stage297/stage297_bridge_v2_main_k10.py"
+  ],
+  "change": "adds STAGE297_SKIP support (drop_measured) and the PLANS entry main_k10_extra; no other line differs"
+ }
+}

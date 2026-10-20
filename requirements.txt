@@ -1,0 +1,30 @@
+# Pinned to the interpreter and packages the measurements were run with.
+#
+# The exact solvers, the eps-tolerant rational program, the Theta_1 closed form
+# and both reproductions in repro/ need NOTHING beyond the Python 3.12 standard
+# library (fractions.Fraction carries all the arithmetic).  Install the pins
+# below only for the parts that need them:
+#
+#   numpy       stage287_build_bank, stage289_headtohead_analyze,
+#               stage289_support_feasibility, stage290_* (bank construction and
+#               the erasure-threshold analysis), and
+#               figures/make_fig_incompleteness.py
+#   scipy       stage289_support_feasibility, stage293_validate_lp,
+#               stage295_analyze, stage296_analyze (summary statistics only -
+#               no solver depends on it)
+#   matplotlib  stage290_analysis, figures/support/make_figures.py and
+#               figures/make_fig_incompleteness.py
+#
+# Interpreter: CPython 3.12.3 on x86_64 Linux (glibc 2.39).
+
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+
+# Optional, and deliberately NOT vendored here - see README, "What is excluded".
+# The head-to-head comparison scripts (stage289_*, stage293_*, stage297_seeds,
+# stage300_*) import the parent authors' package `decodiphy` and `treeswift`.
+# Install DecoDiPhy from its own repository at the pinned commit:
+#   git clone https://github.com/shayesteh99/DecoDiPhy
+#   git -C DecoDiPhy checkout a26aa618aaf50eaba80d12bb3e3d71a201d8617e
+#   pip install ./DecoDiPhy

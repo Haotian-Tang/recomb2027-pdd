@@ -1,0 +1,54 @@
+{
+ "stage": 300,
+ "step": "loss_case",
+ "name": "k10k_tree_15_k3_s1_exp_krepp_estimated",
+ "arm": "dd_default",
+ "reported_loss": 3.600270057445178e-20,
+ "reported_anchors": [
+  "N111",
+  "L107"
+ ],
+ "reported_k": 2,
+ "objective_at_reported_support": 8.127544258305033e-25,
+ "best_neighbour": {
+  "position": 0,
+  "candidate": "L14",
+  "objective": 1.5407439555097887e-33
+ },
+ "worst_neighbour": {
+  "position": 0,
+  "candidate": "L62",
+  "objective": 0.000578766344
+ },
+ "n_neighbours": 4,
+ "min_neighbour_objective": 1.5407439555097887e-33,
+ "ladder": [
+  {
+   "k": 1,
+   "rounds": 2,
+   "loss": 9.44385799999998e-06,
+   "anchors": [
+    "N111"
+   ]
+  },
+  {
+   "k": 2,
+   "rounds": 3,
+   "loss": 3.600270057445178e-20,
+   "anchors": [
+    "N111",
+    "L107"
+   ]
+  },
+  {
+   "k": 2,
+   "rounds": "final",
+   "loss": 3.600270057445178e-20,
+   "anchors": [
+    "N111",
+    "L107"
+   ]
+  }
+ ],
+ "conclusion": "the printed loss is attained at a neighbouring support"
+}

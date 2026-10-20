@@ -1,0 +1,4336 @@
+{
+  "stage": 43,
+  "created_utc": "2026-10-14T12:12:15.499302+00:00",
+  "protocol_sha256": "67aa523712af3d4ea39b7e1ae2a301a961ffdb61a184bbd7e4f9bfeacccd5bd5",
+  "script_hashes": {
+    "stage42_benchmark.py": "7e0e8412b6218d2690d8e2298d39677cf0a795daea18918a3326bd2b050faafa",
+    "stage41_partial_fpt.py": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+    "stage27_general_fpt.py": "8cc530db67f6becd9fc5ce5f2635a386956307e3ed9b5c3421da54236eddee4d",
+    "stage25_benchmark.py": "169a5df796df38bb73a217b2acae0cf5899d23edebc7273c4ed1497e432848f6",
+    "stage26_missing_leaf.py": "e69a281e6eb9ea5199d9687ee6a864d8436116410f33568fcc50131ca82196a1",
+    "stage23_two_source_envelope.py": "527930cd95e0ab9c684bb04bea5b2e63172794c2ac5000754449e718a316ab1a",
+    "stage25_deficit_extension.py": "4d5925cfb38f627430739833f39893dbaf63bd63230a4bffcff3c945476704e3",
+    "stage24_three_source.py": "a6dd7ce1b72a922b3723445822ab132513368bd55487b63a704780b42763717e",
+    "stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+    "stage43_benchmark.py": "2cc723d2bd73cf241b7ad673b4d3a0b0a33ac8738017180cd01c771a4b1c9cdf",
+    "stage43_solver_validation.py": "8e87305bc9c35e615e7237e5212ff33f33caad50cbebdfe314a4753603b1147d"
+  },
+  "records": [
+    {
+      "name": "caterpillar_n6_k2_missing3",
+      "group": "binary_generated",
+      "cap": 2,
+      "vertices": 10,
+      "edges": 9,
+      "original_leaves": 6,
+      "observed_leaves": 3,
+      "missing_fraction": "1/2",
+      "execution_order": [
+        "original_support",
+        "stage41_active_basis",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              0,
+              5
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "99/280",
+                "x": "5/9"
+              },
+              {
+                "edge": 5,
+                "p": "181/280",
+                "x": "1459/3801"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 14,
+            "endpoint_sets_solved": 14,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 50,
+            "vertex_bases_attempted": 20
+          },
+          "solver_wall_seconds": 0.0036225980147719383,
+          "process_wall_seconds": 0.010723321232944727,
+          "child_cpu_seconds": 0.005594,
+          "maximum_rss_kib": 12348,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 3,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "547/1365",
+                "x": "43/2188"
+              },
+              {
+                "edge": 5,
+                "p": "818/1365",
+                "x": "767/2863"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0018534110859036446,
+          "process_wall_seconds": 0.010644348803907633,
+          "child_cpu_seconds": 0.003696,
+          "maximum_rss_kib": 12364,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "547/1365",
+                "x": "43/2188"
+              },
+              {
+                "edge": 5,
+                "p": "818/1365",
+                "x": "767/2863"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.00199272483587265,
+          "process_wall_seconds": 0.010642108041793108,
+          "child_cpu_seconds": 0.0037719999999999997,
+          "maximum_rss_kib": 12376,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "caterpillar_n6_k3_missing0",
+      "group": "binary_generated",
+      "cap": 3,
+      "vertices": 10,
+      "edges": 9,
+      "original_leaves": 6,
+      "observed_leaves": 6,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage41_active_basis",
+        "stage43_equality_reduced",
+        "original_support"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 4,
+            "cover_feasible_faces": 5,
+            "strict_faces": 1,
+            "growth_states": 4,
+            "vertex_bases": 253,
+            "mass_faces": 32
+          },
+          "marked_vertices": [],
+          "backbone_edges": 9,
+          "deficit_vertices": [
+            7
+          ],
+          "deficits": [
+            "32/63"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 5,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.014086850918829441,
+          "process_wall_seconds": 0.02074064826592803,
+          "child_cpu_seconds": 0.016073,
+          "maximum_rss_kib": 12376,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 4,
+            "cover_feasible_faces": 5,
+            "strict_faces": 1,
+            "growth_states": 4,
+            "vertex_bases": 0,
+            "mass_faces": 32,
+            "local_lp_calls": 5,
+            "opposing_row_rejections": 4,
+            "eliminated_equality_rank": 1,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 9,
+          "deficit_vertices": [
+            7
+          ],
+          "deficits": [
+            "32/63"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 5,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.00587310129776597,
+          "process_wall_seconds": 0.010981837753206491,
+          "child_cpu_seconds": 0.008357,
+          "maximum_rss_kib": 12380,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              0,
+              2,
+              5
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 5,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 55,
+            "endpoint_sets_solved": 55,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 238,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.016849840059876442,
+          "process_wall_seconds": 0.02115205116569996,
+          "child_cpu_seconds": 0.019363,
+          "maximum_rss_kib": 12380,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "caterpillar_n10_k2_missing0",
+      "group": "binary_generated",
+      "cap": 2,
+      "vertices": 18,
+      "edges": 17,
+      "original_leaves": 10,
+      "observed_leaves": 10,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "original_support",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 17,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 9,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.004081903025507927,
+          "process_wall_seconds": 0.011073291767388582,
+          "child_cpu_seconds": 0.006418,
+          "maximum_rss_kib": 12380,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              0,
+              9
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 9,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 26,
+            "endpoint_sets_solved": 26,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 126,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.008573079947382212,
+          "process_wall_seconds": 0.02110587013885379,
+          "child_cpu_seconds": 0.010985,
+          "maximum_rss_kib": 12400,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 3,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 17,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 9,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0036547291092574596,
+          "process_wall_seconds": 0.010947928298264742,
+          "child_cpu_seconds": 0.006068,
+          "maximum_rss_kib": 12404,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "caterpillar_n10_k3_missing2",
+      "group": "binary_generated",
+      "cap": 3,
+      "vertices": 18,
+      "edges": 17,
+      "original_leaves": 10,
+      "observed_leaves": 8,
+      "missing_fraction": "1/5",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "stage41_active_basis",
+        "original_support"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 4,
+            "cover_feasible_faces": 3,
+            "strict_faces": 1,
+            "growth_states": 4,
+            "vertex_bases": 0,
+            "mass_faces": 16,
+            "local_lp_calls": 3,
+            "opposing_row_rejections": 2,
+            "eliminated_equality_rank": 1,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [
+            13
+          ],
+          "deficits": [
+            "8/7"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 4,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 9,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.005799129139631987,
+          "process_wall_seconds": 0.011008589994162321,
+          "child_cpu_seconds": 0.008189,
+          "maximum_rss_kib": 12412,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 4,
+            "cover_feasible_faces": 3,
+            "strict_faces": 1,
+            "growth_states": 4,
+            "vertex_bases": 158,
+            "mass_faces": 16
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [
+            13
+          ],
+          "deficits": [
+            "8/7"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 4,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 9,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.013437687885016203,
+          "process_wall_seconds": 0.02110158884897828,
+          "child_cpu_seconds": 0.015822,
+          "maximum_rss_kib": 12424,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              0,
+              4,
+              9
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 4,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 9,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 200,
+            "endpoint_sets_solved": 198,
+            "endpoint_cache_hits": 2,
+            "equality_rows_processed": 832,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.05273350328207016,
+          "process_wall_seconds": 0.06147191906347871,
+          "child_cpu_seconds": 0.054435,
+          "maximum_rss_kib": 12424,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "caterpillar_n10_k4_missing5",
+      "group": "binary_generated",
+      "cap": 4,
+      "vertices": 18,
+      "edges": 17,
+      "original_leaves": 10,
+      "observed_leaves": 5,
+      "missing_fraction": "1/2",
+      "execution_order": [
+        "original_support",
+        "stage43_equality_reduced",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              0,
+              3,
+              15
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "477/5600",
+                "x": "77/477"
+              },
+              {
+                "edge": 3,
+                "p": "1059/8000",
+                "x": "1760/7413"
+              },
+              {
+                "edge": 15,
+                "p": "43817/56000",
+                "x": "80000/131451"
+              }
+            ],
+            "pendant": "16747/11200"
+          },
+          "statistics": {
+            "supports_visited": 194,
+            "endpoint_sets_solved": 192,
+            "endpoint_cache_hits": 2,
+            "equality_rows_processed": 763,
+            "vertex_bases_attempted": 61
+          },
+          "solver_wall_seconds": 0.04279988817870617,
+          "process_wall_seconds": 0.05120946327224374,
+          "child_cpu_seconds": 0.044739999999999995,
+          "maximum_rss_kib": 12424,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 5,
+            "cover_feasible_faces": 23,
+            "strict_faces": 2,
+            "growth_states": 5,
+            "vertex_bases": 269,
+            "mass_faces": 144,
+            "local_lp_calls": 23,
+            "opposing_row_rejections": 10,
+            "inconsistent_equality_rejections": 4,
+            "eliminated_equality_rank": 10,
+            "interval_lp_calls": 4,
+            "enumerated_lp_calls": 5
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            12
+          ],
+          "deficits": [
+            "6561/8050"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "729/8050",
+                "x": "154/729"
+              },
+              {
+                "edge": 3,
+                "p": "2514/20125",
+                "x": "385/2514"
+              },
+              {
+                "edge": 15,
+                "p": "4511/5750",
+                "x": "57500/94731"
+              }
+            ],
+            "pendant": "5921/4025",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.03303704923018813,
+          "process_wall_seconds": 0.04108735313639045,
+          "child_cpu_seconds": 0.034557,
+          "maximum_rss_kib": 12924,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 5,
+            "cover_feasible_faces": 23,
+            "strict_faces": 2,
+            "growth_states": 5,
+            "vertex_bases": 7012,
+            "mass_faces": 144
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            12
+          ],
+          "deficits": [
+            "6561/8050"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "729/8050",
+                "x": "154/729"
+              },
+              {
+                "edge": 3,
+                "p": "2514/20125",
+                "x": "385/2514"
+              },
+              {
+                "edge": 15,
+                "p": "4511/5750",
+                "x": "57500/94731"
+              }
+            ],
+            "pendant": "5921/4025",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.4169468837790191,
+          "process_wall_seconds": 0.426436975132674,
+          "child_cpu_seconds": 0.41871699999999995,
+          "maximum_rss_kib": 12928,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "caterpillar_n16_k2_missing4",
+      "group": "binary_generated",
+      "cap": 2,
+      "vertices": 30,
+      "edges": 29,
+      "original_leaves": 16,
+      "observed_leaves": 12,
+      "missing_fraction": "1/4",
+      "execution_order": [
+        "stage41_active_basis",
+        "original_support",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 3,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 21,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 15,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.00356320571154356,
+          "process_wall_seconds": 0.010902027133852243,
+          "child_cpu_seconds": 0.0055839999999999996,
+          "maximum_rss_kib": 12440,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              0,
+              15
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 15,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 44,
+            "endpoint_sets_solved": 44,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 220,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.010529113002121449,
+          "process_wall_seconds": 0.021036758087575436,
+          "child_cpu_seconds": 0.012329999999999999,
+          "maximum_rss_kib": 12472,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 21,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 15,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0031039207242429256,
+          "process_wall_seconds": 0.010909245815128088,
+          "child_cpu_seconds": 0.004775,
+          "maximum_rss_kib": 12476,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "caterpillar_n16_k3_missing8",
+      "group": "binary_generated",
+      "cap": 3,
+      "vertices": 30,
+      "edges": 29,
+      "original_leaves": 16,
+      "observed_leaves": 8,
+      "missing_fraction": "1/2",
+      "execution_order": [
+        "original_support",
+        "stage41_active_basis",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              0,
+              7,
+              15
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 7,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 15,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 590,
+            "endpoint_sets_solved": 588,
+            "endpoint_cache_hits": 2,
+            "equality_rows_processed": 2487,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.12279124278575182,
+          "process_wall_seconds": 0.13227405305951834,
+          "child_cpu_seconds": 0.12452099999999999,
+          "maximum_rss_kib": 12484,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 4,
+            "cover_feasible_faces": 3,
+            "strict_faces": 1,
+            "growth_states": 4,
+            "vertex_bases": 158,
+            "mass_faces": 16
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [
+            22
+          ],
+          "deficits": [
+            "8/21"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 7,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 15,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.010546984151005745,
+          "process_wall_seconds": 0.020894402638077736,
+          "child_cpu_seconds": 0.012408,
+          "maximum_rss_kib": 12496,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 4,
+            "cover_feasible_faces": 3,
+            "strict_faces": 1,
+            "growth_states": 4,
+            "vertex_bases": 0,
+            "mass_faces": 16,
+            "local_lp_calls": 3,
+            "opposing_row_rejections": 2,
+            "eliminated_equality_rank": 1,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [
+            22
+          ],
+          "deficits": [
+            "8/21"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 7,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 15,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.00479138595983386,
+          "process_wall_seconds": 0.010783722158521414,
+          "child_cpu_seconds": 0.006776,
+          "maximum_rss_kib": 12500,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "caterpillar_n16_k4_missing0",
+      "group": "binary_generated",
+      "cap": 4,
+      "vertices": 30,
+      "edges": 29,
+      "original_leaves": 16,
+      "observed_leaves": 16,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage41_active_basis",
+        "stage43_equality_reduced",
+        "original_support"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 17,
+            "cover_feasible_faces": 11,
+            "strict_faces": 1,
+            "growth_states": 17,
+            "vertex_bases": 10163,
+            "mass_faces": 256
+          },
+          "marked_vertices": [],
+          "backbone_edges": 29,
+          "deficit_vertices": [
+            20,
+            25
+          ],
+          "deficits": [
+            "8/15",
+            "9/14"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/10",
+                "x": "2/7"
+              },
+              {
+                "edge": 5,
+                "p": "1/5",
+                "x": "3/7"
+              },
+              {
+                "edge": 10,
+                "p": "3/10",
+                "x": "4/7"
+              },
+              {
+                "edge": 15,
+                "p": "2/5",
+                "x": "5/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.468730506952852,
+          "process_wall_seconds": 0.4771139519289136,
+          "child_cpu_seconds": 0.47035099999999996,
+          "maximum_rss_kib": 12512,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 17,
+            "cover_feasible_faces": 11,
+            "strict_faces": 1,
+            "growth_states": 17,
+            "vertex_bases": 0,
+            "mass_faces": 256,
+            "local_lp_calls": 11,
+            "opposing_row_rejections": 10,
+            "eliminated_equality_rank": 2,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 29,
+          "deficit_vertices": [
+            20,
+            25
+          ],
+          "deficits": [
+            "8/15",
+            "9/14"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/10",
+                "x": "2/7"
+              },
+              {
+                "edge": 5,
+                "p": "1/5",
+                "x": "3/7"
+              },
+              {
+                "edge": 10,
+                "p": "3/10",
+                "x": "4/7"
+              },
+              {
+                "edge": 15,
+                "p": "2/5",
+                "x": "5/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.014753072056919336,
+          "process_wall_seconds": 0.020962764974683523,
+          "child_cpu_seconds": 0.017032,
+          "maximum_rss_kib": 12516,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 4,
+            "support": [
+              0,
+              5,
+              10,
+              15
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/10",
+                "x": "2/7"
+              },
+              {
+                "edge": 5,
+                "p": "1/5",
+                "x": "3/7"
+              },
+              {
+                "edge": 10,
+                "p": "3/10",
+                "x": "4/7"
+              },
+              {
+                "edge": 15,
+                "p": "2/5",
+                "x": "5/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 5428,
+            "endpoint_sets_solved": 5258,
+            "endpoint_cache_hits": 170,
+            "equality_rows_processed": 25191,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 1.538027570117265,
+          "process_wall_seconds": 1.5423425203189254,
+          "child_cpu_seconds": 1.539592,
+          "maximum_rss_kib": 13016,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n6_k2_missing0",
+      "group": "binary_generated",
+      "cap": 2,
+      "vertices": 10,
+      "edges": 9,
+      "original_leaves": 6,
+      "observed_leaves": 6,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "original_support",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 9,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 1,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.002043526154011488,
+          "process_wall_seconds": 0.010911695659160614,
+          "child_cpu_seconds": 0.003579,
+          "maximum_rss_kib": 12524,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              1,
+              8
+            ],
+            "sources": [
+              {
+                "edge": 1,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 24,
+            "endpoint_sets_solved": 24,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 112,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.0057485681027174,
+          "process_wall_seconds": 0.010775180999189615,
+          "child_cpu_seconds": 0.007646,
+          "maximum_rss_kib": 12524,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 3,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 9,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 1,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0022322931326925755,
+          "process_wall_seconds": 0.010797203052788973,
+          "child_cpu_seconds": 0.004161,
+          "maximum_rss_kib": 12524,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n6_k3_missing1",
+      "group": "binary_generated",
+      "cap": 3,
+      "vertices": 10,
+      "edges": 9,
+      "original_leaves": 6,
+      "observed_leaves": 5,
+      "missing_fraction": "1/6",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "stage41_active_basis",
+        "original_support"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 15,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 0,
+            "mass_faces": 32,
+            "local_lp_calls": 15,
+            "opposing_row_rejections": 10,
+            "eliminated_equality_rank": 5,
+            "interval_lp_calls": 5
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            8
+          ],
+          "deficits": [
+            "3/7"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 1,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 7,
+                "p": "17/42",
+                "x": "9/17"
+              },
+              {
+                "edge": 8,
+                "p": "3/7",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.006018255837261677,
+          "process_wall_seconds": 0.010884776245802641,
+          "child_cpu_seconds": 0.007535,
+          "maximum_rss_kib": 12524,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 15,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 683,
+            "mass_faces": 32
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            8
+          ],
+          "deficits": [
+            "3/7"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 1,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 7,
+                "p": "17/42",
+                "x": "9/17"
+              },
+              {
+                "edge": 8,
+                "p": "3/7",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.03202939732000232,
+          "process_wall_seconds": 0.041068581864237785,
+          "child_cpu_seconds": 0.033898,
+          "maximum_rss_kib": 12528,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              1,
+              7,
+              8
+            ],
+            "sources": [
+              {
+                "edge": 1,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 7,
+                "p": "17/42",
+                "x": "9/17"
+              },
+              {
+                "edge": 8,
+                "p": "3/7",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 94,
+            "endpoint_sets_solved": 82,
+            "endpoint_cache_hits": 12,
+            "equality_rows_processed": 413,
+            "vertex_bases_attempted": 42
+          },
+          "solver_wall_seconds": 0.0274557382799685,
+          "process_wall_seconds": 0.03095465200021863,
+          "child_cpu_seconds": 0.029244,
+          "maximum_rss_kib": 12528,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n10_k2_missing2",
+      "group": "binary_generated",
+      "cap": 2,
+      "vertices": 18,
+      "edges": 17,
+      "original_leaves": 10,
+      "observed_leaves": 8,
+      "missing_fraction": "1/5",
+      "execution_order": [
+        "original_support",
+        "stage43_equality_reduced",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              6,
+              16
+            ],
+            "sources": [
+              {
+                "edge": 6,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 16,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 108,
+            "endpoint_sets_solved": 108,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 581,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.023610511794686317,
+          "process_wall_seconds": 0.03102731378749013,
+          "child_cpu_seconds": 0.025119,
+          "maximum_rss_kib": 12532,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 16,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0028427429497241974,
+          "process_wall_seconds": 0.01078401179984212,
+          "child_cpu_seconds": 0.004635,
+          "maximum_rss_kib": 12548,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 3,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 16,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0021594008430838585,
+          "process_wall_seconds": 0.01077028177678585,
+          "child_cpu_seconds": 0.0036339999999999996,
+          "maximum_rss_kib": 12548,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n10_k3_missing5",
+      "group": "binary_generated",
+      "cap": 3,
+      "vertices": 18,
+      "edges": 17,
+      "original_leaves": 10,
+      "observed_leaves": 5,
+      "missing_fraction": "1/2",
+      "execution_order": [
+        "stage41_active_basis",
+        "original_support",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 3,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 105,
+            "mass_faces": 16
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            4
+          ],
+          "deficits": [
+            "163/834"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "163/834",
+                "x": "446/1141"
+              },
+              {
+                "edge": 16,
+                "p": "389/834",
+                "x": "1115/2723"
+              },
+              {
+                "edge": 2,
+                "p": "47/139",
+                "x": "431/987"
+              }
+            ],
+            "pendant": "268/695",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.008402273990213871,
+          "process_wall_seconds": 0.010847555007785559,
+          "child_cpu_seconds": 0.010301999999999999,
+          "maximum_rss_kib": 12548,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              2,
+              6,
+              16
+            ],
+            "sources": [
+              {
+                "edge": 2,
+                "p": "6701/19908",
+                "x": "2909/6701"
+              },
+              {
+                "edge": 6,
+                "p": "103/553",
+                "x": "223/618"
+              },
+              {
+                "edge": 16,
+                "p": "1357/2844",
+                "x": "17617/37996"
+              }
+            ],
+            "pendant": "12947/33180"
+          },
+          "statistics": {
+            "supports_visited": 424,
+            "endpoint_sets_solved": 390,
+            "endpoint_cache_hits": 34,
+            "equality_rows_processed": 1669,
+            "vertex_bases_attempted": 165
+          },
+          "solver_wall_seconds": 0.08851238200441003,
+          "process_wall_seconds": 0.09166861604899168,
+          "child_cpu_seconds": 0.090076,
+          "maximum_rss_kib": 12548,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 3,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 13,
+            "mass_faces": 16,
+            "local_lp_calls": 3,
+            "opposing_row_rejections": 1,
+            "eliminated_equality_rank": 1,
+            "interval_lp_calls": 1,
+            "enumerated_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            4
+          ],
+          "deficits": [
+            "163/834"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "163/834",
+                "x": "446/1141"
+              },
+              {
+                "edge": 16,
+                "p": "389/834",
+                "x": "1115/2723"
+              },
+              {
+                "edge": 2,
+                "p": "47/139",
+                "x": "431/987"
+              }
+            ],
+            "pendant": "268/695",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.00482923723757267,
+          "process_wall_seconds": 0.010775221977382898,
+          "child_cpu_seconds": 0.006664999999999999,
+          "maximum_rss_kib": 12548,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n10_k4_missing0",
+      "group": "binary_generated",
+      "cap": 4,
+      "vertices": 18,
+      "edges": 17,
+      "original_leaves": 10,
+      "observed_leaves": 10,
+      "missing_fraction": "0",
+      "execution_order": [
+        "original_support",
+        "stage41_active_basis",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              6,
+              7,
+              16
+            ],
+            "sources": [
+              {
+                "edge": 6,
+                "p": "117/700",
+                "x": "47/117"
+              },
+              {
+                "edge": 7,
+                "p": "143/700",
+                "x": "47/143"
+              },
+              {
+                "edge": 16,
+                "p": "22/35",
+                "x": "39/44"
+              }
+            ],
+            "pendant": "31/70"
+          },
+          "statistics": {
+            "supports_visited": 677,
+            "endpoint_sets_solved": 621,
+            "endpoint_cache_hits": 56,
+            "equality_rows_processed": 4140,
+            "vertex_bases_attempted": 28
+          },
+          "solver_wall_seconds": 0.2520606270991266,
+          "process_wall_seconds": 0.25424382789060473,
+          "child_cpu_seconds": 0.25354899999999997,
+          "maximum_rss_kib": 12548,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 6,
+            "cover_feasible_faces": 53,
+            "strict_faces": 2,
+            "growth_states": 6,
+            "vertex_bases": 19108,
+            "mass_faces": 288
+          },
+          "marked_vertices": [],
+          "backbone_edges": 17,
+          "deficit_vertices": [
+            10
+          ],
+          "deficits": [
+            "1/10"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "117/700",
+                "x": "47/117"
+              },
+              {
+                "edge": 7,
+                "p": "143/700",
+                "x": "47/143"
+              },
+              {
+                "edge": 16,
+                "p": "22/35",
+                "x": "39/44"
+              }
+            ],
+            "pendant": "31/70",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 1.0074781007133424,
+          "process_wall_seconds": 1.0147748300805688,
+          "child_cpu_seconds": 1.009099,
+          "maximum_rss_kib": 12552,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 6,
+            "cover_feasible_faces": 53,
+            "strict_faces": 2,
+            "growth_states": 6,
+            "vertex_bases": 168,
+            "mass_faces": 288,
+            "local_lp_calls": 53,
+            "opposing_row_rejections": 36,
+            "inconsistent_equality_rejections": 8,
+            "eliminated_equality_rank": 11,
+            "interval_lp_calls": 5,
+            "enumerated_lp_calls": 4
+          },
+          "marked_vertices": [],
+          "backbone_edges": 17,
+          "deficit_vertices": [
+            10
+          ],
+          "deficits": [
+            "1/10"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 6,
+                "p": "117/700",
+                "x": "47/117"
+              },
+              {
+                "edge": 7,
+                "p": "143/700",
+                "x": "47/143"
+              },
+              {
+                "edge": 16,
+                "p": "22/35",
+                "x": "39/44"
+              }
+            ],
+            "pendant": "31/70",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.033393281046301126,
+          "process_wall_seconds": 0.041232068091630936,
+          "child_cpu_seconds": 0.034919,
+          "maximum_rss_kib": 12560,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n16_k2_missing8",
+      "group": "binary_generated",
+      "cap": 2,
+      "vertices": 30,
+      "edges": 29,
+      "original_leaves": 16,
+      "observed_leaves": 8,
+      "missing_fraction": "1/2",
+      "execution_order": [
+        "stage41_active_basis",
+        "stage43_equality_reduced",
+        "original_support"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 3,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 18,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 28,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.002412669360637665,
+          "process_wall_seconds": 0.010836305096745491,
+          "child_cpu_seconds": 0.004082,
+          "maximum_rss_kib": 12560,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 13,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 18,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 28,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.002564692869782448,
+          "process_wall_seconds": 0.010763721074908972,
+          "child_cpu_seconds": 0.004016,
+          "maximum_rss_kib": 12592,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              18,
+              28
+            ],
+            "sources": [
+              {
+                "edge": 18,
+                "p": "1/3",
+                "x": "2/7"
+              },
+              {
+                "edge": 28,
+                "p": "2/3",
+                "x": "3/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 390,
+            "endpoint_sets_solved": 390,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 1943,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.07689626282081008,
+          "process_wall_seconds": 0.08188655460253358,
+          "child_cpu_seconds": 0.078626,
+          "maximum_rss_kib": 12596,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n16_k3_missing0",
+      "group": "binary_generated",
+      "cap": 3,
+      "vertices": 30,
+      "edges": 29,
+      "original_leaves": 16,
+      "observed_leaves": 16,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "original_support",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 5,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 5,
+            "vertex_bases": 0,
+            "mass_faces": 16,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 1,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 29,
+          "deficit_vertices": [
+            4
+          ],
+          "deficits": [
+            "1/6"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 18,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 6,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 28,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.00396875012665987,
+          "process_wall_seconds": 0.010795522946864367,
+          "child_cpu_seconds": 0.005454,
+          "maximum_rss_kib": 12600,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              6,
+              18,
+              28
+            ],
+            "sources": [
+              {
+                "edge": 6,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 18,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 28,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5"
+          },
+          "statistics": {
+            "supports_visited": 2504,
+            "endpoint_sets_solved": 2416,
+            "endpoint_cache_hits": 88,
+            "equality_rows_processed": 13523,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.7948863250203431,
+          "process_wall_seconds": 0.8016600967384875,
+          "child_cpu_seconds": 0.796518,
+          "maximum_rss_kib": 12600,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 5,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 5,
+            "vertex_bases": 23,
+            "mass_faces": 16
+          },
+          "marked_vertices": [],
+          "backbone_edges": 29,
+          "deficit_vertices": [
+            4
+          ],
+          "deficits": [
+            "1/6"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 18,
+                "p": "1/6",
+                "x": "2/7"
+              },
+              {
+                "edge": 6,
+                "p": "1/3",
+                "x": "3/7"
+              },
+              {
+                "edge": 28,
+                "p": "1/2",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.005220550112426281,
+          "process_wall_seconds": 0.01081491308286786,
+          "child_cpu_seconds": 0.007057,
+          "maximum_rss_kib": 12608,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "balanced_n16_k4_missing4",
+      "group": "binary_generated",
+      "cap": 4,
+      "vertices": 30,
+      "edges": 29,
+      "original_leaves": 16,
+      "observed_leaves": 12,
+      "missing_fraction": "1/4",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "stage41_active_basis",
+        "original_support"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 17,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 17,
+            "vertex_bases": 0,
+            "mass_faces": 64,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 2,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 21,
+          "deficit_vertices": [
+            3,
+            4
+          ],
+          "deficits": [
+            "6/5",
+            "1/5"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 18,
+                "p": "1/10",
+                "x": "2/7"
+              },
+              {
+                "edge": 15,
+                "p": "1/5",
+                "x": "3/7"
+              },
+              {
+                "edge": 28,
+                "p": "2/5",
+                "x": "5/7"
+              },
+              {
+                "edge": 13,
+                "p": "3/10",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.005798168946057558,
+          "process_wall_seconds": 0.010869576130062342,
+          "child_cpu_seconds": 0.00769,
+          "maximum_rss_kib": 12624,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 17,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 17,
+            "vertex_bases": 350,
+            "mass_faces": 64
+          },
+          "marked_vertices": [],
+          "backbone_edges": 21,
+          "deficit_vertices": [
+            3,
+            4
+          ],
+          "deficits": [
+            "6/5",
+            "1/5"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 18,
+                "p": "1/10",
+                "x": "2/7"
+              },
+              {
+                "edge": 15,
+                "p": "1/5",
+                "x": "3/7"
+              },
+              {
+                "edge": 28,
+                "p": "2/5",
+                "x": "5/7"
+              },
+              {
+                "edge": 13,
+                "p": "3/10",
+                "x": "4/7"
+              }
+            ],
+            "pendant": "2/5",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.028479329776018858,
+          "process_wall_seconds": 0.030935772228986025,
+          "child_cpu_seconds": 0.030057,
+          "maximum_rss_kib": 12628,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "unknown",
+          "reason": "hard_wall_timeout",
+          "minimum": null,
+          "process_wall_seconds": 5.001883883960545,
+          "child_cpu_seconds": 5.000985,
+          "maximum_rss_kib": 13632,
+          "wait_status": 9
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "alternating4_full",
+      "group": "essential_two_deficits",
+      "cap": 4,
+      "vertices": 8,
+      "edges": 7,
+      "original_leaves": 5,
+      "observed_leaves": 5,
+      "missing_fraction": "0",
+      "execution_order": [
+        "original_support",
+        "stage43_equality_reduced",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 4,
+            "support": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 4,
+                "p": "1/4",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1"
+          },
+          "statistics": {
+            "supports_visited": 68,
+            "endpoint_sets_solved": 55,
+            "endpoint_cache_hits": 13,
+            "equality_rows_processed": 305,
+            "vertex_bases_attempted": 161
+          },
+          "solver_wall_seconds": 0.02720109885558486,
+          "process_wall_seconds": 0.031071935780346394,
+          "child_cpu_seconds": 0.028789,
+          "maximum_rss_kib": 12640,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 6,
+            "cover_feasible_faces": 88,
+            "strict_faces": 1,
+            "growth_states": 6,
+            "vertex_bases": 401,
+            "mass_faces": 288,
+            "local_lp_calls": 88,
+            "opposing_row_rejections": 30,
+            "eliminated_equality_rank": 77,
+            "interval_lp_calls": 35,
+            "enumerated_lp_calls": 17,
+            "inconsistent_equality_rejections": 6
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            100,
+            102
+          ],
+          "deficits": [
+            "1/4",
+            "1/4"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 4,
+                "p": "1/4",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.07123422808945179,
+          "process_wall_seconds": 0.08169166883453727,
+          "child_cpu_seconds": 0.07288399999999999,
+          "maximum_rss_kib": 12640,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 6,
+            "cover_feasible_faces": 88,
+            "strict_faces": 1,
+            "growth_states": 6,
+            "vertex_bases": 31269,
+            "mass_faces": 288
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            100,
+            102
+          ],
+          "deficits": [
+            "1/4",
+            "1/4"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 4,
+                "p": "1/4",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 1.5582547867670655,
+          "process_wall_seconds": 1.5626558912917972,
+          "child_cpu_seconds": 1.559855,
+          "maximum_rss_kib": 12640,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "alternating4_one_missing",
+      "group": "essential_two_deficits",
+      "cap": 4,
+      "vertices": 10,
+      "edges": 9,
+      "original_leaves": 6,
+      "observed_leaves": 5,
+      "missing_fraction": "1/6",
+      "execution_order": [
+        "stage41_active_basis",
+        "original_support",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 6,
+            "cover_feasible_faces": 88,
+            "strict_faces": 1,
+            "growth_states": 6,
+            "vertex_bases": 31269,
+            "mass_faces": 288
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            100,
+            102
+          ],
+          "deficits": [
+            "1/4",
+            "1/4"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 4,
+                "p": "1/4",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 1.5492878737859428,
+          "process_wall_seconds": 1.55236209416762,
+          "child_cpu_seconds": 1.550864,
+          "maximum_rss_kib": 12640,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 4,
+            "support": [
+              0,
+              1,
+              3,
+              4
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 4,
+                "p": "1/4",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1"
+          },
+          "statistics": {
+            "supports_visited": 136,
+            "endpoint_sets_solved": 115,
+            "endpoint_cache_hits": 21,
+            "equality_rows_processed": 649,
+            "vertex_bases_attempted": 614
+          },
+          "solver_wall_seconds": 0.06402037106454372,
+          "process_wall_seconds": 0.07164272200316191,
+          "child_cpu_seconds": 0.065489,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 6,
+            "cover_feasible_faces": 88,
+            "strict_faces": 1,
+            "growth_states": 6,
+            "vertex_bases": 401,
+            "mass_faces": 288,
+            "local_lp_calls": 88,
+            "opposing_row_rejections": 30,
+            "eliminated_equality_rank": 77,
+            "interval_lp_calls": 35,
+            "enumerated_lp_calls": 17,
+            "inconsistent_equality_rejections": 6
+          },
+          "marked_vertices": [],
+          "backbone_edges": 7,
+          "deficit_vertices": [
+            100,
+            102
+          ],
+          "deficits": [
+            "1/4",
+            "1/4"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 4,
+                "p": "1/4",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.07086560688912868,
+          "process_wall_seconds": 0.08180149272084236,
+          "child_cpu_seconds": 0.07255099999999999,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star3_strict_cap2",
+      "group": "known_strict_budget_boundary",
+      "cap": 2,
+      "vertices": 4,
+      "edges": 3,
+      "original_leaves": 3,
+      "observed_leaves": 3,
+      "missing_fraction": "0",
+      "execution_order": [
+        "original_support",
+        "stage41_active_basis",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "supports_visited": 6,
+            "endpoint_sets_solved": 6,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 24,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.0011180671863257885,
+          "process_wall_seconds": 0.010809923056513071,
+          "child_cpu_seconds": 0.002734,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0011984789744019508,
+          "process_wall_seconds": 0.010773702058941126,
+          "child_cpu_seconds": 0.0030359999999999996,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0011074552312493324,
+          "process_wall_seconds": 0.010752622038125992,
+          "child_cpu_seconds": 0.0027819999999999998,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star3_strict_cap3",
+      "group": "known_strict_budget_boundary",
+      "cap": 3,
+      "vertices": 4,
+      "edges": 3,
+      "original_leaves": 3,
+      "observed_leaves": 3,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage41_active_basis",
+        "stage43_equality_reduced",
+        "original_support"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 2,
+            "cover_feasible_faces": 7,
+            "strict_faces": 1,
+            "growth_states": 2,
+            "vertex_bases": 268,
+            "mass_faces": 17
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": [
+            100
+          ],
+          "deficits": [
+            "1/2"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "3/4"
+              },
+              {
+                "edge": 1,
+                "p": "1/3",
+                "x": "3/4"
+              },
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "3/4"
+              }
+            ],
+            "pendant": "3/4",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.013551992829889059,
+          "process_wall_seconds": 0.020933903753757477,
+          "child_cpu_seconds": 0.015382,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 2,
+            "cover_feasible_faces": 7,
+            "strict_faces": 1,
+            "growth_states": 2,
+            "vertex_bases": 15,
+            "mass_faces": 17,
+            "local_lp_calls": 7,
+            "eliminated_equality_rank": 6,
+            "interval_lp_calls": 6,
+            "enumerated_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": [
+            100
+          ],
+          "deficits": [
+            "1/2"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "3/4"
+              },
+              {
+                "edge": 1,
+                "p": "1/3",
+                "x": "3/4"
+              },
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "3/4"
+              }
+            ],
+            "pendant": "3/4",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.006544172763824463,
+          "process_wall_seconds": 0.010823924094438553,
+          "child_cpu_seconds": 0.008692,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              0,
+              1,
+              2
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "5/6"
+          },
+          "statistics": {
+            "supports_visited": 7,
+            "endpoint_sets_solved": 7,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 28,
+            "vertex_bases_attempted": 3
+          },
+          "solver_wall_seconds": 0.0024159993045032024,
+          "process_wall_seconds": 0.010896726045757532,
+          "child_cpu_seconds": 0.00467,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star4_strict_cap3",
+      "group": "known_strict_budget_boundary",
+      "cap": 3,
+      "vertices": 5,
+      "edges": 4,
+      "original_leaves": 4,
+      "observed_leaves": 4,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "original_support",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 4,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0014646477065980434,
+          "process_wall_seconds": 0.011098512914031744,
+          "child_cpu_seconds": 0.0039049999999999996,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "supports_visited": 14,
+            "endpoint_sets_solved": 14,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 70,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.0032029561698436737,
+          "process_wall_seconds": 0.011080660857260227,
+          "child_cpu_seconds": 0.00522,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 4,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0013658548705279827,
+          "process_wall_seconds": 0.011075552087277174,
+          "child_cpu_seconds": 0.0035519999999999996,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star4_strict_cap4",
+      "group": "known_strict_budget_boundary",
+      "cap": 4,
+      "vertices": 5,
+      "edges": 4,
+      "original_leaves": 4,
+      "observed_leaves": 4,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "stage41_active_basis",
+        "original_support"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 2,
+            "cover_feasible_faces": 15,
+            "strict_faces": 1,
+            "growth_states": 2,
+            "vertex_bases": 15,
+            "mass_faces": 33,
+            "local_lp_calls": 15,
+            "eliminated_equality_rank": 14,
+            "interval_lp_calls": 14,
+            "enumerated_lp_calls": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 4,
+          "deficit_vertices": [
+            100
+          ],
+          "deficits": [
+            "2/5"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "4/5"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "4/5"
+              },
+              {
+                "edge": 2,
+                "p": "1/4",
+                "x": "4/5"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "4/5"
+              }
+            ],
+            "pendant": "3/5",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.013155549298971891,
+          "process_wall_seconds": 0.021216703113168478,
+          "child_cpu_seconds": 0.015633,
+          "maximum_rss_kib": 12644,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 2,
+            "cover_feasible_faces": 15,
+            "strict_faces": 1,
+            "growth_states": 2,
+            "vertex_bases": 804,
+            "mass_faces": 33
+          },
+          "marked_vertices": [],
+          "backbone_edges": 4,
+          "deficit_vertices": [
+            100
+          ],
+          "deficits": [
+            "2/5"
+          ],
+          "witness": {
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "4/5"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "4/5"
+              },
+              {
+                "edge": 2,
+                "p": "1/4",
+                "x": "4/5"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "4/5"
+              }
+            ],
+            "pendant": "3/5",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.044213525019586086,
+          "process_wall_seconds": 0.051391849759966135,
+          "child_cpu_seconds": 0.046166,
+          "maximum_rss_kib": 12652,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 4,
+            "support": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "sources": [
+              {
+                "edge": 0,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 1,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 2,
+                "p": "1/4",
+                "x": "1/2"
+              },
+              {
+                "edge": 3,
+                "p": "1/4",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "3/4"
+          },
+          "statistics": {
+            "supports_visited": 15,
+            "endpoint_sets_solved": 15,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 75,
+            "vertex_bases_attempted": 3
+          },
+          "solver_wall_seconds": 0.004962441977113485,
+          "process_wall_seconds": 0.010936607141047716,
+          "child_cpu_seconds": 0.007202999999999999,
+          "maximum_rss_kib": 12652,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star6_strict_cap3",
+      "group": "known_strict_budget_boundary",
+      "cap": 3,
+      "vertices": 7,
+      "edges": 6,
+      "original_leaves": 6,
+      "observed_leaves": 6,
+      "missing_fraction": "0",
+      "execution_order": [
+        "original_support",
+        "stage43_equality_reduced",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "supports_visited": 41,
+            "endpoint_sets_solved": 41,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 287,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.014478782657533884,
+          "process_wall_seconds": 0.021096399053931236,
+          "child_cpu_seconds": 0.016891,
+          "maximum_rss_kib": 12660,
+          "wait_status": 0
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 6,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0016962438821792603,
+          "process_wall_seconds": 0.010882894974201918,
+          "child_cpu_seconds": 0.0038039999999999997,
+          "maximum_rss_kib": 12660,
+          "wait_status": 0
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 6,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0015620412304997444,
+          "process_wall_seconds": 0.010918296873569489,
+          "child_cpu_seconds": 0.0037479999999999996,
+          "maximum_rss_kib": 12660,
+          "wait_status": 0
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star6_strict_cap4",
+      "group": "known_strict_budget_boundary",
+      "cap": 4,
+      "vertices": 7,
+      "edges": 6,
+      "original_leaves": 6,
+      "observed_leaves": 6,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage41_active_basis",
+        "original_support",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 6,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0014580483548343182,
+          "process_wall_seconds": 0.011001039762049913,
+          "child_cpu_seconds": 0.0037199999999999998,
+          "maximum_rss_kib": 12660,
+          "wait_status": 0
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "supports_visited": 56,
+            "endpoint_sets_solved": 56,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 392,
+            "vertex_bases_attempted": 0
+          },
+          "solver_wall_seconds": 0.023863981012254953,
+          "process_wall_seconds": 0.031264061108231544,
+          "child_cpu_seconds": 0.026331,
+          "maximum_rss_kib": 12664,
+          "wait_status": 0
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1
+          },
+          "marked_vertices": [],
+          "backbone_edges": 6,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0017926678992807865,
+          "process_wall_seconds": 0.010985578875988722,
+          "child_cpu_seconds": 0.004162,
+          "maximum_rss_kib": 12664,
+          "wait_status": 0
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star3_closure_only",
+      "group": "known_closure_boundary",
+      "cap": 3,
+      "vertices": 4,
+      "edges": 3,
+      "original_leaves": 3,
+      "observed_leaves": 3,
+      "missing_fraction": "0",
+      "execution_order": [
+        "original_support",
+        "stage41_active_basis",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "supports_visited": 7,
+            "endpoint_sets_solved": 7,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 28,
+            "vertex_bases_attempted": 5
+          },
+          "solver_wall_seconds": 0.0025385431945323944,
+          "process_wall_seconds": 0.011092961765825748,
+          "child_cpu_seconds": 0.005068,
+          "maximum_rss_kib": 12664,
+          "wait_status": 0
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 0,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 0,
+            "vertex_bases": 0,
+            "mass_faces": 0
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0011620079167187214,
+          "process_wall_seconds": 0.01099989889189601,
+          "child_cpu_seconds": 0.0033039999999999996,
+          "maximum_rss_kib": 12664,
+          "wait_status": 0
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 0,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 0,
+            "vertex_bases": 0,
+            "mass_faces": 0
+          },
+          "marked_vertices": [],
+          "backbone_edges": 3,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.001460548024624586,
+          "process_wall_seconds": 0.011084601283073425,
+          "child_cpu_seconds": 0.003973,
+          "maximum_rss_kib": 12668,
+          "wait_status": 0
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "star4_closure_only",
+      "group": "known_closure_boundary",
+      "cap": 4,
+      "vertices": 5,
+      "edges": 4,
+      "original_leaves": 4,
+      "observed_leaves": 4,
+      "missing_fraction": "0",
+      "execution_order": [
+        "stage41_active_basis",
+        "stage43_equality_reduced",
+        "original_support"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 0,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 0,
+            "vertex_bases": 0,
+            "mass_faces": 0
+          },
+          "marked_vertices": [],
+          "backbone_edges": 4,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0012412909418344498,
+          "process_wall_seconds": 0.011096093337982893,
+          "child_cpu_seconds": 0.003483,
+          "maximum_rss_kib": 12668,
+          "wait_status": 0
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "deficit_sets": 0,
+            "cover_feasible_faces": 0,
+            "strict_faces": 0,
+            "growth_states": 0,
+            "vertex_bases": 0,
+            "mass_faces": 0
+          },
+          "marked_vertices": [],
+          "backbone_edges": 4,
+          "deficit_vertices": null,
+          "deficits": null,
+          "solver_wall_seconds": 0.0015125302597880363,
+          "process_wall_seconds": 0.011075170710682869,
+          "child_cpu_seconds": 0.003917,
+          "maximum_rss_kib": 12668,
+          "wait_status": 0
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": false,
+          "minimum": null,
+          "statistics": {
+            "supports_visited": 15,
+            "endpoint_sets_solved": 15,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 75,
+            "vertex_bases_attempted": 6
+          },
+          "solver_wall_seconds": 0.004125164356082678,
+          "process_wall_seconds": 0.011000980157405138,
+          "child_cpu_seconds": 0.006296999999999999,
+          "maximum_rss_kib": 12672,
+          "wait_status": 0
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "marked_hubs2_cap2",
+      "group": "multifurcating_marked_gates",
+      "cap": 2,
+      "vertices": 10,
+      "edges": 9,
+      "original_leaves": 7,
+      "observed_leaves": 5,
+      "missing_fraction": "2/7",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "original_support",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 0,
+            "mass_faces": 1,
+            "local_lp_calls": 1,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1
+          },
+          "marked_vertices": [
+            100,
+            102
+          ],
+          "backbone_edges": 7,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0029318956658244133,
+          "process_wall_seconds": 0.01120661711320281,
+          "child_cpu_seconds": 0.005416,
+          "maximum_rss_kib": 12676,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              2,
+              8
+            ],
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "2/3"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "2/3"
+              }
+            ],
+            "pendant": "3/4"
+          },
+          "statistics": {
+            "supports_visited": 30,
+            "endpoint_sets_solved": 30,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 156,
+            "vertex_bases_attempted": 38
+          },
+          "solver_wall_seconds": 0.01197805069386959,
+          "process_wall_seconds": 0.021107490174472332,
+          "child_cpu_seconds": 0.014525,
+          "maximum_rss_kib": 12684,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 1,
+            "cover_feasible_faces": 1,
+            "strict_faces": 1,
+            "growth_states": 1,
+            "vertex_bases": 2,
+            "mass_faces": 1
+          },
+          "marked_vertices": [
+            100,
+            102
+          ],
+          "backbone_edges": 7,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.002557503990828991,
+          "process_wall_seconds": 0.010977668687701225,
+          "child_cpu_seconds": 0.005032,
+          "maximum_rss_kib": 12688,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "marked_hubs2_cap3",
+      "group": "multifurcating_marked_gates",
+      "cap": 3,
+      "vertices": 10,
+      "edges": 9,
+      "original_leaves": 7,
+      "observed_leaves": 5,
+      "missing_fraction": "2/7",
+      "execution_order": [
+        "stage43_equality_reduced",
+        "stage41_active_basis",
+        "original_support"
+      ],
+      "runs": {
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 5,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 0,
+            "mass_faces": 33,
+            "local_lp_calls": 5,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1,
+            "opposing_row_rejections": 4
+          },
+          "marked_vertices": [
+            100,
+            102
+          ],
+          "backbone_edges": 7,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.0050572059117257595,
+          "process_wall_seconds": 0.01109566306695342,
+          "child_cpu_seconds": 0.007448,
+          "maximum_rss_kib": 12688,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 5,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 244,
+            "mass_faces": 33
+          },
+          "marked_vertices": [
+            100,
+            102
+          ],
+          "backbone_edges": 7,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 2
+          },
+          "solver_wall_seconds": 0.014996069017797709,
+          "process_wall_seconds": 0.021110670175403357,
+          "child_cpu_seconds": 0.017332,
+          "maximum_rss_kib": 12692,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 2,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 2,
+            "support": [
+              2,
+              8
+            ],
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/3",
+                "x": "2/3"
+              },
+              {
+                "edge": 8,
+                "p": "2/3",
+                "x": "2/3"
+              }
+            ],
+            "pendant": "3/4"
+          },
+          "statistics": {
+            "supports_visited": 30,
+            "endpoint_sets_solved": 30,
+            "endpoint_cache_hits": 0,
+            "equality_rows_processed": 156,
+            "vertex_bases_attempted": 38
+          },
+          "solver_wall_seconds": 0.012166087981313467,
+          "process_wall_seconds": 0.021115788724273443,
+          "child_cpu_seconds": 0.014599,
+          "maximum_rss_kib": 12692,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "marked_hubs3_cap3",
+      "group": "multifurcating_marked_gates",
+      "cap": 3,
+      "vertices": 16,
+      "edges": 15,
+      "original_leaves": 11,
+      "observed_leaves": 8,
+      "missing_fraction": "3/11",
+      "execution_order": [
+        "original_support",
+        "stage43_equality_reduced",
+        "stage41_active_basis"
+      ],
+      "runs": {
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 3,
+            "support": [
+              2,
+              8,
+              14
+            ],
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/6",
+                "x": "4/5"
+              },
+              {
+                "edge": 8,
+                "p": "1/3",
+                "x": "3/5"
+              },
+              {
+                "edge": 14,
+                "p": "1/2",
+                "x": "3/5"
+              }
+            ],
+            "pendant": "4/5"
+          },
+          "statistics": {
+            "supports_visited": 340,
+            "endpoint_sets_solved": 322,
+            "endpoint_cache_hits": 18,
+            "equality_rows_processed": 2274,
+            "vertex_bases_attempted": 485
+          },
+          "solver_wall_seconds": 0.1621641181409359,
+          "process_wall_seconds": 0.17295186081901193,
+          "child_cpu_seconds": 0.164028,
+          "maximum_rss_kib": 12700,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 5,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 0,
+            "mass_faces": 33,
+            "local_lp_calls": 5,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1,
+            "opposing_row_rejections": 4
+          },
+          "marked_vertices": [
+            100,
+            102,
+            104
+          ],
+          "backbone_edges": 12,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/6",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 14,
+                "p": "1/2",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.005469738971441984,
+          "process_wall_seconds": 0.010802292730659246,
+          "child_cpu_seconds": 0.007756,
+          "maximum_rss_kib": 12708,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 3,
+          "statistics": {
+            "deficit_sets": 3,
+            "cover_feasible_faces": 5,
+            "strict_faces": 1,
+            "growth_states": 3,
+            "vertex_bases": 244,
+            "mass_faces": 33
+          },
+          "marked_vertices": [
+            100,
+            102,
+            104
+          ],
+          "backbone_edges": 12,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/6",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "1/3",
+                "x": "1/2"
+              },
+              {
+                "edge": 14,
+                "p": "1/2",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 3
+          },
+          "solver_wall_seconds": 0.015527126844972372,
+          "process_wall_seconds": 0.021138481330126524,
+          "child_cpu_seconds": 0.018019,
+          "maximum_rss_kib": 12712,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    },
+    {
+      "name": "marked_hubs4_cap4",
+      "group": "multifurcating_marked_gates",
+      "cap": 4,
+      "vertices": 22,
+      "edges": 21,
+      "original_leaves": 15,
+      "observed_leaves": 11,
+      "missing_fraction": "4/15",
+      "execution_order": [
+        "stage41_active_basis",
+        "original_support",
+        "stage43_equality_reduced"
+      ],
+      "runs": {
+        "stage41_active_basis": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 8,
+            "cover_feasible_faces": 57,
+            "strict_faces": 1,
+            "growth_states": 8,
+            "vertex_bases": 34511,
+            "mass_faces": 481
+          },
+          "marked_vertices": [
+            100,
+            102,
+            104,
+            106
+          ],
+          "backbone_edges": 17,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/10",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "1/5",
+                "x": "1/2"
+              },
+              {
+                "edge": 14,
+                "p": "3/10",
+                "x": "1/2"
+              },
+              {
+                "edge": 20,
+                "p": "2/5",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 1.4562655217014253,
+          "process_wall_seconds": 1.4613646902143955,
+          "child_cpu_seconds": 1.458014,
+          "maximum_rss_kib": 12712,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "original_support": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "witness": {
+            "feasible": true,
+            "minimum_sources_within_cap": 4,
+            "support": [
+              2,
+              8,
+              14,
+              20
+            ],
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/10",
+                "x": "8/9"
+              },
+              {
+                "edge": 8,
+                "p": "1/5",
+                "x": "5/9"
+              },
+              {
+                "edge": 14,
+                "p": "3/10",
+                "x": "5/9"
+              },
+              {
+                "edge": 20,
+                "p": "2/5",
+                "x": "5/9"
+              }
+            ],
+            "pendant": "13/15"
+          },
+          "statistics": {
+            "supports_visited": 4251,
+            "endpoint_sets_solved": 3732,
+            "endpoint_cache_hits": 519,
+            "equality_rows_processed": 31885,
+            "vertex_bases_attempted": 6698
+          },
+          "solver_wall_seconds": 2.899644834920764,
+          "process_wall_seconds": 2.9060649941675365,
+          "child_cpu_seconds": 2.89547,
+          "maximum_rss_kib": 13232,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        },
+        "stage43_equality_reduced": {
+          "status": "complete",
+          "feasible": true,
+          "minimum": 4,
+          "statistics": {
+            "deficit_sets": 8,
+            "cover_feasible_faces": 57,
+            "strict_faces": 1,
+            "growth_states": 8,
+            "vertex_bases": 0,
+            "mass_faces": 481,
+            "local_lp_calls": 57,
+            "eliminated_equality_rank": 0,
+            "interval_lp_calls": 1,
+            "opposing_row_rejections": 50,
+            "inconsistent_equality_rejections": 6
+          },
+          "marked_vertices": [
+            100,
+            102,
+            104,
+            106
+          ],
+          "backbone_edges": 17,
+          "deficit_vertices": [],
+          "deficits": [],
+          "witness": {
+            "sources": [
+              {
+                "edge": 2,
+                "p": "1/10",
+                "x": "1/2"
+              },
+              {
+                "edge": 8,
+                "p": "1/5",
+                "x": "1/2"
+              },
+              {
+                "edge": 14,
+                "p": "3/10",
+                "x": "1/2"
+              },
+              {
+                "edge": 20,
+                "p": "2/5",
+                "x": "1/2"
+              }
+            ],
+            "pendant": "1",
+            "source_count": 4
+          },
+          "solver_wall_seconds": 0.02490189392119646,
+          "process_wall_seconds": 0.031123497989028692,
+          "child_cpu_seconds": 0.026517999999999996,
+          "maximum_rss_kib": 12748,
+          "wait_status": 0,
+          "independent_witness_verified": true
+        }
+      },
+      "completed_methods_agree": true
+    }
+  ],
+  "summary": {
+    "cases": 30,
+    "disagreements": 0,
+    "pairwise_complete": {
+      "original_support vs stage41_active_basis": 29,
+      "original_support vs stage43_equality_reduced": 29,
+      "stage41_active_basis vs stage43_equality_reduced": 30
+    },
+    "methods": {
+      "original_support": {
+        "status_counts": {
+          "complete": 29,
+          "unknown": 1
+        },
+        "verified_witnesses": 23,
+        "total_cpu_seconds": 11.350637,
+        "total_vertex_bases": 0
+      },
+      "stage41_active_basis": {
+        "status_counts": {
+          "complete": 30
+        },
+        "verified_witnesses": 24,
+        "total_cpu_seconds": 6.742516,
+        "total_vertex_bases": 136642
+      },
+      "stage43_equality_reduced": {
+        "status_counts": {
+          "complete": 30
+        },
+        "verified_witnesses": 24,
+        "total_cpu_seconds": 0.40380999999999995,
+        "total_vertex_bases": 1282
+      }
+    },
+    "total_wall_seconds": 19.168659599032253
+  }
+}

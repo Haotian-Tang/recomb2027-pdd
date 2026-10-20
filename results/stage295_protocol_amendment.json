@@ -1,0 +1,28 @@
+{
+ "stage": 295,
+ "amendment": 1,
+ "what_changed": "scripts/stage295_reduced_minimum.py: the optional mixed_cover memo table was unbounded and exhausted the 10 GiB RLIMIT_AS on reference sets above |R|=20 (4.0e6 distinct entries on a |R|=20 case alone). A max_cache bound (default 200000 entries) was added: beyond the bound nothing further is stored.",
+ "why_it_is_not_a_result_change": "The memo is a pure function table over frozenset(P) for fixed (marked, lookup, edges, cap); capping it changes only how often mixed_cover is recomputed, never what it returns. The free-mask reduction, which is the measured effect, is untouched.",
+ "defect_location": "new Stage295 module only; no frozen module was modified at any point",
+ "runs_invalidated": "none of the 154 validation comparisons (they ran with the unbounded cache and all agreed); the 5 push rows that raised MemoryError are rerun",
+ "revalidation_required": "a 36-case subset of the agreement plan is rerun with the bounded cache",
+ "code_sha256_new_after": {
+  "scripts/stage295_common.py": "b44595e62f9e7a715ae17b06663b25ad17adfa4608e02c488b4269a50cff9064",
+  "scripts/stage295_static_census.py": "fb378044966c30cefaabd83cb021a53c049381d8a588441c64d8a91e7d1eccb7",
+  "scripts/stage295_profile.py": "34ecca12c1de638444cb18795918febef95a2c7acaa964fc454644bbce1892c7",
+  "scripts/stage295_reduced_minimum.py": "16dd252f57508ef56bd8ad2a72cc767f19abaa7019ab393dcd18c071063d147e",
+  "scripts/stage295_validate.py": "83e1629de7ec831eb0dd6b19577651b60a1e3ec7483756341fc989cc72ef73d3",
+  "scripts/stage295_ceiling_push.py": "7e2c2c8300dacc36b2e9c4b8c63f12e3ff1bac0028c253a6e96a2ef7f85ee9bf",
+  "scripts/stage295_analyze.py": "833a059604024c30bb281c38e20e220b2cf48ff9dd755f04423b6a69415e5363"
+ },
+ "code_sha256_frozen_after": {
+  "scripts/stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+  "scripts/stage41_partial_fpt.py": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+  "scripts/stage27_general_fpt.py": "8cc530db67f6becd9fc5ce5f2635a386956307e3ed9b5c3421da54236eddee4d",
+  "scripts/stage26_missing_leaf.py": "e69a281e6eb9ea5199d9687ee6a864d8436116410f33568fcc50131ca82196a1",
+  "scripts/stage25_deficit_extension.py": "4d5925cfb38f627430739833f39893dbaf63bd63230a4bffcff3c945476704e3",
+  "scripts/stage23_two_source_envelope.py": "527930cd95e0ab9c684bb04bea5b2e63172794c2ac5000754449e718a316ab1a",
+  "scripts/stage292_all_minimisers.py": "f8f6a949c99225d76d95bcf10d5ee73713fa3316aec4e50db61415d11453e4ff"
+ },
+ "frozen_unchanged": true
+}

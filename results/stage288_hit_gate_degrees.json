@@ -1,0 +1,392 @@
+{
+  "stage": 288,
+  "track": "hit_gate_degrees",
+  "created_utc": "2026-10-17T13:49:06.615723+00:00",
+  "protocol_sha256": "64b32e55762d7188518d92030a4cc6618bbbf9f83122e4f613b67f80059a6696",
+  "summary": {
+    "draws_examined": 17,
+    "draws_with_a_hit": 7,
+    "hit_hull_degree_histogram": {
+      "3": 14,
+      "4": 2,
+      "8": 1
+    },
+    "hit_original_degree_histogram": {
+      "4": 12,
+      "5": 4,
+      "9": 1
+    },
+    "max_predicted_gap": 8,
+    "by_regime": {
+      "random": 0,
+      "clade": 4,
+      "nearest": 3
+    }
+  },
+  "rows": [
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.10",
+      "regime": "random",
+      "replicate": 0,
+      "n_removed": 1594,
+      "n_retained": 14347,
+      "n_marks": 72,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.10",
+      "regime": "random",
+      "replicate": 1,
+      "n_removed": 1594,
+      "n_retained": 14347,
+      "n_marks": 79,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.10",
+      "regime": "clade",
+      "replicate": 1,
+      "n_removed": 1585,
+      "n_retained": 14356,
+      "n_marks": 1,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.10",
+      "regime": "nearest",
+      "replicate": 0,
+      "n_removed": 1594,
+      "n_retained": 14347,
+      "n_marks": 7,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.25",
+      "regime": "random",
+      "replicate": 0,
+      "n_removed": 3985,
+      "n_retained": 11956,
+      "n_marks": 159,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.25",
+      "regime": "random",
+      "replicate": 1,
+      "n_removed": 3985,
+      "n_retained": 11956,
+      "n_marks": 174,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.25",
+      "regime": "clade",
+      "replicate": 0,
+      "n_removed": 4066,
+      "n_retained": 11875,
+      "n_marks": 1,
+      "sources_at_marked_gates": 1,
+      "hits": [
+        {
+          "edge": 27519,
+          "p": "1/100",
+          "gate": 26439,
+          "hull_degree": 8,
+          "original_degree": 9,
+          "predicted_gap_one_to": 8
+        }
+      ]
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.25",
+      "regime": "clade",
+      "replicate": 1,
+      "n_removed": 3848,
+      "n_retained": 12093,
+      "n_marks": 1,
+      "sources_at_marked_gates": 1,
+      "hits": [
+        {
+          "edge": 27519,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        }
+      ]
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.25",
+      "regime": "nearest",
+      "replicate": 0,
+      "n_removed": 3985,
+      "n_retained": 11956,
+      "n_marks": 21,
+      "sources_at_marked_gates": 1,
+      "hits": [
+        {
+          "edge": 11810,
+          "p": "1/100",
+          "gate": 21661,
+          "hull_degree": 3,
+          "original_degree": 5,
+          "predicted_gap_one_to": 3
+        }
+      ]
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.50",
+      "regime": "random",
+      "replicate": 0,
+      "n_removed": 7970,
+      "n_retained": 7971,
+      "n_marks": 235,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.50",
+      "regime": "random",
+      "replicate": 1,
+      "n_removed": 7970,
+      "n_retained": 7971,
+      "n_marks": 228,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.50",
+      "regime": "clade",
+      "replicate": 0,
+      "n_removed": 7609,
+      "n_retained": 8332,
+      "n_marks": 1,
+      "sources_at_marked_gates": 1,
+      "hits": [
+        {
+          "edge": 27519,
+          "p": "1/100",
+          "gate": 18565,
+          "hull_degree": 4,
+          "original_degree": 5,
+          "predicted_gap_one_to": 4
+        }
+      ]
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.50",
+      "regime": "nearest",
+      "replicate": 0,
+      "n_removed": 7970,
+      "n_retained": 7971,
+      "n_marks": 42,
+      "sources_at_marked_gates": 1,
+      "hits": [
+        {
+          "edge": 5496,
+          "p": "1/100",
+          "gate": 18565,
+          "hull_degree": 4,
+          "original_degree": 5,
+          "predicted_gap_one_to": 4
+        }
+      ]
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.75",
+      "regime": "random",
+      "replicate": 0,
+      "n_removed": 11956,
+      "n_retained": 3985,
+      "n_marks": 225,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.75",
+      "regime": "random",
+      "replicate": 1,
+      "n_removed": 11956,
+      "n_retained": 3985,
+      "n_marks": 247,
+      "sources_at_marked_gates": 0,
+      "hits": []
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.75",
+      "regime": "clade",
+      "replicate": 0,
+      "n_removed": 11875,
+      "n_retained": 4066,
+      "n_marks": 1,
+      "sources_at_marked_gates": 11,
+      "hits": [
+        {
+          "edge": 15764,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 16085,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 15761,
+          "p": "87/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 10426,
+          "p": "1/50",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 15809,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 5496,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 11668,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 15767,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 11810,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 15342,
+          "p": "1/100",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        },
+        {
+          "edge": 15296,
+          "p": "1/50",
+          "gate": 27269,
+          "hull_degree": 3,
+          "original_degree": 4,
+          "predicted_gap_one_to": 3
+        }
+      ]
+    },
+    {
+      "name": "k16k_n100_SRS014343_s1_exact",
+      "N": 15941,
+      "K": 12,
+      "level": "0.75",
+      "regime": "nearest",
+      "replicate": 0,
+      "n_removed": 11956,
+      "n_retained": 3985,
+      "n_marks": 44,
+      "sources_at_marked_gates": 1,
+      "hits": [
+        {
+          "edge": 5496,
+          "p": "1/100",
+          "gate": 18565,
+          "hull_degree": 3,
+          "original_degree": 5,
+          "predicted_gap_one_to": 3
+        }
+      ]
+    }
+  ]
+}

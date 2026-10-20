@@ -1,0 +1,64 @@
+{
+ "stage": 300,
+ "step": "verification",
+ "routes": {
+  "krepp_ani": {
+   "route_a": {
+    "compared": 40,
+    "agree": 40,
+    "disagree": []
+   },
+   "route_b": {
+    "cases": [
+     {
+      "name": "k10k_tree_10_k10_s1_exp_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 3,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.24795766479863068
+     },
+     {
+      "name": "k10k_tree_10_k10_s1_uniform_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 2,
+      "max_abs_diff": 2.7755575615628914e-17,
+      "scale": 0.2495165954358163
+     },
+     {
+      "name": "k10k_tree_10_k10_s2_exp_krepp_estimated",
+      "arm": "dd_default",
+      "k": 3,
+      "max_abs_diff": 2.7755575615628914e-17,
+      "scale": 0.23948691195759583
+     }
+    ],
+    "max_abs_diff": 5.551115123125783e-17
+   },
+   "route_c": {
+    "cases": [
+     {
+      "name": "k10k_tree_10_k10_s1_exp_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 3,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s1_uniform_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 2,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s2_exp_krepp_estimated",
+      "arm": "dd_default",
+      "k": 3,
+      "max_abs_diff": 5.551115123125783e-17
+     }
+    ],
+    "skipped": {},
+    "max_abs_diff": 5.551115123125783e-17
+   }
+  }
+ },
+ "elapsed_seconds": 0.9864504337310791
+}

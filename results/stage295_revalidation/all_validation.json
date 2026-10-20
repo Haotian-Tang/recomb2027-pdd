@@ -1,0 +1,2840 @@
+[
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s6_noise0_exact",
+   "cap": 2,
+   "tag": "agree_K2",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 28,
+  "generating_K": 2,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.004563488066196442,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 1
+    },
+    "elapsed": 0.0040902430191636086,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 2,
+   "reduced_memo": 2
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.060078122187405825,
+  "index": 0
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s1_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s1_noise0_exact",
+   "cap": 2,
+   "tag": "agree_K2",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 28,
+  "generating_K": 2,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.004534347914159298,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 1
+    },
+    "elapsed": 0.004081522114574909,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 2,
+   "reduced_memo": 2
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.06072266399860382,
+  "index": 1
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s7_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s7_noise0_exact",
+   "cap": 2,
+   "tag": "agree_K2",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 28,
+  "generating_K": 2,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.004497367423027754,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 1
+    },
+    "elapsed": 0.004075531382113695,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 2,
+   "reduced_memo": 2
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.06151913199573755,
+  "index": 2
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k2_s3_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s3_noise0_exact",
+   "cap": 2,
+   "tag": "agree_K2",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 34,
+  "generating_K": 2,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.005373776890337467,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 1,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 1,
+     "vertex_bases": 0,
+     "mass_faces": 1,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 1
+    },
+    "elapsed": 0.004811726976186037,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 2,
+   "reduced_memo": 2
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.06209622323513031,
+  "index": 3
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s5_exp_exact.json",
+   "name": "k10k_tree_16_k3_s5_exp_exact",
+   "cap": 3,
+   "tag": "agree_K3",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 27,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 3,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 3,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 2,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.006029009819030762,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 8,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 8,
+     "cover_memo_hits": 0,
+     "cover_calls": 8
+    },
+    "elapsed": 0.004914280958473682,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 3,
+   "reduced_memo": 3
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.0625317171216011,
+  "index": 4
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s3_uniform_exact.json",
+   "name": "k10k_tree_16_k3_s3_uniform_exact",
+   "cap": 3,
+   "tag": "agree_K3",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 27,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 2,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 2,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 1,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.006004770286381245,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 8,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 8,
+     "cover_memo_hits": 0,
+     "cover_calls": 8
+    },
+    "elapsed": 0.0048964908346533775,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 3,
+   "reduced_memo": 3
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.05290115298703313,
+  "index": 5
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s2_exp_exact.json",
+   "name": "k10k_tree_16_k3_s2_exp_exact",
+   "cap": 3,
+   "tag": "agree_K3",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 27,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 5,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 5,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.005646815989166498,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 5,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 5,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 16
+    },
+    "elapsed": 0.00493724225088954,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 3,
+   "reduced_memo": 3
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.052830309607088566,
+  "index": 6
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k3_s1_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k3_s1_noise0_exact",
+   "cap": 3,
+   "tag": "agree_K3",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 27,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 6,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 6,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.005477621220052242,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 6,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 6,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 16
+    },
+    "elapsed": 0.004969603382050991,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 3,
+   "reduced_memo": 3
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.05284617003053427,
+  "index": 7
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k3_s4_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k3_s4_noise0_exact",
+   "cap": 3,
+   "tag": "agree_K3",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 27,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.0054979207925498486,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 8,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 8,
+     "cover_memo_hits": 0,
+     "cover_calls": 8
+    },
+    "elapsed": 0.004931712988764048,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 3,
+   "reduced_memo": 3
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.05283201998099685,
+  "index": 8
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_17_k3_s1_uniform_exact.json",
+   "name": "k10k_tree_17_k3_s1_uniform_exact",
+   "cap": 3,
+   "tag": "agree_K3",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 31,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 4,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 49,
+     "local_lp_calls": 4,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 3,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.006553347688168287,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 2,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 7,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 0,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 42,
+     "cover_memo_hits": 0,
+     "cover_calls": 7
+    },
+    "elapsed": 0.004903511144220829,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 2,
+   "reduced_memo": 2
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.053264955058693886,
+  "index": 9
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s4_exp_exact.json",
+   "name": "k10k_tree_16_k5_s4_exp_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 72,
+     "cover_feasible_faces": 23,
+     "strict_faces": 1,
+     "growth_states": 72,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 23,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 15,
+     "inconsistent_equality_rejections": 7,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.02159462170675397,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 72,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 72,
+     "vertex_bases": 0,
+     "mass_faces": 64,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 192,
+     "cover_memo_hits": 0,
+     "cover_calls": 64
+    },
+    "elapsed": 0.007073374930769205,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.09074488002806902,
+  "index": 10
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s3_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s3_uniform_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 143,
+     "cover_feasible_faces": 24,
+     "strict_faces": 1,
+     "growth_states": 143,
+     "vertex_bases": 0,
+     "mass_faces": 5632,
+     "local_lp_calls": 24,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 23,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.05128773534670472,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 143,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 143,
+     "vertex_bases": 0,
+     "mass_faces": 512,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 5120,
+     "cover_memo_hits": 0,
+     "cover_calls": 512
+    },
+    "elapsed": 0.010299788787961006,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.12205282086506486,
+  "index": 11
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s2_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s2_uniform_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 104,
+     "cover_feasible_faces": 303,
+     "strict_faces": 1,
+     "growth_states": 104,
+     "vertex_bases": 0,
+     "mass_faces": 15616,
+     "local_lp_calls": 303,
+     "interval_lp_calls": 7,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 20,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 290,
+     "inconsistent_equality_rejections": 6,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.2762550381012261,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 104,
+     "cover_feasible_faces": 3,
+     "strict_faces": 1,
+     "growth_states": 104,
+     "vertex_bases": 0,
+     "mass_faces": 1792,
+     "local_lp_calls": 3,
+     "interval_lp_calls": 2,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 5,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 1,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 13824,
+     "cover_memo_hits": 0,
+     "cover_calls": 1792
+    },
+    "elapsed": 0.017452259082347155,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.3546898188069463,
+  "index": 12
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k5_s5_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k5_s5_noise0_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 96,
+     "cover_feasible_faces": 59,
+     "strict_faces": 1,
+     "growth_states": 96,
+     "vertex_bases": 0,
+     "mass_faces": 5120,
+     "local_lp_calls": 59,
+     "interval_lp_calls": 3,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 9,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 56,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.07236270932480693,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 96,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 96,
+     "vertex_bases": 0,
+     "mass_faces": 768,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 4352,
+     "cover_memo_hits": 0,
+     "cover_calls": 768
+    },
+    "elapsed": 0.011163797695189714,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.14389813039451838,
+  "index": 13
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k5_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k5_s6_noise0_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 134,
+     "cover_feasible_faces": 7,
+     "strict_faces": 1,
+     "growth_states": 134,
+     "vertex_bases": 0,
+     "mass_faces": 1024,
+     "local_lp_calls": 7,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 6,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.016056668013334274,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 134,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 134,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 768,
+     "cover_memo_hits": 0,
+     "cover_calls": 256
+    },
+    "elapsed": 0.008501176722347736,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.08409478794783354,
+  "index": 14
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_17_k5_s4_exp_exact.json",
+   "name": "k10k_tree_17_k5_s4_exp_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 29,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 192,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 192,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.009944476187229156,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 192,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 192,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 256
+    },
+    "elapsed": 0.009453488979488611,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.06111208815127611,
+  "index": 15
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_17_k5_s1_exp_exact.json",
+   "name": "k10k_tree_17_k5_s1_exp_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 29,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 74,
+     "cover_feasible_faces": 493,
+     "strict_faces": 1,
+     "growth_states": 74,
+     "vertex_bases": 372,
+     "mass_faces": 8576,
+     "local_lp_calls": 493,
+     "interval_lp_calls": 81,
+     "enumerated_lp_calls": 14,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 259,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 310,
+     "inconsistent_equality_rejections": 88,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.4054943579249084,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 74,
+     "cover_feasible_faces": 10,
+     "strict_faces": 1,
+     "growth_states": 74,
+     "vertex_bases": 64,
+     "mass_faces": 832,
+     "local_lp_calls": 10,
+     "interval_lp_calls": 7,
+     "enumerated_lp_calls": 3,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 21,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 7744,
+     "cover_memo_hits": 0,
+     "cover_calls": 832
+    },
+    "elapsed": 0.02570292493328452,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.47340790275484324,
+  "index": 16
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_17_k5_s5_uniform_exact.json",
+   "name": "k10k_tree_17_k5_s5_uniform_exact",
+   "cap": 5,
+   "tag": "agree_K5",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 29,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 95,
+     "cover_feasible_faces": 19,
+     "strict_faces": 1,
+     "growth_states": 95,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 19,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 15,
+     "inconsistent_equality_rejections": 3,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.0204208018258214,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 95,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 95,
+     "vertex_bases": 0,
+     "mass_faces": 64,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 192,
+     "cover_memo_hits": 0,
+     "cover_calls": 64
+    },
+    "elapsed": 0.008643731940537691,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "reduced_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.07105252332985401,
+  "index": 17
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s4_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s4_noise0_exact",
+   "cap": 7,
+   "tag": "agree_K7",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 23,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 949,
+     "cover_feasible_faces": 19214,
+     "strict_faces": 1,
+     "growth_states": 949,
+     "vertex_bases": 1856,
+     "mass_faces": 1868800,
+     "local_lp_calls": 19214,
+     "interval_lp_calls": 219,
+     "enumerated_lp_calls": 51,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1278,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 16247,
+     "inconsistent_equality_rejections": 2697,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 36.37467333301902,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 949,
+     "cover_feasible_faces": 6,
+     "strict_faces": 1,
+     "growth_states": 949,
+     "vertex_bases": 93,
+     "mass_faces": 59392,
+     "local_lp_calls": 6,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 2,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 11,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 3,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 1809408,
+     "cover_memo_hits": 6656,
+     "cover_calls": 52736
+    },
+    "elapsed": 0.4284103042446077,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "reduced_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 36.85020886687562,
+  "index": 18
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s2_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s2_noise0_exact",
+   "cap": 7,
+   "tag": "agree_K7",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 23,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 603,
+     "cover_feasible_faces": 13631,
+     "strict_faces": 1,
+     "growth_states": 603,
+     "vertex_bases": 0,
+     "mass_faces": 491520,
+     "local_lp_calls": 13631,
+     "interval_lp_calls": 17,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 85,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 13509,
+     "inconsistent_equality_rejections": 105,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 18.69166096812114,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 603,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 603,
+     "vertex_bases": 0,
+     "mass_faces": 6144,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 5,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 485376,
+     "cover_memo_hits": 0,
+     "cover_calls": 6144
+    },
+    "elapsed": 0.07327461242675781,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "reduced_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 18.807429328095168,
+  "index": 19
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k7_s6_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k7_s6_noise0_exact",
+   "cap": 7,
+   "tag": "agree_K7",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 29,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 2716,
+     "cover_feasible_faces": 3201,
+     "strict_faces": 1,
+     "growth_states": 2716,
+     "vertex_bases": 0,
+     "mass_faces": 1848320,
+     "local_lp_calls": 3201,
+     "interval_lp_calls": 11,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 54,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 2946,
+     "inconsistent_equality_rejections": 244,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 17.193640595767647,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 2716,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 2716,
+     "vertex_bases": 0,
+     "mass_faces": 25600,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 4,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 1822720,
+     "cover_memo_hits": 1792,
+     "cover_calls": 23808
+    },
+    "elapsed": 0.17143702879548073,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "reduced_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 17.409379865974188,
+  "index": 20
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k7_s7_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k7_s7_noise0_exact",
+   "cap": 7,
+   "tag": "agree_K7",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 29,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 1544,
+     "cover_feasible_faces": 127771,
+     "strict_faces": 1,
+     "growth_states": 1544,
+     "vertex_bases": 1634,
+     "mass_faces": 8480768,
+     "local_lp_calls": 127771,
+     "interval_lp_calls": 387,
+     "enumerated_lp_calls": 59,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 2129,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 121833,
+     "inconsistent_equality_rejections": 5492,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 221.33821120206267,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 1544,
+     "cover_feasible_faces": 10,
+     "strict_faces": 1,
+     "growth_states": 1544,
+     "vertex_bases": 10,
+     "mass_faces": 137216,
+     "local_lp_calls": 10,
+     "interval_lp_calls": 2,
+     "enumerated_lp_calls": 1,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 11,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 4,
+     "inconsistent_equality_rejections": 3,
+     "skipped_forced_faces": 8343552,
+     "cover_memo_hits": 8704,
+     "cover_calls": 128512
+    },
+    "elapsed": 1.26690416270867,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "reduced_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 222.65263569680974,
+  "index": 21
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k7_s8_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k7_s8_noise0_exact",
+   "cap": 7,
+   "tag": "agree_K7",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 29,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 3108,
+     "cover_feasible_faces": 67046,
+     "strict_faces": 1,
+     "growth_states": 3108,
+     "vertex_bases": 0,
+     "mass_faces": 19894272,
+     "local_lp_calls": 67046,
+     "interval_lp_calls": 13,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 64,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 66594,
+     "inconsistent_equality_rejections": 439,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 219.53391985502094,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 3108,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 3108,
+     "vertex_bases": 0,
+     "mass_faces": 112640,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 4,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 19781632,
+     "cover_memo_hits": 22528,
+     "cover_calls": 90112
+    },
+    "elapsed": 0.6381667540408671,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "reduced_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 220.21930230595171,
+  "index": 22
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_birds-jarvis__birds-jarvis.tre.rerooted_k7_s3_noise0_exact.json",
+   "name": "bio_birds-jarvis__birds-jarvis.tre.rerooted_k7_s3_noise0_exact",
+   "cap": 7,
+   "tag": "agree_K7",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 41,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 2676,
+     "cover_feasible_faces": 12,
+     "strict_faces": 1,
+     "growth_states": 2676,
+     "vertex_bases": 0,
+     "mass_faces": 20480,
+     "local_lp_calls": 12,
+     "interval_lp_calls": 2,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 10,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 1,
+     "inconsistent_equality_rejections": 9,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.1939841229468584,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 2676,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 2676,
+     "vertex_bases": 0,
+     "mass_faces": 2048,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 5,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 18432,
+     "cover_memo_hits": 0,
+     "cover_calls": 2048
+    },
+    "elapsed": 0.048257770016789436,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "reduced_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.28415892412886024,
+  "index": 23
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_birds-jarvis__birds-jarvis.tre.rerooted_k7_s10_noise0_exact.json",
+   "name": "bio_birds-jarvis__birds-jarvis.tre.rerooted_k7_s10_noise0_exact",
+   "cap": 7,
+   "tag": "agree_K7",
+   "variants": [
+    "frozen",
+    "reduced_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 41,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 3527,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 3527,
+     "vertex_bases": 0,
+     "mass_faces": 4096,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 5,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.056958702858537436,
+    "ok": true
+   },
+   "reduced_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 3527,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 3527,
+     "vertex_bases": 0,
+     "mass_faces": 4096,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 5,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 4096
+    },
+    "elapsed": 0.06632510898634791,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "reduced_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.16519467998296022,
+  "index": 24
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s1_exp_exact.json",
+   "name": "k10k_tree_16_k3_s1_exp_exact",
+   "cap": 3,
+   "tag": "identity_K3",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 27,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 5,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 5,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.005475990008562803,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 5,
+     "cover_feasible_faces": 1,
+     "strict_faces": 1,
+     "growth_states": 5,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 1,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 0,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 16
+    },
+    "elapsed": 0.004933991003781557,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 3,
+   "full_mask_memo": 3
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.051563814748078585,
+  "index": 25
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s3_exp_exact.json",
+   "name": "k10k_tree_16_k3_s3_exp_exact",
+   "cap": 3,
+   "tag": "identity_K3",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 27,
+  "generating_K": 3,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 2,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 2,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 1,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.005739980842918158,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 3,
+    "statistics": {
+     "deficit_sets": 4,
+     "cover_feasible_faces": 2,
+     "strict_faces": 1,
+     "growth_states": 4,
+     "vertex_bases": 0,
+     "mass_faces": 16,
+     "local_lp_calls": 2,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 1,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 16
+    },
+    "elapsed": 0.005258822813630104,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 3,
+   "full_mask_memo": 3
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.07153047062456608,
+  "index": 26
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s4_exp_exact.json",
+   "name": "k10k_tree_16_k5_s4_exp_exact",
+   "cap": 5,
+   "tag": "identity_K5",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 72,
+     "cover_feasible_faces": 23,
+     "strict_faces": 1,
+     "growth_states": 72,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 23,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 15,
+     "inconsistent_equality_rejections": 7,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.021562520880252123,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 72,
+     "cover_feasible_faces": 23,
+     "strict_faces": 1,
+     "growth_states": 72,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 23,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 15,
+     "inconsistent_equality_rejections": 7,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 256
+    },
+    "elapsed": 0.02156302100047469,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "full_mask_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.08468821784481406,
+  "index": 27
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s4_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s4_uniform_exact",
+   "cap": 5,
+   "tag": "identity_K5",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 72,
+     "cover_feasible_faces": 23,
+     "strict_faces": 1,
+     "growth_states": 72,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 23,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 15,
+     "inconsistent_equality_rejections": 7,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.021694115828722715,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 72,
+     "cover_feasible_faces": 23,
+     "strict_faces": 1,
+     "growth_states": 72,
+     "vertex_bases": 0,
+     "mass_faces": 256,
+     "local_lp_calls": 23,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 15,
+     "inconsistent_equality_rejections": 7,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 256
+    },
+    "elapsed": 0.021682345308363438,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "full_mask_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.0843692971393466,
+  "index": 28
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s3_exp_exact.json",
+   "name": "k10k_tree_16_k5_s3_exp_exact",
+   "cap": 5,
+   "tag": "identity_K5",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 25,
+  "generating_K": 5,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 143,
+     "cover_feasible_faces": 24,
+     "strict_faces": 1,
+     "growth_states": 143,
+     "vertex_bases": 0,
+     "mass_faces": 5632,
+     "local_lp_calls": 24,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 23,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 0.050862259697169065,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 5,
+    "statistics": {
+     "deficit_sets": 143,
+     "cover_feasible_faces": 24,
+     "strict_faces": 1,
+     "growth_states": 143,
+     "vertex_bases": 0,
+     "mass_faces": 5632,
+     "local_lp_calls": 24,
+     "interval_lp_calls": 1,
+     "enumerated_lp_calls": 0,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 3,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 23,
+     "inconsistent_equality_rejections": 0,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 640,
+     "cover_calls": 4992
+    },
+    "elapsed": 0.058185074012726545,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 5,
+   "full_mask_memo": 5
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 0.17035483103245497,
+  "index": 29
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s1_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s1_noise0_exact",
+   "cap": 7,
+   "tag": "identity_K7",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 23,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 1527,
+     "cover_feasible_faces": 17918,
+     "strict_faces": 1,
+     "growth_states": 1527,
+     "vertex_bases": 240,
+     "mass_faces": 3512832,
+     "local_lp_calls": 17918,
+     "interval_lp_calls": 94,
+     "enumerated_lp_calls": 9,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 493,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 17108,
+     "inconsistent_equality_rejections": 707,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 53.57446462381631,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 1527,
+     "cover_feasible_faces": 17918,
+     "strict_faces": 1,
+     "growth_states": 1527,
+     "vertex_bases": 240,
+     "mass_faces": 3512832,
+     "local_lp_calls": 17918,
+     "interval_lp_calls": 94,
+     "enumerated_lp_calls": 9,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 493,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 17108,
+     "inconsistent_equality_rejections": 707,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 646144,
+     "cover_calls": 2866688
+    },
+    "elapsed": 52.45221738284454,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "full_mask_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 106.07278122287244,
+  "index": 30
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s7_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s7_noise0_exact",
+   "cap": 7,
+   "tag": "identity_K7",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 23,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 1436,
+     "cover_feasible_faces": 30829,
+     "strict_faces": 1,
+     "growth_states": 1436,
+     "vertex_bases": 3048,
+     "mass_faces": 2050048,
+     "local_lp_calls": 30829,
+     "interval_lp_calls": 153,
+     "enumerated_lp_calls": 67,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1024,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 29886,
+     "inconsistent_equality_rejections": 723,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 53.02278736932203,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 1436,
+     "cover_feasible_faces": 30829,
+     "strict_faces": 1,
+     "growth_states": 1436,
+     "vertex_bases": 3048,
+     "mass_faces": 2050048,
+     "local_lp_calls": 30829,
+     "interval_lp_calls": 153,
+     "enumerated_lp_calls": 67,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 1024,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 29886,
+     "inconsistent_equality_rejections": 723,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 361472,
+     "cover_calls": 1688576
+    },
+    "elapsed": 50.95610413281247,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "full_mask_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 104.024456219282,
+  "index": 31
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s10_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s10_noise0_exact",
+   "cap": 7,
+   "tag": "identity_K7",
+   "variants": [
+    "frozen",
+    "full_mask_memo"
+   ],
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "reference_set_size": 23,
+  "generating_K": 7,
+  "results": {
+   "frozen": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 447,
+     "cover_feasible_faces": 1634,
+     "strict_faces": 1,
+     "growth_states": 447,
+     "vertex_bases": 1533,
+     "mass_faces": 327680,
+     "local_lp_calls": 1634,
+     "interval_lp_calls": 116,
+     "enumerated_lp_calls": 42,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 747,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 1245,
+     "inconsistent_equality_rejections": 231,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 0,
+     "cover_calls": 0
+    },
+    "elapsed": 5.030226641800255,
+    "ok": true
+   },
+   "full_mask_memo": {
+    "status": "complete",
+    "reason": null,
+    "feasible": true,
+    "minimum": 7,
+    "statistics": {
+     "deficit_sets": 447,
+     "cover_feasible_faces": 1634,
+     "strict_faces": 1,
+     "growth_states": 447,
+     "vertex_bases": 1533,
+     "mass_faces": 327680,
+     "local_lp_calls": 1634,
+     "interval_lp_calls": 116,
+     "enumerated_lp_calls": 42,
+     "zero_dimensional_lp_calls": 0,
+     "eliminated_equality_rank": 747,
+     "constant_row_rejections": 0,
+     "opposing_row_rejections": 1245,
+     "inconsistent_equality_rejections": 231,
+     "skipped_forced_faces": 0,
+     "cover_memo_hits": 129024,
+     "cover_calls": 198656
+    },
+    "elapsed": 4.71403046278283,
+    "ok": true
+   }
+  },
+  "minima": {
+   "frozen": 7,
+   "full_mask_memo": 7
+  },
+  "agree": true,
+  "ok": true,
+  "harness_wall": 9.788350121118128,
+  "index": 32
+ }
+]

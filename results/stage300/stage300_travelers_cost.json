@@ -1,0 +1,44 @@
+{
+ "stage": 300,
+ "step": "travelers_cost",
+ "registered_utc": "2026-10-19T11:04:11+00:00",
+ "wall_seconds": 7200.0,
+ "wall_justification": "7,200 s (2 h) of wall-clock per sample.  Justification: 5 concurrent\nworkers is what the measured footprint (about 10 GiB resident per worker, still\nrising) allows on this shared machine, and 29 samples x 2 h / 5 workers is\nabout 11.6 h - the largest per-sample wall that keeps the whole collection\ninside a single day of the stage's 40-core budget.  Every run in flight had\nreached or passed that wall when it was stopped.",
+ "n_samples_total": 29,
+ "n_samples_attempted": 6,
+ "n_samples_completed": 0,
+ "n_samples_not_attempted": 23,
+ "elapsed_seconds": {
+  "min": 7286,
+  "max": 9922,
+  "total": 46352
+ },
+ "core_hours_consumed": 12.875555555555556,
+ "rss_gib_at_stop": {
+  "min": 9.926349639892578,
+  "max": 10.840938568115234
+ },
+ "configuration": {
+  "invocation": "decodiphy -t tree.nwk -d distances.txt -o OUTDIR (documented defaults: --method hill, --quick 1, --radius 2, --seed 1142, --fix_k 0, --optimizer osqp, --min_p 0.01)",
+  "worker": "stage293_abundance.dd_worker, imported unmodified",
+  "concurrency": "1 (pilot) and 5 (batch), chosen from the measured resident set size on a shared 62-core machine with other users' jobs running",
+  "memory_limit": "RLIMIT_AS 60 GB (pilot) and 30 GB (batch); neither was reached",
+  "threads": "OMP/OPENBLAS/MKL_NUM_THREADS=1"
+ },
+ "measured_input_stage": {
+  "source": "results/stage300/stage300_tdprobe_td_sample_101_published.json",
+  "read_tree_newick_seconds": 0.0994,
+  "preprocess_input_seconds": 1.793,
+  "distance_matrix_seconds": 40.243,
+  "distance_matrix_entries": 111820050,
+  "get_input_matrices_not_returned_after_seconds": 3777,
+  "note": "treeswift's leaf-to-leaf distance matrix alone materialises 111.8 million entries; the enclosing get_input_matrices had not returned after 63 minutes when the probe was stopped"
+ },
+ "pruning": {
+  "preprocess_input_pruned": false,
+  "n_leaves_kept": 10575,
+  "note": "unlike the krepp ANI cases, every backbone leaf carries a distance here, so the input stage keeps the full panel"
+ },
+ "what_this_is_not": "This is the cost of this stage's invocation on this machine, not a property of DecoDiPhy: the parent publication ran it on this same collection.  Its README documents --warm_start because the search \"can be time extensive\", i.e. for inputs of this size the intended workflow resumes a search across runs instead of driving one run to the low-abundance stop. No conclusion about the tool's behaviour on these samples is drawn here.",
+ "what_is_reported_instead": "Theta_1 and Lambda_1 for all 29 samples, which need no DecoDiPhy run: Theta_1 is imported from stage 298 and Lambda_1 was computed here in 1.1 s per sample."
+}

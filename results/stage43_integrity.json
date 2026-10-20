@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "frozen_source_hashes_checked": 26,
+  "protocol_hashes_match": true,
+  "stage42_frozen_sources_and_pdfs_match": true,
+  "stage43_sources_and_pdfs_match": true,
+  "package_contents_match": true,
+  "local_review_links_checked": 20,
+  "undersized_long_text_spans": [],
+  "visual_pages_inspected": [
+    7,
+    9,
+    10
+  ],
+  "body_pages": 9,
+  "total_pages": 19,
+  "scope": "Integrity and layout only; mathematical and finite audits are separately reported."
+}

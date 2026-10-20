@@ -1,0 +1,7843 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-14T12:17:13.462266+00:00",
+  "protocol_sha256": "93df467d4b4c0514a89e1289faea59502f8009b0948ef15c3eadc6c9ae2c7e69",
+  "cases": 160,
+  "disagreements": 0,
+  "verified_witnesses": 230,
+  "forced_cover_exhaustive_checks": 70,
+  "growth_exhaustive_checks": 26,
+  "resource_limit_returns_unknown": true,
+  "elapsed_seconds": 0.3821953129954636,
+  "records": [
+    {
+      "name": "star3_rep0_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "22/21",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep0_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "22/21",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep1_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "3/35"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "3/35",
+          "3": "32/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "3/35"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep1_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "3/35"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "3/35",
+          "3": "32/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "3/35"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep1_cap3",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "3/35"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "3/35",
+          "3": "32/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "3/35"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep2_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "9/14",
+            "x": "2/3"
+          },
+          {
+            "edge": 0,
+            "p": "5/14",
+            "x": "2/5"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "0": "1/7",
+          "3": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "10/7",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "5/14",
+              "x": "2/5"
+            },
+            {
+              "edge": 2,
+              "p": "9/14",
+              "x": "2/3"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_rep2_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "9/14",
+            "x": "2/3"
+          },
+          {
+            "edge": 0,
+            "p": "5/14",
+            "x": "2/5"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "0": "1/7",
+          "3": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "10/7",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "5/14",
+              "x": "2/5"
+            },
+            {
+              "edge": 2,
+              "p": "9/14",
+              "x": "2/3"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_rep3_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "5/7",
+          "3": "2/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep3_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "5/7",
+          "3": "2/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep4_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_rep4_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "59/126",
+            "x": "32/59"
+          },
+          {
+            "edge": 2,
+            "p": "67/126",
+            "x": "40/67"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "20/63",
+          "3": "43/63"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "58/63",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "59/126",
+              "x": "32/59"
+            },
+            {
+              "edge": 2,
+              "p": "67/126",
+              "x": "40/67"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep4_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "59/126",
+            "x": "32/59"
+          },
+          {
+            "edge": 2,
+            "p": "67/126",
+            "x": "40/67"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "20/63",
+          "3": "43/63"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "58/63",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "59/126",
+              "x": "32/59"
+            },
+            {
+              "edge": 2,
+              "p": "67/126",
+              "x": "40/67"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep5_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "3/7",
+            "x": "1/15"
+          },
+          {
+            "edge": 0,
+            "p": "4/7",
+            "x": "3/10"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "0": "6/35",
+          "3": "29/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "36/35",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "4/7",
+              "x": "3/10"
+            },
+            {
+              "edge": 2,
+              "p": "3/7",
+              "x": "1/15"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_rep5_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "3/7",
+            "x": "1/15"
+          },
+          {
+            "edge": 0,
+            "p": "4/7",
+            "x": "3/10"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "0": "6/35",
+          "3": "29/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "36/35",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "4/7",
+              "x": "3/10"
+            },
+            {
+              "edge": 2,
+              "p": "3/7",
+              "x": "1/15"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_rep6_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "6/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "6/7",
+          "3": "1/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "6/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep6_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "6/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "6/7",
+          "3": "1/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "6/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep7_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_rep7_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "11/56",
+            "x": "2/11"
+          },
+          {
+            "edge": 2,
+            "p": "45/56",
+            "x": "4/5"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "9/14",
+          "3": "5/14"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "59/84",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "11/56",
+              "x": "2/11"
+            },
+            {
+              "edge": 2,
+              "p": "45/56",
+              "x": "4/5"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep7_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "11/56",
+            "x": "2/11"
+          },
+          {
+            "edge": 2,
+            "p": "45/56",
+            "x": "4/5"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "9/14",
+          "3": "5/14"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "59/84",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "11/56",
+              "x": "2/11"
+            },
+            {
+              "edge": 2,
+              "p": "45/56",
+              "x": "4/5"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep8_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "31/49",
+            "x": "15/31"
+          },
+          {
+            "edge": 1,
+            "p": "18/49",
+            "x": "1/9"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "1": "2/49",
+          "3": "47/49"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "64/49",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "18/49",
+              "x": "1/9"
+            },
+            {
+              "edge": 2,
+              "p": "31/49",
+              "x": "15/31"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_rep8_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "31/49",
+            "x": "15/31"
+          },
+          {
+            "edge": 1,
+            "p": "18/49",
+            "x": "1/9"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "1": "2/49",
+          "3": "47/49"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "64/49",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "18/49",
+              "x": "1/9"
+            },
+            {
+              "edge": 2,
+              "p": "31/49",
+              "x": "15/31"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_rep9_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "4/7",
+          "3": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_rep9_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "4/7",
+          "3": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep0_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "4/7",
+          "4": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep0_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "4/7",
+          "4": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep1_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_rep1_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 2,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 2,
+          "constant_row_rejections": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "23/35",
+            "x": "16/23"
+          },
+          {
+            "edge": 2,
+            "p": "12/35",
+            "x": "5/12"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "1/7",
+          "4": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "118/105",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "23/35",
+              "x": "16/23"
+            },
+            {
+              "edge": 2,
+              "p": "12/35",
+              "x": "5/12"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep1_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 6,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 6,
+          "constant_row_rejections": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 4
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "23/35",
+            "x": "16/23"
+          },
+          {
+            "edge": 2,
+            "p": "12/35",
+            "x": "5/12"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "1/7",
+          "4": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "118/105",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "23/35",
+              "x": "16/23"
+            },
+            {
+              "edge": 2,
+              "p": "12/35",
+              "x": "5/12"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep2_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_rep2_cap3",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 12,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 12,
+          "constant_row_rejections": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 10
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "37/77",
+            "x": "9/37"
+          },
+          {
+            "edge": 0,
+            "p": "18/77",
+            "x": "2/9"
+          },
+          {
+            "edge": 3,
+            "p": "2/7",
+            "x": "4/11"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "0": "4/77",
+          "3": "8/77",
+          "4": "65/77"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "89/77",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "67/165",
+              "x": "330/469"
+            },
+            {
+              "edge": 1,
+              "p": "29/105",
+              "x": "180/319"
+            },
+            {
+              "edge": 3,
+              "p": "367/1155",
+              "x": "228/367"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star4_rep3_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/7",
+          "4": "4/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep3_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/7",
+          "4": "4/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep4_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_rep4_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "13/28",
+            "x": "6/13"
+          },
+          {
+            "edge": 3,
+            "p": "15/28",
+            "x": "8/15"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/14",
+          "3": "2/7",
+          "4": "1/2"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "13/28",
+              "x": "6/13"
+            },
+            {
+              "edge": 3,
+              "p": "15/28",
+              "x": "8/15"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep4_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 5,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 4
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "13/28",
+            "x": "6/13"
+          },
+          {
+            "edge": 3,
+            "p": "15/28",
+            "x": "8/15"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/14",
+          "3": "2/7",
+          "4": "1/2"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "13/28",
+              "x": "6/13"
+            },
+            {
+              "edge": 3,
+              "p": "15/28",
+              "x": "8/15"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep5_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_rep5_cap3",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 12,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 12,
+          "constant_row_rejections": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 10
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "38/63",
+            "x": "10/19"
+          },
+          {
+            "edge": 2,
+            "p": "5/21",
+            "x": "2/5"
+          },
+          {
+            "edge": 3,
+            "p": "10/63",
+            "x": "1/10"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "2/21",
+          "3": "1/63",
+          "4": "8/9"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "83/63",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "32/63",
+              "x": "5/8"
+            },
+            {
+              "edge": 2,
+              "p": "2/7",
+              "x": "1/3"
+            },
+            {
+              "edge": 3,
+              "p": "13/63",
+              "x": "1/13"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star4_rep6_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "5/7",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep6_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "5/7",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep7_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_rep7_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "2/7",
+            "x": "3/4"
+          },
+          {
+            "edge": 2,
+            "p": "5/7",
+            "x": "9/10"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "3/14",
+          "2": "9/14",
+          "4": "1/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "2/7",
+              "x": "3/4"
+            },
+            {
+              "edge": 2,
+              "p": "5/7",
+              "x": "9/10"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep7_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 5,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 4
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "2/7",
+            "x": "3/4"
+          },
+          {
+            "edge": 2,
+            "p": "5/7",
+            "x": "9/10"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "3/14",
+          "2": "9/14",
+          "4": "1/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "2/7",
+              "x": "3/4"
+            },
+            {
+              "edge": 2,
+              "p": "5/7",
+              "x": "9/10"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep8_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_rep8_cap3",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 12,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 12,
+          "constant_row_rejections": 1,
+          "eliminated_equality_rank": 1,
+          "interval_lp_calls": 2,
+          "opposing_row_rejections": 9
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "493/980",
+            "x": "240/493"
+          },
+          {
+            "edge": 2,
+            "p": "513/1960",
+            "x": "260/513"
+          },
+          {
+            "edge": 3,
+            "p": "461/1960",
+            "x": "208/461"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "13/98",
+          "3": "26/245",
+          "4": "373/490"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "57/49",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "613/1470",
+              "x": "360/613"
+            },
+            {
+              "edge": 2,
+              "p": "32/105",
+              "x": "195/448"
+            },
+            {
+              "edge": 3,
+              "p": "409/1470",
+              "x": "156/409"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star4_rep9_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "1/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "1/7",
+          "4": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "1/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star4_rep9_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "1/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "1/7",
+          "4": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "1/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep0_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/7",
+          "4": "4/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep0_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/7",
+          "4": "4/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep1_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar4_rep1_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "2/5",
+            "x": "6/7"
+          },
+          {
+            "edge": 4,
+            "p": "3/5",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "26/35",
+          "5": "9/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "79/105",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "2/5",
+              "x": "6/7"
+            },
+            {
+              "edge": 4,
+              "p": "3/5",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep1_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 14,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 4,
+          "vertex_bases": 0,
+          "mass_faces": 57,
+          "local_lp_calls": 14,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 9,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "2/5",
+            "x": "6/7"
+          },
+          {
+            "edge": 4,
+            "p": "3/5",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "26/35",
+          "5": "9/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "79/105",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "2/5",
+              "x": "6/7"
+            },
+            {
+              "edge": 4,
+              "p": "3/5",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep2_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 2,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "64/147",
+            "x": "7/16"
+          },
+          {
+            "edge": 4,
+            "p": "83/147",
+            "x": "55/83"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "12/49",
+          "4": "8/21",
+          "5": "55/147"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1747/2352",
+              "x": "1171/1747"
+            },
+            {
+              "edge": 3,
+              "p": "605/2352",
+              "x": "8/11"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep2_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 11,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 4,
+          "vertex_bases": 0,
+          "mass_faces": 57,
+          "local_lp_calls": 11,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 9,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "64/147",
+            "x": "7/16"
+          },
+          {
+            "edge": 4,
+            "p": "83/147",
+            "x": "55/83"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "12/49",
+          "4": "8/21",
+          "5": "55/147"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1747/2352",
+              "x": "1171/1747"
+            },
+            {
+              "edge": 3,
+              "p": "605/2352",
+              "x": "8/11"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep3_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "6/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "1/7",
+          "5": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "6/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep3_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "6/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "1/7",
+          "5": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "6/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep4_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "constant_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar4_rep4_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "31/98",
+            "x": "7/31"
+          },
+          {
+            "edge": 1,
+            "p": "67/98",
+            "x": "7/67"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "1": "30/49",
+          "4": "19/49"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "170/147",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "31/98",
+              "x": "7/31"
+            },
+            {
+              "edge": 1,
+              "p": "67/98",
+              "x": "7/67"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep4_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 3,
+          "cover_feasible_faces": 10,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 4,
+          "vertex_bases": 0,
+          "mass_faces": 41,
+          "local_lp_calls": 10,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "inconsistent_equality_rejections": 1,
+          "opposing_row_rejections": 5
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "31/98",
+            "x": "7/31"
+          },
+          {
+            "edge": 1,
+            "p": "67/98",
+            "x": "7/67"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "1": "30/49",
+          "4": "19/49"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "170/147",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "31/98",
+              "x": "7/31"
+            },
+            {
+              "edge": 1,
+              "p": "67/98",
+              "x": "7/67"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep5_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 5,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "83/210",
+            "x": "53/83"
+          },
+          {
+            "edge": 4,
+            "p": "127/210",
+            "x": "74/127"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "68/105",
+          "5": "37/105"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "17/14",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "83/210",
+              "x": "53/83"
+            },
+            {
+              "edge": 4,
+              "p": "127/210",
+              "x": "74/127"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep5_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 14,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 4,
+          "vertex_bases": 0,
+          "mass_faces": 57,
+          "local_lp_calls": 14,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 9,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "83/210",
+            "x": "53/83"
+          },
+          {
+            "edge": 4,
+            "p": "127/210",
+            "x": "74/127"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "68/105",
+          "5": "37/105"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "17/14",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "83/210",
+              "x": "53/83"
+            },
+            {
+              "edge": 4,
+              "p": "127/210",
+              "x": "74/127"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep6_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/7",
+          "5": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep6_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/7",
+          "5": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep7_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar4_rep7_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 2,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "50/189",
+            "x": "1/10"
+          },
+          {
+            "edge": 4,
+            "p": "139/189",
+            "x": "134/139"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "5/21",
+          "4": "10/189",
+          "5": "134/189"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "983/2457",
+              "x": "398/983"
+            },
+            {
+              "edge": 2,
+              "p": "1474/2457",
+              "x": "13/22"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep7_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 11,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 4,
+          "vertex_bases": 0,
+          "mass_faces": 57,
+          "local_lp_calls": 11,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 9,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "50/189",
+            "x": "1/10"
+          },
+          {
+            "edge": 4,
+            "p": "139/189",
+            "x": "134/139"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "5/21",
+          "4": "10/189",
+          "5": "134/189"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "983/2457",
+              "x": "398/983"
+            },
+            {
+              "edge": 2,
+              "p": "1474/2457",
+              "x": "13/22"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep8_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 2,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "37/91",
+            "x": "12/37"
+          },
+          {
+            "edge": 4,
+            "p": "54/91",
+            "x": "2/9"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "25/91",
+          "4": "6/13",
+          "5": "24/91"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "5/13",
+              "x": "3/5"
+            },
+            {
+              "edge": 3,
+              "p": "8/13",
+              "x": "31/56"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep8_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 11,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 4,
+          "vertex_bases": 0,
+          "mass_faces": 57,
+          "local_lp_calls": 11,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 9,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "37/91",
+            "x": "12/37"
+          },
+          {
+            "edge": 4,
+            "p": "54/91",
+            "x": "2/9"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "25/91",
+          "4": "6/13",
+          "5": "24/91"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "5/13",
+              "x": "3/5"
+            },
+            {
+              "edge": 3,
+              "p": "8/13",
+              "x": "31/56"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep9_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "2/7",
+          "4": "5/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar4_rep9_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "2/7",
+          "4": "5/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep0_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "4/7",
+          "5": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep0_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "4/7",
+          "5": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep1_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar5_rep1_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 2,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "373/686",
+            "x": "93/373"
+          },
+          {
+            "edge": 5,
+            "p": "313/686",
+            "x": "93/313"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "20/49",
+          "5": "110/343",
+          "6": "93/343"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1100/4459",
+              "x": "13/20"
+            },
+            {
+              "edge": 2,
+              "p": "3359/4459",
+              "x": "1539/3359"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep1_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 11,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 6,
+          "vertex_bases": 0,
+          "mass_faces": 57,
+          "local_lp_calls": 11,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 9,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "373/686",
+            "x": "93/373"
+          },
+          {
+            "edge": 5,
+            "p": "313/686",
+            "x": "93/313"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "20/49",
+          "5": "110/343",
+          "6": "93/343"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1100/4459",
+              "x": "13/20"
+            },
+            {
+              "edge": 2,
+              "p": "3359/4459",
+              "x": "1539/3359"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep2_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 8,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 1,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "747/1519",
+            "x": "218/249"
+          },
+          {
+            "edge": 4,
+            "p": "772/1519",
+            "x": "231/386"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/49",
+          "4": "10/49",
+          "5": "654/1519",
+          "7": "66/217"
+        },
+        "deficit_vertices": [
+          6
+        ],
+        "deficits": [
+          "498/217"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "747/1519",
+              "x": "218/249"
+            },
+            {
+              "edge": 4,
+              "p": "772/1519",
+              "x": "231/386"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep2_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 5,
+          "cover_feasible_faces": 14,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 3,
+          "growth_states": 7,
+          "vertex_bases": 77,
+          "mass_faces": 72,
+          "local_lp_calls": 14,
+          "opposing_row_rejections": 8,
+          "eliminated_equality_rank": 8,
+          "interval_lp_calls": 3,
+          "enumerated_lp_calls": 3
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "747/1519",
+            "x": "218/249"
+          },
+          {
+            "edge": 4,
+            "p": "772/1519",
+            "x": "231/386"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/49",
+          "4": "10/49",
+          "5": "654/1519",
+          "7": "66/217"
+        },
+        "deficit_vertices": [
+          6
+        ],
+        "deficits": [
+          "498/217"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "747/1519",
+              "x": "218/249"
+            },
+            {
+              "edge": 4,
+              "p": "772/1519",
+              "x": "231/386"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep3_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "7": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "52/21",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep3_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "7": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "52/21",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep4_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar5_rep4_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "17/28",
+            "x": "5/17"
+          },
+          {
+            "edge": 5,
+            "p": "11/28",
+            "x": "6/11"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/7",
+          "5": "5/14",
+          "6": "3/14"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "17/28",
+              "x": "5/17"
+            },
+            {
+              "edge": 5,
+              "p": "11/28",
+              "x": "6/11"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep4_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 6,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 5,
+          "vertex_bases": 0,
+          "mass_faces": 65,
+          "local_lp_calls": 6,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 4,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "17/28",
+            "x": "5/17"
+          },
+          {
+            "edge": 5,
+            "p": "11/28",
+            "x": "6/11"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "3/7",
+          "5": "5/14",
+          "6": "3/14"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "17/28",
+              "x": "5/17"
+            },
+            {
+              "edge": 5,
+              "p": "11/28",
+              "x": "6/11"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep5_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 6,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 6,
+          "constant_row_rejections": 5,
+          "opposing_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar5_rep5_cap3",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 6,
+          "cover_feasible_faces": 48,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 3,
+          "growth_states": 6,
+          "vertex_bases": 0,
+          "mass_faces": 137,
+          "local_lp_calls": 48,
+          "constant_row_rejections": 5,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 38,
+          "inconsistent_equality_rejections": 4
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "178/1029",
+            "x": "61/89"
+          },
+          {
+            "edge": 4,
+            "p": "61/147",
+            "x": "43/61"
+          },
+          {
+            "edge": 5,
+            "p": "424/1029",
+            "x": "151/212"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "6/49",
+          "5": "100/343",
+          "6": "302/1029",
+          "7": "43/147"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "163/147",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "108/343",
+              "x": "74/81"
+            },
+            {
+              "edge": 2,
+              "p": "271/1029",
+              "x": "229/271"
+            },
+            {
+              "edge": 4,
+              "p": "62/147",
+              "x": "22/31"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep6_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "1/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "6/7",
+          "7": "1/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "1/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep6_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "1/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "6/7",
+          "7": "1/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 5,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "1/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep7_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar5_rep7_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 3,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 3,
+          "constant_row_rejections": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "3/5",
+            "x": "3/7"
+          },
+          {
+            "edge": 3,
+            "p": "2/5",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "6/35",
+          "6": "3/5",
+          "7": "8/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "118/105",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "3/5",
+              "x": "3/7"
+            },
+            {
+              "edge": 3,
+              "p": "2/5",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep7_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 5,
+          "cover_feasible_faces": 13,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 3,
+          "growth_states": 7,
+          "vertex_bases": 0,
+          "mass_faces": 89,
+          "local_lp_calls": 13,
+          "constant_row_rejections": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 10
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "3/5",
+            "x": "3/7"
+          },
+          {
+            "edge": 3,
+            "p": "2/5",
+            "x": "4/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "6/35",
+          "6": "3/5",
+          "7": "8/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "118/105",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "3/5",
+              "x": "3/7"
+            },
+            {
+              "edge": 3,
+              "p": "2/5",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep8_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 2,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "19/35",
+            "x": "13/19"
+          },
+          {
+            "edge": 6,
+            "p": "16/35",
+            "x": "17/32"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "6/35",
+          "5": "13/35",
+          "6": "3/14",
+          "7": "17/70"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "19/35",
+              "x": "13/19"
+            },
+            {
+              "edge": 6,
+              "p": "16/35",
+              "x": "17/32"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep8_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 6,
+          "cover_feasible_faces": 12,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 3,
+          "growth_states": 6,
+          "vertex_bases": 0,
+          "mass_faces": 137,
+          "local_lp_calls": 12,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 10,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "19/35",
+            "x": "13/19"
+          },
+          {
+            "edge": 6,
+            "p": "16/35",
+            "x": "17/32"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "6/35",
+          "5": "13/35",
+          "6": "3/14",
+          "7": "17/70"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "19/35",
+              "x": "13/19"
+            },
+            {
+              "edge": 6,
+              "p": "16/35",
+              "x": "17/32"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep9_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/7",
+          "7": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "caterpillar5_rep9_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/7",
+          "7": "3/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 7,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep0_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 4,
+            "p": "1",
+            "x": "6/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "1/7",
+          "6": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 4,
+              "p": "1",
+              "x": "6/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep0_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 4,
+            "p": "1",
+            "x": "6/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "1": "1/7",
+          "6": "6/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 4,
+              "p": "1",
+              "x": "6/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep1_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "balanced6_rep1_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 8,
+          "local_lp_calls": 5,
+          "opposing_row_rejections": 3,
+          "eliminated_equality_rank": 2,
+          "interval_lp_calls": 2
+        },
+        "sources": [
+          {
+            "edge": 5,
+            "p": "1/2",
+            "x": "1/7"
+          },
+          {
+            "edge": 8,
+            "p": "1/2",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "8": "1/7",
+          "9": "5/14",
+          "6": "1/14",
+          "7": "3/7"
+        },
+        "deficit_vertices": [
+          6
+        ],
+        "deficits": [
+          "2/7"
+        ],
+        "projected_pendant": "2/3",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 5,
+              "p": "1/2",
+              "x": "1/7"
+            },
+            {
+              "edge": 8,
+              "p": "1/2",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep1_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 5,
+          "cover_feasible_faces": 26,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 3,
+          "growth_states": 9,
+          "vertex_bases": 87,
+          "mass_faces": 120,
+          "local_lp_calls": 26,
+          "inconsistent_equality_rejections": 4,
+          "eliminated_equality_rank": 17,
+          "interval_lp_calls": 7,
+          "enumerated_lp_calls": 3,
+          "opposing_row_rejections": 11,
+          "constant_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 5,
+            "p": "1/2",
+            "x": "1/7"
+          },
+          {
+            "edge": 8,
+            "p": "1/2",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "8": "1/7",
+          "9": "5/14",
+          "6": "1/14",
+          "7": "3/7"
+        },
+        "deficit_vertices": [
+          6
+        ],
+        "deficits": [
+          "2/7"
+        ],
+        "projected_pendant": "2/3",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 5,
+              "p": "1/2",
+              "x": "1/7"
+            },
+            {
+              "edge": 8,
+              "p": "1/2",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep2_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "4/21",
+            "x": "3/4"
+          },
+          {
+            "edge": 5,
+            "p": "17/21",
+            "x": "9/17"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "1/21",
+          "4": "1/7",
+          "6": "3/7",
+          "7": "8/21"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 8,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "4/21",
+              "x": "3/4"
+            },
+            {
+              "edge": 5,
+              "p": "17/21",
+              "x": "9/17"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep2_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 5,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 6,
+          "vertex_bases": 0,
+          "mass_faces": 81,
+          "local_lp_calls": 5,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 4
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "4/21",
+            "x": "3/4"
+          },
+          {
+            "edge": 5,
+            "p": "17/21",
+            "x": "9/17"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "1/21",
+          "4": "1/7",
+          "6": "3/7",
+          "7": "8/21"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 8,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "4/21",
+              "x": "3/4"
+            },
+            {
+              "edge": 5,
+              "p": "17/21",
+              "x": "9/17"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep3_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "37/21",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep3_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "37/21",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep4_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "31/35"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/35",
+          "6": "31/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "31/35"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep4_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "31/35"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/35",
+          "6": "31/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "31/35"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep4_cap3",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "31/35"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/35",
+          "6": "31/35"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "31/35"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep5_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "balanced6_rep5_cap3",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 4,
+          "cover_feasible_faces": 4,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 2,
+          "growth_states": 8,
+          "vertex_bases": 0,
+          "mass_faces": 48,
+          "local_lp_calls": 4,
+          "opposing_row_rejections": 2,
+          "eliminated_equality_rank": 1,
+          "interval_lp_calls": 1,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 8,
+            "p": "362/847",
+            "x": "163/181"
+          },
+          {
+            "edge": 1,
+            "p": "349/847",
+            "x": "129/349"
+          },
+          {
+            "edge": 4,
+            "p": "136/847",
+            "x": "1/34"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "0": "20/77",
+          "1": "12/77",
+          "4": "129/847",
+          "6": "4/847",
+          "8": "362/847"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "544/847"
+        ],
+        "projected_pendant": "883/847",
+        "hidden_gate": 8,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "5/11",
+              "x": "3/7"
+            },
+            {
+              "edge": 4,
+              "p": "2/11",
+              "x": "1/7"
+            },
+            {
+              "edge": 7,
+              "p": "4/11",
+              "x": "4/7"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep6_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "4": "3/7",
+          "5": "4/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep6_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "3/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "4": "3/7",
+          "5": "4/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "3/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep7_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "baseline_mass_count_obstruction"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "balanced6_rep7_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 2,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 2,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "5/9",
+            "x": "2/7"
+          },
+          {
+            "edge": 7,
+            "p": "4/9",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "8": "8/63",
+          "2": "20/63",
+          "3": "25/63",
+          "6": "10/63"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "5/9",
+              "x": "2/7"
+            },
+            {
+              "edge": 7,
+              "p": "4/9",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep7_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 6,
+          "cover_feasible_faces": 12,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 3,
+          "growth_states": 8,
+          "vertex_bases": 0,
+          "mass_faces": 137,
+          "local_lp_calls": 12,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 10,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "5/9",
+            "x": "2/7"
+          },
+          {
+            "edge": 7,
+            "p": "4/9",
+            "x": "2/7"
+          }
+        ],
+        "pendant": "2/3",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "8": "8/63",
+          "2": "20/63",
+          "3": "25/63",
+          "6": "10/63"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "2/3",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "5/9",
+              "x": "2/7"
+            },
+            {
+              "edge": 7,
+              "p": "4/9",
+              "x": "2/7"
+            }
+          ],
+          "pendant": "2/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep8_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "37/63",
+            "x": "25/37"
+          },
+          {
+            "edge": 5,
+            "p": "26/63",
+            "x": "4/13"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/21",
+          "4": "25/63",
+          "6": "8/63",
+          "7": "2/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 8,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "37/63",
+              "x": "25/37"
+            },
+            {
+              "edge": 5,
+              "p": "26/63",
+              "x": "4/13"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep8_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 5,
+          "cover_feasible_faces": 5,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 6,
+          "vertex_bases": 0,
+          "mass_faces": 81,
+          "local_lp_calls": 5,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 4
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "37/63",
+            "x": "25/37"
+          },
+          {
+            "edge": 5,
+            "p": "26/63",
+            "x": "4/13"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "4/21",
+          "4": "25/63",
+          "6": "8/63",
+          "7": "2/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1",
+        "hidden_gate": 8,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "37/63",
+              "x": "25/37"
+            },
+            {
+              "edge": 5,
+              "p": "26/63",
+              "x": "4/13"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep9_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "2/7",
+          "4": "5/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "balanced6_rep9_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "5/7"
+          }
+        ],
+        "pendant": "1/3",
+        "source_count": 1,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "2/7",
+          "4": "5/7"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "1/3",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "5/7"
+            }
+          ],
+          "pendant": "1/3"
+        }
+      }
+    },
+    {
+      "name": "star3_boundary_d3/2_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "projected_pendant_below_prescribed"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d3/2_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "projected_pendant_below_prescribed"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d3/2_cap3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "projected_pendant_below_prescribed"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d2_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 1,
+          "zero_dimensional_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d2_cap2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "2/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "2/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_boundary_d2_cap3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "2/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "2/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_boundary_d5/2_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "3/2",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_boundary_d5/2_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "3/2",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_boundary_d5/2_cap3",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "3/2",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star3_boundary_d3_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 1,
+          "zero_dimensional_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d3_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 4,
+          "zero_dimensional_lp_calls": 1,
+          "interval_lp_calls": 3,
+          "constant_row_rejections": 3
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d3_cap3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 8,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 8,
+          "eliminated_equality_rank": 4,
+          "zero_dimensional_lp_calls": 1,
+          "interval_lp_calls": 3,
+          "constant_row_rejections": 3,
+          "enumerated_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d7/2_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "opposing_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d7/2_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "opposing_row_rejections": 1,
+          "eliminated_equality_rank": 3,
+          "interval_lp_calls": 3,
+          "constant_row_rejections": 3
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star3_boundary_d7/2_cap3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 8,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 8,
+          "opposing_row_rejections": 1,
+          "eliminated_equality_rank": 3,
+          "interval_lp_calls": 3,
+          "constant_row_rejections": 3,
+          "enumerated_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d3/2_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "projected_pendant_below_prescribed"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d3/2_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "projected_pendant_below_prescribed"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d3/2_cap3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "projected_pendant_below_prescribed"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d2_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 1,
+          "zero_dimensional_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d2_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 1,
+          "zero_dimensional_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d2_cap3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 15,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 15,
+          "eliminated_equality_rank": 15,
+          "zero_dimensional_lp_calls": 1,
+          "interval_lp_calls": 14
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d5/2_cap1",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "3/2",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star4_boundary_d5/2_cap2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "3/2",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star4_boundary_d5/2_cap3",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 3,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "positive_mass": {
+          "4": "1"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "3/2",
+        "hidden_gate": 4,
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "star4_boundary_d3_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 1,
+          "zero_dimensional_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d3_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "eliminated_equality_rank": 1,
+          "zero_dimensional_lp_calls": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d3_cap3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 15,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 15,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 1,
+          "interval_lp_calls": 8,
+          "opposing_row_rejections": 6
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d7/2_cap1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "opposing_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d7/2_cap2",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 1,
+          "cover_feasible_faces": 1,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 1,
+          "vertex_bases": 0,
+          "mass_faces": 1,
+          "local_lp_calls": 1,
+          "opposing_row_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "star4_boundary_d7/2_cap3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 15,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 2,
+          "vertex_bases": 0,
+          "mass_faces": 17,
+          "local_lp_calls": 15,
+          "opposing_row_rejections": 8,
+          "eliminated_equality_rank": 7,
+          "interval_lp_calls": 7
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "single_edge_reverseFalse_d1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "single_original_edge"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "single_edge_reverseFalse_d2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "single_original_edge",
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "deficit_vertices": [],
+        "deficits": [],
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "single_edge_reverseFalse_d3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "single_original_edge"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "single_edge_reverseTrue_d1",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "single_original_edge"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "single_edge_reverseTrue_d2",
+      "minimum": 1,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "single_original_edge",
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 1,
+        "hidden_source": true,
+        "deficit_vertices": [],
+        "deficits": [],
+        "minimum_sources_within_cap": 1
+      },
+      "oracle": {
+        "minimum": 1,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "single_edge_reverseTrue_d3",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "single_original_edge"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation0",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "2/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "2/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation1",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "1/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "2/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation2",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "2/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "1/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation3",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "1/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "1/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation4",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "2/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "2/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation5",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "1/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "2/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation6",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "2/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "1/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "zero_weight_gate_orientation7",
+      "minimum": 2,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 2,
+          "cover_feasible_faces": 7,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 1,
+          "growth_states": 2,
+          "vertex_bases": 15,
+          "mass_faces": 9,
+          "local_lp_calls": 7,
+          "eliminated_equality_rank": 9,
+          "zero_dimensional_lp_calls": 4,
+          "interval_lp_calls": 2,
+          "enumerated_lp_calls": 1
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/2",
+            "x": "1/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "1/3"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 2,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/3",
+          "1": "1/3",
+          "3": "1/3"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "2/3"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 3,
+        "minimum_sources_within_cap": 2
+      },
+      "oracle": {
+        "minimum": 2,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/2",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "inconsistent_observed_envelope",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 0,
+          "cover_feasible_faces": 0,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 0,
+          "growth_states": 0,
+          "vertex_bases": 0,
+          "mass_faces": 0
+        },
+        "reason": "inconsistent_leaf_envelope"
+      },
+      "oracle": {
+        "minimum": null
+      }
+    }
+  ],
+  "scope": "Exact synthetic finite controls, not biological validation or proof."
+}

@@ -1,0 +1,251 @@
+{
+ "stage": 300,
+ "step": "verification",
+ "routes": {
+  "krepp_ani": {
+   "route_a": {
+    "compared": 2631,
+    "agree": 2631,
+    "disagree": []
+   },
+   "route_b": {
+    "cases": [
+     {
+      "name": "k10k_tree_10_k10_s1_exp_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 3,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.24795766479863068
+     },
+     {
+      "name": "k10k_tree_10_k10_s1_uniform_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 2,
+      "max_abs_diff": 2.7755575615628914e-17,
+      "scale": 0.2495165954358163
+     },
+     {
+      "name": "k10k_tree_10_k10_s2_exp_krepp_estimated",
+      "arm": "dd_default",
+      "k": 3,
+      "max_abs_diff": 2.7755575615628914e-17,
+      "scale": 0.23948691195759583
+     },
+     {
+      "name": "k10k_tree_10_k10_s2_uniform_krepp_estimated",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.2398666311026347
+     },
+     {
+      "name": "k10k_tree_10_k10_s3_exp_krepp_estimated",
+      "arm": "dd_default",
+      "k": 2,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.2268376976147225
+     },
+     {
+      "name": "k10k_tree_10_k10_s3_uniform_krepp_estimated",
+      "arm": "dd_default",
+      "k": 2,
+      "max_abs_diff": 2.7755575615628914e-17,
+      "scale": 0.23100674673326801
+     },
+     {
+      "name": "k10k_tree_10_k10_s4_exp_krepp_estimated",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17,
+      "scale": 0.2228699821024289
+     },
+     {
+      "name": "k10k_tree_10_k10_s4_uniform_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 1,
+      "max_abs_diff": 2.7755575615628914e-17,
+      "scale": 0.22286999999999998
+     }
+    ],
+    "max_abs_diff": 8.326672684688674e-17
+   },
+   "route_c": {
+    "cases": [
+     {
+      "name": "k10k_tree_10_k10_s1_exp_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 3,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s1_uniform_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 2,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s2_exp_krepp_estimated",
+      "arm": "dd_default",
+      "k": 3,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s2_uniform_krepp_estimated",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s3_exp_krepp_estimated",
+      "arm": "dd_default",
+      "k": 2,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s3_uniform_krepp_estimated",
+      "arm": "dd_default",
+      "k": 2,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s4_exp_krepp_estimated",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 2.7755575615628914e-17
+     },
+     {
+      "name": "k10k_tree_10_k10_s4_uniform_krepp_estimated",
+      "arm": "dd_resolution",
+      "k": 1,
+      "max_abs_diff": 2.7755575615628914e-17
+     }
+    ],
+    "skipped": {},
+    "max_abs_diff": 8.326672684688674e-17
+   }
+  },
+  "krepp_placement": {
+   "route_a": {
+    "compared": 120,
+    "agree": 120,
+    "disagree": []
+   },
+   "route_b": {
+    "cases": [
+     {
+      "name": "plc_tree_15_k10_s1_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.27162711581260723
+     },
+     {
+      "name": "plc_tree_15_k10_s1_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.27093081055813445
+     },
+     {
+      "name": "plc_tree_15_k10_s2_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17,
+      "scale": 0.2634026127074009
+     },
+     {
+      "name": "plc_tree_15_k10_s2_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17,
+      "scale": 0.26422326474658675
+     },
+     {
+      "name": "plc_tree_15_k10_s3_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.20232354637404107
+     },
+     {
+      "name": "plc_tree_15_k10_s3_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.2079769888542657
+     },
+     {
+      "name": "plc_tree_15_k10_s4_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17,
+      "scale": 0.2795917913790235
+     },
+     {
+      "name": "plc_tree_15_k10_s4_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17,
+      "scale": 0.27157373941831386
+     }
+    ],
+    "max_abs_diff": 8.326672684688674e-17
+   },
+   "route_c": {
+    "cases": [
+     {
+      "name": "plc_tree_15_k10_s1_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "plc_tree_15_k10_s1_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17
+     },
+     {
+      "name": "plc_tree_15_k10_s2_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "plc_tree_15_k10_s2_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17
+     },
+     {
+      "name": "plc_tree_15_k10_s3_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "plc_tree_15_k10_s3_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17
+     },
+     {
+      "name": "plc_tree_15_k10_s4_exp_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 8.326672684688674e-17
+     },
+     {
+      "name": "plc_tree_15_k10_s4_uniform_krepp_placement",
+      "arm": "dd_true_k",
+      "k": 10,
+      "max_abs_diff": 5.551115123125783e-17
+     }
+    ],
+    "skipped": {},
+    "max_abs_diff": 8.326672684688674e-17
+   }
+  }
+ },
+ "elapsed_seconds": 54.81283378601074
+}

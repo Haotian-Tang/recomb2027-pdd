@@ -1,0 +1,71 @@
+{
+  "stage": 292,
+  "registered_utc": "2026-10-18T09:09:59.855818+00:00",
+  "status": "ADDENDUM_REGISTERED_BEFORE_EXECUTION_OF_THE_BATCH_IT_COVERS",
+  "extends": [
+    "results/stage292_protocol_v2.json",
+    "results/stage292_protocol_v2_addendum.json"
+  ],
+  "covers": [
+    "results/stage292_panels_rerun.jsonl"
+  ],
+  "why": "6 of the 78 panel-ladder jobs did not return a record under v2: four hit the 10 GiB RLIMIT_AS inside the exact rational distance memoisation of VertexDistances on 10^4-10^5-leaf panels, and two hit the 600 s wall set for sizes <= 2048. Those specs are re-run here.",
+  "failed_specs": [
+    {
+      "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+      "size": 8192,
+      "size_rank": 7,
+      "K": 3,
+      "seed": 101
+    },
+    {
+      "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+      "size": 16384,
+      "size_rank": 8,
+      "K": 3,
+      "seed": 101
+    },
+    {
+      "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+      "size": 1024,
+      "size_rank": 4,
+      "K": 5,
+      "seed": 101
+    },
+    {
+      "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+      "size": 16384,
+      "size_rank": 8,
+      "K": 3,
+      "seed": 202
+    },
+    {
+      "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+      "size": 2048,
+      "size_rank": 5,
+      "K": 5,
+      "seed": 202
+    },
+    {
+      "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+      "size": 47151,
+      "size_rank": 9,
+      "K": 3,
+      "seed": 101
+    }
+  ],
+  "change_to_scripts_stage292_all_minimisers_py": "VertexDistances now keeps at most max_columns = 24 exact distance columns and evicts the oldest. This is a bound on a pure memoisation table: a column is recomputed by the same breadth-first scan when it is evicted, so no returned value can change. Verified after the change by re-running 30 fresh track-B instances against the complete C(|E|,k) enumeration (30/30 agreement on the minimum, the full support set and the reduced-vs-full zero-face enumeration).",
+  "change_to_run_parameters": {
+    "memory_bytes_per_child": 12884901888,
+    "wall_seconds": {
+      "size<=2048": 1800,
+      "size>2048": 12600
+    }
+  },
+  "does_not_cover": "every other Stage292 result file, which stands under the earlier hashes and is not re-run",
+  "new_code_sha256": {
+    "scripts/stage292_all_minimisers.py": "f8f6a949c99225d76d95bcf10d5ee73713fa3316aec4e50db61415d11453e4ff",
+    "scripts/stage292_panels.py": "f7b51f47161c00bbcf89bb3bbdaae56d7732657ae81f9a9029c761b4020b3699",
+    "scripts/stage292_panels_rerun.py": "ef4d00a06b4e4c759f8154f33927894907792ac849657a86d388ea6dc98a6682"
+  }
+}

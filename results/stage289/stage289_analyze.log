@@ -1,0 +1,139 @@
+{
+ "exact_10k": {
+  "cases": 296,
+  "by_method": {
+   "exact_stage43_partial": {
+    "runs": 296,
+    "status_counts": {
+     "unknown": 96,
+     "complete": 200
+    },
+    "median_cpu_seconds_completed": 0.023077999999999998,
+    "total_cpu_seconds_all_runs": 11536.1182465,
+    "feasible": 200,
+    "infeasible": 0,
+    "reasons": {},
+    "minimum_equals_k_true": 198,
+    "support_exact_match": 196,
+    "repetition_disagreements": 0
+   },
+   "dd_default": {
+    "runs": 296,
+    "status_counts": {
+     "complete": 296
+    },
+    "median_cpu_seconds_completed": 1.554111,
+    "total_cpu_seconds_all_runs": 757.692574,
+    "k_equals_k_true": 198,
+    "k_below_k_true": 92,
+    "k_above_k_true": 6,
+    "support_exact_match": 190,
+    "exact_feasibility": {
+     "infeasible": 83,
+     "feasible": 210,
+     "unresolved": 3
+    },
+    "stop_reasons": {
+     "low_abundance": 72,
+     "near_zero_residue": 224
+    },
+    "boundary_placement_cases": 17,
+    "repeated_edge_cases": 0,
+    "median_w1_to_truth": 2.005453423567403e-05,
+    "median_loss": 3.556731864290138e-17,
+    "recovered_fraction_of_true_edges": 0.8738636363636364
+   },
+   "dd_true_k": {
+    "runs": 296,
+    "status_counts": {
+     "complete": 296
+    },
+    "median_cpu_seconds_completed": 1.56318125,
+    "total_cpu_seconds_all_runs": 858.78383,
+    "k_equals_k_true": 296,
+    "k_below_k_true": 0,
+    "k_above_k_true": 0,
+    "support_exact_match": 228,
+    "exact_feasibility": {
+     "feasible": 256,
+     "infeasible": 29,
+     "unresolved": 11
+    },
+    "stop_reasons": {
+     "k_exhausted": 296
+    },
+    "boundary_placement_cases": 19,
+    "repeated_edge_cases": 0,
+    "median_w1_to_truth": 1.6628607998687838e-07,
+    "median_loss": 2.6498233599160972e-17,
+    "recovered_fraction_of_true_edges": 0.9426136363636364
+   },
+   "dd_resolution": {
+    "runs": 296,
+    "status_counts": {
+     "complete": 296
+    },
+    "median_cpu_seconds_completed": 1.5682665,
+    "total_cpu_seconds_all_runs": 822.666176,
+    "k_equals_k_true": 235,
+    "k_below_k_true": 45,
+    "k_above_k_true": 16,
+    "support_exact_match": 210,
+    "exact_feasibility": {
+     "feasible": 244,
+     "infeasible": 42,
+     "unresolved": 10
+    },
+    "stop_reasons": {
+     "near_zero_residue": 294,
+     "low_abundance": 2
+    },
+    "boundary_placement_cases": 18,
+    "repeated_edge_cases": 0,
+    "median_w1_to_truth": 4.814938078668775e-08,
+    "median_loss": 3.4107072281475093e-17,
+    "recovered_fraction_of_true_edges": 0.9414772727272728
+   }
+  },
+  "by_k": {
+   "10": {
+    "cases": 96,
+    "exact_complete": 0,
+    "exact_median_cpu": 119.99694149999999,
+    "dd_default_support_exact_match": 9,
+    "dd_true_k_support_exact_match": 40,
+    "dd_resolution_support_exact_match": 30,
+    "dd_default_exact_feasible": 25,
+    "dd_true_k_exact_feasible": 66,
+    "dd_resolution_exact_feasible": 60,
+    "dd_default_median_cpu": 4.21561,
+    "dd_true_k_median_cpu": 5.3968285,
+    "dd_resolution_median_cpu": 5.07401975,
+    "dd_default_median_w1": 0.0031346422197916692,
+    "dd_true_k_median_w1": 0.002724228387466368,
+    "dd_resolution_median_w1": 0.0019738774201759225
+   },
+   "3": {
+    "cases": 100,
+    "exact_complete": 100,
+    "exact_median_cpu": 0.014981499999999998,
+    "dd_default_support_exact_match": 95,
+    "dd_true_k_support_exact_match": 97,
+    "dd_resolution_support_exact_match": 95,
+    "dd_default_exact_feasible": 98,
+    "dd_true_k_exact_feasible": 99,
+    "dd_resolution_exact_feasible": 98,
+    "dd_default_median_cpu": 0.7692975,
+    "dd_true_k_median_cpu": 0.76405625,
+    "dd_resolution_median_cpu": 0.7664709999999999,
+    "dd_default_median_w1": 2.950540032692295e-09,
+    "dd_true_k_median_w1": 2.950540032692295e-09,
+    "dd_resolution_median_w1": 2.950540032692295e-09
+   },
+   "5": {
+    "cases": 100,
+    "exact_complete": 100,
+    "exact_median_cpu": 0.04716424999999999,
+    "dd_default_support_exact_match": 86,
+    "dd_true_k_support_exact_match": 91,
+    "dd_resolution_support_exact_match":

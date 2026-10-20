@@ -1,0 +1,504 @@
+{
+ "stage": 289,
+ "purpose": "Diagnostic for the DecoDiPhy failures in the registered run; re-run outside the protocol.",
+ "failures": 24,
+ "records": [
+  {
+   "name": "k10k_tree_11_k10_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 121,
+   "k_true": 10,
+   "method": "dd_resolution",
+   "protocol_exception": "KeyError('N124')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 4,
+   "final_loss": 0.03123969592053769,
+   "final_anchors": [
+    "N124",
+    "L15",
+    "L71",
+    "N126"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k10_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 121,
+   "k_true": 10,
+   "method": "dd_true_k",
+   "protocol_exception": "KeyError('N124')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 10,
+   "final_loss": 0.03123969506558389,
+   "final_anchors": [
+    "N124",
+    "L15",
+    "L71",
+    "N126",
+    "N148",
+    "N143",
+    "N221",
+    "N140",
+    "L29",
+    "L110"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k10_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 120,
+   "k_true": 10,
+   "method": "dd_default",
+   "protocol_exception": "KeyError('N124')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 4,
+   "final_loss": 0.0306895745292352,
+   "final_anchors": [
+    "N124",
+    "L14",
+    "N158",
+    "N245"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k10_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 120,
+   "k_true": 10,
+   "method": "dd_resolution",
+   "protocol_exception": "KeyError('N142')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 4,
+   "final_loss": 0.03068957368188038,
+   "final_anchors": [
+    "N124",
+    "L14",
+    "N158",
+    "N245"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k10_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 120,
+   "k_true": 10,
+   "method": "dd_true_k",
+   "protocol_exception": "KeyError('N142')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 10,
+   "final_loss": 0.03068957389780319,
+   "final_anchors": [
+    "N124",
+    "L14",
+    "N158",
+    "N245",
+    "L72",
+    "L120",
+    "N148",
+    "N187",
+    "N211",
+    "N230"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k10_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 120,
+   "k_true": 10,
+   "method": "dd_default",
+   "protocol_exception": "KeyError('N124')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 3,
+   "final_loss": 0.025997020704896984,
+   "final_anchors": [
+    "N124",
+    "L16",
+    "N158"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k10_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 120,
+   "k_true": 10,
+   "method": "dd_resolution",
+   "protocol_exception": "KeyError('N124')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 4,
+   "final_loss": 0.025997019869910685,
+   "final_anchors": [
+    "N124",
+    "L16",
+    "N158",
+    "N155"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k10_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 120,
+   "k_true": 10,
+   "method": "dd_true_k",
+   "protocol_exception": "KeyError('N124')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N124'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 10,
+   "final_loss": 0.025997019871654557,
+   "final_anchors": [
+    "N124",
+    "L16",
+    "N158",
+    "N155",
+    "N156",
+    "N208",
+    "N188",
+    "N147",
+    "L75",
+    "L111"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k3_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 127,
+   "k_true": 3,
+   "method": "dd_default",
+   "protocol_exception": "KeyError('N131')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N131'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 3,
+   "final_loss": 0.03339950875342549,
+   "final_anchors": [
+    "N131",
+    "L15",
+    "N232"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k3_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 127,
+   "k_true": 3,
+   "method": "dd_resolution",
+   "protocol_exception": "KeyError('N131')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N131'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 3,
+   "final_loss": 0.033399508820065434,
+   "final_anchors": [
+    "N131",
+    "L15",
+    "N232"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k3_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 127,
+   "k_true": 3,
+   "method": "dd_true_k",
+   "protocol_exception": "KeyError('N131')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N131'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 3,
+   "final_loss": 0.033399516459894946,
+   "final_anchors": [
+    "N131",
+    "L15",
+    "N232"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_default",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N129'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 3,
+   "final_loss": 0.03673125156501864,
+   "final_anchors": [
+    "N129",
+    "L15",
+    "N135"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_resolution",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N129'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 5,
+   "final_loss": 0.03673125019163645,
+   "final_anchors": [
+    "N129",
+    "L15",
+    "N135",
+    "N235",
+    "L99"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_true_k",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N129'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 5,
+   "final_loss": 0.03673125071565178,
+   "final_anchors": [
+    "N129",
+    "L15",
+    "N135",
+    "N174",
+    "N227"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_default",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N129'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 3,
+   "final_loss": 0.03645730525861546,
+   "final_anchors": [
+    "N129",
+    "L15",
+    "N135"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_resolution",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N129'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 5,
+   "final_loss": 0.036457303821656434,
+   "final_anchors": [
+    "N129",
+    "L15",
+    "N135",
+    "N255",
+    "N159"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_true_k",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 1,
+   "stderr_tail": "KeyError: 'N129'",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": false,
+   "final_k": 5,
+   "final_loss": 0.03645730409066586,
+   "final_anchors": [
+    "N129",
+    "L15",
+    "N135",
+    "N242",
+    "L30"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_default",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 0,
+   "stderr_tail": "",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": true,
+   "final_k": 3,
+   "final_loss": 0.03671169724336542,
+   "final_anchors": [
+    "N128",
+    "L15",
+    "N163"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_resolution",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 0,
+   "stderr_tail": "",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": true,
+   "final_k": 5,
+   "final_loss": 0.03671169736237338,
+   "final_anchors": [
+    "L28",
+    "L15",
+    "N163",
+    "N211",
+    "L53"
+   ]
+  },
+  {
+   "name": "k10k_tree_11_k5_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 125,
+   "k_true": 5,
+   "method": "dd_true_k",
+   "protocol_exception": "KeyError('N129')",
+   "exit_code": 0,
+   "stderr_tail": "",
+   "all_rounds_written": true,
+   "intermediate_rounds_written": [],
+   "output_jplace_written": true,
+   "final_k": 5,
+   "final_loss": 0.03671169811632592,
+   "final_anchors": [
+    "N128",
+    "L15",
+    "N163",
+    "L39",
+    "L115"
+   ]
+  },
+  {
+   "name": "k10k_tree_15_k10_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 100,
+   "k_true": 10,
+   "method": "dd_true_k",
+   "protocol_exception": "ValueError(\"'a' cannot be empty unless no samples are taken\")",
+   "exit_code": 1,
+   "stderr_tail": "ValueError: 'a' cannot be empty unless no samples are taken",
+   "all_rounds_written": false,
+   "intermediate_rounds_written": [
+    "all_rounds_6.json"
+   ],
+   "output_jplace_written": false
+  },
+  {
+   "name": "k10k_tree_15_k10_s3_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 100,
+   "k_true": 10,
+   "method": "dd_true_k",
+   "protocol_exception": "ValueError(\"'a' cannot be empty unless no samples are taken\")",
+   "exit_code": 1,
+   "stderr_tail": "ValueError: 'a' cannot be empty unless no samples are taken",
+   "all_rounds_written": false,
+   "intermediate_rounds_written": [
+    "all_rounds_6.json"
+   ],
+   "output_jplace_written": false
+  },
+  {
+   "name": "k10k_tree_15_k10_s5_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 100,
+   "k_true": 10,
+   "method": "dd_true_k",
+   "protocol_exception": "ValueError(\"'a' cannot be empty unless no samples are taken\")",
+   "exit_code": 1,
+   "stderr_tail": "ValueError: 'a' cannot be empty unless no samples are taken",
+   "all_rounds_written": false,
+   "intermediate_rounds_written": [
+    "all_rounds_4.json"
+   ],
+   "output_jplace_written": false
+  },
+  {
+   "name": "k10k_tree_15_k10_s5_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "leaves": 100,
+   "k_true": 10,
+   "method": "dd_true_k",
+   "protocol_exception": "ValueError(\"'a' cannot be empty unless no samples are taken\")",
+   "exit_code": 1,
+   "stderr_tail": "ValueError: 'a' cannot be empty unless no samples are taken",
+   "all_rounds_written": false,
+   "intermediate_rounds_written": [
+    "all_rounds_4.json"
+   ],
+   "output_jplace_written": false
+  }
+ ]
+}

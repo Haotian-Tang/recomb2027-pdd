@@ -1,0 +1,13 @@
+{
+  "stage": 45,
+  "created_utc": "2026-10-14T13:01:19.763474+00:00",
+  "passed": true,
+  "pages": 2,
+  "font_size_points": 11,
+  "source_sha256": "52decd740ce434c38fc1da636a6799622ad6edda42471f0b2224863751558fb1",
+  "pdf_sha256": "985be845fb2d05b7ea9dba8d238318cc405ae6a305b453dda4ba2b8f9f164a33",
+  "compiler_sha256": "a98aa59ad5c1df39a6c9e56cbfc5088f2b11d6c179c0130b97998e4bd46a46da",
+  "overfull_boxes": false,
+  "clipped_spans": [],
+  "scope": "Local expert brief only; no message sent."
+}

@@ -1,0 +1,1463 @@
+{
+ "n_profile_runs": 92,
+ "phase_cost_K10": {
+  "n_points": 21,
+  "const_s": 0.0053230181177749405,
+  "seconds_per_face": 4.902232058238871e-05,
+  "seconds_per_basis": 0.0001387566479478723,
+  "r2": 0.9999815212037463,
+  "points": [
+   {
+    "mass_faces": 2,
+    "vertex_bases": 0,
+    "elapsed_s": 0.007640311028808355
+   },
+   {
+    "mass_faces": 4,
+    "vertex_bases": 0,
+    "elapsed_s": 0.007700314279645681
+   },
+   {
+    "mass_faces": 11,
+    "vertex_bases": 0,
+    "elapsed_s": 0.007758446037769318
+   },
+   {
+    "mass_faces": 31,
+    "vertex_bases": 0,
+    "elapsed_s": 0.007930970750749111
+   },
+   {
+    "mass_faces": 101,
+    "vertex_bases": 0,
+    "elapsed_s": 0.008372567128390074
+   },
+   {
+    "mass_faces": 301,
+    "vertex_bases": 0,
+    "elapsed_s": 0.01002114312723279
+   },
+   {
+    "mass_faces": 1001,
+    "vertex_bases": 0,
+    "elapsed_s": 0.01658105803653598
+   },
+   {
+    "mass_faces": 3001,
+    "vertex_bases": 0,
+    "elapsed_s": 0.036774709820747375
+   },
+   {
+    "mass_faces": 10001,
+    "vertex_bases": 0,
+    "elapsed_s": 0.21366928797215223
+   },
+   {
+    "mass_faces": 30001,
+    "vertex_bases": 0,
+    "elapsed_s": 1.7158365589566529
+   },
+   {
+    "mass_faces": 75246,
+    "vertex_bases": 2,
+    "elapsed_s": 4.328723366837949
+   },
+   {
+    "mass_faces": 75246,
+    "vertex_bases": 11,
+    "elapsed_s": 4.252212677150965
+   },
+   {
+    "mass_faces": 75750,
+    "vertex_bases": 101,
+    "elapsed_s": 4.366279223002493
+   },
+   {
+    "mass_faces": 77056,
+    "vertex_bases": 1001,
+    "elapsed_s": 4.740206991788
+   },
+   {
+    "mass_faces": 77752,
+    "vertex_bases": 10001,
+    "elapsed_s": 6.061416065786034
+   },
+   {
+    "mass_faces": 81918,
+    "vertex_bases": 100001,
+    "elapsed_s": 17.279516642913222
+   },
+   {
+    "mass_faces": 100001,
+    "vertex_bases": 470758,
+    "elapsed_s": 68.58342804107815
+   },
+   {
+    "mass_faces": 128494,
+    "vertex_bases": 1000001,
+    "elapsed_s": 143.42887786310166
+   },
+   {
+    "mass_faces": 258034,
+    "vertex_bases": 4217999,
+    "elapsed_s": 600.0008507170714
+   },
+   {
+    "mass_faces": 258035,
+    "vertex_bases": 4229534,
+    "elapsed_s": 600.0007833652198
+   },
+   {
+    "mass_faces": 258037,
+    "vertex_bases": 4246943,
+    "elapsed_s": 600.0007830960676
+   }
+  ]
+ },
+ "phase_cost_K7case_cap10": {
+  "n_points": 13,
+  "const_s": 0.0,
+  "seconds_per_face": 3.9696160892831157e-05,
+  "seconds_per_basis": 9.020110556342848e-05,
+  "r2": 0.997717931269513,
+  "points": [
+   {
+    "mass_faces": 2,
+    "vertex_bases": 0,
+    "elapsed_s": 0.013127640821039677
+   },
+   {
+    "mass_faces": 4,
+    "vertex_bases": 0,
+    "elapsed_s": 0.013134160079061985
+   },
+   {
+    "mass_faces": 11,
+    "vertex_bases": 0,
+    "elapsed_s": 0.013311265967786312
+   },
+   {
+    "mass_faces": 31,
+    "vertex_bases": 0,
+    "elapsed_s": 0.013426920864731073
+   },
+   {
+    "mass_faces": 101,
+    "vertex_bases": 0,
+    "elapsed_s": 0.013944727834314108
+   },
+   {
+    "mass_faces": 301,
+    "vertex_bases": 0,
+    "elapsed_s": 0.015693076886236668
+   },
+   {
+    "mass_faces": 1001,
+    "vertex_bases": 0,
+    "elapsed_s": 0.02204817533493042
+   },
+   {
+    "mass_faces": 3001,
+    "vertex_bases": 0,
+    "elapsed_s": 0.041117237880825996
+   },
+   {
+    "mass_faces": 10001,
+    "vertex_bases": 0,
+    "elapsed_s": 0.11709159100428224
+   },
+   {
+    "mass_faces": 30001,
+    "vertex_bases": 0,
+    "elapsed_s": 0.6328058154322207
+   },
+   {
+    "mass_faces": 100001,
+    "vertex_bases": 0,
+    "elapsed_s": 2.36813752213493
+   },
+   {
+    "mass_faces": 300001,
+    "vertex_bases": 131344,
+    "elapsed_s": 21.002055829856545
+   },
+   {
+    "mass_faces": 1000001,
+    "vertex_bases": 359516,
+    "elapsed_s": 73.13115085987374
+   }
+  ]
+ },
+ "lp_breakdown": {
+  "prefix_faces_K10": {
+   "tag": "prefix_faces_K10",
+   "elapsed_s": 600.0007833652198,
+   "stop_reason": "wall_time_limit",
+   "mass_faces": 258035,
+   "deficit_sets": 927,
+   "growth_states": 927,
+   "cover_feasible_faces": 9933,
+   "local_lp_calls": 9933,
+   "zero_dimensional_lp_calls": 0,
+   "interval_lp_calls": 400,
+   "enumerated_lp_calls": 2463,
+   "vertex_bases": 4229534,
+   "strict_faces": 0,
+   "face_reaches_lp_fraction": 0.038494777840215474,
+   "lp_is_enumerated_fraction": 0.2479613409845968,
+   "bases_per_enumerated_call": 1717.2285830288267,
+   "bases_per_face": 16.391319007111438
+  },
+  "prefix_bases_K10": {
+   "tag": "prefix_bases_K10",
+   "elapsed_s": 600.0007830960676,
+   "stop_reason": "wall_time_limit",
+   "mass_faces": 258037,
+   "deficit_sets": 927,
+   "growth_states": 927,
+   "cover_feasible_faces": 9934,
+   "local_lp_calls": 9934,
+   "zero_dimensional_lp_calls": 0,
+   "interval_lp_calls": 400,
+   "enumerated_lp_calls": 2464,
+   "vertex_bases": 4246943,
+   "strict_faces": 0,
+   "face_reaches_lp_fraction": 0.03849835488708984,
+   "lp_is_enumerated_fraction": 0.24803704449365815,
+   "bases_per_enumerated_call": 1723.5969967532467,
+   "bases_per_face": 16.458659029519023
+  },
+  "prefix_faces_K7case_cap10": {
+   "tag": "prefix_faces_K7case_cap10",
+   "elapsed_s": 73.13115085987374,
+   "stop_reason": "mass_faces_limit",
+   "mass_faces": 1000001,
+   "deficit_sets": 1841,
+   "growth_states": 1841,
+   "cover_feasible_faces": 15011,
+   "local_lp_calls": 15011,
+   "zero_dimensional_lp_calls": 0,
+   "interval_lp_calls": 375,
+   "enumerated_lp_calls": 1069,
+   "vertex_bases": 359516,
+   "strict_faces": 1,
+   "face_reaches_lp_fraction": 0.01501098498901501,
+   "lp_is_enumerated_fraction": 0.07121444274198921,
+   "bases_per_enumerated_call": 336.310570626754,
+   "bases_per_face": 0.3595156404843595
+  },
+  "full_K10": {
+   "tag": "full_K10",
+   "elapsed_s": 1800.0008010528982,
+   "stop_reason": "wall_time_limit",
+   "mass_faces": 69174193,
+   "deficit_sets": 1746,
+   "growth_states": 1746,
+   "cover_feasible_faces": 320287,
+   "local_lp_calls": 320287,
+   "zero_dimensional_lp_calls": 0,
+   "interval_lp_calls": 4194,
+   "enumerated_lp_calls": 1821,
+   "vertex_bases": 78315,
+   "strict_faces": 0,
+   "face_reaches_lp_fraction": 0.004630151594251342,
+   "lp_is_enumerated_fraction": 0.005685525794053459,
+   "bases_per_enumerated_call": 43.00658978583196,
+   "bases_per_face": 0.0011321418668375357
+  },
+  "full_K7": {
+   "tag": "full_K7",
+   "elapsed_s": 146.9994105878286,
+   "stop_reason": null,
+   "mass_faces": 6983680,
+   "deficit_sets": 1534,
+   "growth_states": 1534,
+   "cover_feasible_faces": 78816,
+   "local_lp_calls": 78816,
+   "zero_dimensional_lp_calls": 0,
+   "interval_lp_calls": 465,
+   "enumerated_lp_calls": 0,
+   "vertex_bases": 0,
+   "strict_faces": 1,
+   "face_reaches_lp_fraction": 0.011285740469208211,
+   "lp_is_enumerated_fraction": 0.0,
+   "bases_per_enumerated_call": null,
+   "bases_per_face": 0.0
+  }
+ },
+ "cprofile": {
+  "cprofile_K10_deep": {
+   "tag": "cprofile_K10_deep",
+   "profiled_total_tt_s": 786.9806220059999,
+   "wall_s": 786.998988259118,
+   "mass_faces": 150001,
+   "vertex_bases": 1755660,
+   "shares": {
+    "exact_rational_arithmetic": 0.6106739852793174,
+    "interpreter_builtins": 0.2239773750498475,
+    "P4c_basis_enumeration": 0.14880658482732906,
+    "P4a_lp_row_reduction": 0.003955949426129917,
+    "other_stage27_general_fpt.py": 0.003596175129174176,
+    "P3_cover_filter": 0.0027763763921284227,
+    "P2_face_loop": 0.0021903692769538845,
+    "P4d_feasibility_checks": 0.0014274261939723283,
+    "P4b_equality_elimination": 0.0003337972456429776
+   },
+   "seconds": {
+    "exact_rational_arithmetic": 480.588592778,
+    "interpreter_builtins": 176.26585393200008,
+    "P4c_basis_enumeration": 117.107898686,
+    "P4a_lp_row_reduction": 3.1132555400000004,
+    "other_stage27_general_fpt.py": 2.83012014,
+    "P3_cover_filter": 2.18495442,
+    "P2_face_loop": 1.7237781760000002,
+    "P4d_feasibility_checks": 1.123356754,
+    "P4b_equality_elimination": 0.262691964
+   },
+   "cumtime_key_frames": {
+    "strict_vertex": 779.219791449,
+    "_parallel_reduce": 20.497097453000002,
+    "_affine_equalities": 1.5687250700000002,
+    "square_solve": 669.9919686300001,
+    "mixed_cover": 2.855827977,
+    "deficit_sets": null,
+    "solve_mixed": 786.978217542
+   },
+   "top_functions": [
+    {
+     "name": "square_solve",
+     "file": "stage27_general_fpt.py",
+     "ncalls": 1755660,
+     "tottime": 106.090484832,
+     "cumtime": 669.9919686300001
+    },
+    {
+     "name": "forward",
+     "file": "fractions.py",
+     "ncalls": 173336917,
+     "tottime": 97.672193319,
+     "cumtime": 480.792486014
+    },
+    {
+     "name": "_from_coprime_ints",
+     "file": "fractions.py",
+     "ncalls": 176004417,
+     "tottime": 88.894222524,
+     "cumtime": 123.45892122900001
+    },
+    {
+     "name": "_mul",
+     "file": "fractions.py",
+     "ncalls": 67076388,
+     "tottime": 72.17207677100001,
+     "cumtime": 142.521211556
+    },
+    {
+     "name": "__new__",
+     "file": "fractions.py",
+     "ncalls": 54385559,
+     "tottime": 62.980496782,
+     "cumtime": 130.644712053
+    },
+    {
+     "name": "_sub",
+     "file": "fractions.py",
+     "ncalls": 58492750,
+     "tottime": 60.952318916,
+     "cumtime": 118.45738031
+    },
+    {
+     "name": "<built-in method math.gcd>",
+     "file": "~",
+     "ncalls": 294605328,
+     "tottime": 53.740668169,
+     "cumtime": 53.740668169
+    },
+    {
+     "name": "_div",
+     "file": "fractions.py",
+     "ncalls": 38077916,
+     "tottime": 46.050657551,
+     "cumtime": 85.654429983
+    },
+    {
+     "name": "<built-in method __new__ of type object at 0xa44b40>",
+     "file": "~",
+     "ncalls": 230389976,
+     "tottime": 45.167122913,
+     "cumtime": 45.167122913
+    },
+    {
+     "name": "<built-in method builtins.isinstance>",
+     "file": "~",
+     "ncalls": 228839423,
+     "tottime": 41.181104006000005,
+     "cumtime": 68.671516544
+    },
+    {
+     "name": "__instancecheck__",
+     "file": "<frozen abc>",
+     "ncalls": 55502504,
+     "tottime": 13.927613657,
+     "cumtime": 27.490412538
+    },
+    {
+     "name": "<built-in method _abc._abc_instancecheck>",
+     "file": "~",
+     "ncalls": 55502504,
+     "tottime": 13.562781302000001,
+     "cumtime": 13.562798881
+    },
+    {
+     "name": "strict_vertex",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 6135,
+     "tottime": 11.017413854,
+     "cumtime": 779.219791449
+    },
+    {
+     "name": "__bool__",
+     "file": "fractions.py",
+     "ncalls": 37416836,
+     "tottime": 9.441375313,
+     "cumtime": 9.441375313
+    },
+    {
+     "name": "_add",
+     "file": "fractions.py",
+     "ncalls": 9690059,
+     "tottime": 8.123777815,
+     "cumtime": 16.016965582
+    }
+   ]
+  },
+  "cprofile_K10_bases": {
+   "tag": "cprofile_K10_bases",
+   "profiled_total_tt_s": 249.86733067899996,
+   "wall_s": 249.88544146204367,
+   "mass_faces": 126398,
+   "vertex_bases": 600001,
+   "shares": {
+    "exact_rational_arithmetic": 0.5975972402043577,
+    "interpreter_builtins": 0.2270688167509545,
+    "P4c_basis_enumeration": 0.13966016961949668,
+    "P4a_lp_row_reduction": 0.010453681163127454,
+    "P3_cover_filter": 0.0073269321884738324,
+    "P2_face_loop": 0.005768327588417845,
+    "other_stage27_general_fpt.py": 0.0043812284624210225,
+    "P4d_feasibility_checks": 0.0020917535180757702,
+    "P4b_equality_elimination": 0.0008748638463698616
+   },
+   "seconds": {
+    "exact_rational_arithmetic": 149.320027231,
+    "interpreter_builtins": 56.737079122,
+    "P4c_basis_enumeration": 34.896513785,
+    "P4a_lp_row_reduction": 2.6120334080000003,
+    "P3_cover_filter": 1.830760988,
+    "P2_face_loop": 1.441316617,
+    "other_stage27_general_fpt.py": 1.0947258610000001,
+    "P4d_feasibility_checks": 0.522660868,
+    "P4b_equality_elimination": 0.21859989400000002
+   },
+   "cumtime_key_frames": {
+    "strict_vertex": 243.39591945100003,
+    "_parallel_reduce": 17.105715885000002,
+    "_affine_equalities": 1.328676321,
+    "square_solve": 188.815195972,
+    "mixed_cover": 2.3825706760000003,
+    "deficit_sets": null,
+    "solve_mixed": 249.86494594500002
+   },
+   "top_functions": [
+    {
+     "name": "square_solve",
+     "file": "stage27_general_fpt.py",
+     "ncalls": 600000,
+     "tottime": 30.551383869000002,
+     "cumtime": 188.815195972
+    },
+    {
+     "name": "forward",
+     "file": "fractions.py",
+     "ncalls": 51755830,
+     "tottime": 29.214920501,
+     "cumtime": 144.935228716
+    },
+    {
+     "name": "_from_coprime_ints",
+     "file": "fractions.py",
+     "ncalls": 53970820,
+     "tottime": 27.576116367,
+     "cumtime": 38.125579673000004
+    },
+    {
+     "name": "_mul",
+     "file": "fractions.py",
+     "ncalls": 19512872,
+     "tottime": 21.031193739000003,
+     "cumtime": 41.718809872
+    },
+    {
+     "name": "__new__",
+     "file": "fractions.py",
+     "ncalls": 16944942,
+     "tottime": 19.611199177,
+     "cumtime": 40.475211682
+    },
+    {
+     "name": "_sub",
+     "file": "fractions.py",
+     "ncalls": 16170997,
+     "tottime": 17.312483668000002,
+     "cumtime": 33.510769794000005
+    },
+    {
+     "name": "<built-in method math.gcd>",
+     "file": "~",
+     "ncalls": 88389740,
+     "tottime": 16.444168063,
+     "cumtime": 16.444168063
+    },
+    {
+     "name": "_div",
+     "file": "fractions.py",
+     "ncalls": 12300558,
+     "tottime": 14.846151597,
+     "cumtime": 27.935924104
+    },
+    {
+     "name": "<built-in method __new__ of type object at 0xa44b40>",
+     "file": "~",
+     "ncalls": 70915762,
+     "tottime": 13.849442192000001,
+     "cumtime": 13.849442192000001
+    },
+    {
+     "name": "<built-in method builtins.isinstance>",
+     "file": "~",
+     "ncalls": 69644519,
+     "tottime": 13.022613790000001,
+     "cumtime": 21.991740281000002
+    },
+    {
+     "name": "__instancecheck__",
+     "file": "<frozen abc>",
+     "ncalls": 17888687,
+     "tottime": 4.577067529000001,
+     "cumtime": 8.969126491
+    },
+    {
+     "name": "<built-in method _abc._abc_instancecheck>",
+     "file": "~",
+     "ncalls": 17888687,
+     "tottime": 4.392040928,
+     "cumtime": 4.392058962
+    },
+    {
+     "name": "strict_vertex",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 5117,
+     "tottime": 4.345129916,
+     "cumtime": 243.39591945100003
+    },
+    {
+     "name": "_add",
+     "file": "fractions.py",
+     "ncalls": 3771599,
+     "tottime": 3.1622719110000004,
+     "cumtime": 6.241599821
+    },
+    {
+     "name": "__bool__",
+     "file": "fractions.py",
+     "ncalls": 11123819,
+     "tottime": 2.85777825,
+     "cumtime": 2.85777825
+    }
+   ]
+  },
+  "cprofile_K10": {
+   "tag": "cprofile_K10",
+   "profiled_total_tt_s": 4.464008691999999,
+   "wall_s": 4.500342496205121,
+   "mass_faces": 20001,
+   "vertex_bases": 0,
+   "shares": {
+    "exact_rational_arithmetic": 0.5196888346470988,
+    "interpreter_builtins": 0.24110238538039133,
+    "P4a_lp_row_reduction": 0.0967481949069646,
+    "P3_cover_filter": 0.0541849796201069,
+    "P2_face_loop": 0.05234758019597514,
+    "P4c_basis_enumeration": 0.025535397187797418,
+    "other_stage27_general_fpt.py": 0.005346038873707463,
+    "P1_deficit_supports": 0.0011906851815780472
+   },
+   "seconds": {
+    "exact_rational_arithmetic": 2.3198954749999996,
+    "interpreter_builtins": 1.0762831440000005,
+    "P4a_lp_row_reduction": 0.43188478300000005,
+    "P3_cover_filter": 0.24188222,
+    "P2_face_loop": 0.23368005300000003,
+    "P4c_basis_enumeration": 0.11399023500000001,
+    "other_stage27_general_fpt.py": 0.023864764000000004,
+    "P1_deficit_supports": 0.005315229
+   },
+   "cumtime_key_frames": {
+    "strict_vertex": 3.4510460110000003,
+    "_parallel_reduce": 2.888571358,
+    "_affine_equalities": null,
+    "square_solve": null,
+    "mixed_cover": 0.320312667,
+    "deficit_sets": 0.009817273000000001,
+    "solve_mixed": 4.4623825660000005
+   },
+   "top_functions": [
+    {
+     "name": "__new__",
+     "file": "fractions.py",
+     "ncalls": 438885,
+     "tottime": 0.501970892,
+     "cumtime": 1.035079003
+    },
+    {
+     "name": "_parallel_reduce",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 846,
+     "tottime": 0.43188478300000005,
+     "cumtime": 2.888571358
+    },
+    {
+     "name": "_from_coprime_ints",
+     "file": "fractions.py",
+     "ncalls": 665718,
+     "tottime": 0.383843996,
+     "cumtime": 0.513215015
+    },
+    {
+     "name": "_div",
+     "file": "fractions.py",
+     "ncalls": 334109,
+     "tottime": 0.37296975800000004,
+     "cumtime": 0.767107171
+    },
+    {
+     "name": "__hash__",
+     "file": "fractions.py",
+     "ncalls": 907038,
+     "tottime": 0.27532463900000004,
+     "cumtime": 0.27552466000000003
+    },
+    {
+     "name": "<built-in method builtins.isinstance>",
+     "file": "~",
+     "ncalls": 888148,
+     "tottime": 0.25546101200000004,
+     "cumtime": 0.543792425
+    },
+    {
+     "name": "solve_mixed",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 1,
+     "tottime": 0.23368005300000003,
+     "cumtime": 4.4623825660000005
+    },
+    {
+     "name": "<built-in method __new__ of type object at 0xa44b40>",
+     "file": "~",
+     "ncalls": 1104603,
+     "tottime": 0.21419258600000002,
+     "cumtime": 0.21419258600000002
+    },
+    {
+     "name": "mixed_cover",
+     "file": "stage41_partial_fpt.py",
+     "ncalls": 20000,
+     "tottime": 0.19306747700000002,
+     "cumtime": 0.320312667
+    },
+    {
+     "name": "forward",
+     "file": "fractions.py",
+     "ncalls": 334470,
+     "tottime": 0.187143729,
+     "cumtime": 1.000049483
+    },
+    {
+     "name": "__instancecheck__",
+     "file": "<frozen abc>",
+     "ncalls": 553676,
+     "tottime": 0.15029077400000002,
+     "cumtime": 0.28833141300000004
+    },
+    {
+     "name": "<built-in method _abc._abc_instancecheck>",
+     "file": "~",
+     "ncalls": 553676,
+     "tottime": 0.13802237,
+     "cumtime": 0.13804063900000002
+    },
+    {
+     "name": "__neg__",
+     "file": "fractions.py",
+     "ncalls": 297658,
+     "tottime": 0.129171995,
+     "cumtime": 0.32497811200000004
+    },
+    {
+     "name": "__eq__",
+     "file": "fractions.py",
+     "ncalls": 158680,
+     "tottime": 0.12690785000000002,
+     "cumtime": 0.29229683900000003
+    },
+    {
+     "name": "strict_vertex",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 846,
+     "tottime": 0.11399023500000001,
+     "cumtime": 3.4510460110000003
+    }
+   ]
+  },
+  "cprofile_cap9": {
+   "tag": "cprofile_cap9",
+   "profiled_total_tt_s": 3.8174517270000003,
+   "wall_s": 3.836246741004288,
+   "mass_faces": 20001,
+   "vertex_bases": 0,
+   "shares": {
+    "exact_rational_arithmetic": 0.502223483388137,
+    "interpreter_builtins": 0.2420759347037579,
+    "P4a_lp_row_reduction": 0.09915979010885341,
+    "P3_cover_filter": 0.06436165708717029,
+    "P2_face_loop": 0.054284143669539583,
+    "P4c_basis_enumeration": 0.025982845388315762,
+    "other_stage27_general_fpt.py": 0.006115653234034988,
+    "P1_deficit_supports": 0.0012595297449323841
+   },
+   "seconds": {
+    "exact_rational_arithmetic": 1.9172139039999998,
+    "interpreter_builtins": 0.9241131949999999,
+    "P4a_lp_row_reduction": 0.378537712,
+    "P3_cover_filter": 0.245697519,
+    "P2_face_loop": 0.20722709800000003,
+    "P4c_basis_enumeration": 0.099188258,
+    "other_stage27_general_fpt.py": 0.023346211000000002,
+    "P1_deficit_supports": 0.004808194
+   },
+   "cumtime_key_frames": {
+    "strict_vertex": 2.907524066,
+    "_parallel_reduce": 2.422373352,
+    "_affine_equalities": null,
+    "square_solve": null,
+    "mixed_cover": 0.32444301200000003,
+    "deficit_sets": 0.008832889,
+    "solve_mixed": 3.815841491
+   },
+   "top_functions": [
+    {
+     "name": "__new__",
+     "file": "fractions.py",
+     "ncalls": 362194,
+     "tottime": 0.405945488,
+     "cumtime": 0.8363075010000001
+    },
+    {
+     "name": "_parallel_reduce",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 837,
+     "tottime": 0.378537712,
+     "cumtime": 2.422373352
+    },
+    {
+     "name": "_div",
+     "file": "fractions.py",
+     "ncalls": 275238,
+     "tottime": 0.308840369,
+     "cumtime": 0.5936658890000001
+    },
+    {
+     "name": "_from_coprime_ints",
+     "file": "fractions.py",
+     "ncalls": 548159,
+     "tottime": 0.2764684,
+     "cumtime": 0.38163955000000005
+    },
+    {
+     "name": "__hash__",
+     "file": "fractions.py",
+     "ncalls": 744976,
+     "tottime": 0.23727197200000003,
+     "cumtime": 0.237439914
+    },
+    {
+     "name": "<built-in method builtins.isinstance>",
+     "file": "~",
+     "ncalls": 767265,
+     "tottime": 0.220138504,
+     "cumtime": 0.47091397500000004
+    },
+    {
+     "name": "solve_mixed",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 1,
+     "tottime": 0.20722709800000003,
+     "cumtime": 3.815841491
+    },
+    {
+     "name": "mixed_cover",
+     "file": "stage41_partial_fpt.py",
+     "ncalls": 20000,
+     "tottime": 0.196947954,
+     "cumtime": 0.32444301200000003
+    },
+    {
+     "name": "<built-in method __new__ of type object at 0xa44b40>",
+     "file": "~",
+     "ncalls": 910353,
+     "tottime": 0.17532272200000001,
+     "cumtime": 0.17532272200000001
+    },
+    {
+     "name": "forward",
+     "file": "fractions.py",
+     "ncalls": 275600,
+     "tottime": 0.153509,
+     "cumtime": 0.785048135
+    },
+    {
+     "name": "__eq__",
+     "file": "fractions.py",
+     "ncalls": 167048,
+     "tottime": 0.132217691,
+     "cumtime": 0.304963879
+    },
+    {
+     "name": "<built-in method _abc._abc_instancecheck>",
+     "file": "~",
+     "ncalls": 491663,
+     "tottime": 0.127144584,
+     "cumtime": 0.127161845
+    },
+    {
+     "name": "__instancecheck__",
+     "file": "<frozen abc>",
+     "ncalls": 491663,
+     "tottime": 0.123613626,
+     "cumtime": 0.250775471
+    },
+    {
+     "name": "__neg__",
+     "file": "fractions.py",
+     "ncalls": 241809,
+     "tottime": 0.105742743,
+     "cumtime": 0.265353418
+    },
+    {
+     "name": "strict_vertex",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 837,
+     "tottime": 0.099188258,
+     "cumtime": 2.907524066
+    }
+   ]
+  },
+  "cprofile_cap8": {
+   "tag": "cprofile_cap8",
+   "profiled_total_tt_s": 5.3139048980000005,
+   "wall_s": 5.33299216022715,
+   "mass_faces": 20001,
+   "vertex_bases": 0,
+   "shares": {
+    "exact_rational_arithmetic": 0.5075944874390185,
+    "interpreter_builtins": 0.24313816765638321,
+    "P4a_lp_row_reduction": 0.10129097157959714,
+    "P3_cover_filter": 0.058489427260352146,
+    "P2_face_loop": 0.04896354055902037,
+    "P4c_basis_enumeration": 0.03002538962638394,
+    "other_stage27_general_fpt.py": 0.0047127145631502415,
+    "P1_deficit_supports": 0.000744127167478713
+   },
+   "seconds": {
+    "exact_rational_arithmetic": 2.697308833,
+    "interpreter_builtins": 1.2920131000000001,
+    "P4a_lp_row_reduction": 0.5382505900000001,
+    "P3_cover_filter": 0.31080725400000003,
+    "P2_face_loop": 0.260187598,
+    "P4c_basis_enumeration": 0.15955206500000002,
+    "other_stage27_general_fpt.py": 0.025042917,
+    "P1_deficit_supports": 0.003954221
+   },
+   "cumtime_key_frames": {
+    "strict_vertex": 4.155977815,
+    "_parallel_reduce": 3.371235918,
+    "_affine_equalities": null,
+    "square_solve": null,
+    "mixed_cover": 0.417334955,
+    "deficit_sets": 0.007241934,
+    "solve_mixed": 5.312296620000001
+   },
+   "top_functions": [
+    {
+     "name": "__new__",
+     "file": "fractions.py",
+     "ncalls": 489459,
+     "tottime": 0.5497222270000001,
+     "cumtime": 1.1241256430000002
+    },
+    {
+     "name": "_parallel_reduce",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 1355,
+     "tottime": 0.5382505900000001,
+     "cumtime": 3.371235918
+    },
+    {
+     "name": "_div",
+     "file": "fractions.py",
+     "ncalls": 372187,
+     "tottime": 0.423006357,
+     "cumtime": 0.8110537320000001
+    },
+    {
+     "name": "_from_coprime_ints",
+     "file": "fractions.py",
+     "ncalls": 748927,
+     "tottime": 0.380076735,
+     "cumtime": 0.525281313
+    },
+    {
+     "name": "__hash__",
+     "file": "fractions.py",
+     "ncalls": 1051113,
+     "tottime": 0.323436585,
+     "cumtime": 0.323652316
+    },
+    {
+     "name": "<built-in method builtins.isinstance>",
+     "file": "~",
+     "ncalls": 1089336,
+     "tottime": 0.315898726,
+     "cumtime": 0.6786727810000001
+    },
+    {
+     "name": "solve_mixed",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 1,
+     "tottime": 0.260187598,
+     "cumtime": 5.312296620000001
+    },
+    {
+     "name": "<built-in method __new__ of type object at 0xa44b40>",
+     "file": "~",
+     "ncalls": 1238386,
+     "tottime": 0.23969847300000002,
+     "cumtime": 0.23969847300000002
+    },
+    {
+     "name": "mixed_cover",
+     "file": "stage41_partial_fpt.py",
+     "ncalls": 20000,
+     "tottime": 0.223055405,
+     "cumtime": 0.417334955
+    },
+    {
+     "name": "__eq__",
+     "file": "fractions.py",
+     "ncalls": 280442,
+     "tottime": 0.22265209400000002,
+     "cumtime": 0.515630818
+    },
+    {
+     "name": "forward",
+     "file": "fractions.py",
+     "ncalls": 372550,
+     "tottime": 0.209965638,
+     "cumtime": 1.0720663830000001
+    },
+    {
+     "name": "<built-in method _abc._abc_instancecheck>",
+     "file": "~",
+     "ncalls": 716784,
+     "tottime": 0.18260341500000002,
+     "cumtime": 0.18262034500000002
+    },
+    {
+     "name": "__instancecheck__",
+     "file": "<frozen abc>",
+     "ncalls": 716784,
+     "tottime": 0.18015371000000002,
+     "cumtime": 0.36277405500000004
+    },
+    {
+     "name": "strict_vertex",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 1355,
+     "tottime": 0.15955206500000002,
+     "cumtime": 4.155977815
+    },
+    {
+     "name": "__neg__",
+     "file": "fractions.py",
+     "ncalls": 329697,
+     "tottime": 0.14633785100000002,
+     "cumtime": 0.36596484300000004
+    }
+   ]
+  },
+  "cprofile_full_K7": {
+   "tag": "cprofile_full_K7",
+   "profiled_total_tt_s": 4.293563448,
+   "wall_s": 4.312615961302072,
+   "mass_faces": 114688,
+   "vertex_bases": 0,
+   "shares": {
+    "exact_rational_arithmetic": 0.31055254642180863,
+    "P3_cover_filter": 0.24166163783682376,
+    "interpreter_builtins": 0.2201322930118256,
+    "P2_face_loop": 0.10910215038704141,
+    "P4a_lp_row_reduction": 0.06700501261580519,
+    "other_stage27_general_fpt.py": 0.026260419198537957,
+    "P4c_basis_enumeration": 0.01338418861069082,
+    "P1_deficit_supports": 0.0025125970841365333
+   },
+   "seconds": {
+    "exact_rational_arithmetic": 1.3333770620000005,
+    "P3_cover_filter": 1.0375895750000002,
+    "interpreter_builtins": 0.9451519670000001,
+    "P2_face_loop": 0.468437005,
+    "P4a_lp_row_reduction": 0.287690273,
+    "other_stage27_general_fpt.py": 0.11275077600000001,
+    "P4c_basis_enumeration": 0.057465863000000006,
+    "P1_deficit_supports": 0.010787995
+   },
+   "cumtime_key_frames": {
+    "strict_vertex": 2.0630221090000003,
+    "_parallel_reduce": 1.7812720080000002,
+    "_affine_equalities": null,
+    "square_solve": null,
+    "mixed_cover": 1.359774768,
+    "deficit_sets": 0.01948563,
+    "solve_mixed": 4.283461383000001
+   },
+   "top_functions": [
+    {
+     "name": "mixed_cover",
+     "file": "stage41_partial_fpt.py",
+     "ncalls": 114688,
+     "tottime": 0.8700660240000001,
+     "cumtime": 1.359774768
+    },
+    {
+     "name": "solve_mixed",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 1,
+     "tottime": 0.468437005,
+     "cumtime": 4.283461383000001
+    },
+    {
+     "name": "_parallel_reduce",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 820,
+     "tottime": 0.287690273,
+     "cumtime": 1.7812720080000002
+    },
+    {
+     "name": "__new__",
+     "file": "fractions.py",
+     "ncalls": 250285,
+     "tottime": 0.284500931,
+     "cumtime": 0.579622862
+    },
+    {
+     "name": "_div",
+     "file": "fractions.py",
+     "ncalls": 190307,
+     "tottime": 0.22644285900000002,
+     "cumtime": 0.43072998900000004
+    },
+    {
+     "name": "_from_coprime_ints",
+     "file": "fractions.py",
+     "ncalls": 365368,
+     "tottime": 0.18853613700000002,
+     "cumtime": 0.260144034
+    },
+    {
+     "name": "minimum_forest_cover",
+     "file": "stage27_general_fpt.py",
+     "ncalls": 3210,
+     "tottime": 0.16752355100000002,
+     "cumtime": 0.268661077
+    },
+    {
+     "name": "<built-in method builtins.isinstance>",
+     "file": "~",
+     "ncalls": 532943,
+     "tottime": 0.15627659800000002,
+     "cumtime": 0.33214967900000003
+    },
+    {
+     "name": "__hash__",
+     "file": "fractions.py",
+     "ncalls": 461909,
+     "tottime": 0.143840563,
+     "cumtime": 0.14417306000000002
+    },
+    {
+     "name": "<method 'update' of 'set' objects>",
+     "file": "~",
+     "ncalls": 515787,
+     "tottime": 0.140421646,
+     "cumtime": 0.14105377100000002
+    },
+    {
+     "name": "<built-in method __new__ of type object at 0xa44b40>",
+     "file": "~",
+     "ncalls": 615653,
+     "tottime": 0.11996392500000001,
+     "cumtime": 0.11996392500000001
+    },
+    {
+     "name": "forward",
+     "file": "fractions.py",
+     "ncalls": 194799,
+     "tottime": 0.111013526,
+     "cumtime": 0.578790084
+    },
+    {
+     "name": "__eq__",
+     "file": "fractions.py",
+     "ncalls": 118429,
+     "tottime": 0.096509379,
+     "cumtime": 0.223190471
+    },
+    {
+     "name": "__instancecheck__",
+     "file": "<frozen abc>",
+     "ncalls": 338142,
+     "tottime": 0.08936155200000001,
+     "cumtime": 0.17587308100000001
+    },
+    {
+     "name": "<built-in method _abc._abc_instancecheck>",
+     "file": "~",
+     "ncalls": 338142,
+     "tottime": 0.086494058,
+     "cumtime": 0.086511529
+    }
+   ]
+  },
+  "cprofile_full_K5": {
+   "tag": "cprofile_full_K5",
+   "profiled_total_tt_s": 0.06121317299999998,
+   "wall_s": 0.08018126618117094,
+   "mass_faces": 256,
+   "vertex_bases": 0,
+   "shares": {
+    "exact_rational_arithmetic": 0.4596619913821492,
+    "interpreter_builtins": 0.2177781079899257,
+    "P4a_lp_row_reduction": 0.06710919886476073,
+    "P3_cover_filter": 0.05815233593592676,
+    "P2_face_loop": 0.04328022662703665,
+    "other_stage26_missing_leaf.py": 0.029555354041196337,
+    "P4c_basis_enumeration": 0.028294873719419845,
+    "P1_deficit_supports": 0.011420760691493647,
+    "other_stage23_two_source_envelope.py": 0.008764584054481217,
+    "P4b_equality_elimination": 0.007247181909684704,
+    "other_stage27_general_fpt.py": 0.004447408730143757
+   },
+   "seconds": {
+    "exact_rational_arithmetic": 0.028137369,
+    "interpreter_builtins": 0.013330889,
+    "P4a_lp_row_reduction": 0.0041079670000000006,
+    "P3_cover_filter": 0.0035596890000000004,
+    "P2_face_loop": 0.00264932,
+    "other_stage26_missing_leaf.py": 0.001809177,
+    "P4c_basis_enumeration": 0.001732019,
+    "P1_deficit_supports": 0.000699101,
+    "other_stage23_two_source_envelope.py": 0.000536508,
+    "P4b_equality_elimination": 0.00044362300000000003,
+    "other_stage27_general_fpt.py": 0.00027224000000000004
+   },
+   "cumtime_key_frames": {
+    "strict_vertex": 0.034069328,
+    "_parallel_reduce": 0.022395191000000002,
+    "_affine_equalities": 0.0023749300000000004,
+    "square_solve": null,
+    "mixed_cover": 0.0053579560000000005,
+    "deficit_sets": 0.0012761720000000001,
+    "solve_mixed": 0.052610133
+   },
+   "top_functions": [
+    {
+     "name": "__new__",
+     "file": "fractions.py",
+     "ncalls": 4116,
+     "tottime": 0.004699404,
+     "cumtime": 0.009105282000000001
+    },
+    {
+     "name": "_parallel_reduce",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 24,
+     "tottime": 0.0041079670000000006,
+     "cumtime": 0.022395191000000002
+    },
+    {
+     "name": "_from_coprime_ints",
+     "file": "fractions.py",
+     "ncalls": 7707,
+     "tottime": 0.004039292,
+     "cumtime": 0.005626318
+    },
+    {
+     "name": "_div",
+     "file": "fractions.py",
+     "ncalls": 2557,
+     "tottime": 0.0033917780000000002,
+     "cumtime": 0.006175787
+    },
+    {
+     "name": "<built-in method builtins.isinstance>",
+     "file": "~",
+     "ncalls": 10959,
+     "tottime": 0.003107837,
+     "cumtime": 0.006387175
+    },
+    {
+     "name": "forward",
+     "file": "fractions.py",
+     "ncalls": 4949,
+     "tottime": 0.0030935290000000002,
+     "cumtime": 0.015805372
+    },
+    {
+     "name": "solve_mixed",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 1,
+     "tottime": 0.00264932,
+     "cumtime": 0.052610133
+    },
+    {
+     "name": "<built-in method __new__ of type object at 0xa44b40>",
+     "file": "~",
+     "ncalls": 11823,
+     "tottime": 0.00242922,
+     "cumtime": 0.00242922
+    },
+    {
+     "name": "__hash__",
+     "file": "fractions.py",
+     "ncalls": 6857,
+     "tottime": 0.002138736,
+     "cumtime": 0.0022635710000000002
+    },
+    {
+     "name": "minimum_forest_cover",
+     "file": "stage27_general_fpt.py",
+     "ncalls": 52,
+     "tottime": 0.002100377,
+     "cumtime": 0.003437218
+    },
+    {
+     "name": "<built-in method math.gcd>",
+     "file": "~",
+     "ncalls": 9905,
+     "tottime": 0.002000379,
+     "cumtime": 0.002000379
+    },
+    {
+     "name": "strict_vertex",
+     "file": "stage43_partial_fpt.py",
+     "ncalls": 23,
+     "tottime": 0.001732019,
+     "cumtime": 0.034069328
+    },
+    {
+     "name": "__eq__",
+     "file": "fractions.py",
+     "ncalls": 2040,
+     "tottime": 0.0017283550000000002,
+     "cumtime": 0.003927179
+    },
+    {
+     "name": "__instancecheck__",
+     "file": "<frozen abc>",
+     "ncalls": 6008,
+     "tottime": 0.001666556,
+     "cumtime": 0.003279338
+    },
+    {
+     "name": "<built-in method _abc._abc_instancecheck>",
+     "file": "~",
+     "ncalls": 6008,
+     "tottime": 0.001595651,
+     "cumtime": 0.001612782
+    }
+   ]
+  }
+ },
+ "growth": {
+  "median_counters_by_cap": {
+   "2": {
+    "mass_faces": 1.0,
+    "deficit_sets": 1.0,
+    "growth_states": 1.0,
+    "vertex_bases": 0.0,
+    "cover_feasible_faces": 1.0,
+    "local_lp_calls": 1.0,
+    "enumerated_lp_calls": 0.0,
+    "elapsed": 0.004457742674276233
+   },
+   "3": {
+    "mass_faces": 16.0,
+    "deficit_sets": 4.0,
+    "growth_states": 4.0,
+    "vertex_bases": 0.0,
+    "cover_feasible_faces": 2.5,
+    "local_lp_calls": 2.5,
+    "enumerated_lp_calls": 0.0,
+    "elapsed": 0.005901707336306572
+   },
+   "5": {
+    "mass_faces": 5632.0,
+    "deficit_sets": 90.5,
+    "growth_states": 90.5,
+    "vertex_bases": 0.0,
+    "cover_feasible_faces": 117.0,
+    "local_lp_calls": 117.0,
+    "enumerated_lp_calls": 0.0,
+    "elapsed": 0.12566407956182957
+   },
+   "7": {
+    "mass_faces": 1582080.0,
+    "deficit_sets": 1107.5,
+    "growth_states": 1107.5,
+    "vertex_bases": 57.0,
+    "cover_feasible_faces": 12540.0,
+    "local_lp_calls": 12540.0,
+    "enumerated_lp_calls": 1.5,
+    "elapsed": 24.526893995469436
+   }
+  },
+  "log2_fits": {
+   "mass_faces": {
+    "bits_per_K": 4.133993172993575,
+    "intercept_bits": -8.30626529986543,
+    "caps_used": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "predicted_at_K10": 8792744674.487158,
+    "per_K_factor": 17.557227918157455
+   },
+   "deficit_sets": {
+    "bits_per_K": 2.046500652188403,
+    "intercept_bits": -4.044393554169312,
+    "caps_used": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "predicted_at_K10": 87719.68237572776,
+    "per_K_factor": 4.131027465721683
+   },
+   "elapsed": {
+    "bits_per_K": 2.527299148876432,
+    "intercept_bits": -14.138567878210322,
+    "caps_used": [
+     2,
+     3,
+     5,
+     7
+    ],
+    "predicted_at_K10": 2247.9957778148782,
+    "per_K_factor": 5.764914250610842
+   }
+  },
+  "census_exact_K10": {
+   "mass_faces_exact_K10": {
+    "median": 7711544320.0,
+    "min": 3483287552,
+    "max": 29796295680,
+    "n": 5
+   },
+   "mass_faces_reduced_K10": {
+    "median": 3935744.0,
+    "min": 3112960,
+    "max": 9652224,
+    "n": 5
+   }
+  },
+  "cap_ladder": {
+   "k10k_tree_16_k10_s5_exp_exact.json": {
+    "caps": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "mass_faces": [
+     5120,
+     279552,
+     6837248,
+     100848640,
+     1023202304,
+     7711544320
+    ],
+    "mass_faces_reduced": [
+     512,
+     7680,
+     57344,
+     293888,
+     1182208,
+     3935744
+    ],
+    "deficit_supports": [
+     164,
+     483,
+     1203,
+     2592,
+     4899,
+     8211
+    ],
+    "max_A": [
+     12,
+     16,
+     19,
+     22,
+     24,
+     26
+    ],
+    "theory_max_A": [
+     12,
+     16,
+     20,
+     24,
+     28,
+     32
+    ],
+    "faces_bits_per_K": 4.0573690363679225,
+    "reduced_bits_per_K": 2.5342017816212663,
+    "supports_bits_per_K": 1.1246730498682835
+   }
+  }
+ },
+ "projection_K10": {
+  "exact_faces_median": 7711544320.0,
+  "reduced_faces_median": 3935744.0,
+  "measured_bases_per_face": 16.391319007111438,
+  "seconds_per_face_total": 0.0023234268014534184,
+  "projected_frozen_seconds": 17917208.753683876,
+  "projected_frozen_days": 207.3751013157856,
+  "projected_reduced_seconds_same_unit_cost": 9144.413093259482,
+  "face_reduction_factor": 1959.3612592688955,
+  "note": "Unit cost measured on budget-truncated prefix runs of the smallest K=10 case; the projection assumes the sampled per-face cost is representative of the whole search."
+ }
+}

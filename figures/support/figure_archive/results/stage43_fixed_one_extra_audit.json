@@ -1,0 +1,1366 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-14T12:20:45.654020+00:00",
+  "protocol_sha256": "98af0a61036da85858b68f9e60a679888b6fe67e07f2f828341964ee4cef0297",
+  "cases": 20,
+  "disagreements": 0,
+  "verified_witnesses": 26,
+  "maximum_witness_deficit_size": 3,
+  "records": [
+    {
+      "name": "essential_two_branches_and_gate_orientation0_cap3",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 7,
+          "cover_feasible_faces": 84,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 4,
+          "growth_states": 11,
+          "vertex_bases": 108,
+          "mass_faces": 152,
+          "local_lp_calls": 84,
+          "opposing_row_rejections": 54,
+          "eliminated_equality_rank": 36,
+          "interval_lp_calls": 15,
+          "inconsistent_equality_rejections": 3,
+          "enumerated_lp_calls": 9,
+          "constant_row_rejections": 3
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "essential_two_branches_and_gate_orientation0_cap4",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": 4,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 12,
+          "cover_feasible_faces": 432,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 7,
+          "growth_states": 18,
+          "vertex_bases": 3037,
+          "mass_faces": 984,
+          "local_lp_calls": 432,
+          "inconsistent_equality_rejections": 113,
+          "eliminated_equality_rank": 290,
+          "interval_lp_calls": 84,
+          "enumerated_lp_calls": 63,
+          "opposing_row_rejections": 169,
+          "constant_row_rejections": 3
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 1,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 3,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 4,
+            "p": "1/4",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 4,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/8",
+          "1": "1/8",
+          "3": "1/8",
+          "4": "1/8",
+          "100": "1/4",
+          "102": "1/4"
+        },
+        "deficit_vertices": [
+          100,
+          102,
+          2000
+        ],
+        "deficits": [
+          "1/4",
+          "1/4",
+          "1/2"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 2000,
+        "minimum_sources_within_cap": 4
+      },
+      "oracle": {
+        "minimum": 4,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 3,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 4,
+              "p": "1/4",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "essential_two_branches_and_gate_orientation1_cap3",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 7,
+          "cover_feasible_faces": 84,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 4,
+          "growth_states": 11,
+          "vertex_bases": 108,
+          "mass_faces": 152,
+          "local_lp_calls": 84,
+          "opposing_row_rejections": 54,
+          "eliminated_equality_rank": 36,
+          "interval_lp_calls": 15,
+          "inconsistent_equality_rejections": 3,
+          "enumerated_lp_calls": 9,
+          "constant_row_rejections": 3
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "essential_two_branches_and_gate_orientation1_cap4",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": 4,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 12,
+          "cover_feasible_faces": 432,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 7,
+          "growth_states": 18,
+          "vertex_bases": 3037,
+          "mass_faces": 984,
+          "local_lp_calls": 432,
+          "inconsistent_equality_rejections": 113,
+          "eliminated_equality_rank": 290,
+          "interval_lp_calls": 84,
+          "enumerated_lp_calls": 63,
+          "opposing_row_rejections": 169,
+          "constant_row_rejections": 3
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 1,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 3,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 4,
+            "p": "1/4",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 4,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/8",
+          "1": "1/8",
+          "3": "1/8",
+          "4": "1/8",
+          "100": "1/4",
+          "102": "1/4"
+        },
+        "deficit_vertices": [
+          100,
+          102,
+          2000
+        ],
+        "deficits": [
+          "1/4",
+          "1/4",
+          "1/2"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 2000,
+        "minimum_sources_within_cap": 4
+      },
+      "oracle": {
+        "minimum": 4,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 3,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 4,
+              "p": "1/4",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "essential_two_branches_and_gate_orientation2_cap3",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 7,
+          "cover_feasible_faces": 84,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 4,
+          "growth_states": 11,
+          "vertex_bases": 108,
+          "mass_faces": 152,
+          "local_lp_calls": 84,
+          "opposing_row_rejections": 54,
+          "eliminated_equality_rank": 36,
+          "interval_lp_calls": 15,
+          "inconsistent_equality_rejections": 3,
+          "enumerated_lp_calls": 9,
+          "constant_row_rejections": 3
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "essential_two_branches_and_gate_orientation2_cap4",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": 4,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 12,
+          "cover_feasible_faces": 432,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 7,
+          "growth_states": 18,
+          "vertex_bases": 3037,
+          "mass_faces": 984,
+          "local_lp_calls": 432,
+          "inconsistent_equality_rejections": 113,
+          "eliminated_equality_rank": 290,
+          "interval_lp_calls": 84,
+          "enumerated_lp_calls": 63,
+          "opposing_row_rejections": 169,
+          "constant_row_rejections": 3
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 1,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 3,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 4,
+            "p": "1/4",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 4,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/8",
+          "1": "1/8",
+          "3": "1/8",
+          "4": "1/8",
+          "100": "1/4",
+          "102": "1/4"
+        },
+        "deficit_vertices": [
+          100,
+          102,
+          2000
+        ],
+        "deficits": [
+          "1/4",
+          "1/4",
+          "1/2"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 2000,
+        "minimum_sources_within_cap": 4
+      },
+      "oracle": {
+        "minimum": 4,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 3,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 4,
+              "p": "1/4",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "essential_two_branches_and_gate_orientation3_cap3",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 7,
+          "cover_feasible_faces": 84,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 4,
+          "growth_states": 11,
+          "vertex_bases": 108,
+          "mass_faces": 152,
+          "local_lp_calls": 84,
+          "opposing_row_rejections": 54,
+          "eliminated_equality_rank": 36,
+          "interval_lp_calls": 15,
+          "inconsistent_equality_rejections": 3,
+          "enumerated_lp_calls": 9,
+          "constant_row_rejections": 3
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "essential_two_branches_and_gate_orientation3_cap4",
+      "group": "simultaneous_gate_and_branch_deficits",
+      "minimum": 4,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 12,
+          "cover_feasible_faces": 432,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 7,
+          "growth_states": 18,
+          "vertex_bases": 3037,
+          "mass_faces": 984,
+          "local_lp_calls": 432,
+          "inconsistent_equality_rejections": 113,
+          "eliminated_equality_rank": 290,
+          "interval_lp_calls": 84,
+          "enumerated_lp_calls": 63,
+          "opposing_row_rejections": 169,
+          "constant_row_rejections": 3
+        },
+        "sources": [
+          {
+            "edge": 0,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 1,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 3,
+            "p": "1/4",
+            "x": "1/2"
+          },
+          {
+            "edge": 4,
+            "p": "1/4",
+            "x": "1/2"
+          }
+        ],
+        "pendant": "1",
+        "source_count": 4,
+        "hidden_source": false,
+        "positive_mass": {
+          "0": "1/8",
+          "1": "1/8",
+          "3": "1/8",
+          "4": "1/8",
+          "100": "1/4",
+          "102": "1/4"
+        },
+        "deficit_vertices": [
+          100,
+          102,
+          2000
+        ],
+        "deficits": [
+          "1/4",
+          "1/4",
+          "1/2"
+        ],
+        "projected_pendant": "1",
+        "hidden_gate": 2000,
+        "minimum_sources_within_cap": 4
+      },
+      "oracle": {
+        "minimum": 4,
+        "witness": {
+          "sources": [
+            {
+              "edge": 0,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 1,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 3,
+              "p": "1/4",
+              "x": "1/2"
+            },
+            {
+              "edge": 4,
+              "p": "1/4",
+              "x": "1/2"
+            }
+          ],
+          "pendant": "1"
+        }
+      }
+    },
+    {
+      "name": "balanced8_hidden_present_rep0_cap3",
+      "group": "larger_generated_hidden_present",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 9,
+          "cover_feasible_faces": 30,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 5,
+          "growth_states": 18,
+          "vertex_bases": 0,
+          "mass_faces": 208,
+          "local_lp_calls": 30,
+          "opposing_row_rejections": 30
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "balanced8_hidden_present_rep0_cap4",
+      "group": "larger_generated_hidden_present",
+      "minimum": 4,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 23,
+          "cover_feasible_faces": 490,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 13,
+          "growth_states": 46,
+          "vertex_bases": 0,
+          "mass_faces": 4752,
+          "local_lp_calls": 490,
+          "inconsistent_equality_rejections": 41,
+          "eliminated_equality_rank": 12,
+          "interval_lp_calls": 6,
+          "opposing_row_rejections": 443
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "18/935",
+            "x": "8/9"
+          },
+          {
+            "edge": 6,
+            "p": "853/1870",
+            "x": "496/853"
+          },
+          {
+            "edge": 9,
+            "p": "382/935",
+            "x": "55/191"
+          },
+          {
+            "edge": 10,
+            "p": "217/1870",
+            "x": "187/217"
+          }
+        ],
+        "pendant": "1/5",
+        "source_count": 4,
+        "hidden_source": false,
+        "positive_mass": {
+          "4": "16/935",
+          "5": "2/935",
+          "6": "3/187",
+          "8": "248/935",
+          "9": "21/110",
+          "10": "2/17",
+          "11": "16/55",
+          "12": "1/10"
+        },
+        "deficit_vertices": [
+          3,
+          4
+        ],
+        "deficits": [
+          "434/935",
+          "8/935"
+        ],
+        "projected_pendant": "1/5",
+        "hidden_gate": 12,
+        "minimum_sources_within_cap": 4
+      },
+      "oracle": {
+        "minimum": 4,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "18/935",
+              "x": "8/9"
+            },
+            {
+              "edge": 6,
+              "p": "853/1870",
+              "x": "496/853"
+            },
+            {
+              "edge": 9,
+              "p": "382/935",
+              "x": "55/191"
+            },
+            {
+              "edge": 10,
+              "p": "217/1870",
+              "x": "187/217"
+            }
+          ],
+          "pendant": "1/5"
+        }
+      }
+    },
+    {
+      "name": "balanced8_hidden_present_rep1_cap3",
+      "group": "larger_generated_hidden_present",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 9,
+          "cover_feasible_faces": 15,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 5,
+          "growth_states": 17,
+          "vertex_bases": 0,
+          "mass_faces": 192,
+          "local_lp_calls": 15,
+          "opposing_row_rejections": 12,
+          "eliminated_equality_rank": 2,
+          "interval_lp_calls": 2,
+          "inconsistent_equality_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "51/110",
+            "x": "97/102"
+          },
+          {
+            "edge": 5,
+            "p": "17/55",
+            "x": "8/17"
+          },
+          {
+            "edge": 7,
+            "p": "5/22",
+            "x": "2/25"
+          }
+        ],
+        "pendant": "2/5",
+        "source_count": 3,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "9/55",
+          "3": "1/44",
+          "4": "23/110",
+          "6": "97/220",
+          "8": "8/55",
+          "10": "1/55"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "5/11"
+        ],
+        "projected_pendant": "2/5",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "51/110",
+              "x": "97/102"
+            },
+            {
+              "edge": 5,
+              "p": "17/55",
+              "x": "8/17"
+            },
+            {
+              "edge": 7,
+              "p": "5/22",
+              "x": "2/25"
+            }
+          ],
+          "pendant": "2/5"
+        }
+      }
+    },
+    {
+      "name": "balanced8_hidden_present_rep1_cap4",
+      "group": "larger_generated_hidden_present",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 22,
+          "cover_feasible_faces": 173,
+          "strict_faces": 2,
+          "zero_weight_gate_sets": 13,
+          "growth_states": 41,
+          "vertex_bases": 195,
+          "mass_faces": 3200,
+          "local_lp_calls": 173,
+          "opposing_row_rejections": 141,
+          "inconsistent_equality_rejections": 21,
+          "eliminated_equality_rank": 16,
+          "interval_lp_calls": 7,
+          "enumerated_lp_calls": 4
+        },
+        "sources": [
+          {
+            "edge": 2,
+            "p": "51/110",
+            "x": "97/102"
+          },
+          {
+            "edge": 5,
+            "p": "17/55",
+            "x": "8/17"
+          },
+          {
+            "edge": 7,
+            "p": "5/22",
+            "x": "2/25"
+          }
+        ],
+        "pendant": "2/5",
+        "source_count": 3,
+        "hidden_source": false,
+        "positive_mass": {
+          "2": "9/55",
+          "3": "1/44",
+          "4": "23/110",
+          "6": "97/220",
+          "8": "8/55",
+          "10": "1/55"
+        },
+        "deficit_vertices": [
+          3
+        ],
+        "deficits": [
+          "5/11"
+        ],
+        "projected_pendant": "2/5",
+        "hidden_gate": 6,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "51/110",
+              "x": "97/102"
+            },
+            {
+              "edge": 5,
+              "p": "17/55",
+              "x": "8/17"
+            },
+            {
+              "edge": 7,
+              "p": "5/22",
+              "x": "2/25"
+            }
+          ],
+          "pendant": "2/5"
+        }
+      }
+    },
+    {
+      "name": "balanced8_hidden_present_rep2_cap3",
+      "group": "larger_generated_hidden_present",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 8,
+          "cover_feasible_faces": 27,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 4,
+          "growth_states": 10,
+          "vertex_bases": 0,
+          "mass_faces": 80,
+          "local_lp_calls": 27,
+          "opposing_row_rejections": 19,
+          "eliminated_equality_rank": 11,
+          "interval_lp_calls": 7,
+          "inconsistent_equality_rejections": 1
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "balanced8_hidden_present_rep2_cap4",
+      "group": "larger_generated_hidden_present",
+      "minimum": 4,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 16,
+          "cover_feasible_faces": 232,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 8,
+          "growth_states": 24,
+          "vertex_bases": 174,
+          "mass_faces": 912,
+          "local_lp_calls": 232,
+          "opposing_row_rejections": 103,
+          "inconsistent_equality_rejections": 83,
+          "eliminated_equality_rank": 102,
+          "interval_lp_calls": 41,
+          "enumerated_lp_calls": 5
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1057/7260",
+            "x": "215/1057"
+          },
+          {
+            "edge": 4,
+            "p": "157/726",
+            "x": "114/157"
+          },
+          {
+            "edge": 7,
+            "p": "1471/7260",
+            "x": "1256/1471"
+          },
+          {
+            "edge": 10,
+            "p": "527/1210",
+            "x": "77/527"
+          }
+        ],
+        "pendant": "3/5",
+        "source_count": 4,
+        "hidden_source": false,
+        "positive_mass": {
+          "3": "43/726",
+          "4": "43/726",
+          "5": "421/3630",
+          "6": "45/121",
+          "8": "19/121",
+          "10": "314/1815",
+          "12": "7/110"
+        },
+        "deficit_vertices": [
+          3,
+          4
+        ],
+        "deficits": [
+          "526/605",
+          "314/1815"
+        ],
+        "projected_pendant": "3/5",
+        "hidden_gate": 12,
+        "minimum_sources_within_cap": 4
+      },
+      "oracle": {
+        "minimum": 4,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "959/2420",
+              "x": "783/959"
+            },
+            {
+              "edge": 2,
+              "p": "3623/9680",
+              "x": "3414/3623"
+            },
+            {
+              "edge": 4,
+              "p": "321/1936",
+              "x": "1396/1605"
+            },
+            {
+              "edge": 12,
+              "p": "7/110",
+              "x": "171/1078"
+            }
+          ],
+          "pendant": "3/5"
+        }
+      }
+    },
+    {
+      "name": "caterpillar8_hidden_present_rep0_cap3",
+      "group": "larger_generated_hidden_present",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 9,
+          "cover_feasible_faces": 29,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 5,
+          "growth_states": 16,
+          "vertex_bases": 0,
+          "mass_faces": 473,
+          "local_lp_calls": 29,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 27,
+          "constant_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1/10",
+            "x": "2/11"
+          },
+          {
+            "edge": 6,
+            "p": "13/22",
+            "x": "44/65"
+          },
+          {
+            "edge": 11,
+            "p": "17/55",
+            "x": "13/17"
+          }
+        ],
+        "pendant": "1/5",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "6": "21/110",
+          "8": "1/10",
+          "11": "4/55",
+          "12": "13/55",
+          "13": "2/5"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "71/220",
+        "hidden_gate": 8,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1/10",
+              "x": "2/11"
+            },
+            {
+              "edge": 6,
+              "p": "13/22",
+              "x": "44/65"
+            },
+            {
+              "edge": 11,
+              "p": "17/55",
+              "x": "13/17"
+            }
+          ],
+          "pendant": "1/5"
+        }
+      }
+    },
+    {
+      "name": "caterpillar8_hidden_present_rep0_cap4",
+      "group": "larger_generated_hidden_present",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 21,
+          "cover_feasible_faces": 197,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 13,
+          "growth_states": 39,
+          "vertex_bases": 0,
+          "mass_faces": 4505,
+          "local_lp_calls": 197,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 184,
+          "inconsistent_equality_rejections": 11,
+          "constant_row_rejections": 1
+        },
+        "sources": [
+          {
+            "edge": 1,
+            "p": "1/10",
+            "x": "2/11"
+          },
+          {
+            "edge": 6,
+            "p": "13/22",
+            "x": "44/65"
+          },
+          {
+            "edge": 11,
+            "p": "17/55",
+            "x": "13/17"
+          }
+        ],
+        "pendant": "1/5",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "6": "21/110",
+          "8": "1/10",
+          "11": "4/55",
+          "12": "13/55",
+          "13": "2/5"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "71/220",
+        "hidden_gate": 8,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 1,
+              "p": "1/10",
+              "x": "2/11"
+            },
+            {
+              "edge": 6,
+              "p": "13/22",
+              "x": "44/65"
+            },
+            {
+              "edge": 11,
+              "p": "17/55",
+              "x": "13/17"
+            }
+          ],
+          "pendant": "1/5"
+        }
+      }
+    },
+    {
+      "name": "caterpillar8_hidden_present_rep1_cap3",
+      "group": "larger_generated_hidden_present",
+      "minimum": null,
+      "solver": {
+        "status": "complete",
+        "feasible": false,
+        "statistics": {
+          "deficit_sets": 10,
+          "cover_feasible_faces": 106,
+          "strict_faces": 0,
+          "zero_weight_gate_sets": 6,
+          "growth_states": 21,
+          "vertex_bases": 0,
+          "mass_faces": 328,
+          "local_lp_calls": 106,
+          "opposing_row_rejections": 93,
+          "inconsistent_equality_rejections": 8,
+          "constant_row_rejections": 5
+        }
+      },
+      "oracle": {
+        "minimum": null
+      }
+    },
+    {
+      "name": "caterpillar8_hidden_present_rep1_cap4",
+      "group": "larger_generated_hidden_present",
+      "minimum": 4,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 25,
+          "cover_feasible_faces": 941,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 16,
+          "growth_states": 49,
+          "vertex_bases": 738,
+          "mass_faces": 4040,
+          "local_lp_calls": 941,
+          "inconsistent_equality_rejections": 251,
+          "eliminated_equality_rank": 204,
+          "interval_lp_calls": 60,
+          "enumerated_lp_calls": 21,
+          "opposing_row_rejections": 601,
+          "constant_row_rejections": 8
+        },
+        "sources": [
+          {
+            "edge": 4,
+            "p": "1/10",
+            "x": "2/11"
+          },
+          {
+            "edge": 2,
+            "p": "12/55",
+            "x": "7/12"
+          },
+          {
+            "edge": 7,
+            "p": "3/10",
+            "x": "6/11"
+          },
+          {
+            "edge": 8,
+            "p": "21/55",
+            "x": "1/3"
+          }
+        ],
+        "pendant": "2/5",
+        "source_count": 4,
+        "hidden_source": true,
+        "positive_mass": {
+          "2": "1/11",
+          "7": "3/22",
+          "8": "14/55",
+          "9": "14/55",
+          "11": "1/10",
+          "13": "9/55"
+        },
+        "deficit_vertices": [
+          9,
+          11
+        ],
+        "deficits": [
+          "8/33",
+          "6/5"
+        ],
+        "projected_pendant": "71/110",
+        "hidden_gate": 11,
+        "minimum_sources_within_cap": 4
+      },
+      "oracle": {
+        "minimum": 4,
+        "witness": {
+          "sources": [
+            {
+              "edge": 2,
+              "p": "12/55",
+              "x": "7/12"
+            },
+            {
+              "edge": 4,
+              "p": "1/10",
+              "x": "2/11"
+            },
+            {
+              "edge": 7,
+              "p": "3/10",
+              "x": "6/11"
+            },
+            {
+              "edge": 8,
+              "p": "21/55",
+              "x": "1/3"
+            }
+          ],
+          "pendant": "2/5"
+        }
+      }
+    },
+    {
+      "name": "caterpillar8_hidden_present_rep2_cap3",
+      "group": "larger_generated_hidden_present",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 8,
+          "cover_feasible_faces": 61,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 4,
+          "growth_states": 10,
+          "vertex_bases": 0,
+          "mass_faces": 281,
+          "local_lp_calls": 61,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 57
+        },
+        "sources": [
+          {
+            "edge": 7,
+            "p": "19/110",
+            "x": "15/19"
+          },
+          {
+            "edge": 3,
+            "p": "1/5",
+            "x": "1/11"
+          },
+          {
+            "edge": 11,
+            "p": "69/110",
+            "x": "17/23"
+          }
+        ],
+        "pendant": "3/5",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "2/11",
+          "10": "1/55",
+          "11": "9/55",
+          "12": "51/110",
+          "13": "19/110"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "7/11",
+        "hidden_gate": 13,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "59/275",
+              "x": "9/59"
+            },
+            {
+              "edge": 4,
+              "p": "36/275",
+              "x": "49/54"
+            },
+            {
+              "edge": 12,
+              "p": "36/55",
+              "x": "19/72"
+            }
+          ],
+          "pendant": "3/5"
+        }
+      }
+    },
+    {
+      "name": "caterpillar8_hidden_present_rep2_cap4",
+      "group": "larger_generated_hidden_present",
+      "minimum": 3,
+      "solver": {
+        "status": "complete",
+        "feasible": true,
+        "statistics": {
+          "deficit_sets": 16,
+          "cover_feasible_faces": 243,
+          "strict_faces": 1,
+          "zero_weight_gate_sets": 8,
+          "growth_states": 24,
+          "vertex_bases": 0,
+          "mass_faces": 1753,
+          "local_lp_calls": 243,
+          "constant_row_rejections": 3,
+          "eliminated_equality_rank": 0,
+          "interval_lp_calls": 1,
+          "opposing_row_rejections": 190,
+          "inconsistent_equality_rejections": 49
+        },
+        "sources": [
+          {
+            "edge": 7,
+            "p": "19/110",
+            "x": "15/19"
+          },
+          {
+            "edge": 3,
+            "p": "1/5",
+            "x": "1/11"
+          },
+          {
+            "edge": 11,
+            "p": "69/110",
+            "x": "17/23"
+          }
+        ],
+        "pendant": "3/5",
+        "source_count": 3,
+        "hidden_source": true,
+        "positive_mass": {
+          "3": "2/11",
+          "10": "1/55",
+          "11": "9/55",
+          "12": "51/110",
+          "13": "19/110"
+        },
+        "deficit_vertices": [],
+        "deficits": [],
+        "projected_pendant": "7/11",
+        "hidden_gate": 13,
+        "minimum_sources_within_cap": 3
+      },
+      "oracle": {
+        "minimum": 3,
+        "witness": {
+          "sources": [
+            {
+              "edge": 3,
+              "p": "59/275",
+              "x": "9/59"
+            },
+            {
+              "edge": 4,
+              "p": "36/275",
+              "x": "49/54"
+            },
+            {
+              "edge": 12,
+              "p": "36/55",
+              "x": "19/72"
+            }
+          ],
+          "pendant": "3/5"
+        }
+      }
+    }
+  ],
+  "scope": "Finite exact original-support cross-checks, not theorem proof or timing evidence"
+}

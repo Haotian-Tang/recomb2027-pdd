@@ -1,0 +1,87 @@
+{
+ "stage": 300,
+ "step": "protocol_amendment",
+ "registered_utc": "2026-10-19T11:05:32+00:00",
+ "relation_to_protocol": "additions to results/stage300/stage300_protocol.json; nothing registered there was changed, and the code hashes registered there are unchanged on disk",
+ "code_added": {
+  "scripts/stage300_amendment.py": {
+   "sha256": "990f0f5c9d271df03812b164bcb23785a5d7592f2131be2b6576d2ec0df151de",
+   "why": "this file"
+  },
+  "scripts/stage300_analyze.py": {
+   "sha256": "2d1c814353c12063b9b73df829019bdd73b3bb9dcea0c650e4c5a9e05f845fde",
+   "why": "aggregation of all records into stage300_analysis.json"
+  },
+  "scripts/stage300_censor.py": {
+   "sha256": "f108631649168f9b91c221d0b09466ddaeb5f62c45fad274cd360e16439c0854",
+   "why": "registers the 7,200 s per-sample wall for the travellers collection and records the six censored runs with the wall-clock and resident set size measured at the moment they were stopped"
+  },
+  "scripts/stage300_document.py": {
+   "sha256": "9b1e41f24f70ae4f313b6a824e979996db0077ba037e8c7286b94f2ef5e06cce",
+   "why": "assembles stage300_own_fit_comparison.md"
+  },
+  "scripts/stage300_losscase.py": {
+   "sha256": "4d5deec9bf0ca7caa38db4e5f74f2df1b3246266e2b4533f6f00ff3e81e539ad",
+   "why": "the worst single case, re-solved at its printed support and at every single-anchor neighbour of it"
+  },
+  "scripts/stage300_lossgap.py": {
+   "sha256": "42c3eb1676db39e9d87f82744974157196dff5239bd44ce8326c18c7a1e5e88a",
+   "why": "quantifies that disagreement over every evaluated run and records the endpoint-substitution trigger condition"
+  },
+  "scripts/stage300_prune.py": {
+   "sha256": "bb5edc2806805114f05bf4df5f4d375cfbd6c0cca7a8b70224c1b2dccf291a44",
+   "why": "fair-panel arm: measures the reference panel DecoDiPhy keeps after preprocess_input and recomputes BOTH Theta_1 (stage 298's exact k=1 routine) and R_dd on that panel"
+  },
+  "scripts/stage300_report.py": {
+   "sha256": "4314e748cccba92960d05f1ff9415a8898b57a988f3b14baefcc4d62596e1d6c",
+   "why": "table builders read by the document generator"
+  },
+  "scripts/stage300_resolve.py": {
+   "sha256": "66374177cf1ad7e680eb1a60a14fd87fc48b317cbfa21dcfcee08b879232dc0d",
+   "why": "fairness arm: re-solve DecoDiPhy's own QP (solve_osqp_once) at the support it returned, because the recomputed SSR of the returned configuration disagreed with the loss the tool reports for it"
+  },
+  "scripts/stage300_routee.py": {
+   "sha256": "09f1c2ef1dd67dfbd8b334de279336f85292f2402d1b2d30c26f9987c755e446",
+   "why": "verification route E: Lambda_1 against the tool's own k = 1 ladder loss"
+  },
+  "scripts/stage300_table.py": {
+   "sha256": "40254ee1c1f94ee1f31f9605ff6c3717496158bc75cbc280a2283e7eb36354e4",
+   "why": "per-case three-way CSV"
+  },
+  "scripts/stage300_tdprobe.py": {
+   "sha256": "2465628bde455028d4b44189f1f524f3fe4d8c58fb44284dd9094e48d93f3a71",
+   "why": "cost decomposition of the tool's input stage on one 10,575-leaf stool sample"
+  }
+ },
+ "code_registered_unchanged": {
+  "scripts/stage300_common.py": "a3466503aede771f5b170853ec852a29bc106abfaa09d18d1db9524e5e06aa2d",
+  "scripts/stage300_rundd.py": "a4faf9216bd1c61e78375f9096ea430c537285d7f04d27f97b58b18514794373",
+  "scripts/stage300_harvest.py": "e583c929aba42135361913a3d7e8bc2eca175237e903fd8d639d1bd57720ad01",
+  "scripts/stage300_evaluate.py": "83f6d7b63fe1799bc28ff954402709a99e712898ca5613c5ab38ac5be85f8f4f",
+  "scripts/stage300_verify.py": "97067bebc26ab85b465a30747aff31f5148b17efd52650df21abc79cad009ea9",
+  "scripts/stage300_protocol.py": "c4da9283cbd2184f396034ac14698867302f3537aea235f02adf41f6fc62fc8d",
+  "scripts/stage288_common.py": "e00a56c6f2f059886b9c80829fae042a864e2098061a77e3b10d2903fe0a85a4",
+  "scripts/stage289_decodiphy_bridge.py": "377c59870690991ff14746532059eabf0099a86c7b0a6ad6ceacf89b479beb4d",
+  "scripts/stage293_abundance.py": "dd51a938012743af1779878c4e62e80c698d320fcedf8251b5853ca47bf7153f",
+  "scripts/stage296_common.py": "449334a8372a35ee1a37c29501771689cfca75d5ef6c224ae7f7c0028fd658cc",
+  "scripts/stage298_common.py": "71e84fc3df9e9dcbba01268866d251bcd87139bfac698aa355585093ff6bcd07"
+ },
+ "run_configuration_actually_used": {
+  "krepp_placement": "60 cases x {dd_default, dd_true_k}, 20 workers, wall 1800 s, RLIMIT_AS 8 GB; 120/120 runs complete",
+  "travelers_pilot": "1 sample (td_sample_101_published), 1 worker, wall 14400 s, RLIMIT_AS 60 GB",
+  "travelers_batch": "the other 28 samples, 5 workers, wall 21600 s, RLIMIT_AS 30 GB",
+  "cores": "at most 26 of 62 in flight at any time (20 placement workers, then 5 travellers workers + 1 pilot + 1 probe), within the 40-core budget",
+  "krepp_ani": "no new runs: harvested from stages 289/293/294/297"
+ },
+ "travelers_wall": {
+  "seconds": 7200.0,
+  "registered_in": "results/stage300/stage300_travelers_cost.json",
+  "why": "the registered plan left the travellers wall to be sized from the pilot; the pilot did not return, so a wall was set from the budget instead: 29 samples x 2 h / 5 memory-safe concurrent workers is about 11.6 h, the largest per-sample wall that fits a single day of this stage's 40-core allocation",
+  "outcome": "6 of 29 samples attempted, 0 completed, 12.9 core-hours consumed, 9.9-10.8 GiB resident per run at the stop"
+ },
+ "deviations_from_the_registered_plan": [
+  "The original plan said the travellers workers would be \"sized from the pilot's peak RSS\"; the pilot had not finished when the batch was launched, so 5 workers x 30 GB RLIMIT_AS was chosen from its RSS trajectory (5.9 -> 7.5 GB over 50 minutes) and the measured machine headroom.",
+  "The analysis, report and table scripts were written after registration and are hashed in this amendment, as is the house pattern.",
+  "The travellers collection is reported as a measured cost, not as a fit comparison: 6 of 29 samples attempted, 0 completed within the 7,200 s wall, 23 not attempted.  Theta_1 (imported from stage 298) and Lambda_1 (computed here) are reported for all 29."
+ ]
+}

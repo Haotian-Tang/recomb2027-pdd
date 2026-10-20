@@ -1,0 +1,150 @@
+{
+  "stage": 50,
+  "created_utc": "2026-10-14T16:56:19.557016+00:00",
+  "status": "Complete constructive strictly binary hardness proof candidate; implemented and internally independently scrutinized. Not human peer review, formal verification, or literature priority clearance.",
+  "user_preference": "Only necessary Python and machine-readable research records added. No reader-facing report, PDF, manuscript, email, or publication action.",
+  "question": "Can the Stage49 H-parameter hardness survive strictly binary positive-edge trees while retaining the supplied cap+1 explanation promise?",
+  "main_result": {
+    "answer": "Yes according to the complete construction and soundness proof in stage50_binary_theory.json; finite validation found no contradiction.",
+    "model": "Known reduced unrooted tree; every internal original vertex has degree exactly 3; positive rational original edge lengths; distances observed only at a subset of original leaves; prescribed mean pendant 1; normalized positive sources strictly inside distinct original edges.",
+    "theorem": "Exact minimum-source decision is W[1]-hard parameterized by source budget H, even when a strict explanation with at most H+1 sources is supplied as part of the input.",
+    "gap": "The constructed YES instances have strict minimum H and NO instances have strict minimum H+1. NO excludes even closed point sources, including vertices and repeated edges.",
+    "source_parameter": "K positive integer SUM lists map to H=K+1; t-Multicolored Clique maps to H=t+binomial(t,2)+1 or a constant-budget NO instance.",
+    "new_ingredient": "A single forced calibration source absorbs positive binary-core deformation through an exact rational linear solve. Unit hidden-edge depth and the fixed pendant enforce a mass interval too narrow to hide an incorrect integer sum.",
+    "proof": "results/stage50_binary_theory.json",
+    "exact_forward_equation": "(diag(1/(1+a_i))+Bcore)p=c*1+h/2, with c=1/[2(K+target)] and positive semidefinite shared-path Bcore.",
+    "reverse_integer_bound": "Any cap-H competitor forces one positive-depth hidden source per active arm and one calibration source; its selected integer sum S obeys |S-target|<17/240<1.",
+    "supplied_witness": "Greedy interpolation of group minima/maxima uses at most one split group; the same exact solve then produces at most H+1 strict sources without solving SUM.",
+    "complexity": "Input tree, observations and supplied witness have polynomial binary encoding length; exact rational elimination has polynomial bit complexity.",
+    "integer_corollary": "Scaling every edge by the LCM L of edge and (d-1) denominators and setting d_new=1+L*(d_old-1) preserves pendant 1 and all source explanations bidirectionally. This gives positive integer lengths and observations, but loses the edge<=1 restriction and does not imply strong hardness.",
+    "interpretation": "Under FPT!=W[1], the arbitrary-missing-leaf prescribed-pendant problem does not admit an H-only FPT algorithm even on strictly binary trees. This is consistent with the Stage48 2^{O(H+J)} upper bound."
+  },
+  "verification": {
+    "constructive_development": {
+      "cases": 144,
+      "passed": 144,
+      "strict_promises": 144,
+      "strict_discrete_witnesses": 108,
+      "invalid_interface_cases_rejected": 10,
+      "scope": "Exact constructive witnesses and binary topology; does not certify NO instances"
+    },
+    "original_strict_oracle_development": {
+      "cases": 12,
+      "counts": {
+        "PASS": 11,
+        "FAIL": 0,
+        "UNKNOWN": 1,
+        "ERROR": 0
+      },
+      "timeout_retained": true,
+      "no_replacement_or_posthoc_timeout_filtering": true
+    },
+    "closed_oracle_controls": {
+      "unscreened": 4,
+      "screened": 4,
+      "same_control_inputs": true,
+      "all_passed": true
+    },
+    "frozen_confirmation": {
+      "path": "results/stage50_confirmation.json",
+      "summary": {
+        "base_inputs": 12,
+        "rescalings": 2,
+        "total": 14,
+        "complete": 14,
+        "unknown": 0,
+        "errors": 0,
+        "agreement": 14,
+        "disagreement": 0,
+        "yes": 7,
+        "no": 7,
+        "strict_promises_replayed": 14,
+        "strict_yes_replayed": 7
+      },
+      "method": "Generic original-edge support enumeration with exact rational nonnegative endpoint feasibility; range screening reads only original distances, never reduction metadata. Closed NO plus strict cap+1 witness certifies strict minimum cap+1; closed minimum cap plus independent strict cap witness certifies strict minimum cap.",
+      "derived_inputs": "14 inputs = 12 new base inputs + 2 deterministic integer rescalings; not 14 independent base cases."
+    },
+    "full_composition": {
+      "path": "results/stage50_composition.json",
+      "summary": {
+        "cases": 12,
+        "graph_yes": 6,
+        "graph_no": 6,
+        "easy_no": 3,
+        "strict_promises_replayed": 12,
+        "strict_yes_replayed": 6,
+        "source_hashes_unchanged": true,
+        "seconds": 0.716501688119024
+      },
+      "scope": "Construction replay does not independently decide the large NO PDD instances; their NO statement follows from the audited reduction proof and inherited incidence encoding",
+      "extra_boundary_fact": "Every nonempty valid incidence encoding already has target inside the continuous group-sum interval; the defensive outside-interval branch is unreachable for that source encoding. Empty-pair graph NO maps to fixed SUM NO [[1,3],[1,3]],target3."
+    },
+    "internal_review": [
+      "Separate derivation and implementation scrutiny agreed on exact completeness, arbitrary closed-source soundness, and the source budget.",
+      "Independent review of both exact closed oracles found range screening, duplicate endpoint merging and source reconstruction complete under the original-edge cap.",
+      "Additional boundary review checked the supplied-witness promise for circular reasoning, constant NO mapping, rational bit complexity and integer rescaling.",
+      "All reviews are internal AI-assisted checks; no external human review is claimed."
+    ]
+  },
+  "prior_work_boundary": {
+    "local_material_reviewed": "User-provided PDD supplement SB.3 pp16-23 and locally saved main-text XML, including model and exact-solution sections.",
+    "comparison": "SB.3 same-edge merging, non-identifiability, mean-pendant offset and fixed-support affine equations do not directly prove this support-budget parameterized lower bound. Main-text all-reference observations with unknown mean pendant differ from the present subset observations with prescribed pendant.",
+    "stage16_comparison": "Earlier binary NP-hardness used source budget depending on input item count N and did not imply H-only W[1]-hardness or the supplied H+1 gap.",
+    "candidate_contribution": "The constrained binary PDD realization and parameterized complexity boundary with a one-source promise gap; classical clique encoding, linearization, perturbation bounds and interpolation are not claimed as new.",
+    "online_check_limits": "Narrow searches did not yield a verified equivalent primary theorem; PMC CAPTCHA and bioRxiv 403 prevented checking those live full texts for updates. Search absence does not establish novelty.",
+    "priority_status": "Unconfirmed; awaiting broader prior-work and expert scrutiny."
+  },
+  "limits": [
+    "No claim of W[1] membership/completeness, strong NP-hardness, or a constant number of observed leaves.",
+    "Core edges can be very short; no bounded-aspect-ratio, uniform margin, noise robustness or approximation-hardness result.",
+    "Minimum explanation is not necessarily the biological generating composition; no composition-recovery conclusion follows.",
+    "Finite checks supplement but do not establish the asymptotic proof or novelty.",
+    "Existing development timeout remains UNKNOWN; all new confirmation cases completed."
+  ],
+  "next_questions": [
+    "Adversarial proof and prior-work review of the strictly binary H-versus-H+1 promise theorem.",
+    "Whether useful geometric separation or bounded-precision restrictions restore tractability; not answered by this construction.",
+    "How to position this lower bound beside the free-pendant and H+J algorithms without overstating biological identifiability."
+  ],
+  "integrity": {
+    "stage48_files_unchanged": 21,
+    "stage49_files_unchanged": 16,
+    "stage47_frozen_files_unchanged": 86,
+    "stage47_package_entries_unchanged": 52,
+    "stage47_package_unchanged": true,
+    "stage50_protocol_source_hashes_unchanged": true,
+    "frozen_stage50_protocols_sha256": {
+      "results/stage50_binary_development_protocol.json": "40bd2e23d1df24d5b34d2f78111273e712feb962cfc379cb21550cbc0c095219",
+      "results/stage50_binary_oracle_development_protocol.json": "7489f0de1faeb1df47042e57dba4eade4703a09681dc495d9c23807cb8941744",
+      "results/stage50_composition_protocol.json": "df48ed919d81e7e42b4416d2158fbf67eed3d9cc55e2f1aadf70e8ad29bc785b",
+      "results/stage50_confirmation_protocol.json": "49549d856d56e0f50ec0e90e499cbed1a88f5d0e1fc8de2fce8abc0c82112b01"
+    },
+    "stage50_files_sha256": {
+      "results/stage50_binary_development.json": "c633dc1a1fed4a08f93baa67dde8a13cb6eecc01fc59a7fdb3b8cbcd80902f1c",
+      "results/stage50_binary_development_protocol.json": "40bd2e23d1df24d5b34d2f78111273e712feb962cfc379cb21550cbc0c095219",
+      "results/stage50_binary_oracle_development_protocol.json": "7489f0de1faeb1df47042e57dba4eade4703a09681dc495d9c23807cb8941744",
+      "results/stage50_binary_oracle_development_results.json": "d10909c127fc908c486a97077f043ab84f3ccebbf4ab75cb2ab186536f7db2b9",
+      "results/stage50_binary_theory.json": "4bede89bfd5f4c74955eca6b2fc4766f2be0cfa332addeb159f156e79715f582",
+      "results/stage50_closed_oracle_development.json": "64796def301da6a7699bb9d7dd69343c7fb1f8167851df6ab3a2e340778c0811",
+      "results/stage50_closed_screened_development.json": "35ebb5673a85479d482c7a1c89778fa2700e4b300bc6eecb0e02efebfd41b57a",
+      "results/stage50_composition.json": "81f4e3d1e88327adb1b616566c5c7710dd564a16189a4695eb6109466c134be6",
+      "results/stage50_composition_protocol.json": "df48ed919d81e7e42b4416d2158fbf67eed3d9cc55e2f1aadf70e8ad29bc785b",
+      "results/stage50_confirmation.json": "64ca833143489f8f1e95955eeb367101c13847a67f7b91d126d22034721c7e7d",
+      "results/stage50_confirmation_protocol.json": "49549d856d56e0f50ec0e90e499cbed1a88f5d0e1fc8de2fce8abc0c82112b01",
+      "scripts/stage50_binary_development.py": "d2c0044a9b7de029c053f949bd52b4370fb331e3f8e76af242aee9179933e595",
+      "scripts/stage50_binary_oracle_development.py": "4bf698a636ee748bb16016bae577358876566d94cc7cadea615aac79a458387e",
+      "scripts/stage50_binary_reduction.py": "ef1935a3cda382253cc5367200d8c1291dc1397d11e9927cd0e669e3fd7ba244",
+      "scripts/stage50_closed_oracle.py": "aae6670b069a2693d21c8e6991188bbbe4c8f965fe3d198d5a55682d60b29198",
+      "scripts/stage50_closed_screened.py": "a7e298298bfeae8c0338b254b54d1a3a93080d5d9a84e0c9afa1e4aa86ca5cff",
+      "scripts/stage50_composed_reduction.py": "737b78568bbe938d26ba0ae28beaf76f88cbd59b9c3ab06000f4e9d9e2876278",
+      "scripts/stage50_composition_checks.py": "61c7edb7de9f79f266bfca6c88cb5f5a7aa222b7a633e0f9e9b3e50c5056a393",
+      "scripts/stage50_confirmation.py": "1e94d860de1b3b5d73927e9bc40eebe71a926fba3a88c87538cad1d8cac927e8"
+    }
+  },
+  "delivery": {
+    "new_reader_report": false,
+    "manuscript_changed": false,
+    "email_sent": false,
+    "prior_frozen_artifacts_unchanged": true
+  }
+}

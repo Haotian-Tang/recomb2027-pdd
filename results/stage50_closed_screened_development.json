@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "role": "Same four development controls, not new confirmation",
+  "source_sha256": {
+    "stage50_closed_oracle.py": "aae6670b069a2693d21c8e6991188bbbe4c8f965fe3d198d5a55682d60b29198",
+    "stage50_closed_screened.py": "a7e298298bfeae8c0338b254b54d1a3a93080d5d9a84e0c9afa1e4aa86ca5cff"
+  },
+  "rows": [
+    {
+      "name": "strict_hole_becomes_vertex",
+      "answer": {
+        "minimum": 1,
+        "witness": [
+          {
+            "edge": 2,
+            "p": "1",
+            "x": "1"
+          }
+        ],
+        "statistics": {
+          "supports_examined": 3,
+          "range_rejections": 2,
+          "lp_supports": 1,
+          "bases_examined": 1
+        }
+      }
+    },
+    {
+      "name": "center_of_three_star",
+      "answer": {
+        "minimum": 1,
+        "witness": [
+          {
+            "edge": 0,
+            "p": "1",
+            "x": "0"
+          }
+        ],
+        "statistics": {
+          "supports_examined": 1,
+          "range_rejections": 0,
+          "lp_supports": 1,
+          "bases_examined": 1
+        }
+      }
+    },
+    {
+      "name": "two_sources_needed",
+      "answer": {
+        "minimum": 2,
+        "witness": [
+          {
+            "edge": 0,
+            "p": "3/4",
+            "x": "1/3"
+          },
+          {
+            "edge": 1,
+            "p": "1/4",
+            "x": "1"
+          }
+        ],
+        "statistics": {
+          "supports_examined": 4,
+          "range_rejections": 3,
+          "lp_supports": 1,
+          "bases_examined": 1
+        }
+      }
+    },
+    {
+      "name": "impossible_distance_contrast",
+      "answer": {
+        "minimum": null,
+        "witness": null,
+        "statistics": {
+          "supports_examined": 1,
+          "range_rejections": 1,
+          "lp_supports": 0,
+          "bases_examined": 0
+        }
+      }
+    }
+  ]
+}

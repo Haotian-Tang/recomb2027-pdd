@@ -1,0 +1,123 @@
+{
+  "stage": 44,
+  "created_utc": "2026-10-14T12:41:33.003539+00:00",
+  "protocol_sha256": "485378aa3fbbe5ae5a535efd987c9747a6d5f9de62544d69e7ebab749d4a2f73",
+  "primary_results_unchanged": true,
+  "name": "fixed_random_15_n12_cap5_g6_hidden0",
+  "runs": {
+    "original_fixed_oracle": {
+      "status": "complete",
+      "feasible": true,
+      "minimum": 5,
+      "witness": {
+        "sources": [
+          {
+            "edge": 0,
+            "p": "4023/30250",
+            "x": "125/149"
+          },
+          {
+            "edge": 7,
+            "p": "9377/339625",
+            "x": "7002/9377"
+          },
+          {
+            "edge": 9,
+            "p": "278767/679250",
+            "x": "2157157/2230136"
+          },
+          {
+            "edge": 13,
+            "p": "54101/196625",
+            "x": "4125/54101"
+          },
+          {
+            "edge": 16,
+            "p": "2/13",
+            "x": "8/11"
+          }
+        ],
+        "pendant": "1/6"
+      },
+      "solver_wall_seconds": 6.536204747390002,
+      "process_wall_seconds": 6.540724787861109,
+      "child_cpu_seconds": 6.536551,
+      "maximum_rss_kib": 14284,
+      "wait_status": 0,
+      "independent_witness_verified": true,
+      "prescribed_pendant_verified": true
+    },
+    "stage43_fixed_one": {
+      "status": "complete",
+      "feasible": true,
+      "minimum": 5,
+      "statistics": {
+        "deficit_sets": 61,
+        "cover_feasible_faces": 5726,
+        "strict_faces": 1,
+        "zero_weight_gate_sets": 41,
+        "growth_states": 146,
+        "vertex_bases": 755,
+        "mass_faces": 42656,
+        "local_lp_calls": 5726,
+        "opposing_row_rejections": 4768,
+        "inconsistent_equality_rejections": 910,
+        "eliminated_equality_rank": 153,
+        "enumerated_lp_calls": 17,
+        "interval_lp_calls": 29,
+        "constant_row_rejections": 2
+      },
+      "deficit_vertices": [
+        15,
+        19,
+        20
+      ],
+      "deficits": [
+        "1143371/173030",
+        "11923/47190",
+        "112/7865"
+      ],
+      "witness": {
+        "sources": [
+          {
+            "edge": 1,
+            "p": "112/7865",
+            "x": "1/2"
+          },
+          {
+            "edge": 7,
+            "p": "235/16302",
+            "x": "121/235"
+          },
+          {
+            "edge": 11,
+            "p": "1278889/2276010",
+            "x": "3809842/16625557"
+          },
+          {
+            "edge": 13,
+            "p": "3753622/14794065",
+            "x": "7475721/48797086"
+          },
+          {
+            "edge": 16,
+            "p": "358/2299",
+            "x": "1700/2327"
+          }
+        ],
+        "pendant": "1/6"
+      },
+      "solver_wall_seconds": 4.616909245960414,
+      "process_wall_seconds": 4.623016769066453,
+      "child_cpu_seconds": 4.618571,
+      "maximum_rss_kib": 13348,
+      "wait_status": 0,
+      "independent_witness_verified": true,
+      "prescribed_pendant_verified": true
+    }
+  },
+  "completed_answers_agree": true,
+  "verified_witnesses": 2,
+  "status": "PASS",
+  "scope": "Posthoc exact correctness only; primary 2-second benchmark remains unchanged"
+}

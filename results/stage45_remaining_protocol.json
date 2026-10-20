@@ -1,0 +1,900 @@
+{
+  "stage": 45,
+  "registered_utc": "2026-10-14T12:55:50.552554+00:00",
+  "purpose": "Close remaining exact-answer agreement gaps; no performance or new-input evidence",
+  "selection": "All and only Stage44 cases missing a completed original-support oracle or current structural answer after the Stage44 posthoc result. Selection is outcome-dependent and explicitly posthoc.",
+  "required_methods": {
+    "free_pendant": [
+      "original_support",
+      "stage43_equality_reduced"
+    ],
+    "fixed_one_missing": [
+      "original_fixed_oracle",
+      "stage43_fixed_one"
+    ]
+  },
+  "jobs": [
+    {
+      "name": "free_random_27_n10_cap5_g6_missing1",
+      "method": "original_support",
+      "case": {
+        "name": "free_random_27_n10_cap5_g6_missing1",
+        "task": "free_pendant",
+        "group": "budget_tightened",
+        "edges": [
+          [
+            4,
+            12,
+            "11/3"
+          ],
+          [
+            15,
+            12,
+            "3/7"
+          ],
+          [
+            10,
+            14,
+            "4"
+          ],
+          [
+            11,
+            3,
+            "18/7"
+          ],
+          [
+            9,
+            17,
+            "5"
+          ],
+          [
+            6,
+            14,
+            "14/9"
+          ],
+          [
+            13,
+            5,
+            "11/4"
+          ],
+          [
+            13,
+            15,
+            "6"
+          ],
+          [
+            7,
+            15,
+            "7/3"
+          ],
+          [
+            13,
+            16,
+            "13/6"
+          ],
+          [
+            16,
+            17,
+            "9/7"
+          ],
+          [
+            0,
+            10,
+            "2"
+          ],
+          [
+            14,
+            1,
+            "4/5"
+          ],
+          [
+            2,
+            17,
+            "7/2"
+          ],
+          [
+            11,
+            12,
+            "16/9"
+          ],
+          [
+            11,
+            10,
+            "1"
+          ],
+          [
+            8,
+            16,
+            "5/6"
+          ]
+        ],
+        "observed": {
+          "0": "385619/37884",
+          "1": "1994791/189420",
+          "2": "1619129/113652",
+          "3": "378599/37884",
+          "4": "1274513/113652",
+          "5": "345152/28413",
+          "7": "1074701/113652",
+          "8": "1210613/113652",
+          "9": "1824887/113652"
+        },
+        "cap": 5,
+        "hidden_leaves": [
+          6
+        ],
+        "generating_sources": [
+          {
+            "edge": 13,
+            "p": "5/41",
+            "x": "7/11"
+          },
+          {
+            "edge": 3,
+            "p": "6/41",
+            "x": "5/11"
+          },
+          {
+            "edge": 5,
+            "p": "7/41",
+            "x": "4/11"
+          },
+          {
+            "edge": 12,
+            "p": "5/41",
+            "x": "6/11"
+          },
+          {
+            "edge": 8,
+            "p": "9/41",
+            "x": "7/11"
+          },
+          {
+            "edge": 16,
+            "p": "9/41",
+            "x": "3/11"
+          }
+        ],
+        "generating_pendant": "5/4",
+        "source_selection_mode": "terminal",
+        "vertices": 18,
+        "original_leaves": 10,
+        "observed_leaves": 9,
+        "generating_count": 6,
+        "source_edge_types": [
+          "terminal",
+          "terminal",
+          "terminal",
+          "terminal",
+          "terminal",
+          "terminal"
+        ],
+        "cherries": 2,
+        "missing_fraction": "1/10"
+      },
+      "previous_completed_methods": [
+        "stage43_equality_reduced"
+      ],
+      "expected_answer": {
+        "feasible": true,
+        "minimum": 5
+      }
+    },
+    {
+      "name": "free_random_30_n12_cap4_g5_missing1",
+      "method": "original_support",
+      "case": {
+        "name": "free_random_30_n12_cap4_g5_missing1",
+        "task": "free_pendant",
+        "group": "budget_tightened",
+        "edges": [
+          [
+            20,
+            8,
+            "1/2"
+          ],
+          [
+            20,
+            18,
+            "19/4"
+          ],
+          [
+            10,
+            20,
+            "9/5"
+          ],
+          [
+            14,
+            19,
+            "9/8"
+          ],
+          [
+            13,
+            17,
+            "9/2"
+          ],
+          [
+            16,
+            13,
+            "3/4"
+          ],
+          [
+            17,
+            7,
+            "19/6"
+          ],
+          [
+            21,
+            9,
+            "6/7"
+          ],
+          [
+            3,
+            18,
+            "1/2"
+          ],
+          [
+            15,
+            12,
+            "2"
+          ],
+          [
+            2,
+            12,
+            "7/2"
+          ],
+          [
+            14,
+            18,
+            "2"
+          ],
+          [
+            19,
+            21,
+            "13/9"
+          ],
+          [
+            12,
+            0,
+            "15/7"
+          ],
+          [
+            16,
+            6,
+            "3"
+          ],
+          [
+            4,
+            19,
+            "1/3"
+          ],
+          [
+            15,
+            5,
+            "8/7"
+          ],
+          [
+            1,
+            16,
+            "6"
+          ],
+          [
+            21,
+            11,
+            "9/2"
+          ],
+          [
+            15,
+            13,
+            "9/4"
+          ],
+          [
+            17,
+            14,
+            "13/2"
+          ]
+        ],
+        "observed": {
+          "0": "6036251/318780",
+          "1": "6579761/318780",
+          "2": "575251/28980",
+          "3": "1545253/159390",
+          "5": "5301671/318780",
+          "6": "5517581/318780",
+          "7": "1198244/79695",
+          "8": "3419681/318780",
+          "9": "2175469/212520",
+          "10": "3507503/318780",
+          "11": "2848129/212520"
+        },
+        "cap": 4,
+        "hidden_leaves": [
+          4
+        ],
+        "generating_sources": [
+          {
+            "edge": 2,
+            "p": "9/23",
+            "x": "3/11"
+          },
+          {
+            "edge": 7,
+            "p": "6/23",
+            "x": "4/11"
+          },
+          {
+            "edge": 18,
+            "p": "2/23",
+            "x": "9/11"
+          },
+          {
+            "edge": 10,
+            "p": "4/23",
+            "x": "7/11"
+          },
+          {
+            "edge": 14,
+            "p": "2/23",
+            "x": "7/11"
+          }
+        ],
+        "generating_pendant": "1/4",
+        "source_selection_mode": "terminal",
+        "vertices": 22,
+        "original_leaves": 12,
+        "observed_leaves": 11,
+        "generating_count": 5,
+        "source_edge_types": [
+          "terminal",
+          "terminal",
+          "terminal",
+          "terminal",
+          "terminal"
+        ],
+        "cherries": 4,
+        "missing_fraction": "1/12"
+      },
+      "previous_completed_methods": [
+        "stage41_active_basis",
+        "stage43_equality_reduced"
+      ],
+      "expected_answer": {
+        "feasible": false,
+        "minimum": null
+      }
+    },
+    {
+      "name": "fixed_random_07_n8_cap5_g5_hidden0",
+      "method": "stage43_fixed_one",
+      "case": {
+        "name": "fixed_random_07_n8_cap5_g5_hidden0",
+        "task": "fixed_one_missing",
+        "group": "budget_at_generator",
+        "edges": [
+          [
+            8,
+            11,
+            "3"
+          ],
+          [
+            11,
+            9,
+            "7/6"
+          ],
+          [
+            13,
+            6,
+            "16/7"
+          ],
+          [
+            10,
+            1,
+            "5/8"
+          ],
+          [
+            0,
+            12,
+            "3"
+          ],
+          [
+            4,
+            10,
+            "7/4"
+          ],
+          [
+            13,
+            7,
+            "7/5"
+          ],
+          [
+            5,
+            11,
+            "2/9"
+          ],
+          [
+            13,
+            12,
+            "17/7"
+          ],
+          [
+            10,
+            9,
+            "14/5"
+          ],
+          [
+            2,
+            8,
+            "8/7"
+          ],
+          [
+            12,
+            8,
+            "5/6"
+          ],
+          [
+            3,
+            9,
+            "1/3"
+          ]
+        ],
+        "observed": {
+          "1": "25546/6237",
+          "2": "704423/83160",
+          "3": "1040929/249480",
+          "4": "266171/49896",
+          "5": "395743/83160",
+          "6": "447527/35640",
+          "7": "418703/35640"
+        },
+        "cap": 5,
+        "pendant": "7/4",
+        "hidden_leaves": [
+          0
+        ],
+        "generating_sources": [
+          {
+            "edge": 7,
+            "p": "1/9",
+            "x": "8/11"
+          },
+          {
+            "edge": 1,
+            "p": "7/27",
+            "x": "9/11"
+          },
+          {
+            "edge": 3,
+            "p": "1/3",
+            "x": "3/11"
+          },
+          {
+            "edge": 2,
+            "p": "1/27",
+            "x": "5/11"
+          },
+          {
+            "edge": 9,
+            "p": "7/27",
+            "x": "2/11"
+          }
+        ],
+        "generating_pendant": "7/4",
+        "source_selection_mode": "mixed",
+        "hidden_source_in_generator": false,
+        "vertices": 14,
+        "original_leaves": 8,
+        "observed_leaves": 7,
+        "generating_count": 5,
+        "source_edge_types": [
+          "terminal",
+          "internal",
+          "terminal",
+          "terminal",
+          "internal"
+        ],
+        "cherries": 2,
+        "missing_fraction": "1/8"
+      },
+      "previous_completed_methods": [
+        "original_fixed_oracle"
+      ],
+      "expected_answer": {
+        "feasible": true,
+        "minimum": 4
+      }
+    },
+    {
+      "name": "fixed_random_11_n10_cap5_g6_hidden0",
+      "method": "stage43_fixed_one",
+      "case": {
+        "name": "fixed_random_11_n10_cap5_g6_hidden0",
+        "task": "fixed_one_missing",
+        "group": "budget_tightened",
+        "edges": [
+          [
+            10,
+            14,
+            "3"
+          ],
+          [
+            14,
+            12,
+            "9/8"
+          ],
+          [
+            15,
+            16,
+            "9/2"
+          ],
+          [
+            15,
+            17,
+            "7/3"
+          ],
+          [
+            13,
+            10,
+            "9/5"
+          ],
+          [
+            13,
+            17,
+            "6"
+          ],
+          [
+            16,
+            7,
+            "7/3"
+          ],
+          [
+            4,
+            12,
+            "5/6"
+          ],
+          [
+            3,
+            11,
+            "5/3"
+          ],
+          [
+            14,
+            6,
+            "17/8"
+          ],
+          [
+            2,
+            11,
+            "1"
+          ],
+          [
+            13,
+            5,
+            "17/2"
+          ],
+          [
+            17,
+            9,
+            "19/7"
+          ],
+          [
+            11,
+            10,
+            "9/2"
+          ],
+          [
+            12,
+            0,
+            "17/4"
+          ],
+          [
+            16,
+            8,
+            "6/7"
+          ],
+          [
+            1,
+            15,
+            "17/9"
+          ]
+        ],
+        "observed": {
+          "1": "369691/34320",
+          "2": "245941/20592",
+          "3": "259669/20592",
+          "4": "141577/20592",
+          "5": "1581353/102960",
+          "6": "165643/20592",
+          "7": "1656233/102960",
+          "8": "10529711/720720",
+          "9": "731701/65520"
+        },
+        "cap": 5,
+        "pendant": "1/3",
+        "hidden_leaves": [
+          0
+        ],
+        "generating_sources": [
+          {
+            "edge": 0,
+            "p": "2/13",
+            "x": "9/11"
+          },
+          {
+            "edge": 5,
+            "p": "1/26",
+            "x": "6/11"
+          },
+          {
+            "edge": 16,
+            "p": "2/13",
+            "x": "4/11"
+          },
+          {
+            "edge": 3,
+            "p": "5/26",
+            "x": "1/11"
+          },
+          {
+            "edge": 1,
+            "p": "5/26",
+            "x": "8/11"
+          },
+          {
+            "edge": 7,
+            "p": "7/26",
+            "x": "9/11"
+          }
+        ],
+        "generating_pendant": "1/3",
+        "source_selection_mode": "mixed",
+        "hidden_source_in_generator": false,
+        "vertices": 18,
+        "original_leaves": 10,
+        "observed_leaves": 9,
+        "generating_count": 6,
+        "source_edge_types": [
+          "internal",
+          "internal",
+          "terminal",
+          "internal",
+          "internal",
+          "terminal"
+        ],
+        "cherries": 3,
+        "missing_fraction": "1/10"
+      },
+      "previous_completed_methods": [
+        "original_fixed_oracle"
+      ],
+      "expected_answer": {
+        "feasible": true,
+        "minimum": 4
+      }
+    },
+    {
+      "name": "fixed_random_14_n12_cap4_g5_hidden1",
+      "method": "original_fixed_oracle",
+      "case": {
+        "name": "fixed_random_14_n12_cap4_g5_hidden1",
+        "task": "fixed_one_missing",
+        "group": "budget_tightened",
+        "edges": [
+          [
+            21,
+            19,
+            "8/5"
+          ],
+          [
+            17,
+            19,
+            "5/8"
+          ],
+          [
+            16,
+            6,
+            "7/8"
+          ],
+          [
+            20,
+            17,
+            "5/4"
+          ],
+          [
+            2,
+            13,
+            "13/7"
+          ],
+          [
+            13,
+            18,
+            "9/4"
+          ],
+          [
+            16,
+            15,
+            "2"
+          ],
+          [
+            0,
+            14,
+            "19/2"
+          ],
+          [
+            12,
+            13,
+            "5/3"
+          ],
+          [
+            4,
+            14,
+            "3/2"
+          ],
+          [
+            12,
+            14,
+            "4/3"
+          ],
+          [
+            21,
+            9,
+            "13/2"
+          ],
+          [
+            20,
+            10,
+            "13/8"
+          ],
+          [
+            18,
+            15,
+            "5/3"
+          ],
+          [
+            16,
+            3,
+            "13/7"
+          ],
+          [
+            12,
+            1,
+            "13/8"
+          ],
+          [
+            11,
+            21,
+            "5/3"
+          ],
+          [
+            17,
+            5,
+            "5/2"
+          ],
+          [
+            19,
+            7,
+            "3/4"
+          ],
+          [
+            20,
+            15,
+            "1"
+          ],
+          [
+            8,
+            18,
+            "12/5"
+          ]
+        ],
+        "observed": {
+          "0": "719657/38115",
+          "1": "2949451/304920",
+          "2": "216803/25410",
+          "3": "116989/21780",
+          "4": "414737/38115",
+          "5": "346627/38115",
+          "6": "1566251/304920",
+          "7": "2406881/304920",
+          "9": "4457867/304920",
+          "10": "2171261/304920",
+          "11": "3115127/304920"
+        },
+        "cap": 4,
+        "pendant": "1",
+        "hidden_leaves": [
+          8
+        ],
+        "generating_sources": [
+          {
+            "edge": 8,
+            "p": "4/33",
+            "x": "3/11"
+          },
+          {
+            "edge": 20,
+            "p": "3/11",
+            "x": "4/11"
+          },
+          {
+            "edge": 11,
+            "p": "2/33",
+            "x": "6/11"
+          },
+          {
+            "edge": 14,
+            "p": "3/11",
+            "x": "10/11"
+          },
+          {
+            "edge": 2,
+            "p": "3/11",
+            "x": "4/11"
+          }
+        ],
+        "generating_pendant": "1",
+        "source_selection_mode": "mixed",
+        "hidden_source_in_generator": true,
+        "vertices": 22,
+        "original_leaves": 12,
+        "observed_leaves": 11,
+        "generating_count": 5,
+        "source_edge_types": [
+          "internal",
+          "terminal",
+          "terminal",
+          "terminal",
+          "terminal"
+        ],
+        "cherries": 3,
+        "missing_fraction": "1/12"
+      },
+      "previous_completed_methods": [
+        "stage43_fixed_one"
+      ],
+      "expected_answer": {
+        "feasible": false,
+        "minimum": null
+      }
+    }
+  ],
+  "already_paired_cases": 43,
+  "per_job_hard_wall_seconds": 30.0,
+  "per_job_address_space_bytes": 1073741824,
+  "repetitions": 1,
+  "maximum_solver_wall_budget_seconds": 150.0,
+  "escalation": "None. One attempt per missing method; UNKNOWN retained at 30 seconds.",
+  "execution_order": "Primary registered case order, then required-method order; fresh sequential Linux fork per job",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "analysis": "Compare completed exact feasible/minimum answers to every prior completed answer. Replay every returned feasible witness using the independent component-distance checker. A witness alone does not verify minimality or NO. Never replace primary timeouts, repetitions, timing summaries, or outputs; no aggregate speed claims.",
+  "source_hashes": {
+    "check_stage43_fixed_one_missing.py": "f41141d906d3641b192ce43cc7b4c3280a40c82421eb92088db44a53dc42a5ef",
+    "stage17_strict_bounds.py": "23e4a8fa104078bdfb0d504009f32f51f2e2f8d67248db198be515ea00c19e89",
+    "stage23_two_source_envelope.py": "527930cd95e0ab9c684bb04bea5b2e63172794c2ac5000754449e718a316ab1a",
+    "stage24_three_source.py": "a6dd7ce1b72a922b3723445822ab132513368bd55487b63a704780b42763717e",
+    "stage25_benchmark.py": "169a5df796df38bb73a217b2acae0cf5899d23edebc7273c4ed1497e432848f6",
+    "stage25_bounded_error.py": "e4891791e19f9a813885f8a8304add879696a4d60da421e946536c9af4d3ab84",
+    "stage25_deficit_extension.py": "4d5925cfb38f627430739833f39893dbaf63bd63230a4bffcff3c945476704e3",
+    "stage25_three_source_linear.py": "9e7c12df85f9b8047046d318b8af5417df56625de6846f0c40dd4754d8c9d117",
+    "stage26_missing_leaf.py": "e69a281e6eb9ea5199d9687ee6a864d8436116410f33568fcc50131ca82196a1",
+    "stage26_scale.py": "76b788f6aa6d2ee0c0e081b0f19bfa435de0a47eb127100465b5b718fb715148",
+    "stage27_general_fpt.py": "8cc530db67f6becd9fc5ce5f2635a386956307e3ed9b5c3421da54236eddee4d",
+    "stage41_partial_fpt.py": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+    "stage42_benchmark.py": "7e0e8412b6218d2690d8e2298d39677cf0a795daea18918a3326bd2b050faafa",
+    "stage43_fixed_one_missing.py": "b9f50c96c5aeaf07851f54de86d5a1db56bda47383421f4191a8e5bb7f73e2ba",
+    "stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+    "stage44_confirmation.py": "1423277c500ddce801f07ddb15bc408f05cd71da107fd311f16bbd618be5f6df",
+    "stage44_confirmation_posthoc.py": "182a7d4495547afb485b62b3294a37a753817fd7ab62668e85a1140403593041",
+    "stage45_remaining_checks.py": "b2b9f57efe105b1bf7e42497be9028dd95049a696fcd99f1d573e0f7cca6e492",
+    "stage44_confirmation_replay.py": "b1f7fa44da7df55ca5c97f41b8f0a4586b377a55b30bdfb9e1f1994e26fd124b"
+  },
+  "previous_evidence_sha256": {
+    "results/stage44_confirmation_protocol.json": "012b4a193cb270331acb7123ff7bc975931835087b55a179985613ad909ee932",
+    "results/stage44_confirmation.json": "28ed03b399714969e0db782c2bc8b3beed4b80144e4089909ec60e9db78cff22",
+    "results/stage44_confirmation_runs.jsonl": "f46af0f0afae935e758ad7eece1979c344dd69db7269b424bb84bdc0ae3e3260",
+    "results/stage44_confirmation_posthoc_protocol.json": "485378aa3fbbe5ae5a535efd987c9747a6d5f9de62544d69e7ebab749d4a2f73",
+    "results/stage44_confirmation_posthoc.json": "6cffd0fd901a50d38f94399409b34b846aa786237db0f531d5e6d00e0e588520"
+  }
+}

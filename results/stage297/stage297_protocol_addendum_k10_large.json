@@ -1,0 +1,50 @@
+{
+ "stage": 297,
+ "registered_utc": "2026-10-18T21:11:30.255973+00:00",
+ "status": "ADDENDUM_REGISTERED_BEFORE_EXECUTION_OF_THE_BATCH_IT_COVERS",
+ "extends": [
+  "results/stage297/stage297_protocol.json",
+  "results/stage297/stage297_protocol_addendum_main_k10.json",
+  "results/stage297/stage297_protocol_addendum_k10_extra.json"
+ ],
+ "covers": [
+  "results/stage297/stage297_bridge_k10_adv_large.jsonl",
+  "results/stage297/stage297_bridge_k10_rand_large.jsonl"
+ ],
+ "why": "at |R| >= 81 the five-regime search does not fit the registered 7200 s per-case wall: of 71 records in main_k10 + main_k10_extra, 17 are per-case timeouts, at sizes [[43, 1], [81, 2], [93, 3], [95, 3], [101, 3], [117, 2], [122, 3]]. Because a bridge record is written once at the end of the case, one slow regime destroys the regimes that did finish. These batches run ONE regime per case so the cheap adversarial arm - the arm the flatness claim is about - is recoverable at every panel size.",
+ "batches": {
+  "k10_adv_large": {
+   "regime": "adversarial_nearest only",
+   "min_R": 81,
+   "per_size": 5,
+   "candidates": 55,
+   "after_skip": 55,
+   "probe_seconds": 1200,
+   "per_case_wall_seconds": 7200,
+   "want_known": false,
+   "workers": 14,
+   "skip": "STAGE297_SKIP=results/stage297/stage297_adv_done_manifest.jsonl (the 54 cases whose adversarial threshold is already found)"
+  },
+  "k10_rand_large": {
+   "regime": "random (seed 11) only",
+   "min_R": 81,
+   "per_size": 5,
+   "note": "run only if budget remains after k10_adv_large"
+  }
+ },
+ "declared_scope": {
+  "five_regime_coverage": "the five-regime K = 10 table therefore covers the panel sizes at which it completed; at the largest sizes the random and whole_clade arms are NOT measured at K = 10",
+  "t_known": "want_known=False in these batches: no rank scan, no cogirth, thresholds only"
+ },
+ "code_change": {
+  "file": "scripts/stage297_bridge.py",
+  "sha256_previous": "477e9949769be2f9be466c790e2655dff82b7f636d7a409e96508efdaf820522",
+  "sha256_now": "38c5387ad030bef2e79121e49ea510595d9d5bff6b55502fa4d28cf0207f43d3",
+  "copies_kept": [
+   "results/stage297/stage297_bridge_v1_as_registered.py",
+   "results/stage297/stage297_bridge_v2_main_k10.py",
+   "results/stage297/stage297_bridge_v3_k10_extra.py"
+  ],
+  "change": "build_jobs gains regimes= and min_R= filters; two new PLANS entries"
+ }
+}

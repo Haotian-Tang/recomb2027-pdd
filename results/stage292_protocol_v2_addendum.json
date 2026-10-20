@@ -1,0 +1,61 @@
+{
+  "stage": 292,
+  "registered_utc": "2026-10-18T08:11:42.311624+00:00",
+  "status": "ADDENDUM_REGISTERED_BEFORE_EXECUTION_OF_THE_BATCHES_IT_COVERS",
+  "extends": "results/stage292_protocol_v2.json",
+  "covers": [
+    "the resume batch for the K = 7 bank cases that the first bridge run did not reach",
+    "the K >= 10 bank batch"
+  ],
+  "does_not_cover": [
+    "results/stage292_validate_replay.jsonl",
+    "results/stage292_validate_fresh.jsonl",
+    "results/stage292_bridge_K2_3_5_7.jsonl",
+    "results/stage292_panels.jsonl",
+    "-- all four are produced under v2 and under the v2 code hashes"
+  ],
+  "why": "The first bridge run (K = 2,3,5,7) completed every K = 2, 3 and 5 case and 39 of the 119 K = 7 cases before it was stopped so that the panel ladder could run inside the 28-core budget. The remaining K = 7 cases are re-queued here. The K >= 10 batch additionally needs a shorter per-probe budget and a stratified subsample to fit the budget, which changes scripts/stage292_bridge.py.",
+  "changes_to_scripts_stage292_bridge_py": [
+    "PROBE_SECONDS for K = 10 and K = 12 lowered from 900 s to 240 s",
+    "per-case wall for K >= 10 lowered from 10800 s to 1200 s",
+    "STAGE292_STRIDE environment variable: keep every STRIDE-th case of the list sorted by (K, reference_set_size), i.e. a size-stratified subsample",
+    "STAGE292_OUT and STAGE292_SKIP environment variables so a batch can be resumed without re-running cases already recorded"
+  ],
+  "planned_batches": [
+    {
+      "name": "K7_resume",
+      "out": "results/stage292_bridge_K7_resume.jsonl",
+      "argv": [
+        "7"
+      ],
+      "stride": 1,
+      "skip": "results/stage292_bridge_K2_3_5_7.jsonl",
+      "expected_cases": 80
+    },
+    {
+      "name": "K10_12",
+      "out": "results/stage292_bridge_K10_12.jsonl",
+      "argv": [
+        "10",
+        "12"
+      ],
+      "stride": 3,
+      "declared_reduction": "K = 10 is measured on a size-stratified 1-in-3 subsample of the 213 bank cases, not on all of them; every number reported for K = 10 is labelled as a subsample",
+      "expected_cases": "ceil(214/3)"
+    }
+  ],
+  "new_code_sha256": {
+    "scripts/stage292_bridge.py": "fff23ee94c527f8f4c5cb9dfbaa47bedbab3475d70f7231d73e9aa91b83728ed",
+    "scripts/stage292_all_minimisers.py": "6b7633a045d94616af72e3b008cab0332168448384c0fe6c5c3cd9faa1704afa",
+    "scripts/stage292_panels.py": "f7b51f47161c00bbcf89bb3bbdaae56d7732657ae81f9a9029c761b4020b3699",
+    "scripts/stage292_orders.py": "d13b38dc9a45cfa2577813465cc52b899a46af163aa22e7e2fcd62981347e672",
+    "scripts/stage292_harness.py": "e77a70a59348402ad28ba580d0f1e61599b26df463f1401f7eb962566a2b4537",
+    "scripts/stage292_analysis.py": "074827a760a836bc71ca9cffa69ba69547d430404c5f6f5683f57b8d9018b7bc"
+  },
+  "unchanged_since_v2": [
+    "scripts/stage292_all_minimisers.py",
+    "scripts/stage292_panels.py",
+    "scripts/stage292_orders.py",
+    "scripts/stage292_harness.py"
+  ]
+}

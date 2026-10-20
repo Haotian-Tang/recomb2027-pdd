@@ -1,0 +1,36 @@
+{
+  "stage": 42,
+  "created_utc": "2026-10-14T11:56:46.919546+00:00",
+  "passed": true,
+  "compiler": "Tectonic 0.17.0, verified official musl release",
+  "compiler_sha256": "a98aa59ad5c1df39a6c9e56cbfc5088f2b11d6c179c0130b97998e4bd46a46da",
+  "pymupdf_version": "1.28.2",
+  "paper_size_points": [
+    612,
+    792
+  ],
+  "font_size_points": 10,
+  "margins_inches": 1,
+  "total_pages": 18,
+  "separate_title_abstract_pages": 1,
+  "main_body_pages": 8,
+  "bibliography_pages": 1,
+  "supplement_pages": 8,
+  "unresolved_references": false,
+  "missing_glyph_warnings": false,
+  "overfull_boxes": false,
+  "clipped_spans": [],
+  "source_sha256": {
+    "manuscript/stage42_paper.tex": "9b3671c67fcfa2d6b46988688ff408d1346d0a8d61c7c0757cc047ebd43dcf15",
+    "manuscript/stage42_hardness_appendix.tex": "dcbea7496f7e0564a0e5de7ec8da87339299ad5eba4db8219c86ba864835a9a7",
+    "manuscript/stage42_experiment_section.tex": "d4aeb20b512177f896b745e437f0100b0a2cb9e7af73abce842497e796e9a470",
+    "literature/stage42_verified_references.bib": "45085eb5cfc6bc444daacc5c0f7cd0b22f8fdbbd38218402a3b4bc5e805af3b1",
+    "exports/stage42_benchmark.pdf": "12ef34238b502ce6e663514f12d4ac9bf490ea113318aae847c8737bdfd6b991"
+  },
+  "pdf_sha256": {
+    "stage42_paper.pdf": "be7e671ac896ef8948579efccc02e0a5d8a88d633be021a398c7013a677231fc",
+    "stage42_main.pdf": "9677da38e1c99087a5e1643af2450496931c7f07b0fd954e781c11122c1078c5",
+    "stage42_supplement.pdf": "3bd6a04372084702239377774ebb5741db48da55456aeda14f115db2ccb3ab73"
+  },
+  "scope": "Build and layout checks, not proof certification or submission; author metadata remains a draft placeholder."
+}

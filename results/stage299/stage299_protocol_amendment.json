@@ -1,0 +1,90 @@
+{
+ "stage": 299,
+ "step": "protocol_amendment",
+ "registered_utc": "2026-10-19T07:46:02.143924+00:00",
+ "purpose": "Record the post-registration code changes and the final hashes.",
+ "changes": [
+  {
+   "script": "stage299_validate.py",
+   "versions": 3,
+   "what": "Two successive defects in the VALIDATOR'S OWN reference computation for a point pair lying on the SAME edge: v1 inserted a single subdivision vertex for both points, v2 kept the two handles in a dict keyed by edge index, which collides.  Both made the reference read 0.  `stage299_common.point_distance` and `edge_hops`, the code under test, were never changed; v3 agrees with the subdivision reference on 126/126 pairs including every same-edge pair.",
+   "evidence_retained": [
+    "stage299_validation.json (v1, failed)",
+    "stage299_validation_v2.json (v2, failed)",
+    "stage299_validation_v3.json (v3, passed)"
+   ],
+   "affects_measurements": false
+  },
+  {
+   "script": "stage299_small.py",
+   "versions": 2,
+   "what": "The exact_partner arm is evaluated on the KREPP panel, leaf for leaf, so the 0-3 references present only in the exact panel (median 1, max 3) must never be observed in that arm.  The first version did not subtract them and aborted on its own leaf-count assertion before writing any record; the registered leaf sets are unchanged.",
+   "evidence_retained": [
+    "no partial stream was written"
+   ],
+   "affects_measurements": false
+  },
+  {
+   "script": "stage299_analyze.py",
+   "versions": 3,
+   "what": "Two robustness fixes in ANALYSIS code only: the travellers arm records neither a removed-reference list (up to 7,931 ids per draw) nor K_generating, so both accesses were made optional.  No measurement is produced by this script; it reads the frozen streams.",
+   "evidence_retained": [
+    "stage299_analysis.json is the only output"
+   ],
+   "affects_measurements": false
+  }
+ ],
+ "derived_outputs": {
+  "stage299_regime_ratios_json": "structured/random ratios of the median fall in Theta_1, computed deterministically from the registered per-cell table in stage299_analysis.json; ratios are suppressed where the random median fall is zero",
+  "stage299_real_incompleteness_md": "the stage report",
+  "stage299_real_incompleteness_png": "the stage figure"
+ },
+ "protocol_code_hashes": {
+  "stage299_common.py": "3ef66f4f5c3729c93f8e662649d3c16c917fc7a08655e753f8e3e1d0a810b817",
+  "stage299_protocol.py": "e4065a99ff343a1e3eb95122432bc41baf66602d279cb615df4b0bbc5cc63db6",
+  "stage299_small.py": "24ccfa1282d324ebbf5866db74fd377358826e7718e71dd2ac5a8b378cf9210a",
+  "stage299_td.py": "d8e88f675060c1c31cfc3a1b07f62f8f18c4915ec0dd8d0d48b13978991d7b3b",
+  "stage299_validate.py": "a8c7a64af21b22e894874b4a6ff1d5ea5f0c30d668130ad2ad23db09e337591d",
+  "stage299_analyze.py": "NOT_YET_WRITTEN",
+  "stage298_common.py": "71e84fc3df9e9dcbba01268866d251bcd87139bfac698aa355585093ff6bcd07",
+  "stage296_common.py": "449334a8372a35ee1a37c29501771689cfca75d5ef6c224ae7f7c0028fd658cc",
+  "stage288_common.py": "e00a56c6f2f059886b9c80829fae042a864e2098061a77e3b10d2903fe0a85a4",
+  "stage288_incompleteness.py": "ecde7d1f470760aed4eced503ef56dfdf58b8f82bdde6896ec9d10f59e5adc71",
+  "stage294_common.py": "3e2ac8bd6666363af35eb263b3ceca78b12db60c49f0946919d80077573dbbaf"
+ },
+ "final_code_hashes": {
+  "stage288_common.py": "e00a56c6f2f059886b9c80829fae042a864e2098061a77e3b10d2903fe0a85a4",
+  "stage288_incompleteness.py": "ecde7d1f470760aed4eced503ef56dfdf58b8f82bdde6896ec9d10f59e5adc71",
+  "stage294_common.py": "3e2ac8bd6666363af35eb263b3ceca78b12db60c49f0946919d80077573dbbaf",
+  "stage296_common.py": "449334a8372a35ee1a37c29501771689cfca75d5ef6c224ae7f7c0028fd658cc",
+  "stage298_common.py": "71e84fc3df9e9dcbba01268866d251bcd87139bfac698aa355585093ff6bcd07",
+  "stage299_analyze.py": "c7ccaf9119bb6bbb77db154bc4dabcd483bcbf44308bfa054ed52789623d227f",
+  "stage299_common.py": "3ef66f4f5c3729c93f8e662649d3c16c917fc7a08655e753f8e3e1d0a810b817",
+  "stage299_protocol.py": "e4065a99ff343a1e3eb95122432bc41baf66602d279cb615df4b0bbc5cc63db6",
+  "stage299_small.py": "42058a00fcd49ceb48c77d0c3e44dc86c6e804dd7ba7f8c3b8a635f36904610b",
+  "stage299_td.py": "d8e88f675060c1c31cfc3a1b07f62f8f18c4915ec0dd8d0d48b13978991d7b3b",
+  "stage299_validate.py": "fd8c2fbdc296e028921d0f18c0739445b6cd96b4c91a4a1ea0b60c94b075518f",
+  "stage299_amendment.py": "self"
+ },
+ "changed_since_registration": [
+  "stage299_analyze.py",
+  "stage299_small.py",
+  "stage299_validate.py"
+ ],
+ "output_hashes": {
+  "stage299_analysis.json": "feb7bc62f1c860a0468b25e4b65b65edb81871a7635598c9e6779d326734f6aa",
+  "stage299_exact_baseline.json": "0f7c263c5a110e9ef91278595d6b71be0f949981ce5fa82354cb9f6b899aa961",
+  "stage299_per_draw.csv": "8a4bc9b69280a4f2f852a534f17912d6f5545df603b2ecfc16b86d9f9393c6a6",
+  "stage299_protocol.json": "7fb2e82ad6598d6be480eba35c17df99e8c1819e56ac0144bae5b6a8acc2101c",
+  "stage299_real_incompleteness.md": "f986385cf427e016fa70ac67c43f61479c9872e16477c54ecaa5f08ae5ca6ea3",
+  "stage299_real_incompleteness.png": "c2f588005a1298fd966dafd61dfbfcc8109359bd537ad71ecc9f5233d85e96fe",
+  "stage299_regime_ratios.json": "319879f4c6897614ea1409e1c83e55523553cf7f5f94d561dc45e79cc0cd46d4",
+  "stage299_small_runs.jsonl": "df86a921d927cca40a95207a961cae101e72060bc7c0a5e732bcf21f3ec18f32",
+  "stage299_small_summary.json": "bb6c70eb97880ad195aac84f35475008d1ddc9ac12995b1d5ec6aa4dae5b58f5",
+  "stage299_td_runs.jsonl": "b3e3a43817a3eedd2378dd84855e769f889c6e835c638aa4cb8df22b86f3c7f8",
+  "stage299_td_summary.json": "09fd02cf05b3ee122feaeb291dd73abcca7f32195f138283870eb6534838fa8c",
+  "stage299_validation.json": "583cccfb631c725bf77f3ec5f9295581a45b9c0ca5100854e7a9fc6aa5834165",
+  "stage299_validation_v2.json": "029af3325eb6eebafe710a7941522a6afc73ca7df83a5c8cd49e190d0ee586a7",
+  "stage299_validation_v3.json": "278bc7a5a610c937eedf3b9c20f2fdc0004d926102354531e94bed199696e193"
+ }
+}

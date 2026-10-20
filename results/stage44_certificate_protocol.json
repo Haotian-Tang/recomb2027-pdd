@@ -1,0 +1,23 @@
+{
+  "stage": 44,
+  "scope": "Exact deterministic checks and fixed-corpus certificate comparison; no runtime or biological validation claim",
+  "frozen_inputs": {
+    "scripts/stage43_theory_robust_mass.py": "fcf762fa16e7a77ed50d456a7b4dedc9efca1cc63b99b751aaf3e0e84651676e",
+    "results/stage43_theory_robust_mass.json": "fc97c5630a48ff8a4a015cd5f2d6d94e1fcddcdb864a8dd4bf75499aa8a21e76"
+  },
+  "data_plan": {
+    "existing_mixed": "Recreate all 200 Stage43 mixed cases using identical seed 430317, tree/trial loops, source draws, pendant, noise, alpha and rho; assert every archived case summary matches. Compare old mass screen, new path screen, and their intersection. No instance dropping.",
+    "heteroscedastic": "For the same 200 generating instances use d_upper[r]=truth[r]+epsilon*(1+(leaf_index mod 4))/4 and d_lower[r]=truth[r]-epsilon*(1+(leaf_index mod 5))/5. Compare path upper bounds with all branch-pair brute force; verify no true edge excluded.",
+    "one_source": "Same 20 tree/edge targets as Stage43; nominal exactly target, fixed pendant lower bound=1, alpha=rho=1/4; epsilon ratios 0,1/4,1/2,3/4,1,5/4,2 times alpha*rho*minimum_edge_length. Retain all 140 cases; compare old and new screens, verify theorem at ratios<1.",
+    "sharpness": "Unit three-leaf star target arm0 center-distance3/8; alternative arm0 weight3/4 center-distance1/2 and arm1 weight1/4 center-distance1/4, pendant1; alpha=rho=1/4. Verify sup discrepancy=1/16 and strict versus equality screening."
+  },
+  "metrics": [
+    "case counts",
+    "total retained/excluded edges",
+    "strictly tighter/equal/incomparable screen counts",
+    "all true source edges retained",
+    "fast branch score equals exhaustive branch-pair score",
+    "exact rational counterexample checks"
+  ],
+  "claim_boundary": "Path metric/Gromov-product identity and message passing are classical. Target is a sharper PDD conditional corollary; generating counts are not identifiable in general."
+}

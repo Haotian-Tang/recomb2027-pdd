@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "generic_bounded_lp_differential_cases": 60,
+  "encountered_local_lp_differential_cases": 390,
+  "fixture_cases": 30,
+  "independently_verified_witnesses": 24,
+  "answers": [
+    {
+      "name": "caterpillar_n6_k2_missing3",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "caterpillar_n6_k3_missing0",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "caterpillar_n10_k2_missing0",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "caterpillar_n10_k3_missing2",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "caterpillar_n10_k4_missing5",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "caterpillar_n16_k2_missing4",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "caterpillar_n16_k3_missing8",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "caterpillar_n16_k4_missing0",
+      "feasible": true,
+      "minimum": 4
+    },
+    {
+      "name": "balanced_n6_k2_missing0",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "balanced_n6_k3_missing1",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "balanced_n10_k2_missing2",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "balanced_n10_k3_missing5",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "balanced_n10_k4_missing0",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "balanced_n16_k2_missing8",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "balanced_n16_k3_missing0",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "balanced_n16_k4_missing4",
+      "feasible": true,
+      "minimum": 4
+    },
+    {
+      "name": "alternating4_full",
+      "feasible": true,
+      "minimum": 4
+    },
+    {
+      "name": "alternating4_one_missing",
+      "feasible": true,
+      "minimum": 4
+    },
+    {
+      "name": "star3_strict_cap2",
+      "feasible": false,
+      "minimum": null
+    },
+    {
+      "name": "star3_strict_cap3",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "star4_strict_cap3",
+      "feasible": false,
+      "minimum": null
+    },
+    {
+      "name": "star4_strict_cap4",
+      "feasible": true,
+      "minimum": 4
+    },
+    {
+      "name": "star6_strict_cap3",
+      "feasible": false,
+      "minimum": null
+    },
+    {
+      "name": "star6_strict_cap4",
+      "feasible": false,
+      "minimum": null
+    },
+    {
+      "name": "star3_closure_only",
+      "feasible": false,
+      "minimum": null
+    },
+    {
+      "name": "star4_closure_only",
+      "feasible": false,
+      "minimum": null
+    },
+    {
+      "name": "marked_hubs2_cap2",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "marked_hubs2_cap3",
+      "feasible": true,
+      "minimum": 2
+    },
+    {
+      "name": "marked_hubs3_cap3",
+      "feasible": true,
+      "minimum": 3
+    },
+    {
+      "name": "marked_hubs4_cap4",
+      "feasible": true,
+      "minimum": 4
+    }
+  ],
+  "solver_sha256": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+  "limitation": "Exact LP equivalence and witness checks, not a timing measurement or empirical novelty claim"
+}

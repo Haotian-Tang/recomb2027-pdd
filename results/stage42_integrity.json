@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "local_links": 29,
+  "missing_links": [],
+  "undersized_long_text_spans": [],
+  "protocol_source_hashes_match": true,
+  "pdf_sources_match": true,
+  "pdf_files_match": true,
+  "scope": "Stage42 provenance and layout audit; mathematical and finite controls are separately reported"
+}

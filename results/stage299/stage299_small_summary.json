@@ -1,0 +1,10 @@
+{
+ "stage": 299,
+ "step": "small_arms",
+ "n_jobs": 23472,
+ "complete": 23472,
+ "closed_form_mismatches": 0,
+ "witness_agree": 23472,
+ "elapsed_seconds": 421.5216863155365,
+ "failures": []
+}

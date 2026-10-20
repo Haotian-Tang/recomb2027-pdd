@@ -1,0 +1,41 @@
+{
+  "stage": 45,
+  "created_utc": "2026-10-14T13:01:18.035674+00:00",
+  "passed": true,
+  "compiler": "Tectonic 0.17.0, verified official musl release",
+  "compiler_sha256": "a98aa59ad5c1df39a6c9e56cbfc5088f2b11d6c179c0130b97998e4bd46a46da",
+  "pymupdf_version": "1.28.2",
+  "paper_size_points": [
+    612,
+    792
+  ],
+  "font_size_points": 10,
+  "margins_inches": 1,
+  "total_pages": 21,
+  "separate_title_abstract_pages": 1,
+  "main_body_pages": 10,
+  "bibliography_pages": 1,
+  "supplement_pages": 9,
+  "unresolved_references": false,
+  "missing_glyph_warnings": false,
+  "overfull_boxes": false,
+  "clipped_spans": [],
+  "source_sha256": {
+    "manuscript/stage45_paper.tex": "e6b88fd7606bb4d3e7634997c3977760ff39aa2d6597cac2392d624b62c9d38d",
+    "manuscript/stage42_hardness_appendix.tex": "dcbea7496f7e0564a0e5de7ec8da87339299ad5eba4db8219c86ba864835a9a7",
+    "manuscript/stage45_experiment_section.tex": "0224d8819cf3e83c67ac7dfe859c44ef0fa57e0d22656615b153ff0efb5cef05",
+    "manuscript/stage44_path_certificate.tex": "45dc6ec45d378e914f6aab84a05355a0479b603b958385fdeb41667216717277",
+    "literature/stage44_additional_references.bib": "f293cde2ae20f98a911bd745b3593274425e38949c532b13a5d38c8b95e0d955",
+    "literature/stage45_additional_references.bib": "b65ffe224dfae89c662799a4df3cac6d00f89db4c9c2eb26967d7e3924d96fa8",
+    "manuscript/stage43_one_missing_fixed_pendant.tex": "62beb1e2e82338f6881f05a8fd73473112b3a8f62b0582b19ba2358a6b9c3204",
+    "manuscript/stage43_theory_robust_mass.tex": "dabeefd188fc0450c2f5502829f5b10fae82ed788aca97d2768e51a69779b6e1",
+    "literature/stage43_additional_references.bib": "dc98bfc8463c9faab1e61549bce9c3d8aa39444a0dd21d3aea859c4d08493f91",
+    "literature/stage42_verified_references.bib": "45085eb5cfc6bc444daacc5c0f7cd0b22f8fdbbd38218402a3b4bc5e805af3b1"
+  },
+  "pdf_sha256": {
+    "stage45_paper.pdf": "704cd38f94312279e0f00a303e6d5153697c6a6dd76a83c3a757369ce22c0ef3",
+    "stage45_main.pdf": "b2ef73b2d9a8582fa41041ff6bf69aa553b5db4e08794556e62ac7bbbffd1fd2",
+    "stage45_supplement.pdf": "74c1ce542a58ef38dc50a8d299ad6101bdda928f98fcaad5325dea8d191bbca2"
+  },
+  "scope": "Build and layout checks, not proof certification or submission; author metadata remains a draft placeholder."
+}

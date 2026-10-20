@@ -1,0 +1,3 @@
+krepp_ani route A 2631/2631 agree route B max diff 8.327e-17 route C cases 8 max diff 8.327e-17 skipped {}
+krepp_placement route A 120/120 agree route B max diff 8.327e-17 route C cases 8 max diff 8.327e-17 skipped {}
+wrote /home/haotian/projects/recomb2027_novelty/results/stage300/stage300_verification_small.json

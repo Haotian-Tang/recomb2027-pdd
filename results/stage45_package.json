@@ -1,0 +1,31 @@
+{
+  "stage": 45,
+  "created_utc": "2026-10-14T13:07:14.803592+00:00",
+  "status": "PASS",
+  "archive": "exports/stage45_review_packet.zip",
+  "bytes": 1333202,
+  "sha256": "c49fd1c77a73f60e1a80c051d6daa240cafba3c2e58e3e1f237b487db0b2d95f",
+  "files": 19,
+  "contents_sha256": {
+    "README.md": "7a93827a1330e7cbdf3077d37b2ef78325bed7495c23eb44b5b625587f21a40f",
+    "exports/stage45_code_candidate.zip": "9f5e415e4bb78610a1d5b05a2679f694e04db03170b9d08e231a1034f6c525dd",
+    "exports/stage45_expert_brief.pdf": "985be845fb2d05b7ea9dba8d238318cc405ae6a305b453dda4ba2b8f9f164a33",
+    "exports/stage45_main.pdf": "b2ef73b2d9a8582fa41041ff6bf69aa553b5db4e08794556e62ac7bbbffd1fd2",
+    "exports/stage45_paper.pdf": "704cd38f94312279e0f00a303e6d5153697c6a6dd76a83c3a757369ce22c0ef3",
+    "exports/stage45_supplement.pdf": "74c1ce542a58ef38dc50a8d299ad6101bdda928f98fcaad5325dea8d191bbca2",
+    "manuscript/stage45_submission_metadata.txt": "128c0e9262bb3db655327213893567f25cc99ca713ad7714dee7801e97735cbd",
+    "metadata/stage45_submission_requirements.json": "e94fc943c69c92ea97a8676553510255ef79c1e4c2fea18e6d365255355e1988",
+    "results/stage45_brief_build.json": "86900dfce7243229424030cd75ee4950df58888adef5b149557cacc5bfdc8e31",
+    "results/stage45_code_candidate.json": "5f9a03ab59daea2b0b787c10c527781fca1d1e3f0b618bab156d9172cb5748d4",
+    "results/stage45_paper_build.json": "4a33ca39f6f9c5567b4926254ce1b625ffd6dbc2d903492f0aee556b5c3b819c",
+    "results/stage45_remaining_integrity.json": "1578927fb382510b95b023e4fe59b8b22f8f2bf70fbc50e1662ea8889b2d239d",
+    "review/stage45_email_cedric.txt": "b5c3991c9d3b96932a8c704359dbcda1481b3ab08fb523ef74bb98d0bfc1edb8",
+    "review/stage45_email_roch.txt": "16a3682baec3d789d9eb6f061a73a0f6c2b566c541b7f145604f253d169dd72a",
+    "review/stage45_next_steps_zh.md": "2d86861758bd18a1b3d69ded4b3f788ed3bdc763cb8cb8bfc207539c6fcd9813",
+    "review/stage45_outreach_fit.md": "56c47816ae8d24205b6e327388733d38dd6a0b61c018b4dd5b2f7b7a8c2920ae",
+    "review/stage45_prior_gap.md": "27addb461b7652d5921cb0338261619b133fb37153ff437f4da816ebb3185bac",
+    "review/stage45_remaining_checks.md": "8ff4d43d667c3afa8cbd6a4627413453a6ecac839c3b8183b5782a60bf4471bd",
+    "scripts/stage45_package.py": "58c489eb05c827bb1db8a3b20a1f3c883ecb84a9ef1d8b850daa76ba3e50ea4c"
+  },
+  "scope": "Local preparation packet only; no email, publication or submission."
+}

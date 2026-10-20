@@ -1,0 +1,1189 @@
+{
+  "status": "PASS_METADATA_MAPPING_AND_BYTE_COPY",
+  "created_utc": "2026-10-17T07:36:35.035865+00:00",
+  "role": "Parent-authorized manuscript packaging and evidence indexing; not a new scientific experiment or a new theorem audit.",
+  "path_conventions": {
+    "artifacts": "Paths are relative to the original research repository root.",
+    "figure_archive": "Archive paths are relative to this manuscript folder.",
+    "tex_hashes": "Snapshots at packaging time; manuscript authors may update TeX later, requiring a metadata refresh."
+  },
+  "global_scope": [
+    "Mathematical claims are supported by self-contained proofs and specified internal audits; finite controls do not establish their universal validity.",
+    "This map provides no global novelty or publication-priority certification.",
+    "No solver, production algorithm, model generation, scientific verification worker, or figure renderer was executed for this packaging task.",
+    "Only figure JSON/JSONL inputs are bundled here. Original theorem/review/source paths are research-repository provenance pointers, not a claim that every research artifact is contained in the portable figure archive."
+  ],
+  "claims": [
+    {
+      "id": "localization",
+      "statement": "Weighted deficit localization and positive-anchor filters reduce support search to source-budget-sized neighborhoods.",
+      "scope_and_limits": [
+        "Fully observed reduced positive rational tree; strict positive normalized sources on distinct original edges.",
+        "The inverse tree-distance identity, connected-subgraph enumeration and matching algorithms are inherited tools."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/exact_algorithm.tex",
+          "labels": [
+            "lem:hull",
+            "lem:anchor",
+            "eq:local-size"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_proof_and_derivation",
+          "artifacts": [
+            "review/stage24_deficit_and_three_sources.md",
+            "review/stage26_anchor_localization.md",
+            "review/stage27_parameter_bound.md"
+          ]
+        },
+        {
+          "role": "internal_independent_scope_or_proof_audit",
+          "artifacts": [
+            "review/stage40_structure_audit.md",
+            "review/stage26_anchor_independent.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "all_leaf_exact_fpt",
+      "statement": "Exact minimum source count within budget K and a polynomial-bit strict witness in 2^{O(K)} poly(B) bit time.",
+      "scope_and_limits": [
+        "All original leaves observed; free positive or prescribed positive mean pendant.",
+        "O(N)+2^{O(K)} rational arithmetic operations is distinct from the bit-time bound.",
+        "Common-slack positivity distinguishes strict support feasibility from closed endpoint feasibility; no optimal exponential base is claimed."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/model_results.tex",
+          "labels": [
+            "thm:upper"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/exact_algorithm.tex",
+          "labels": [
+            "sec:algorithm",
+            "eq:slack"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_manuscript_proof",
+          "artifacts": [
+            "manuscript/stage45_paper.tex"
+          ]
+        },
+        {
+          "role": "internal_algorithm_and_encoding_audit",
+          "artifacts": [
+            "review/stage40_algorithm_audit.md",
+            "review/stage40_bit_complexity.md"
+          ]
+        },
+        {
+          "role": "implementation_not_a_theorem_proof",
+          "artifacts": [
+            "scripts/stage27_general_fpt.py",
+            "scripts/stage43_partial_fpt.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free_mean_arbitrary_missing",
+      "statement": "Budget-preserving marked-subtree projection gives the same FPT bound for any nonempty observed-leaf subset with a free positive mean.",
+      "scope_and_limits": [
+        "Retain projected gate atoms and reconstruct strict sources on original edges.",
+        "The positive mean may absorb omitted excursions; this argument does not grant the same arbitrary-missing upper bound for a prescribed or externally upper-bounded mean."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/model_results.tex",
+          "labels": [
+            "thm:upper"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/partial_observations.tex",
+          "labels": [
+            "lem:projection"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_proof",
+          "artifacts": [
+            "review/stage41_missing_theory.md",
+            "manuscript/stage45_paper.tex"
+          ]
+        },
+        {
+          "role": "internal_implementation_review",
+          "artifacts": [
+            "review/stage41_partial_code_audit.md"
+          ]
+        },
+        {
+          "role": "finite_validation_not_proof",
+          "artifacts": [
+            "results/stage41_partial_audit.json",
+            "results/stage41_partial_independent.json"
+          ]
+        },
+        {
+          "role": "implementation",
+          "artifacts": [
+            "scripts/stage41_partial_fpt.py",
+            "scripts/stage43_partial_fpt.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fixed_mean_one_missing",
+      "statement": "The same exact upper bound holds with a prescribed positive mean when at most one original leaf is unobserved.",
+      "scope_and_limits": [
+        "The omitted-branch gate has a strict finite capacity; endpoint equality cannot be treated as a strict lift.",
+        "Does not cover arbitrary missing leaves with a prescribed mean."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/model_results.tex",
+          "labels": [
+            "thm:upper"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/one_missing.tex",
+          "labels": [
+            "sec:one-fixed",
+            "lem:fixed-capacity"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/one_missing_setup.tex",
+          "labels": [
+            "eq:supp-inverse"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_full_proof",
+          "artifacts": [
+            "manuscript/stage43_one_missing_fixed_pendant.tex"
+          ]
+        },
+        {
+          "role": "internal_reviews",
+          "artifacts": [
+            "review/stage43_fixed_one_solver_audit.md",
+            "review/stage43_fixed_one_code_audit.md"
+          ]
+        },
+        {
+          "role": "finite_validation_not_proof",
+          "artifacts": [
+            "results/stage43_fixed_one_audit.json",
+            "results/stage43_fixed_one_extra_audit.json"
+          ]
+        },
+        {
+          "role": "implementation",
+          "artifacts": [
+            "scripts/stage43_fixed_one_missing.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "np_eth_binary_fixed_mean",
+      "statement": "NP-completeness and, under deterministic ETH, no 2^{o(K)} poly(B) algorithm for fixed mean one on binary trees, with all or all but one leaves observed.",
+      "scope_and_limits": [
+        "The input may supply a larger valid strict generator on YES and NO instances; invalid supplied generators are rejected.",
+        "Continuous NO competitors are handled by the analytic reduction.",
+        "No strong NP-hardness, bounded-aspect-ratio hardness, noise hardness, or particular exponential base is claimed."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/model_results.tex",
+          "labels": [
+            "thm:hardness"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/np_eth_hardness.tex",
+          "labels": [
+            "thm:hardness-appendix"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_reduction_and_full_appendix",
+          "artifacts": [
+            "review/stage15_zero_error.md",
+            "review/stage16_binary.md",
+            "manuscript/stage42_hardness_appendix.tex"
+          ]
+        },
+        {
+          "role": "fixed_mean_and_one_missing_extension",
+          "artifacts": [
+            "review/stage41_fixed_pendant_hardness_check.md",
+            "review/stage41_fixed_pendant_independent.md",
+            "review/stage41_fixed_pendant_adversarial.md"
+          ]
+        },
+        {
+          "role": "internal_encoding_and_parameter_transfer_audit",
+          "artifacts": [
+            "review/stage40_eth_audit.md",
+            "review/stage42_hardness_integration.md"
+          ]
+        },
+        {
+          "role": "finite_controls_not_continuous_soundness_proof",
+          "artifacts": [
+            "results/stage41_fixed_pendant_hardness_check.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arbitrary_missing_w1",
+      "statement": "With arbitrary missing original leaves and prescribed mean one, the strict source-budget problem is W[1]-hard in K, even with supplied at-most-(K+1)-source strict explanation and minimum promised K or K+1.",
+      "scope_and_limits": [
+        "Positive rational strictly binary trees.",
+        "The NO construction excludes normalized closed-point mixtures of at most K atoms, including vertex positions and repeated edges.",
+        "The parameter transfer uses g=t+binom(t,2), K=g+1; no W[1] membership or global novelty certification."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/complexity_boundary.tex",
+          "labels": [
+            "thm:partial-hardness"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/parameterized_hardness.tex",
+          "labels": [
+            "app:thm-ph-fixed",
+            "app:ph-sum",
+            "app:ph-tree",
+            "app:ph-soundness",
+            "app:ph-encoding"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_symbolic_proof",
+          "artifacts": [
+            "results/stage49_chain_theory.json",
+            "results/stage50_binary_theory.json"
+          ]
+        },
+        {
+          "role": "accepted_scope_and_prior_qualifications",
+          "artifacts": [
+            "results/stage50_research_state.json",
+            "results/stage51_sparse_prior.json",
+            "results/stage52_shortcut_audit.json"
+          ]
+        },
+        {
+          "role": "new_manuscript_proof_audits",
+          "artifacts": [
+            "manuscript/recomb2027_20261017/support/parameterized_proof_audit.json",
+            "manuscript/recomb2027_20261017/support/manuscript_math_review.json"
+          ]
+        },
+        {
+          "role": "finite_confirmation_not_hardness_proof",
+          "artifacts": [
+            "results/stage50_confirmation_protocol.json",
+            "results/stage50_confirmation.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unknown_bounded_mean_w1",
+      "statement": "The same W[1]-hardness and one-source promise gap hold for unknown mean constrained by 0<y<=1.",
+      "scope_and_limits": [
+        "Supplied strict explanation has mean 1/2.",
+        "NO instances exclude at-most-K closed-point mixtures even for 0<=y<=1.",
+        "This is not the unconstrained free-positive-mean model."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/complexity_boundary.tex",
+          "labels": [
+            "cor:bounded-mean"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/parameterized_hardness.tex",
+          "labels": [
+            "app:cor-ph-bounded",
+            "app:ph-bounded"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_symbolic_extension",
+          "artifacts": [
+            "results/stage53_hardness_audit.json"
+          ]
+        },
+        {
+          "role": "independent_review_and_accepted_scope",
+          "artifacts": [
+            "results/stage53_bounded_pendant_independent_review.json",
+            "results/stage53_research_state.json"
+          ]
+        },
+        {
+          "role": "new_manuscript_proof_audits",
+          "artifacts": [
+            "manuscript/recomb2027_20261017/support/parameterized_proof_audit.json",
+            "manuscript/recomb2027_20261017/support/manuscript_math_review.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exact_count_instability",
+      "statement": "Arbitrarily nearby all-leaf profiles on unit binary trees can have exact minimum strict source counts one and M.",
+      "scope_and_limits": [
+        "Displayed sources are edge midpoints and displayed mean is one; minimum counts also hold against free-positive-mean competitors.",
+        "Tiny positive masses are essential. This does not say minimization over a noise box is undefined, or prove instability under a fixed lower abundance margin."
+      ],
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/instability.tex",
+          "labels": [
+            "thm:instability"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "original_symbolic_proof",
+          "artifacts": [
+            "review/stage41_boundary.md",
+            "manuscript/stage45_paper.tex"
+          ]
+        },
+        {
+          "role": "finite_controls_not_proof",
+          "artifacts": [
+            "results/stage41_boundary.json"
+          ]
+        },
+        {
+          "role": "internal_adversarial_audit",
+          "artifacts": [
+            "review/stage42_adversarial_audit.md",
+            "review/stage44_adversarial.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "id": "development_reused_30",
+      "scope": "Engineering development, not an additional out-of-sample confirmation set.",
+      "exact_counts": {
+        "distinct_inputs": 30,
+        "same_inputs_reused_after_revision": 30,
+        "generic_bounded_lp_differential_cases": 60,
+        "encountered_local_lp_differential_cases": 390,
+        "fixed_one_original_support_problem_counts": [
+          160,
+          20
+        ],
+        "fixed_one_problem_total": 180
+      },
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/experiments.tex",
+          "labels": [
+            "sec:experiments",
+            "fig:performance"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/experiments_details.tex",
+          "labels": [
+            "app:experiments-details"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "saved_protocol_results_and_integrity",
+          "artifacts": [
+            "results/stage42_benchmark_protocol.json",
+            "results/stage42_benchmark.json",
+            "results/stage43_benchmark_protocol.json",
+            "results/stage43_benchmark.json",
+            "results/stage43_solver_validation.json",
+            "results/stage43_fixed_one_audit.json",
+            "results/stage43_fixed_one_extra_audit.json"
+          ]
+        },
+        {
+          "role": "original_implementation",
+          "artifacts": [
+            "scripts/stage42_benchmark.py",
+            "scripts/stage43_benchmark.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primary_confirmation_48",
+      "scope": "Fresh registered inputs; all primary timeouts retained. Shared-helper exact implementations are compared, not DecoDiPhy or biological recovery. Timing claims remain limited to this recorded protocol.",
+      "exact_counts": {
+        "distinct_inputs": 48,
+        "free_mean_inputs": 32,
+        "fixed_mean_one_missing_inputs": 16,
+        "repetitions": 2,
+        "total_runs": 256,
+        "retained_raw_jsonl_records": 256,
+        "returned_witnesses_replayed": 192,
+        "completed_answer_disagreements": 0,
+        "witness_validation_failures": 0,
+        "wall_cap_per_run_seconds": 2,
+        "address_space_cap_bytes": 1073741824,
+        "methods": {
+          "free_pendant": {
+            "original_support": {
+              "status_counts": {
+                "complete": 60,
+                "unknown": 4
+              },
+              "cases_complete_both_repetitions": 30,
+              "verified_witnesses": 56
+            },
+            "stage41_active_basis": {
+              "status_counts": {
+                "complete": 48,
+                "unknown": 16
+              },
+              "cases_complete_both_repetitions": 24,
+              "verified_witnesses": 42
+            },
+            "stage43_equality_reduced": {
+              "status_counts": {
+                "complete": 64
+              },
+              "cases_complete_both_repetitions": 32,
+              "verified_witnesses": 58
+            }
+          },
+          "fixed_one_missing": {
+            "original_fixed_oracle": {
+              "status_counts": {
+                "complete": 28,
+                "unknown": 4
+              },
+              "cases_complete_both_repetitions": 14,
+              "verified_witnesses": 20
+            },
+            "stage43_fixed_one": {
+              "status_counts": {
+                "complete": 26,
+                "unknown": 6
+              },
+              "cases_complete_both_repetitions": 13,
+              "verified_witnesses": 16
+            }
+          }
+        }
+      },
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/experiments.tex",
+          "labels": [
+            "sec:experiments",
+            "fig:performance"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/experiments_details.tex",
+          "labels": [
+            "app:experiments-details"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "saved_protocol_results_and_integrity",
+          "artifacts": [
+            "results/stage44_confirmation_protocol.json",
+            "results/stage44_confirmation.json",
+            "results/stage44_confirmation_runs.jsonl",
+            "results/stage44_confirmation_integrity.json",
+            "results/stage44_confirmation_replay.json"
+          ]
+        },
+        {
+          "role": "original_implementation",
+          "artifacts": [
+            "scripts/stage44_confirmation.py",
+            "scripts/stage44_confirmation_replay.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "posthoc_correctness_only",
+      "scope": "Separate 30-second follow-ups resolve missing answers; neither their times nor new witnesses are substituted into primary timing statistics.",
+      "exact_counts": {
+        "first_followup_jobs": 2,
+        "remaining_followup_jobs": 5,
+        "total_followup_jobs": 7,
+        "first_new_witnesses": 2,
+        "remaining_new_witnesses": 3,
+        "completed_agreement_inputs": 48,
+        "feasible_within_budget": 40,
+        "infeasible_within_budget": 8,
+        "wall_cap_per_followup_seconds": 30
+      },
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/experiments.tex",
+          "labels": [
+            "sec:experiments",
+            "fig:performance"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/experiments_details.tex",
+          "labels": [
+            "app:experiments-details"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "saved_protocol_results_and_integrity",
+          "artifacts": [
+            "results/stage44_confirmation_posthoc_protocol.json",
+            "results/stage44_confirmation_posthoc.json",
+            "results/stage45_remaining_protocol.json",
+            "results/stage45_remaining_checks.json",
+            "results/stage45_remaining_integrity.json"
+          ]
+        },
+        {
+          "role": "original_implementation",
+          "artifacts": [
+            "scripts/stage44_confirmation_posthoc.py",
+            "scripts/stage45_remaining_checks.py"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "binary_reduction_confirmation",
+      "scope": "Twelve base instances plus two deterministic rescalings; finite software/geometry controls, not a proof of hardness or fourteen independent inputs. Closed lower bounds and separate strict witnesses jointly certify the recorded strict minima.",
+      "exact_counts": {
+        "base_inputs": 12,
+        "rescalings": 2,
+        "total": 14,
+        "complete": 14,
+        "unknown": 0,
+        "errors": 0,
+        "agreement": 14,
+        "disagreement": 0,
+        "yes": 7,
+        "no": 7,
+        "strict_promises_replayed": 14,
+        "strict_yes_replayed": 7
+      },
+      "manuscript": [
+        {
+          "artifact": "manuscript/recomb2027_20261017/sections/experiments.tex",
+          "labels": [
+            "sec:experiments",
+            "fig:performance"
+          ]
+        },
+        {
+          "artifact": "manuscript/recomb2027_20261017/appendices/experiments_details.tex",
+          "labels": [
+            "app:experiments-details"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "role": "saved_protocol_results_and_integrity",
+          "artifacts": [
+            "results/stage50_confirmation_protocol.json",
+            "results/stage50_confirmation.json"
+          ]
+        },
+        {
+          "role": "original_implementation",
+          "artifacts": [
+            "scripts/stage50_confirmation.py",
+            "scripts/stage50_binary_reduction.py"
+          ]
+        }
+      ]
+    }
+  ],
+  "support_artifacts": [
+    "manuscript/recomb2027_20261017/support/make_figures.py",
+    "manuscript/recomb2027_20261017/support/experiment_provenance.json",
+    "manuscript/recomb2027_20261017/support/reference_audit.json",
+    "manuscript/recomb2027_20261017/support/manuscript_math_review.json"
+  ],
+  "figure_archive": {
+    "purpose": "Portable reproduction of manuscript figures from saved inputs; parent maintains renderer path fallback.",
+    "direct_FILES_inputs": 18,
+    "additional_raw_streams": 1,
+    "file_count": 19,
+    "total_bytes": 1319870,
+    "missing_dependencies": [],
+    "unexpected_files": [],
+    "all_copies_byte_identical": true,
+    "all_hashes_match_existing_figure_provenance": true,
+    "manifest": [
+      {
+        "role": "development_protocol",
+        "source": "results/stage42_benchmark_protocol.json",
+        "archive": "support/figure_archive/results/stage42_benchmark_protocol.json",
+        "sha256": "45053e39f7a98604efe44834c3745743ed25eb7d52068b42917d1b096efcb278",
+        "bytes": 50849,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "development_results",
+        "source": "results/stage42_benchmark.json",
+        "archive": "support/figure_archive/results/stage42_benchmark.json",
+        "sha256": "30d0110e95b32743d1261891578f76e92acd89336cb56384433809c8ff17c901",
+        "bytes": 78357,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "revised_development_protocol",
+        "source": "results/stage43_benchmark_protocol.json",
+        "archive": "support/figure_archive/results/stage43_benchmark_protocol.json",
+        "sha256": "67aa523712af3d4ea39b7e1ae2a301a961ffdb61a184bbd7e4f9bfeacccd5bd5",
+        "bytes": 51821,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "revised_development_results",
+        "source": "results/stage43_benchmark.json",
+        "archive": "support/figure_archive/results/stage43_benchmark.json",
+        "sha256": "2bc65f0af4bc4ba5736ff58fe8637de68c5b304a02fda7c8369f878ecf44452c",
+        "bytes": 121058,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "local_lp_validation",
+        "source": "results/stage43_solver_validation.json",
+        "archive": "support/figure_archive/results/stage43_solver_validation.json",
+        "sha256": "b146b9520f5b2d732db3f21db83194a6ec6b3eac19357078869d989480ada87b",
+        "bytes": 3298,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "fixed_one_validation",
+        "source": "results/stage43_fixed_one_audit.json",
+        "archive": "support/figure_archive/results/stage43_fixed_one_audit.json",
+        "sha256": "fbedf6a7f1d663a8589fde6d71fd9a55e9bc889d225ea43a1a3a9b6741fa7fd3",
+        "bytes": 183490,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "fixed_one_extra_validation",
+        "source": "results/stage43_fixed_one_extra_audit.json",
+        "archive": "support/figure_archive/results/stage43_fixed_one_extra_audit.json",
+        "sha256": "4b13718c4d6485089a6a0e30bf4df04c745900930a2aa3082945974a5579dfd5",
+        "bytes": 33160,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "confirmation_protocol",
+        "source": "results/stage44_confirmation_protocol.json",
+        "archive": "support/figure_archive/results/stage44_confirmation_protocol.json",
+        "sha256": "012b4a193cb270331acb7123ff7bc975931835087b55a179985613ad909ee932",
+        "bytes": 109243,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "confirmation_results",
+        "source": "results/stage44_confirmation.json",
+        "archive": "support/figure_archive/results/stage44_confirmation.json",
+        "sha256": "28ed03b399714969e0db782c2bc8b3beed4b80144e4089909ec60e9db78cff22",
+        "bytes": 345537,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "confirmation_integrity",
+        "source": "results/stage44_confirmation_integrity.json",
+        "archive": "support/figure_archive/results/stage44_confirmation_integrity.json",
+        "sha256": "01eb5de4556463322c653b79b4b7f18373e2a2cd53a1a9e24e8d5a48578b0d88",
+        "bytes": 832,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "confirmation_replay",
+        "source": "results/stage44_confirmation_replay.json",
+        "archive": "support/figure_archive/results/stage44_confirmation_replay.json",
+        "sha256": "7fe64f66ffeab076e38798a90069efc510456d15175310d2d215c226564cf2e5",
+        "bytes": 843,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "posthoc_both_protocol",
+        "source": "results/stage44_confirmation_posthoc_protocol.json",
+        "archive": "support/figure_archive/results/stage44_confirmation_posthoc_protocol.json",
+        "sha256": "485378aa3fbbe5ae5a535efd987c9747a6d5f9de62544d69e7ebab749d4a2f73",
+        "bytes": 5333,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "posthoc_both_results",
+        "source": "results/stage44_confirmation_posthoc.json",
+        "archive": "support/figure_archive/results/stage44_confirmation_posthoc.json",
+        "sha256": "6cffd0fd901a50d38f94399409b34b846aa786237db0f531d5e6d00e0e588520",
+        "bytes": 3154,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "posthoc_remaining_protocol",
+        "source": "results/stage45_remaining_protocol.json",
+        "archive": "support/figure_archive/results/stage45_remaining_protocol.json",
+        "sha256": "be43155afcddb5281f336a33ebe38ff57f9e0b3e928f18d0f9f1443d233c5852",
+        "bytes": 20027,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "posthoc_remaining_results",
+        "source": "results/stage45_remaining_checks.json",
+        "archive": "support/figure_archive/results/stage45_remaining_checks.json",
+        "sha256": "8472611cd2eeee4eb8a68b6c9b3506ea3d8902b67b89eff467a808ae21527ff5",
+        "bytes": 7596,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "posthoc_remaining_integrity",
+        "source": "results/stage45_remaining_integrity.json",
+        "archive": "support/figure_archive/results/stage45_remaining_integrity.json",
+        "sha256": "1578927fb382510b95b023e4fe59b8b22f8f2bf70fbc50e1662ea8889b2d239d",
+        "bytes": 798,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "binary_confirmation_protocol",
+        "source": "results/stage50_confirmation_protocol.json",
+        "archive": "support/figure_archive/results/stage50_confirmation_protocol.json",
+        "sha256": "49549d856d56e0f50ec0e90e499cbed1a88f5d0e1fc8de2fce8abc0c82112b01",
+        "bytes": 90103,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "binary_confirmation_results",
+        "source": "results/stage50_confirmation.json",
+        "archive": "support/figure_archive/results/stage50_confirmation.json",
+        "sha256": "64ca833143489f8f1e95955eeb367101c13847a67f7b91d126d22034721c7e7d",
+        "bytes": 38004,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      },
+      {
+        "role": "raw_primary_stream",
+        "source": "results/stage44_confirmation_runs.jsonl",
+        "archive": "support/figure_archive/results/stage44_confirmation_runs.jsonl",
+        "sha256": "f46af0f0afae935e758ad7eece1979c344dd69db7269b424bb84bdc0ae3e3260",
+        "bytes": 176367,
+        "byte_identical": true,
+        "matches_figure_provenance": true
+      }
+    ]
+  },
+  "artifact_registry": {
+    "manuscript/recomb2027_20261017/appendices/experiments_details.tex": {
+      "sha256": "0a2c6abb101befdfe72a6a194508cc8f4b3cc80b0ab0752e7c23ee0698dcd8b9",
+      "bytes": 7011
+    },
+    "manuscript/recomb2027_20261017/appendices/instability.tex": {
+      "sha256": "c18ea1d81a895108006826626b71366cbc59433d4a472c2fb298a2b299958a08",
+      "bytes": 2807
+    },
+    "manuscript/recomb2027_20261017/appendices/np_eth_hardness.tex": {
+      "sha256": "dcbea7496f7e0564a0e5de7ec8da87339299ad5eba4db8219c86ba864835a9a7",
+      "bytes": 28429
+    },
+    "manuscript/recomb2027_20261017/appendices/one_missing.tex": {
+      "sha256": "80a742103ecb423a20fb3bbcc0c6660f0e17e2905733a840818f2680e328d89a",
+      "bytes": 5992
+    },
+    "manuscript/recomb2027_20261017/appendices/one_missing_setup.tex": {
+      "sha256": "8f5dc22276e0d41149ea1bd0013384bca02a55c199e8cea14b9d37df1518e0d6",
+      "bytes": 1107
+    },
+    "manuscript/recomb2027_20261017/appendices/parameterized_hardness.tex": {
+      "sha256": "7148a46efab602859dc7382656daf10232ac46e281c2d4d8ce44f567321d7e10",
+      "bytes": 21428
+    },
+    "manuscript/recomb2027_20261017/sections/complexity_boundary.tex": {
+      "sha256": "eca4a4e683a6bed07155b6fdeb4f7cab50b5742352800413fc8955fc6e8b68b6",
+      "bytes": 3266
+    },
+    "manuscript/recomb2027_20261017/sections/exact_algorithm.tex": {
+      "sha256": "d14d00a55161c4423dc1c1c87e201e22434e7246ea5e8853aabfcbfaec571ed2",
+      "bytes": 12189
+    },
+    "manuscript/recomb2027_20261017/sections/experiments.tex": {
+      "sha256": "70d9633ad9190be0334c373abbbeaf1b3d2a004ed73cc7f7a7dc653bb965a0bd",
+      "bytes": 3153
+    },
+    "manuscript/recomb2027_20261017/sections/model_results.tex": {
+      "sha256": "557bd61cfedab224c9832a22ec4957aa1ce584356d48608621fa07c6cce3e779",
+      "bytes": 5132
+    },
+    "manuscript/recomb2027_20261017/sections/partial_observations.tex": {
+      "sha256": "a0d7eb12d5504a994e525e1593443594180655bc2f0b9df11f174be8774306d9",
+      "bytes": 5130
+    },
+    "manuscript/recomb2027_20261017/support/experiment_provenance.json": {
+      "sha256": "470dbef7b99c7a377908b7cc0f4ce33533b7854d51dd4b254df5691b1ddf159b",
+      "bytes": 77814
+    },
+    "manuscript/recomb2027_20261017/support/make_figures.py": {
+      "sha256": "bac6263fba6dc6c151329e1baf8e2fd7cf2ae18645282a67e65ee9a5d2a77b66",
+      "bytes": 16276
+    },
+    "manuscript/recomb2027_20261017/support/manuscript_math_review.json": {
+      "sha256": "c6b8e57e7af8ee10a10df2fa5f88a6536520f5f0ab93acfb9aa8043eeeb990d0",
+      "bytes": 15985
+    },
+    "manuscript/recomb2027_20261017/support/parameterized_proof_audit.json": {
+      "sha256": "e52b3df6d5f07403180c992da962a24b55df6af9fa8c02ef6fb2f1e7e11700fe",
+      "bytes": 12547
+    },
+    "manuscript/recomb2027_20261017/support/reference_audit.json": {
+      "sha256": "cd38e510fe154fb56ed583bf777edc8288cad796e1c92c4c712b12c80df93b6a",
+      "bytes": 26685
+    },
+    "manuscript/stage42_hardness_appendix.tex": {
+      "sha256": "dcbea7496f7e0564a0e5de7ec8da87339299ad5eba4db8219c86ba864835a9a7",
+      "bytes": 28429
+    },
+    "manuscript/stage43_one_missing_fixed_pendant.tex": {
+      "sha256": "62beb1e2e82338f6881f05a8fd73473112b3a8f62b0582b19ba2358a6b9c3204",
+      "bytes": 4760
+    },
+    "manuscript/stage45_paper.tex": {
+      "sha256": "e6b88fd7606bb4d3e7634997c3977760ff39aa2d6597cac2392d624b62c9d38d",
+      "bytes": 32624
+    },
+    "results/stage41_boundary.json": {
+      "sha256": "2c362ad02c2e1ed83f23986b7a807ceb5e8ac7b1fb23b11fff040201a17b0d3d",
+      "bytes": 28836
+    },
+    "results/stage41_fixed_pendant_hardness_check.json": {
+      "sha256": "bb7b88be24a491d71d72726ad6fafe619127691c2d53e5732abfa0d0377299af",
+      "bytes": 78523
+    },
+    "results/stage41_partial_audit.json": {
+      "sha256": "8947289b6c02ed563e80d04a1bb95282e632b230cbc31a4a057ec3f6db50b3ce",
+      "bytes": 634974
+    },
+    "results/stage41_partial_independent.json": {
+      "sha256": "09e77db4241c684ed66d1bb15208ac4b44ba019c80d32d36569fe7a2ca97a32e",
+      "bytes": 1469
+    },
+    "results/stage42_benchmark.json": {
+      "sha256": "30d0110e95b32743d1261891578f76e92acd89336cb56384433809c8ff17c901",
+      "bytes": 78357
+    },
+    "results/stage42_benchmark_protocol.json": {
+      "sha256": "45053e39f7a98604efe44834c3745743ed25eb7d52068b42917d1b096efcb278",
+      "bytes": 50849
+    },
+    "results/stage43_benchmark.json": {
+      "sha256": "2bc65f0af4bc4ba5736ff58fe8637de68c5b304a02fda7c8369f878ecf44452c",
+      "bytes": 121058
+    },
+    "results/stage43_benchmark_protocol.json": {
+      "sha256": "67aa523712af3d4ea39b7e1ae2a301a961ffdb61a184bbd7e4f9bfeacccd5bd5",
+      "bytes": 51821
+    },
+    "results/stage43_fixed_one_audit.json": {
+      "sha256": "fbedf6a7f1d663a8589fde6d71fd9a55e9bc889d225ea43a1a3a9b6741fa7fd3",
+      "bytes": 183490
+    },
+    "results/stage43_fixed_one_extra_audit.json": {
+      "sha256": "4b13718c4d6485089a6a0e30bf4df04c745900930a2aa3082945974a5579dfd5",
+      "bytes": 33160
+    },
+    "results/stage43_solver_validation.json": {
+      "sha256": "b146b9520f5b2d732db3f21db83194a6ec6b3eac19357078869d989480ada87b",
+      "bytes": 3298
+    },
+    "results/stage44_confirmation.json": {
+      "sha256": "28ed03b399714969e0db782c2bc8b3beed4b80144e4089909ec60e9db78cff22",
+      "bytes": 345537
+    },
+    "results/stage44_confirmation_integrity.json": {
+      "sha256": "01eb5de4556463322c653b79b4b7f18373e2a2cd53a1a9e24e8d5a48578b0d88",
+      "bytes": 832
+    },
+    "results/stage44_confirmation_posthoc.json": {
+      "sha256": "6cffd0fd901a50d38f94399409b34b846aa786237db0f531d5e6d00e0e588520",
+      "bytes": 3154
+    },
+    "results/stage44_confirmation_posthoc_protocol.json": {
+      "sha256": "485378aa3fbbe5ae5a535efd987c9747a6d5f9de62544d69e7ebab749d4a2f73",
+      "bytes": 5333
+    },
+    "results/stage44_confirmation_protocol.json": {
+      "sha256": "012b4a193cb270331acb7123ff7bc975931835087b55a179985613ad909ee932",
+      "bytes": 109243
+    },
+    "results/stage44_confirmation_replay.json": {
+      "sha256": "7fe64f66ffeab076e38798a90069efc510456d15175310d2d215c226564cf2e5",
+      "bytes": 843
+    },
+    "results/stage44_confirmation_runs.jsonl": {
+      "sha256": "f46af0f0afae935e758ad7eece1979c344dd69db7269b424bb84bdc0ae3e3260",
+      "bytes": 176367
+    },
+    "results/stage45_remaining_checks.json": {
+      "sha256": "8472611cd2eeee4eb8a68b6c9b3506ea3d8902b67b89eff467a808ae21527ff5",
+      "bytes": 7596
+    },
+    "results/stage45_remaining_integrity.json": {
+      "sha256": "1578927fb382510b95b023e4fe59b8b22f8f2bf70fbc50e1662ea8889b2d239d",
+      "bytes": 798
+    },
+    "results/stage45_remaining_protocol.json": {
+      "sha256": "be43155afcddb5281f336a33ebe38ff57f9e0b3e928f18d0f9f1443d233c5852",
+      "bytes": 20027
+    },
+    "results/stage49_chain_theory.json": {
+      "sha256": "871a4bef175c44d3e7f873bc483b351885d6746c315af45658c9640ce9872a1d",
+      "bytes": 13719
+    },
+    "results/stage50_binary_theory.json": {
+      "sha256": "4bede89bfd5f4c74955eca6b2fc4766f2be0cfa332addeb159f156e79715f582",
+      "bytes": 13551
+    },
+    "results/stage50_confirmation.json": {
+      "sha256": "64ca833143489f8f1e95955eeb367101c13847a67f7b91d126d22034721c7e7d",
+      "bytes": 38004
+    },
+    "results/stage50_confirmation_protocol.json": {
+      "sha256": "49549d856d56e0f50ec0e90e499cbed1a88f5d0e1fc8de2fce8abc0c82112b01",
+      "bytes": 90103
+    },
+    "results/stage50_research_state.json": {
+      "sha256": "b5dc8c5f631a54868048485bdcec6f69db38a453a7a5207d86e41d2e06514ea1",
+      "bytes": 11578
+    },
+    "results/stage51_sparse_prior.json": {
+      "sha256": "e6f79ddd9bcb157cc96cfa6dc0a2ebc6e303c1402aa5f6abd1b2748b550bc4b5",
+      "bytes": 16192
+    },
+    "results/stage52_shortcut_audit.json": {
+      "sha256": "a6bdbc2871959d3eee43368962b907467dccecf066f0571c8a3f3c1fff14318a",
+      "bytes": 8252
+    },
+    "results/stage53_bounded_pendant_independent_review.json": {
+      "sha256": "555c57a2e9ca49f6d992216dfcc4628e063d0689a4d7607a885da0aad17e94a2",
+      "bytes": 5832
+    },
+    "results/stage53_hardness_audit.json": {
+      "sha256": "d336baaa8b36df8b2a68c4a878841d574ed05c423dcabb5e2ecb2e6d50c6c2a6",
+      "bytes": 11317
+    },
+    "results/stage53_research_state.json": {
+      "sha256": "63aced7a753308cd52d028131315c8847a056c098b0452b1a69fa60b6cd416d7",
+      "bytes": 10855
+    },
+    "review/stage15_zero_error.md": {
+      "sha256": "f6736e99f10011ad54c6cc4050545e0912570dfff59d7ba762d8894d7d40b5a4",
+      "bytes": 16325
+    },
+    "review/stage16_binary.md": {
+      "sha256": "4246b2a22def0b6d73ffe5a91d3f574475524375baa8d057b94e0a563861d5e7",
+      "bytes": 16735
+    },
+    "review/stage24_deficit_and_three_sources.md": {
+      "sha256": "5eb4244570ddb25b5311145bb6cf8bbb9e135f6900fa8272d7dc00686b22b672",
+      "bytes": 11982
+    },
+    "review/stage26_anchor_independent.md": {
+      "sha256": "c819ff595d4d9b86d03c94f88362d7a069dd374a746d509d62daf0f72127355a",
+      "bytes": 10476
+    },
+    "review/stage26_anchor_localization.md": {
+      "sha256": "04eb0859774f485fcf8f9f7fa35f32a8a6ce8bfc987622a9fc3a6cc930015a46",
+      "bytes": 15037
+    },
+    "review/stage27_parameter_bound.md": {
+      "sha256": "d396eede876a157a84e6bddf5d9f266ec3e24e3e4d8d01e810bd31b5f77ccd3e",
+      "bytes": 12591
+    },
+    "review/stage40_algorithm_audit.md": {
+      "sha256": "08e43d2c4cbd068cd913ac6359e728763f50e124f3b32783abd6be43363efae4",
+      "bytes": 10190
+    },
+    "review/stage40_bit_complexity.md": {
+      "sha256": "b0686a5e9fc4cd8cfcf56576026229ec389e64477046e846092f29a9a1762eec",
+      "bytes": 10392
+    },
+    "review/stage40_eth_audit.md": {
+      "sha256": "7297171dbf837d8578fe769ab4fafa3b55b2032b57fcff35ba915c0455208361",
+      "bytes": 10126
+    },
+    "review/stage40_structure_audit.md": {
+      "sha256": "323cf675e3e5e1705723b3db6957381a8957e59462c2ec653c87fb620542f09a",
+      "bytes": 7485
+    },
+    "review/stage41_boundary.md": {
+      "sha256": "0351c371982c20d25714e864a8ae9c713c95ff50007b02bf76372db9ac1a9c0b",
+      "bytes": 16148
+    },
+    "review/stage41_fixed_pendant_adversarial.md": {
+      "sha256": "abd26751a836405edcbc3b1368da05e989e8969455cf266c10d6c162fc0510df",
+      "bytes": 9728
+    },
+    "review/stage41_fixed_pendant_hardness_check.md": {
+      "sha256": "cd1750f8ce7bebc1fe822bbe8d5ea01a0bc667f802b687556e1de0c9bb0e0d70",
+      "bytes": 11633
+    },
+    "review/stage41_fixed_pendant_independent.md": {
+      "sha256": "7275931565a6a8d779d4a43848a55ceb936eb372fca9e5fb5dc1a2bfbf673585",
+      "bytes": 12654
+    },
+    "review/stage41_missing_theory.md": {
+      "sha256": "2e881ae81c51665db69f3314cf3a05dac0addc3ecd77e86f7c1d594a6a5cb2ae",
+      "bytes": 18696
+    },
+    "review/stage41_partial_code_audit.md": {
+      "sha256": "22bf62ddcd1dd23a9e5cae7996dc968a7ac7b0c983ced856ecbe3b40e5ca355f",
+      "bytes": 9594
+    },
+    "review/stage42_adversarial_audit.md": {
+      "sha256": "9206c2edaa2b468a3b5f9843ba482e539769d42eef437e754cebc88964e3242d",
+      "bytes": 28485
+    },
+    "review/stage42_hardness_integration.md": {
+      "sha256": "f1113cee879e01ddd27df7104bf427a4eb3e6460bc159dad2f58ce735357dbbe",
+      "bytes": 6453
+    },
+    "review/stage43_fixed_one_code_audit.md": {
+      "sha256": "72c34ba94d2c7aadce8fe84f07021fdc358cabc03f213329a7d533a1c08ecb43",
+      "bytes": 7268
+    },
+    "review/stage43_fixed_one_solver_audit.md": {
+      "sha256": "30d3ec40c1352f1a392bd864ade30d5c5271dcfccea357349c21cd4e409ab898",
+      "bytes": 4289
+    },
+    "review/stage44_adversarial.md": {
+      "sha256": "ed0145743f1b25b023c48c2fb6dcf74b88d26c9566982f494a2c17fc3fca8e93",
+      "bytes": 18930
+    },
+    "scripts/stage27_general_fpt.py": {
+      "sha256": "8cc530db67f6becd9fc5ce5f2635a386956307e3ed9b5c3421da54236eddee4d",
+      "bytes": 22078
+    },
+    "scripts/stage41_partial_fpt.py": {
+      "sha256": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+      "bytes": 11144
+    },
+    "scripts/stage42_benchmark.py": {
+      "sha256": "7e0e8412b6218d2690d8e2298d39677cf0a795daea18918a3326bd2b050faafa",
+      "bytes": 17680
+    },
+    "scripts/stage43_benchmark.py": {
+      "sha256": "2cc723d2bd73cf241b7ad673b4d3a0b0a33ac8738017180cd01c771a4b1c9cdf",
+      "bytes": 9650
+    },
+    "scripts/stage43_fixed_one_missing.py": {
+      "sha256": "b9f50c96c5aeaf07851f54de86d5a1db56bda47383421f4191a8e5bb7f73e2ba",
+      "bytes": 11867
+    },
+    "scripts/stage43_partial_fpt.py": {
+      "sha256": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+      "bytes": 11188
+    },
+    "scripts/stage44_confirmation.py": {
+      "sha256": "1423277c500ddce801f07ddb15bc408f05cd71da107fd311f16bbd618be5f6df",
+      "bytes": 20116
+    },
+    "scripts/stage44_confirmation_posthoc.py": {
+      "sha256": "182a7d4495547afb485b62b3294a37a753817fd7ab62668e85a1140403593041",
+      "bytes": 4461
+    },
+    "scripts/stage44_confirmation_replay.py": {
+      "sha256": "b1f7fa44da7df55ca5c97f41b8f0a4586b377a55b30bdfb9e1f1994e26fd124b",
+      "bytes": 8422
+    },
+    "scripts/stage45_remaining_checks.py": {
+      "sha256": "b2b9f57efe105b1bf7e42497be9028dd95049a696fcd99f1d573e0f7cca6e492",
+      "bytes": 11972
+    },
+    "scripts/stage50_binary_reduction.py": {
+      "sha256": "ef1935a3cda382253cc5367200d8c1291dc1397d11e9927cd0e669e3fd7ba244",
+      "bytes": 11394
+    },
+    "scripts/stage50_confirmation.py": {
+      "sha256": "1e94d860de1b3b5d73927e9bc40eebe71a926fba3a88c87538cad1d8cac927e8",
+      "bytes": 7449
+    }
+  },
+  "final_assembly_refresh": {
+    "scope": "Metadata-only update to current document/renderer snapshots; historical reviews remain bound to their original hashes. No scientific run or retroactive proof audit.",
+    "changed_registry_entries": [
+      {
+        "path": "manuscript/recomb2027_20261017/appendices/one_missing.tex",
+        "previous_sha256": "b29578b2991fdc4f260a18afb2243f7754bed7f3fc37a9327f85c5ef790d6a96",
+        "final_sha256": "80a742103ecb423a20fb3bbcc0c6660f0e17e2905733a840818f2680e328d89a"
+      },
+      {
+        "path": "manuscript/recomb2027_20261017/support/reference_audit.json",
+        "previous_sha256": "ae6d6f7b8e284ee783e8d344d16529888cecd08353bcb9e8e93b516f178cc326",
+        "final_sha256": "cd38e510fe154fb56ed583bf777edc8288cad796e1c92c4c712b12c80df93b6a"
+      }
+    ]
+  }
+}

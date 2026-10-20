@@ -1,0 +1,40 @@
+{
+  "stage": 44,
+  "created_utc": "2026-10-14T12:43:35.235558+00:00",
+  "passed": true,
+  "compiler": "Tectonic 0.17.0, verified official musl release",
+  "compiler_sha256": "a98aa59ad5c1df39a6c9e56cbfc5088f2b11d6c179c0130b97998e4bd46a46da",
+  "pymupdf_version": "1.28.2",
+  "paper_size_points": [
+    612,
+    792
+  ],
+  "font_size_points": 10,
+  "margins_inches": 1,
+  "total_pages": 21,
+  "separate_title_abstract_pages": 1,
+  "main_body_pages": 10,
+  "bibliography_pages": 1,
+  "supplement_pages": 9,
+  "unresolved_references": false,
+  "missing_glyph_warnings": false,
+  "overfull_boxes": false,
+  "clipped_spans": [],
+  "source_sha256": {
+    "manuscript/stage44_paper.tex": "6f5ddd76ac0bc07f09211c44dc5dd646e95e31a8e00bcf4e06b73867e8791ed8",
+    "manuscript/stage42_hardness_appendix.tex": "dcbea7496f7e0564a0e5de7ec8da87339299ad5eba4db8219c86ba864835a9a7",
+    "manuscript/stage44_experiment_section.tex": "316a912ac8b4302417eb103b13092e061f8de965b029d70d713c098ed29e7fd2",
+    "manuscript/stage44_path_certificate.tex": "45dc6ec45d378e914f6aab84a05355a0479b603b958385fdeb41667216717277",
+    "literature/stage44_additional_references.bib": "f293cde2ae20f98a911bd745b3593274425e38949c532b13a5d38c8b95e0d955",
+    "manuscript/stage43_one_missing_fixed_pendant.tex": "62beb1e2e82338f6881f05a8fd73473112b3a8f62b0582b19ba2358a6b9c3204",
+    "manuscript/stage43_theory_robust_mass.tex": "dabeefd188fc0450c2f5502829f5b10fae82ed788aca97d2768e51a69779b6e1",
+    "literature/stage43_additional_references.bib": "dc98bfc8463c9faab1e61549bce9c3d8aa39444a0dd21d3aea859c4d08493f91",
+    "literature/stage42_verified_references.bib": "45085eb5cfc6bc444daacc5c0f7cd0b22f8fdbbd38218402a3b4bc5e805af3b1"
+  },
+  "pdf_sha256": {
+    "stage44_paper.pdf": "bff3602356331b7d48438ce50c537c27800b99eb7fed4d0d25033db746f4a009",
+    "stage44_main.pdf": "aec802333ae116b4cc9bf98f0455fed803fe39ac53ae7947b261c9a6d0d5fc54",
+    "stage44_supplement.pdf": "f158430436700793bab1d90fa6e197eab6c554217e286b0564796a85f4469f7f"
+  },
+  "scope": "Build and layout checks, not proof certification or submission; author metadata remains a draft placeholder."
+}

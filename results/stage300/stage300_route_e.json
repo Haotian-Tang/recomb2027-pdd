@@ -1,0 +1,164 @@
+{
+ "stage": 300,
+ "step": "route_e",
+ "by_collection": {
+  "krepp_ani": {
+   "n": 2631,
+   "n_dd_below_lambda1": 114,
+   "n_equal_within_1e_9": 2451,
+   "rel_min": -0.9999688986479097,
+   "rel_median": -2.651632263733852e-16,
+   "rel_max": 0.5024739761444538,
+   "worst_below": [
+    {
+     "name": "k10k_tree_15_k10_s5_uniform_krepp_estimated",
+     "arm": "dd_default",
+     "source_stage": 289,
+     "dd_k1_loss": 1.5120605000000146e-06,
+     "lambda1": 0.04861719502136402,
+     "gap": -0.048615682960864014,
+     "rel": -0.9999688986479097
+    },
+    {
+     "name": "k10k_tree_15_k10_s5_uniform_krepp_estimated",
+     "arm": "dd_resolution",
+     "source_stage": 289,
+     "dd_k1_loss": 1.5120605000000146e-06,
+     "lambda1": 0.04861719502136402,
+     "gap": -0.048615682960864014,
+     "rel": -0.9999688986479097
+    },
+    {
+     "name": "k10k_tree_15_k10_s5_uniform_krepp_estimated",
+     "arm": "dd_default",
+     "source_stage": 289,
+     "dd_k1_loss": 1.5120605000000146e-06,
+     "lambda1": 0.04861719502136402,
+     "gap": -0.048615682960864014,
+     "rel": -0.9999688986479097
+    },
+    {
+     "name": "k10k_tree_15_k10_s5_uniform_krepp_estimated",
+     "arm": "dd_resolution",
+     "source_stage": 289,
+     "dd_k1_loss": 1.5120605000000146e-06,
+     "lambda1": 0.04861719502136402,
+     "gap": -0.048615682960864014,
+     "rel": -0.9999688986479097
+    },
+    {
+     "name": "k10k_tree_15_k10_s5_uniform_krepp_estimated",
+     "arm": "dd_default",
+     "source_stage": 294,
+     "dd_k1_loss": 1.5120605000000146e-06,
+     "lambda1": 0.04861719502136402,
+     "gap": -0.048615682960864014,
+     "rel": -0.9999688986479097
+    }
+   ],
+   "largest_above": [
+    {
+     "name": "k10k_tree_16_k10_s4_exp_krepp_estimated",
+     "arm": "dd_resolution",
+     "source_stage": 289,
+     "dd_k1_loss": 0.0015738962192000001,
+     "lambda1": 0.0010475364260476745,
+     "gap": 0.0005263597931523256,
+     "rel": 0.5024739761444538
+    },
+    {
+     "name": "k10k_tree_16_k10_s4_exp_krepp_estimated",
+     "arm": "dd_true_k",
+     "source_stage": 289,
+     "dd_k1_loss": 0.0015738962192000001,
+     "lambda1": 0.0010475364260476745,
+     "gap": 0.0005263597931523256,
+     "rel": 0.5024739761444538
+    },
+    {
+     "name": "k10k_tree_16_k10_s4_exp_krepp_estimated",
+     "arm": "dd_default",
+     "source_stage": 289,
+     "dd_k1_loss": 0.0015738962192000001,
+     "lambda1": 0.0010475364260476745,
+     "gap": 0.0005263597931523256,
+     "rel": 0.5024739761444538
+    },
+    {
+     "name": "k10k_tree_16_k10_s4_exp_krepp_estimated",
+     "arm": "dd_default",
+     "source_stage": 289,
+     "dd_k1_loss": 0.0015738962192000001,
+     "lambda1": 0.0010475364260476745,
+     "gap": 0.0005263597931523256,
+     "rel": 0.5024739761444538
+    },
+    {
+     "name": "k10k_tree_16_k10_s4_exp_krepp_estimated",
+     "arm": "dd_true_k",
+     "source_stage": 289,
+     "dd_k1_loss": 0.0015738962192000001,
+     "lambda1": 0.0010475364260476745,
+     "gap": 0.0005263597931523256,
+     "rel": 0.5024739761444538
+    }
+   ]
+  },
+  "krepp_placement": {
+   "n": 120,
+   "n_dd_below_lambda1": 0,
+   "n_equal_within_1e_9": 120,
+   "rel_min": -1.8544758586640384e-13,
+   "rel_median": -1.450967308236764e-14,
+   "rel_max": 2.7115358379440656e-13,
+   "worst_below": [],
+   "largest_above": [
+    {
+     "name": "plc_tree_17_k3_s5_exp_krepp_placement",
+     "arm": "dd_true_k",
+     "source_stage": 300,
+     "dd_k1_loss": 0.0007797035933518497,
+     "lambda1": 0.0007797035933516383,
+     "gap": 2.1141942363467336e-16,
+     "rel": 2.7115358379440656e-13
+    },
+    {
+     "name": "plc_tree_17_k3_s5_exp_krepp_placement",
+     "arm": "dd_default",
+     "source_stage": 300,
+     "dd_k1_loss": 0.0007797035933518497,
+     "lambda1": 0.0007797035933516383,
+     "gap": 2.1141942363467336e-16,
+     "rel": 2.7115358379440656e-13
+    },
+    {
+     "name": "plc_tree_17_k10_s5_uniform_krepp_placement",
+     "arm": "dd_true_k",
+     "source_stage": 300,
+     "dd_k1_loss": 0.0003896096483675625,
+     "lambda1": 0.0003896096483674803,
+     "gap": 8.218252467440124e-17,
+     "rel": 2.1093554797412658e-13
+    },
+    {
+     "name": "plc_tree_17_k10_s5_uniform_krepp_placement",
+     "arm": "dd_default",
+     "source_stage": 300,
+     "dd_k1_loss": 0.0003896096483675625,
+     "lambda1": 0.0003896096483674803,
+     "gap": 8.218252467440124e-17,
+     "rel": 2.1093554797412658e-13
+    },
+    {
+     "name": "plc_tree_15_k5_s1_exp_krepp_placement",
+     "arm": "dd_true_k",
+     "source_stage": 300,
+     "dd_k1_loss": 0.003422590341956121,
+     "lambda1": 0.0034225903419555018,
+     "gap": 6.192962809237201e-16,
+     "rel": 1.8094373531419608e-13
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "stage": 289,
+ "cases": 1188,
+ "exact_witnesses_checked": 675,
+ "exact_witness_failures": [],
+ "decodiphy_certificates_checked": 2295,
+ "certificate_failures": [],
+ "contradictions": [],
+ "repetition_disagreements": {},
+ "status": "PASS"
+}
+repetition disagreement cases: 0

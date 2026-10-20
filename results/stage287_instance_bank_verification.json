@@ -1,0 +1,66 @@
+{
+ "stage": 287,
+ "part": "verification",
+ "verified_utc": "2026-10-17T12:19:31.384486+00:00",
+ "n_cases_read_back": 5686,
+ "n_sha256_mismatches": 0,
+ "sha256_mismatches": [],
+ "n_exact_cases_recomputed_and_matching": 893,
+ "n_structure_only_cases": 4201,
+ "n_published_observation_cases": 592,
+ "max_abs_model_minus_observed_by_family": {
+  "exact_10k": 0.0,
+  "published_true_10k": 1.7486743958148342e-16,
+  "krepp_estimated_10k": 0.2917539186958149,
+  "exact_16k": 0.0,
+  "exact_biotrees": 0.0
+ },
+ "median_abs_model_minus_observed_by_family": {
+  "exact_10k": 0.0,
+  "published_true_10k": 7.948844246978554e-17,
+  "krepp_estimated_10k": 0.13401563000138933,
+  "exact_16k": 0.0,
+  "exact_biotrees": 0.0
+ },
+ "by_family_passing": {
+  "exact_10k": 296,
+  "published_true_10k": 296,
+  "krepp_estimated_10k": 296,
+  "exact_16k": 1,
+  "published_travelers_diarrhea": 29,
+  "exact_biotrees": 596,
+  "published_biotrees": 4172
+ },
+ "by_family_failing": {},
+ "failures": [],
+ "reference_set_size_by_family": {
+  "exact_10k": {
+   "min": 20,
+   "max": 129
+  },
+  "published_true_10k": {
+   "min": 20,
+   "max": 129
+  },
+  "krepp_estimated_10k": {
+   "min": 20,
+   "max": 128
+  },
+  "exact_16k": {
+   "min": 15941,
+   "max": 15941
+  },
+  "published_travelers_diarrhea": {
+   "min": 10575,
+   "max": 10575
+  },
+  "exact_biotrees": {
+   "min": 20,
+   "max": 361
+  },
+  "published_biotrees": {
+   "min": 20,
+   "max": 361
+  }
+ }
+}

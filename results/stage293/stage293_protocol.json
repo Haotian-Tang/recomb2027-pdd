@@ -1,0 +1,138 @@
+{
+ "stage": 293,
+ "track": "abundance_and_position_cost_of_reference_incompleteness",
+ "registered_utc": "2026-10-18T06:38:37.901879+00:00",
+ "question": "When references go missing, how wrong are the inferred abundances p and interior positions x -- separately from the count collapse of stage 288?",
+ "design": {
+  "panel": "imported stage288_incompleteness.panel()",
+  "draws": "imported stage288_incompleteness.removal_draws(); seeds unchanged",
+  "seed": 2880003,
+  "levels": [
+   "one",
+   "0.10",
+   "0.25",
+   "0.50",
+   "0.75"
+  ],
+  "regimes": [
+   "random",
+   "clade",
+   "nearest"
+  ],
+  "replicates": {
+   "random": 2,
+   "clade": 2,
+   "nearest": 1
+  },
+  "removal_convention": "observations are removed; the reference tree keeps every edge (stage 288 variant B)",
+  "baseline": "level \"none\" is the full panel, the no-loss reference point",
+  "arms": {
+   "exact": "stage43_partial.solve_partial on the retained observations",
+   "fibre_true": "exact fibre over the true support given the retained data; LP bounds in Fractions, suprema over the closure",
+   "fibre_found": "the same over the support the exact solver returned, when different",
+   "dd_default": "DecoDiPhy 1.5.0 defaults, k by its own stopping rules",
+   "dd_true_k": "DecoDiPhy 1.5.0 with -k K_true -f 1"
+  },
+  "wasserstein": "reusing stage289_headtohead_analyze.wasserstein together with point_distances: balanced optimal transport between the recovered and generating mixtures under the tree metric, computed in the analysis step so the stage 289 numbers are directly comparable",
+  "limits": {
+   "workers": 20,
+   "exact_wall_seconds": 60.0,
+   "fibre_wall_seconds": 300.0,
+   "decodiphy_wall_seconds": 120.0,
+   "address_space_bytes": 3221225472
+  },
+  "decodiphy_tuning": "none; documented defaults, only the k control named in the arm",
+  "decodiphy_missing_references": "DecoDiPhy handles missing references itself: preprocess_input prunes leaves absent from the distance file and contracts their parents, and post_process_output maps placements back to the original tree. Its jplace writer (cli.py:384) then looks those anchors up in the PRUNED tree and can raise KeyError; all_rounds.json is already written at cli.py:379, so this stage reads the placements the tool itself committed and records jplace_writer_crashed. No refit, no tuning, no fallback method."
+ },
+ "n_cases": 101,
+ "n_jobs_per_arm": 2626,
+ "draws_by_level_and_regime": {
+  "none": {
+   "none": 101
+  },
+  "one": {
+   "random": 202,
+   "clade": 202,
+   "nearest": 101
+  },
+  "0.10": {
+   "random": 202,
+   "clade": 202,
+   "nearest": 101
+  },
+  "0.25": {
+   "random": 202,
+   "clade": 202,
+   "nearest": 101
+  },
+  "0.50": {
+   "random": 202,
+   "clade": 202,
+   "nearest": 101
+  },
+  "0.75": {
+   "random": 202,
+   "clade": 202,
+   "nearest": 101
+  }
+ },
+ "plan_sha256": "e8bef62351be6c279f41897b5a4a6672351f8c10e4be62ecd66399353a25bede",
+ "predictions": [
+  "H1 the abundance error grows with the removed fraction and is worse under the structured regimes, mirroring the count collapse of stage 288.",
+  "H2 a retained, CORRECT support can still carry large abundance error, because the fibre over the true support gains free parameters as references are removed; this is a separate effect from the count collapse.",
+  "H3 positive-dimensional fibres are not rare and their diameters are large enough that a single reported p is not a well-defined quantity.",
+  "H4 no prediction is registered for which of the exact method and the heuristic degrades more gracefully."
+ ],
+ "inputs": {
+  "bank_index": "bf53a419d5cec84a744337721cb32a2ead605015f344bbf4d63283dd48c0b2ce",
+  "bank_protocol": "1aebf33c0f1e6d12f7ac9addfc28033a849e5ca2ffefb46c04337483dcafc127",
+  "stage288_protocol": "64b32e55762d7188518d92030a4cc6618bbbf9f83122e4f613b67f80059a6696"
+ },
+ "code_hashes": {
+  "stage23_two_source_envelope.py": "527930cd95e0ab9c684bb04bea5b2e63172794c2ac5000754449e718a316ab1a",
+  "stage25_deficit_extension.py": "4d5925cfb38f627430739833f39893dbaf63bd63230a4bffcff3c945476704e3",
+  "stage26_missing_leaf.py": "e69a281e6eb9ea5199d9687ee6a864d8436116410f33568fcc50131ca82196a1",
+  "stage27_general_fpt.py": "8cc530db67f6becd9fc5ce5f2635a386956307e3ed9b5c3421da54236eddee4d",
+  "stage288_common.py": "e00a56c6f2f059886b9c80829fae042a864e2098061a77e3b10d2903fe0a85a4",
+  "stage288_incompleteness.py": "ecde7d1f470760aed4eced503ef56dfdf58b8f82bdde6896ec9d10f59e5adc71",
+  "stage289_decodiphy_bridge.py": "377c59870690991ff14746532059eabf0099a86c7b0a6ad6ceacf89b479beb4d",
+  "stage289_headtohead_analyze.py": "1d455378287e00061bb603d476e27787977788804a0f81dcf73da4b6698d1de5",
+  "stage289_support_feasibility.py": "59db0099b70d282aa49a050d02b696e6eb8bfc5df8ba011bbc43a312fb602bb3",
+  "stage293_abundance.py": "dd51a938012743af1779878c4e62e80c698d320fcedf8251b5853ca47bf7153f",
+  "stage293_fibre.py": "27f8b0fdbccd7c1e501e94c134284c2131e361aa8e408507c602c620a471b29f",
+  "stage293_validate_lp.py": "664b3aedb60826b61585ffb36eb7b451052323f1da68eebd6a2997346a8310b4",
+  "stage41_partial_fpt.py": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+  "stage42_benchmark.py": "7e0e8412b6218d2690d8e2298d39677cf0a795daea18918a3326bd2b050faafa",
+  "stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66"
+ },
+ "dependency_closure": [
+  "check_stage43_fixed_one_missing.py",
+  "stage17_strict_bounds.py",
+  "stage23_two_source_envelope.py",
+  "stage24_three_source.py",
+  "stage25_benchmark.py",
+  "stage25_bounded_error.py",
+  "stage25_deficit_extension.py",
+  "stage25_three_source_linear.py",
+  "stage26_missing_leaf.py",
+  "stage26_scale.py",
+  "stage27_general_fpt.py",
+  "stage288_common.py",
+  "stage288_incompleteness.py",
+  "stage289_decodiphy_bridge.py",
+  "stage289_support_feasibility.py",
+  "stage293_abundance.py",
+  "stage293_fibre.py",
+  "stage41_partial_fpt.py",
+  "stage42_benchmark.py",
+  "stage43_fixed_one_missing.py",
+  "stage43_partial_fpt.py"
+ ],
+ "environment": {
+  "python": "3.12.3",
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "project_venv": "/home/haotian/projects/recomb2027_novelty/.venv/bin/python",
+  "decodiphy_venv": "/home/haotian/projects/recomb2027_novelty/data/stage289_decodiphy/venv/bin/python",
+  "decodiphy_version": "1.5.0"
+ }
+}

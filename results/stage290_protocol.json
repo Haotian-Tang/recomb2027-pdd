@@ -1,0 +1,136 @@
+{
+  "stage": 290,
+  "registered_utc": "2026-10-17T13:37:07.813762+00:00",
+  "status": "REGISTERED_BEFORE_EXECUTION",
+  "title": "Reference-erasure tolerance at scale and the unknown-support identifiability bridge",
+  "question": [
+    "Does the Thread-F erasure tolerance (cogirth - 1) of the leaf-report matroid stay at zero across real reference trees, or was the single 1322-leaf measurement an artefact of one tree?",
+    "Does the fibre-dimension law |P| - s hold on real trees at scale?",
+    "With the support UNKNOWN, how many references can be erased before more than one minimum-size support explains the observations, and does the known-support theory predict that threshold?"
+  ],
+  "code_sha256": {
+    "scripts/stage290_erasure_core.py": "45dc3a6aa5877721db674eb23952fb8741a7adea33a6116c6e8f9b270e72b316",
+    "scripts/stage290_survey.py": "bfa1891163d7beaa3ccded0766c94a36c4cde21420651184b08b86fc2d155d50",
+    "scripts/stage290_bridge.py": "87d3ca94561dea067fa16a4a4105b295033f5a8021c26892d67eec0c9ff1654c",
+    "scripts/stage290_protocol.py": "97081ad5d617c1ed287c7381d72a5e713a43b428451eae00122e1f7043cab86a",
+    "scripts/stage290_validate_core.py": "2e92653ba341eb65b0837cd25568cc8eacff564e87fc105566bb7b6caae01288",
+    "scripts/stage290_analysis.py": "5ac9d6f94b45f507fee32fba955d2f073a9bff58ee587d4410d0342f236145b5"
+  },
+  "reused_inputs_sha256": {
+    "scripts/stage196_public_erasure_validation.py": "a0b888741b74a963ab123fa5417dc4f0eb19c15550dcc3bb983d7dfd1e17c0f7",
+    "scripts/stage25_benchmark.py": "169a5df796df38bb73a217b2acae0cf5899d23edebc7273c4ed1497e432848f6",
+    "scripts/stage42_benchmark.py": "7e0e8412b6218d2690d8e2298d39677cf0a795daea18918a3326bd2b050faafa",
+    "scripts/stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+    "scripts/stage286_newick.py": "40a7523a425b75be3ab4c1a1704381409b28db3f8f9290f9ca4349a1fa6c54ed",
+    "data/stage196_public_erasure_cases.json": "1014add5fafbcbaed47dd85a2243533bdf47385cb5c8d570c2cec9edbfa28b3b",
+    "results/stage196_public_erasure_validation.json": "28ef6f1767e16021d2eca37886cbba23912b9f32adbf29eb930d89d8590be800",
+    "results/stage196_public_erasure_protocol.json": "275cb7495002303e721f16c9f6b7cc5b5283c220c8bf108a315d0b018f58b49d",
+    "data/stage287_instances/bank/index.json": "bf53a419d5cec84a744337721cb32a2ead605015f344bbf4d63283dd48c0b2ce",
+    "results/stage287_instance_bank_protocol.json": "1aebf33c0f1e6d12f7ac9addfc28033a849e5ca2ffefb46c04337483dcafc127"
+  },
+  "bank": {
+    "n_exact_cases": 893,
+    "hash_mismatches": [],
+    "families": [
+      "exact_10k",
+      "exact_16k",
+      "exact_biotrees"
+    ]
+  },
+  "panels": [
+    {
+      "file": "data/stage287_instances/krepp_shared/results__expt-hmi__hmi-pp-WoLv2__placement_tree_extended.nwk",
+      "leaves": 47151,
+      "sha256": "d241dfa8441c2e179fe8accc331e58eafa33afad93b2e9d9b3ca7f05105380c4"
+    },
+    {
+      "file": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv1__placement_tree_extended.nwk",
+      "leaves": 31177,
+      "sha256": "ff171ff89a8495a90aad8ffc10150fe7c05643b1809bb2cbf8ad3816bfecb2a5"
+    },
+    {
+      "file": "data/stage287_instances/sixteen_k/backbone-WoLv2.nwk",
+      "leaves": 15953,
+      "sha256": "7e612e20f46fc3bd9fdee917deacd3bace49b801487fba4d74b0b23ae0c5facc"
+    },
+    {
+      "file": "data/stage287_instances/travelers_diarrhea/tree_backbone.nwk",
+      "leaves": 10575,
+      "sha256": "1d71bd0903537d7a200fdcba36263c849a15255f81f3b4a3a07f256a0e0e5184"
+    },
+    {
+      "file": "data/stage287_instances/biotrees/trees/bees-Piskulich.tre",
+      "leaves": 4591,
+      "sha256": "b1f6ad2b8e18fc1d351433786285098df8352fed08d4921f859875fe6bc6f8dc"
+    },
+    {
+      "file": "data/stage287_instances/biotrees/trees/subosciences-harey.tre",
+      "leaves": 1962,
+      "sha256": "23b78141388155ce80aa27a64834771915caa7d0156b061ed9eccd532abb7c37"
+    },
+    {
+      "file": "data/stage287_instances/biotrees/trees/fungi-li.tre",
+      "leaves": 1672,
+      "sha256": "f8c47c2b42efbffcee8da0e703bfcc820ca8484f86c37665c4b748a842c44d49"
+    },
+    {
+      "file": "data/stage287_instances/biotrees/trees/plants-onekp-castlespro.tre",
+      "leaves": 1178,
+      "sha256": "cb515c1b7b25f81b6b4e6b5d019039128af2a08c3189428045d3b3d104bdf9ea"
+    }
+  ],
+  "panel_hash_mismatches": [],
+  "plan": {
+    "survey": "Every exactly explainable bank case (support = generating support, R = observed references) plus random supports of K in {3,5,10,12} on every positivity-conformant frozen panel, 5 replicates per (panel, K, mode) with mode in {any edge, internal edge only}.",
+    "checks": [
+      "modular rank identity rank = s + 1 under two primes",
+      "unreduced dynamic program vs branch-collapsed dynamic program",
+      "exhaustive erasure of observed-leaf subsets (brute force) wherever at most 40000 subsets are needed",
+      "independent component recomputation of every DP witness"
+    ],
+    "bridge": "exact_biotrees K=2 with |R| <= 130, exact_10k K=3 and exact_biotrees K=3 with |R| <= 45; removal regimes random (2 seeds), whole_clade (2 seeds), adversarial_nearest; up to 14 erasures, stopping 3 steps past the first failure.",
+    "bridge_checks": [
+      "every minimum-size support confirmed by the exact rational Stage25/42 endpoint polytope oracle",
+      "minimum size cross-checked against the frozen solve_partial solver at the full panel",
+      "exhaustive exact enumeration (no prefilter) as ground truth on every case with at most 90 edges"
+    ]
+  },
+  "limits": {
+    "workers": 16,
+    "cores_available": 62,
+    "brute_force_subset_limit": 150000,
+    "full_dp_max_vertices": 3000,
+    "threshold_search": "exponential bracketing then bisection, both endpoints evaluated",
+    "min_remaining_references": 3,
+    "prefilter_relative_tolerance": 1e-09,
+    "candidate_limit": 4000000
+  },
+  "determinism": {
+    "removal_seeds": {
+      "random": [
+        11,
+        23
+      ],
+      "whole_clade": [
+        11,
+        23
+      ],
+      "adversarial_nearest": [
+        0
+      ]
+    },
+    "panel_seed_rule": "1000*K + 7*replicate + (1 if internal)",
+    "prefilter_row_seed": 7
+  },
+  "caveats": [
+    "The 1322-leaf public tree of Thread F had negative ANI branch lengths floored upstream at 1e-4 and its fitted reports are synthetic exact-model values; the same holds for every exactly explainable bank case. Statements here are about real tree geometry with synthetic exact observations, not about biological recovery from measured distances.",
+    "Panels carry no mixtures, so panel supports are drawn at random; because s and the cogirth depend only on topology and support and not on the edge metric, this is a statement about real tree topology.",
+    "The erasure tolerance and the fibre dimension are metric invariant; the unknown-support threshold is not, since it depends on the observed values."
+  ],
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+    "executable": "/home/haotian/projects/recomb2027_novelty/.venv/bin/python"
+  },
+  "execution_authorized": true
+}

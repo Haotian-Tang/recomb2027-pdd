@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or the archived measurement records, please cite
+  both the software and the paper it accompanies.
+title: >-
+  Exact phylogenetic distance deconvolution: solvers, instance bank and
+  measurement records
+abstract: >-
+  Exact rational algorithms for the minimum source count in phylogenetic
+  distance deconvolution, the frozen instance bank built from published
+  reference phylogenies, and the saved records behind the measurements of what
+  incomplete reference sets cost.
+type: software
+authors:
+  - family-names: Tang
+    given-names: Haotian
+    affiliation: Mohamed bin Zayed University of Artificial Intelligence
+license: MIT
+version: 1.0.0
+date-released: '2026-10-20'
+repository-code: 'https://github.com/Haotian-Tang/recomb2027-pdd'
+keywords:
+  - phylogenetics
+  - distance deconvolution
+  - exact algorithms
+  - parameterized complexity
+  - reference incompleteness
+preferred-citation:
+  type: unpublished
+  title: >-
+    Report the tolerance, not the count: exact phylogenetic distance
+    deconvolution with incomplete references
+  authors:
+    - family-names: Tang
+      given-names: Haotian
+      affiliation: Mohamed bin Zayed University of Artificial Intelligence
+  year: 2026
+  notes: Manuscript for RECOMB 2027.

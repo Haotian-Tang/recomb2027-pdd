@@ -1,0 +1,2 @@
+{"stage": "partial", "pruned": false, "n_leaves_after": 10575, "timings": {"write_inputs": 0.3086373182013631, "read_tree_newick": 0.09944000374525785, "preprocess_input": 1.793119279667735}}
+{"stage": "distance_matrix", "timings": {"write_inputs": 0.3086373182013631, "read_tree_newick": 0.09944000374525785, "preprocess_input": 1.793119279667735, "distance_matrix": 40.24303359910846, "distance_matrix_entries": 111820050}}

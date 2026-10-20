@@ -1,0 +1,221 @@
+{
+ "stage": 299,
+ "step": "travelers",
+ "n_jobs": 754,
+ "complete": 754,
+ "elapsed_seconds": 428.3120234012604,
+ "frozen_spot_checks": 15831,
+ "closed_form_mismatches": 0,
+ "witness_agree": 754,
+ "cross_stage298": {
+  "n": 29,
+  "agree": 29,
+  "argmin_agree": 29,
+  "rows": [
+   {
+    "name": "td_sample_101_published",
+    "stage299": "52120698577497851/2500000000000000",
+    "stage298": "52120698577497851/2500000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_10_published",
+    "stage299": "158177469403309961/5000000000000000",
+    "stage298": "158177469403309961/5000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_125_published",
+    "stage299": "410217975537611009/20000000000000000",
+    "stage298": "410217975537611009/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_147_published",
+    "stage299": "143426212028697/10000000000000",
+    "stage298": "143426212028697/10000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_156_published",
+    "stage299": "555271228568298483/10000000000000000",
+    "stage298": "555271228568298483/10000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_160_published",
+    "stage299": "22990432499666469/1000000000000000",
+    "stage298": "22990432499666469/1000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_3_published",
+    "stage299": "121701859661634999/5000000000000000",
+    "stage298": "121701859661634999/5000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_45_published",
+    "stage299": "674360083901059407/20000000000000000",
+    "stage298": "674360083901059407/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_50070_published",
+    "stage299": "266367718941479459/10000000000000000",
+    "stage298": "266367718941479459/10000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_50076_published",
+    "stage299": "581054333567261633/20000000000000000",
+    "stage298": "581054333567261633/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_50395_published",
+    "stage299": "31043484719037093/800000000000000",
+    "stage298": "31043484719037093/800000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_510_published",
+    "stage299": "161882633510279697/5000000000000000",
+    "stage298": "161882633510279697/5000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_521_published",
+    "stage299": "227770790312024521/4000000000000000",
+    "stage298": "227770790312024521/4000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_523_published",
+    "stage299": "416982214793996291/10000000000000000",
+    "stage298": "416982214793996291/10000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_528_published",
+    "stage299": "164165290381680759/4000000000000000",
+    "stage298": "164165290381680759/4000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_538_published",
+    "stage299": "1328662350278915509/20000000000000000",
+    "stage298": "1328662350278915509/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_540_published",
+    "stage299": "641810242005397221/20000000000000000",
+    "stage298": "641810242005397221/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_560_published",
+    "stage299": "214001917802126351/10000000000000000",
+    "stage298": "214001917802126351/10000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_6128_published",
+    "stage299": "242203657982582989/20000000000000000",
+    "stage298": "242203657982582989/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_6163_published",
+    "stage299": "410767491981372401/20000000000000000",
+    "stage298": "410767491981372401/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_6165_published",
+    "stage299": "405803758155616843/10000000000000000",
+    "stage298": "405803758155616843/10000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_6168_published",
+    "stage299": "146379149717487357/4000000000000000",
+    "stage298": "146379149717487357/4000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_678_published",
+    "stage299": "970066998724457377/20000000000000000",
+    "stage298": "970066998724457377/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_715_published",
+    "stage299": "7514614954894473/312500000000000",
+    "stage298": "7514614954894473/312500000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_76_published",
+    "stage299": "1094829504143081689/20000000000000000",
+    "stage298": "1094829504143081689/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_78_published",
+    "stage299": "731927223853993691/20000000000000000",
+    "stage298": "731927223853993691/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_80129_published",
+    "stage299": "731949684003787391/20000000000000000",
+    "stage298": "731949684003787391/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_80142_published",
+    "stage299": "114860904314366381/4000000000000000",
+    "stage298": "114860904314366381/4000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   },
+   {
+    "name": "td_sample_80152_published",
+    "stage299": "891344388066543107/20000000000000000",
+    "stage298": "891344388066543107/20000000000000000",
+    "agrees": true,
+    "argmin_agrees": true
+   }
+  ]
+ },
+ "failures": []
+}

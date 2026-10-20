@@ -1,0 +1,8 @@
+k10k_tree_16_k10_s1_exp_exact                K=10 R=   20 frozen_solve_partial unknown    min=None 3600.0s
+
+NOTE: the probe was stopped after the first case. The frozen solve_partial, which
+the all-minimisers routine calls for the minimum, returned status 'unknown' after
+its full 3600 s budget on the SMALLEST K=10 bank case (|R| = 20, 37 edges). The
+K >= 10 ceiling is therefore in the frozen minimum pass, not in the Stage292
+all-minimisers extension. The eight K=10 cases attempted in the stride-3 batch all
+hit the 1200 s per-case wall (results/stage292_bridge_K10_12.jsonl, 8/8 timeout).

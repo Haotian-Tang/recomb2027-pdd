@@ -1,0 +1,375 @@
+{
+ "stage": 301,
+ "created_utc": "2026-10-19T12:02:42.969391+00:00",
+ "question": "Does the frozen structural localisation transport to the eps-tolerant problem, and if so how far does it move the reach of Theta_k?",
+ "decision_rules": {
+  "validation": "A localised Theta_k must equal the exhaustive Theta_k EXACTLY (rational equality) on every case where both run.  Any disagreement stops the stage and is reported.",
+  "screen_contract": "A screen may only be used after a written proof that it is a necessary condition for theta(S) <= eps, and after the validation arm passes.",
+  "reading": "If min theta over survivors <= eps the localised value IS Theta_k; otherwise the run certifies Theta_k > eps only.",
+  "vacuity": "Pruning is reported as supports visited / C(|E|, k); a ratio of 1.0 is reported as vacuous, not as a success."
+ },
+ "screens": {
+  "S1": "NEG(eps) = {v : b(v) < -tau} must lie in N[Sigma]",
+  "S2": "POS(eps) = {v : b(v) >  tau} minus N[Sigma] must be covered by the atoms of the support; at most 2k of them",
+  "S3": "h(r) - d_r <= 2 eps at every observed leaf",
+  "S4": "Y >= -eps (|R| - 1)",
+  "S5": "mass-weighted mean projection from leaf s onto the s-r path is at most rho = (d(r,s) - (d_r - d_s))/2 + eps",
+  "tau": "tau_eps(v) = sum_{u~v} min(eps / l_uv, 1)",
+  "anchors": "UNRELAXED {v : b(v) > 0}; relaxing the anchor set would be unsound (the proof gives b(v*) > 0 strictly)"
+ },
+ "validation_sources": {
+  "stage296_cross_runs": {
+   "n": 1118,
+   "sha256": "459f726bafac2ba16ef300179ce592394a5c41460dafd564726314232d8023dc"
+  },
+  "stage296_probe_runs": {
+   "n": 18,
+   "sha256": "0b8558a5b7fea173d501d9f6b148396708c26e725a1e98a8a1c6430de19824b0"
+  },
+  "stage298_td_summary": {
+   "sha256": "b21b22ce3f8bf879988b25839cb5d9045101b8d5eb2b17c618bf54da9c2562db"
+  }
+ },
+ "td_cases": [
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_101_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_101_published.json",
+   "reference_set_size": 10575,
+   "sample": "S101",
+   "sha256": "970fb9163152a943f4b3e4e945aba260ff465cb38a0d0fbf828d7133826159da"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_10_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_10_published.json",
+   "reference_set_size": 10575,
+   "sample": "S10",
+   "sha256": "c4c11f1a32919608b5329c153957e095a342c0c0c33efc41f92dd028a79b47de"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_125_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_125_published.json",
+   "reference_set_size": 10575,
+   "sample": "S125",
+   "sha256": "380696db489e10c39deb3c376f9809cb14b825da68f77faa2e9c264a4fe6f698"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_147_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_147_published.json",
+   "reference_set_size": 10575,
+   "sample": "S147",
+   "sha256": "f96867c43dca85f21c3d7a65128f54241648b75740a6938426813633150013c3"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_156_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_156_published.json",
+   "reference_set_size": 10575,
+   "sample": "S156",
+   "sha256": "5675d2c0787c5015891465716f29c58223d9f5aabc3df8fdd4afb3cf10e40abd"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_160_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_160_published.json",
+   "reference_set_size": 10575,
+   "sample": "S160",
+   "sha256": "7a3f164e131ba2508bd21205d9de075297b6e90466955a669a0d92a1ba1f22e4"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_3_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_3_published.json",
+   "reference_set_size": 10575,
+   "sample": "S3",
+   "sha256": "e11ba0f936ddc76ad3de9b49a9173d175502a08300332d39572bef646d449ab6"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_45_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_45_published.json",
+   "reference_set_size": 10575,
+   "sample": "S45",
+   "sha256": "89458f2908fdbaeaa04c6468d85039867a8807d704ae42e5a7a798e0e0ee86d6"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_50070_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_50070_published.json",
+   "reference_set_size": 10575,
+   "sample": "S50070",
+   "sha256": "f29384b7e84c791e692b0f91a7ce77087a0c873d4c49c4ed299b185c6dabdbc4"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_50076_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_50076_published.json",
+   "reference_set_size": 10575,
+   "sample": "S50076",
+   "sha256": "82340259eaa6c8ca65024d57c36a59a5aba22e9ef8b2c6278c03d9612cd9a03f"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_50395_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_50395_published.json",
+   "reference_set_size": 10575,
+   "sample": "S50395",
+   "sha256": "0e2977ec6641bbe024f0edf64f14878e5037ea64bab4413ba0471f9973594b2a"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "HT",
+   "n_edges": 21147,
+   "name": "td_sample_510_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_510_published.json",
+   "reference_set_size": 10575,
+   "sample": "S510",
+   "sha256": "3c74562c24df5c39cf4a0697296cd46687b18502bc52007d8d541b65b99c592b"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "HT",
+   "n_edges": 21147,
+   "name": "td_sample_521_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_521_published.json",
+   "reference_set_size": 10575,
+   "sample": "S521",
+   "sha256": "39308ea92c6a701d1b3b559b399649f78e5e7eecad1dbe22e8797d90e28a6c4d"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "HT",
+   "n_edges": 21147,
+   "name": "td_sample_523_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_523_published.json",
+   "reference_set_size": 10575,
+   "sample": "S523",
+   "sha256": "a3033d87c3a870cb02781654f3fa28e709dacf22ec4605fdcf2d022f98a89c76"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "HT",
+   "n_edges": 21147,
+   "name": "td_sample_528_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_528_published.json",
+   "reference_set_size": 10575,
+   "sample": "S528",
+   "sha256": "5eecd312b2d8b347b854058e52e2e23fca57127d8d9a523dc10e1ed805c12d83"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "HT",
+   "n_edges": 21147,
+   "name": "td_sample_538_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_538_published.json",
+   "reference_set_size": 10575,
+   "sample": "S538",
+   "sha256": "69baa5854fd5e40a112dde4939ceab2bff4029ebf27a16a9efc7df5c20054ac2"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "HT",
+   "n_edges": 21147,
+   "name": "td_sample_540_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_540_published.json",
+   "reference_set_size": 10575,
+   "sample": "S540",
+   "sha256": "87249dc72d08879d4b038cb084d35477103c74ce8433a1a87240a844c47211e6"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "HT",
+   "n_edges": 21147,
+   "name": "td_sample_560_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_560_published.json",
+   "reference_set_size": 10575,
+   "sample": "S560",
+   "sha256": "382dff00fccffc5e79c626f5dd5b86977b9c3974afe2fd5c5f2ab20988c41f36"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_6128_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6128_published.json",
+   "reference_set_size": 10575,
+   "sample": "S6128",
+   "sha256": "81c942030f17066de9f381bcb5cafac505847cf0cacf4dd39b173ef74379ec7c"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_6163_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6163_published.json",
+   "reference_set_size": 10575,
+   "sample": "S6163",
+   "sha256": "9e4d70de8c207a68ddc6f6fa06115bb07f16efc180989b3e30a5084fe2daac0e"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_6165_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6165_published.json",
+   "reference_set_size": 10575,
+   "sample": "S6165",
+   "sha256": "3dfd6325c29ad57feb522112e4281accd2e736ddc5ddf917b61be204692b9441"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_6168_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6168_published.json",
+   "reference_set_size": 10575,
+   "sample": "S6168",
+   "sha256": "5878c0f78a548832640912ffe610aeeb057ae69d3c6fb4ae2f314618d3a95fe3"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_678_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_678_published.json",
+   "reference_set_size": 10575,
+   "sample": "S678",
+   "sha256": "19334a1822ba3c3c86b1a39c185c31058b4b3ace5f011cd2a79ded6301d69b3a"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_715_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_715_published.json",
+   "reference_set_size": 10575,
+   "sample": "S715",
+   "sha256": "8d8c0c185593e0b788a2fe551ccb6635de30c49648c1e0c29cfc01e79139d948"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_76_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_76_published.json",
+   "reference_set_size": 10575,
+   "sample": "S76",
+   "sha256": "f674f25cfff5bc1bacb2ff049ff1ecda63f530046007bc044564c8ad94b8dc46"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_78_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_78_published.json",
+   "reference_set_size": 10575,
+   "sample": "S78",
+   "sha256": "d9acd22501cfbf70c60d899e964a263eb674bfabf9e71fac43d9c23bd125b9e4"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_80129_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_80129_published.json",
+   "reference_set_size": 10575,
+   "sample": "S80129",
+   "sha256": "001956a0a1442e788acbad6bae6e33f1854ffcaa64f4900f0bc0e778c458f5da"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_80142_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_80142_published.json",
+   "reference_set_size": 10575,
+   "sample": "S80142",
+   "sha256": "6d6a2107ccf72cbd4c3798608e350196215c806c6b00c8b1c5d1ddf6f5a900a5"
+  },
+  {
+   "distance_source": "depp_placement_estimated_16S",
+   "family": "published_travelers_diarrhea",
+   "group": "TD",
+   "n_edges": 21147,
+   "name": "td_sample_80152_published",
+   "path": "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_80152_published.json",
+   "reference_set_size": 10575,
+   "sample": "S80152",
+   "sha256": "5d8180a8fe95b4aaff64e669133b8efbe044ff999adaa6b34efc57f17459b464"
+  }
+ ],
+ "code_sha256": {
+  "stage301_common.py": "1206cefcf8e1b7972264faff55160ae120c0a33b2dd4c5235f1b881dc78a47e3",
+  "stage301_protocol.py": "e02b2749235b599658c85f13bf52f85de7b372329932ad6ef811b18543f2d6c5",
+  "stage301_validate.py": "d02b223100a18a33d3a6ba5017d4b1eeaa3cfe70a691c1815ec78befc6e504f9",
+  "stage301_prune.py": null,
+  "stage301_td.py": null,
+  "stage301_grid.py": null,
+  "stage301_analyze.py": null,
+  "stage296_common.py": "449334a8372a35ee1a37c29501771689cfca75d5ef6c224ae7f7c0028fd658cc",
+  "stage298_common.py": "71e84fc3df9e9dcbba01268866d251bcd87139bfac698aa355585093ff6bcd07",
+  "stage288_common.py": "e00a56c6f2f059886b9c80829fae042a864e2098061a77e3b10d2903fe0a85a4",
+  "stage43_partial_fpt.py": "de01c5415da35aeef4fd9715c6acfffb8d399b7ae02ea160bbc3337a59a9fe66",
+  "stage41_partial_fpt.py": "472bcea45bce50e39b6c988da729e054e0f830e75b9d180d2e952a70e2287692",
+  "stage23_two_source_envelope.py": "527930cd95e0ab9c684bb04bea5b2e63172794c2ac5000754449e718a316ab1a",
+  "stage26_missing_leaf.py": "e69a281e6eb9ea5199d9687ee6a864d8436116410f33568fcc50131ca82196a1"
+ },
+ "resources": {
+  "max_workers": 40,
+  "address_space_bytes": 8589934592,
+  "note": "at most 40 of the 62 cores, per the stage brief"
+ }
+}

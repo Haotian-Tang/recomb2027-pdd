@@ -1,0 +1,1796 @@
+{
+  "stage": 292,
+  "validation": {
+    "track_A": {
+      "probe_rows": 5339,
+      "failed_jobs": 0,
+      "cases": 130,
+      "agree_minimum": 5339,
+      "agree_support_sets": 5339,
+      "compared_to_recorded": 5209,
+      "agree_recorded": 5209,
+      "compared_to_exhaustive_exact": 2421,
+      "agree_exhaustive_exact": 2421,
+      "disagreements": [],
+      "status_counts": {
+        "complete": 5339
+      },
+      "speedup_vs_stage290_brute": {
+        "n": 5339,
+        "median": 10.159419848030538,
+        "mean": 29.393333764577314,
+        "q25": 4.192227986908901,
+        "q75": 35.443396682163495,
+        "min": 0.09268710424976791,
+        "max": 1485.7665175165837
+      },
+      "new_seconds": {
+        "n": 5339,
+        "median": 0.030043554957956076,
+        "mean": 0.06728492923971251,
+        "q25": 0.01591418217867613,
+        "q75": 0.05336217302829027,
+        "min": 0.0042829811573028564,
+        "max": 6.129601168911904
+      },
+      "brute_seconds": {
+        "n": 5339,
+        "median": 0.43008527159690857,
+        "mean": 1.090946468842809,
+        "q25": 0.23423275304958224,
+        "q75": 0.8344023190438747,
+        "min": 0.0020368769764900208,
+        "max": 45.12737625511363
+      },
+      "n_supports_distribution": {
+        "1": 3898,
+        "3": 452,
+        "5": 210,
+        "83": 3,
+        "21": 19,
+        "15": 48,
+        "9": 105,
+        "25": 23,
+        "41": 10,
+        "19": 39,
+        "61": 4,
+        "11": 63,
+        "55": 9,
+        "29": 24,
+        "103": 1,
+        "7": 114,
+        "99": 1,
+        "51": 6,
+        "173": 1,
+        "27": 20,
+        "13": 70,
+        "95": 1,
+        "31": 9,
+        "511": 1,
+        "75": 4,
+        "63": 4,
+        "117": 6,
+        "175": 1,
+        "145": 1,
+        "193": 1,
+        "465": 1,
+        "191": 1,
+        "101": 4,
+        "171": 1,
+        "165": 2,
+        "125": 3,
+        "79": 2,
+        "23": 16,
+        "215": 2,
+        "69": 1,
+        "17": 49,
+        "33": 10,
+        "39": 5,
+        "49": 6,
+        "351": 1,
+        "213": 1,
+        "359": 1,
+        "189": 1,
+        "59": 6,
+        "43": 6,
+        "47": 3,
+        "1663": 1,
+        "161": 1,
+        "87": 7,
+        "383": 1,
+        "491": 1,
+        "147": 1,
+        "153": 1,
+        "1703": 1,
+        "65": 4,
+        "295": 1,
+        "45": 6,
+        "1191": 1,
+        "89": 2,
+        "4443": 1,
+        "81": 3,
+        "53": 2,
+        "853": 1,
+        "35": 5,
+        "137": 1,
+        "151": 1,
+        "167": 1,
+        "77": 2,
+        "119": 1,
+        "197": 1,
+        "217": 2,
+        "203": 2,
+        "115": 2,
+        "57": 1,
+        "111": 2,
+        "14": 1,
+        "6": 4,
+        "4": 6,
+        "2": 1,
+        "20": 1
+      }
+    },
+    "track_B": {
+      "cases": 500,
+      "failed_jobs": 0,
+      "agree_minimum": 500,
+      "agree_support_sets": 500,
+      "agree_reduced_vs_full_mask": 500,
+      "with_hidden_leaves": 430,
+      "K_distribution": {
+        "2": 173,
+        "1": 75,
+        "3": 163,
+        "4": 89
+      },
+      "brute_subsets_tested": 148233,
+      "oracle_calls": 3286,
+      "multi_minimiser_cases": 181,
+      "disagreements": []
+    }
+  },
+  "bridge": {
+    "cases": 676,
+    "failed": 11,
+    "failed_detail": {
+      "timeout": 11
+    },
+    "by_K": {
+      "2": 120,
+      "3": 220,
+      "5": 220,
+      "7": 116
+    },
+    "baseline_unique_true": 663,
+    "baseline_minimum_equals_K": 674,
+    "rank_identity": 676,
+    "cogirth_tolerance_zero": 649,
+    "threshold_status": {
+      "adversarial_nearest|found": 661,
+      "adversarial_nearest|unknown_probe": 2,
+      "random|found": 1276,
+      "random|unknown_probe": 50,
+      "whole_clade|found": 1320,
+      "whole_clade|unknown_probe": 6
+    },
+    "t_unknown": {
+      "K2|adversarial_nearest": {
+        "n": 120,
+        "median": 2.0,
+        "mean": 4.958333333333333,
+        "q25": 1,
+        "q75": 4,
+        "min": 0,
+        "max": 115
+      },
+      "K2|random": {
+        "n": 240,
+        "median": 74.0,
+        "mean": 87.9375,
+        "q25": 30,
+        "q75": 122,
+        "min": 1,
+        "max": 337
+      },
+      "K2|whole_clade": {
+        "n": 240,
+        "median": 37.5,
+        "mean": 53.44166666666667,
+        "q25": 17,
+        "q75": 74,
+        "min": 0,
+        "max": 328
+      },
+      "K3|adversarial_nearest": {
+        "n": 218,
+        "median": 2.0,
+        "mean": 3.5871559633027523,
+        "q25": 1,
+        "q75": 4,
+        "min": 0,
+        "max": 25
+      },
+      "K3|random": {
+        "n": 436,
+        "median": 33.0,
+        "mean": 52.97477064220183,
+        "q25": 19,
+        "q75": 70,
+        "min": 0,
+        "max": 300
+      },
+      "K3|whole_clade": {
+        "n": 436,
+        "median": 20.0,
+        "mean": 33.3348623853211,
+        "q25": 8,
+        "q75": 42,
+        "min": 0,
+        "max": 262
+      },
+      "K5|adversarial_nearest": {
+        "n": 217,
+        "median": 2,
+        "mean": 3.0184331797235022,
+        "q25": 1,
+        "q75": 4,
+        "min": 0,
+        "max": 27
+      },
+      "K5|random": {
+        "n": 423,
+        "median": 25,
+        "mean": 42.60520094562648,
+        "q25": 10,
+        "q75": 52,
+        "min": 0,
+        "max": 271
+      },
+      "K5|whole_clade": {
+        "n": 434,
+        "median": 12.0,
+        "mean": 22.62672811059908,
+        "q25": 5,
+        "q75": 31,
+        "min": 0,
+        "max": 212
+      },
+      "K7|adversarial_nearest": {
+        "n": 106,
+        "median": 2.0,
+        "mean": 2.5943396226415096,
+        "q25": 1,
+        "q75": 4,
+        "min": 0,
+        "max": 9
+      },
+      "K7|random": {
+        "n": 177,
+        "median": 32,
+        "mean": 44.3728813559322,
+        "q25": 10,
+        "q75": 59,
+        "min": 0,
+        "max": 264
+      },
+      "K7|whole_clade": {
+        "n": 210,
+        "median": 16.0,
+        "mean": 24.242857142857144,
+        "q25": 5,
+        "q75": 37,
+        "min": 0,
+        "max": 186
+      }
+    },
+    "fraction_erasable": {
+      "K2|adversarial_nearest": {
+        "n": 120,
+        "median": 0.01960972796308757,
+        "mean": 0.06269396069413644,
+        "q25": 0.008368200836820083,
+        "q75": 0.043478260869565216,
+        "min": 0.0,
+        "max": 0.6764705882352942
+      },
+      "K2|random": {
+        "n": 240,
+        "median": 0.6470588235294118,
+        "mean": 0.583389160346226,
+        "q25": 0.42696629213483145,
+        "q75": 0.7669902912621359,
+        "min": 0.021739130434782608,
+        "max": 0.9790575916230366
+      },
+      "K2|whole_clade": {
+        "n": 240,
+        "median": 0.3746666666666667,
+        "mean": 0.3821080456044451,
+        "q25": 0.2077562326869806,
+        "q75": 0.5357142857142857,
+        "min": 0.0,
+        "max": 0.9456066945606695
+      },
+      "K3|adversarial_nearest": {
+        "n": 218,
+        "median": 0.022727272727272728,
+        "mean": 0.06196196631368973,
+        "q25": 0.009933774834437087,
+        "q75": 0.05172413793103448,
+        "min": 0.0,
+        "max": 0.5185185185185185
+      },
+      "K3|random": {
+        "n": 436,
+        "median": 0.48782192788815304,
+        "mean": 0.4781058008329405,
+        "q25": 0.31,
+        "q75": 0.6595744680851063,
+        "min": 0.0,
+        "max": 0.9411764705882353
+      },
+      "K3|whole_clade": {
+        "n": 436,
+        "median": 0.2903225806451613,
+        "mean": 0.32158703690293045,
+        "q25": 0.13725490196078433,
+        "q75": 0.48322147651006714,
+        "min": 0.0,
+        "max": 0.9537815126050421
+      },
+      "K5|adversarial_nearest": {
+        "n": 217,
+        "median": 0.023255813953488372,
+        "mean": 0.04587844817235187,
+        "q25": 0.01,
+        "q75": 0.05357142857142857,
+        "min": 0.0,
+        "max": 0.37209302325581395
+      },
+      "K5|random": {
+        "n": 423,
+        "median": 0.35294117647058826,
+        "mean": 0.3555194444310759,
+        "q25": 0.20689655172413793,
+        "q75": 0.5,
+        "min": 0.0,
+        "max": 0.8490566037735849
+      },
+      "K5|whole_clade": {
+        "n": 434,
+        "median": 0.1875,
+        "mean": 0.212044316598915,
+        "q25": 0.08928571428571429,
+        "q75": 0.29,
+        "min": 0.0,
+        "max": 0.7278911564625851
+      },
+      "K7|adversarial_nearest": {
+        "n": 106,
+        "median": 0.013793103448275862,
+        "mean": 0.0257435744212505,
+        "q25": 0.0056179775280898875,
+        "q75": 0.03125,
+        "min": 0.0,
+        "max": 0.21951219512195122
+      },
+      "K7|random": {
+        "n": 177,
+        "median": 0.2620689655172414,
+        "mean": 0.2749507680162751,
+        "q25": 0.13675213675213677,
+        "q75": 0.3931034482758621,
+        "min": 0.0,
+        "max": 0.7415730337078652
+      },
+      "K7|whole_clade": {
+        "n": 210,
+        "median": 0.13793103448275862,
+        "mean": 0.14968489292085072,
+        "q25": 0.05898876404494382,
+        "q75": 0.20408163265306123,
+        "min": 0.0,
+        "max": 0.5224719101123596
+      }
+    },
+    "spearman_t_vs_panel_size": {
+      "K2|adversarial_nearest": -0.037794119964793954,
+      "K2|random": 0.8515397823035521,
+      "K2|whole_clade": 0.6497904158422685,
+      "K3|adversarial_nearest": -0.011819482840547771,
+      "K3|random": 0.8164509433665302,
+      "K3|whole_clade": 0.5967353275132427,
+      "K5|adversarial_nearest": 0.19805296659797997,
+      "K5|random": 0.861510973590885,
+      "K5|whole_clade": 0.6687940114572037,
+      "K7|adversarial_nearest": 0.11579152105599015,
+      "K7|random": 0.7840243597123842,
+      "K7|whole_clade": 0.7247452161407054
+    },
+    "spearman_t_vs_panel_size_pooled": {
+      "random": 0.8317258371653521,
+      "whole_clade": 0.6470487832194407,
+      "adversarial_nearest": 0.09549673823960488
+    },
+    "spearman_known_vs_unknown": {
+      "random": 0.7385941102423094,
+      "whole_clade": 0.8993348576519998,
+      "adversarial_nearest": 0.1530397685102201
+    },
+    "cogirth_bound_respected": {
+      "ok": 3257,
+      "n": 3257
+    },
+    "t_unknown_all_K": {
+      "adversarial_nearest": {
+        "n": 661,
+        "median": 2,
+        "mean": 3.4901664145234492,
+        "q25": 1,
+        "q75": 4,
+        "min": 0,
+        "max": 115
+      },
+      "random": {
+        "n": 1276,
+        "median": 34.0,
+        "mean": 54.92006269592476,
+        "q25": 15,
+        "q75": 74,
+        "min": 0,
+        "max": 337
+      },
+      "whole_clade": {
+        "n": 1320,
+        "median": 18.0,
+        "mean": 32.02348484848485,
+        "q25": 7,
+        "q75": 43,
+        "min": 0,
+        "max": 328
+      }
+    },
+    "fraction_erasable_all_K": {
+      "adversarial_nearest": {
+        "n": 661,
+        "median": 0.020833333333333332,
+        "mean": 0.05100669603893138,
+        "q25": 0.009259259259259259,
+        "q75": 0.046511627906976744,
+        "min": 0.0,
+        "max": 0.6764705882352942
+      },
+      "random": {
+        "n": 1276,
+        "median": 0.42166866746698684,
+        "mean": 0.42908976377702357,
+        "q25": 0.24390243902439024,
+        "q75": 0.6133333333333333,
+        "min": 0.0,
+        "max": 0.9790575916230366
+      },
+      "whole_clade": {
+        "n": 1320,
+        "median": 0.22,
+        "mean": 0.2692264696606456,
+        "q25": 0.10714285714285714,
+        "q75": 0.38741721854304634,
+        "min": 0.0,
+        "max": 0.9537815126050421
+      }
+    },
+    "seconds_per_case": {
+      "n": 676,
+      "median": 9.914084244985133,
+      "mean": 229.007889870962,
+      "q25": 2.675500551238656,
+      "q75": 55.430764665827155,
+      "min": 0.057152348570525646,
+      "max": 5045.561039695051
+    }
+  },
+  "panels": {
+    "jobs": 70,
+    "failed": 2,
+    "failed_detail": [
+      {
+        "status": "timeout",
+        "spec": {
+          "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+          "size": 1024,
+          "size_rank": 4,
+          "K": 5,
+          "seed": 101
+        }
+      },
+      {
+        "status": "timeout",
+        "spec": {
+          "panel": "data/stage287_instances/krepp_shared/results__expt-emp__emp-pp-WoLv2__placement_tree_extended.nwk",
+          "size": 2048,
+          "size_rank": 5,
+          "K": 5,
+          "seed": 202
+        }
+      }
+    ],
+    "baseline_unique_true": 70,
+    "sizes": [
+      64,
+      100,
+      128,
+      256,
+      512,
+      1000,
+      1024,
+      2048,
+      4096,
+      8192,
+      15953,
+      16384,
+      47151
+    ],
+    "series": {
+      "wolv2_backbone|K3|adversarial_nearest": [
+        {
+          "N": 100,
+          "t": 1,
+          "seed": 101,
+          "fraction": 0.01,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 34,
+          "seed": 202,
+          "fraction": 0.34,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 4,
+          "seed": 303,
+          "fraction": 0.04,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 48,
+          "seed": 101,
+          "fraction": 0.048,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 2,
+          "seed": 202,
+          "fraction": 0.002,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 1,
+          "seed": 303,
+          "fraction": 0.001,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 1,
+          "seed": 101,
+          "fraction": 6.268413464552121e-05,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 3,
+          "seed": 202,
+          "fraction": 0.00018805240393656366,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 9,
+          "seed": 303,
+          "fraction": 0.000564157211809691,
+          "status": "found"
+        }
+      ],
+      "wolv2_backbone|K3|random": [
+        {
+          "N": 100,
+          "t": 50,
+          "seed": 101,
+          "fraction": 0.5,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 93,
+          "seed": 202,
+          "fraction": 0.93,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 73,
+          "seed": 303,
+          "fraction": 0.73,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 559,
+          "seed": 101,
+          "fraction": 0.559,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 889,
+          "seed": 202,
+          "fraction": 0.889,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 937,
+          "seed": 303,
+          "fraction": 0.937,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 7479,
+          "seed": 101,
+          "fraction": 0.46881464301385317,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 9665,
+          "seed": 202,
+          "fraction": 0.6058421613489626,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 12138,
+          "seed": 303,
+          "fraction": 0.7608600263273365,
+          "status": "found"
+        }
+      ],
+      "wolv2_backbone|K5|adversarial_nearest": [
+        {
+          "N": 100,
+          "t": 2,
+          "seed": 101,
+          "fraction": 0.02,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 22,
+          "seed": 202,
+          "fraction": 0.22,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 6,
+          "seed": 303,
+          "fraction": 0.06,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 20,
+          "seed": 101,
+          "fraction": 0.02,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 2,
+          "seed": 202,
+          "fraction": 0.002,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 1,
+          "seed": 303,
+          "fraction": 0.001,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 1,
+          "seed": 101,
+          "fraction": 6.268413464552121e-05,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 5,
+          "seed": 202,
+          "fraction": 0.0003134206732276061,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 16,
+          "seed": 303,
+          "fraction": 0.0010029461543283394,
+          "status": "found"
+        }
+      ],
+      "wolv2_backbone|K5|random": [
+        {
+          "N": 100,
+          "t": 50,
+          "seed": 101,
+          "fraction": 0.5,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 66,
+          "seed": 202,
+          "fraction": 0.66,
+          "status": "found"
+        },
+        {
+          "N": 100,
+          "t": 23,
+          "seed": 303,
+          "fraction": 0.23,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 559,
+          "seed": 101,
+          "fraction": 0.559,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 410,
+          "seed": 202,
+          "fraction": 0.41,
+          "status": "found"
+        },
+        {
+          "N": 1000,
+          "t": 559,
+          "seed": 303,
+          "fraction": 0.559,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 7479,
+          "seed": 101,
+          "fraction": 0.46881464301385317,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 9665,
+          "seed": 202,
+          "fraction": 0.6058421613489626,
+          "status": "found"
+        },
+        {
+          "N": 15953,
+          "t": 10218,
+          "seed": 303,
+          "fraction": 0.6405064878079358,
+          "status": "found"
+        }
+      ],
+      "wolv2_placement|K3|adversarial_nearest": [
+        {
+          "N": 64,
+          "t": 14,
+          "seed": 101,
+          "fraction": 0.21875,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 15,
+          "seed": 202,
+          "fraction": 0.234375,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 2,
+          "seed": 303,
+          "fraction": 0.03125,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 3,
+          "seed": 101,
+          "fraction": 0.0234375,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 4,
+          "seed": 202,
+          "fraction": 0.03125,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 2,
+          "seed": 303,
+          "fraction": 0.015625,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 9,
+          "seed": 101,
+          "fraction": 0.03515625,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 21,
+          "seed": 202,
+          "fraction": 0.08203125,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 1,
+          "seed": 303,
+          "fraction": 0.00390625,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 3,
+          "seed": 101,
+          "fraction": 0.005859375,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 1,
+          "seed": 202,
+          "fraction": 0.001953125,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 10,
+          "seed": 303,
+          "fraction": 0.01953125,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 28,
+          "seed": 101,
+          "fraction": 0.02734375,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 5,
+          "seed": 202,
+          "fraction": 0.0048828125,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 2,
+          "seed": 303,
+          "fraction": 0.001953125,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 3,
+          "seed": 101,
+          "fraction": 0.00146484375,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 14,
+          "seed": 202,
+          "fraction": 0.0068359375,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 6,
+          "seed": 303,
+          "fraction": 0.0029296875,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 2,
+          "seed": 101,
+          "fraction": 0.00048828125,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 1,
+          "seed": 202,
+          "fraction": 0.000244140625,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 11,
+          "seed": 303,
+          "fraction": 0.002685546875,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 5,
+          "seed": 101,
+          "fraction": 0.0006103515625,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 3,
+          "seed": 202,
+          "fraction": 0.0003662109375,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 2,
+          "seed": 303,
+          "fraction": 0.000244140625,
+          "status": "found"
+        },
+        {
+          "N": 16384,
+          "t": 10,
+          "seed": 101,
+          "fraction": 0.0006103515625,
+          "status": "found"
+        },
+        {
+          "N": 16384,
+          "t": 10,
+          "seed": 202,
+          "fraction": 0.0006103515625,
+          "status": "found"
+        },
+        {
+          "N": 16384,
+          "t": 4,
+          "seed": 303,
+          "fraction": 0.000244140625,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 6,
+          "seed": 202,
+          "fraction": 0.00012725074759814214,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 10,
+          "seed": 303,
+          "fraction": 0.0002120845793302369,
+          "status": "found"
+        }
+      ],
+      "wolv2_placement|K3|random": [
+        {
+          "N": 64,
+          "t": 24,
+          "seed": 101,
+          "fraction": 0.375,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 21,
+          "seed": 202,
+          "fraction": 0.328125,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 45,
+          "seed": 303,
+          "fraction": 0.703125,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 57,
+          "seed": 101,
+          "fraction": 0.4453125,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 66,
+          "seed": 202,
+          "fraction": 0.515625,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 72,
+          "seed": 303,
+          "fraction": 0.5625,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 131,
+          "seed": 101,
+          "fraction": 0.51171875,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 134,
+          "seed": 202,
+          "fraction": 0.5234375,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 106,
+          "seed": 303,
+          "fraction": 0.4140625,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 307,
+          "seed": 101,
+          "fraction": 0.599609375,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 258,
+          "seed": 202,
+          "fraction": 0.50390625,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 297,
+          "seed": 303,
+          "fraction": 0.580078125,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 798,
+          "seed": 101,
+          "fraction": 0.779296875,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 433,
+          "seed": 202,
+          "fraction": 0.4228515625,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 793,
+          "seed": 303,
+          "fraction": 0.7744140625,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 1258,
+          "seed": 101,
+          "fraction": 0.6142578125,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 839,
+          "seed": 202,
+          "fraction": 0.40966796875,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 748,
+          "seed": 303,
+          "fraction": 0.365234375,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 3540,
+          "seed": 101,
+          "fraction": 0.8642578125,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 2186,
+          "seed": 202,
+          "fraction": 0.53369140625,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 3691,
+          "seed": 303,
+          "fraction": 0.901123046875,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 6516,
+          "seed": 101,
+          "fraction": 0.79541015625,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 1092,
+          "seed": 202,
+          "fraction": 0.13330078125,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 3985,
+          "seed": 303,
+          "fraction": 0.4864501953125,
+          "status": "found"
+        },
+        {
+          "N": 16384,
+          "t": 13565,
+          "seed": 101,
+          "fraction": 0.82794189453125,
+          "status": "found"
+        },
+        {
+          "N": 16384,
+          "t": 14683,
+          "seed": 202,
+          "fraction": 0.89617919921875,
+          "status": "found"
+        },
+        {
+          "N": 16384,
+          "t": 13756,
+          "seed": 303,
+          "fraction": 0.839599609375,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 10006,
+          "seed": 202,
+          "fraction": 0.21221183007783503,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 34777,
+          "seed": 303,
+          "fraction": 0.7375665415367648,
+          "status": "found"
+        }
+      ],
+      "wolv2_placement|K5|adversarial_nearest": [
+        {
+          "N": 64,
+          "t": 8,
+          "seed": 101,
+          "fraction": 0.125,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 2,
+          "seed": 202,
+          "fraction": 0.03125,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 1,
+          "seed": 303,
+          "fraction": 0.015625,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 9,
+          "seed": 101,
+          "fraction": 0.0703125,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 4,
+          "seed": 202,
+          "fraction": 0.03125,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 4,
+          "seed": 303,
+          "fraction": 0.03125,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 8,
+          "seed": 101,
+          "fraction": 0.03125,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 4,
+          "seed": 202,
+          "fraction": 0.015625,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 2,
+          "seed": 303,
+          "fraction": 0.0078125,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 2,
+          "seed": 101,
+          "fraction": 0.00390625,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 3,
+          "seed": 202,
+          "fraction": 0.005859375,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 10,
+          "seed": 303,
+          "fraction": 0.01953125,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 2,
+          "seed": 202,
+          "fraction": 0.001953125,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 3,
+          "seed": 303,
+          "fraction": 0.0029296875,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 5,
+          "seed": 101,
+          "fraction": 0.00244140625,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 8,
+          "seed": 303,
+          "fraction": 0.00390625,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 2,
+          "seed": 202,
+          "fraction": 0.00048828125,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 6,
+          "seed": 101,
+          "fraction": 0.000732421875,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 2,
+          "seed": 202,
+          "fraction": 0.000244140625,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 2,
+          "seed": 303,
+          "fraction": 0.000244140625,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 9,
+          "seed": 101,
+          "fraction": 0.0001908761213972132,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 7,
+          "seed": 202,
+          "fraction": 0.00014845920553116583,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 4,
+          "seed": 303,
+          "fraction": 8.483383173209476e-05,
+          "status": "found"
+        }
+      ],
+      "wolv2_placement|K5|random": [
+        {
+          "N": 64,
+          "t": 24,
+          "seed": 101,
+          "fraction": 0.375,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 14,
+          "seed": 202,
+          "fraction": 0.21875,
+          "status": "found"
+        },
+        {
+          "N": 64,
+          "t": 39,
+          "seed": 303,
+          "fraction": 0.609375,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 57,
+          "seed": 101,
+          "fraction": 0.4453125,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 61,
+          "seed": 202,
+          "fraction": 0.4765625,
+          "status": "found"
+        },
+        {
+          "N": 128,
+          "t": 57,
+          "seed": 303,
+          "fraction": 0.4453125,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 131,
+          "seed": 101,
+          "fraction": 0.51171875,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 134,
+          "seed": 202,
+          "fraction": 0.5234375,
+          "status": "found"
+        },
+        {
+          "N": 256,
+          "t": 106,
+          "seed": 303,
+          "fraction": 0.4140625,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 307,
+          "seed": 101,
+          "fraction": 0.599609375,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 258,
+          "seed": 202,
+          "fraction": 0.50390625,
+          "status": "found"
+        },
+        {
+          "N": 512,
+          "t": 297,
+          "seed": 303,
+          "fraction": 0.580078125,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 433,
+          "seed": 202,
+          "fraction": 0.4228515625,
+          "status": "found"
+        },
+        {
+          "N": 1024,
+          "t": 793,
+          "seed": 303,
+          "fraction": 0.7744140625,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 638,
+          "seed": 101,
+          "fraction": 0.3115234375,
+          "status": "found"
+        },
+        {
+          "N": 2048,
+          "t": 748,
+          "seed": 303,
+          "fraction": 0.365234375,
+          "status": "found"
+        },
+        {
+          "N": 4096,
+          "t": 2186,
+          "seed": 202,
+          "fraction": 0.53369140625,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 3929,
+          "seed": 101,
+          "fraction": 0.4796142578125,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 1092,
+          "seed": 202,
+          "fraction": 0.13330078125,
+          "status": "found"
+        },
+        {
+          "N": 8192,
+          "t": 3985,
+          "seed": 303,
+          "fraction": 0.4864501953125,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 32243,
+          "seed": 101,
+          "fraction": 0.6838243091344828,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 10006,
+          "seed": 202,
+          "fraction": 0.21221183007783503,
+          "status": "found"
+        },
+        {
+          "N": 47151,
+          "t": 15629,
+          "seed": 303,
+          "fraction": 0.33146698903522726,
+          "status": "found"
+        }
+      ]
+    },
+    "spearman_t_vs_N": {
+      "wolv2_backbone|K3|adversarial_nearest": -0.10721125348377948,
+      "wolv2_backbone|K3|random": 0.9486832980505138,
+      "wolv2_backbone|K5|adversarial_nearest": -0.26574700172636695,
+      "wolv2_backbone|K5|random": 0.9526610232449336,
+      "wolv2_placement|K3|adversarial_nearest": 0.04032362210568775,
+      "wolv2_placement|K3|random": 0.9813290985048845,
+      "wolv2_placement|K5|adversarial_nearest": 0.10000678165438918,
+      "wolv2_placement|K5|random": 0.9878330694231728
+    },
+    "loglog_slope": {
+      "wolv2_backbone|K3|adversarial_nearest": -0.10780437235567607,
+      "wolv2_backbone|K3|random": 0.9682283879005711,
+      "wolv2_backbone|K5|adversarial_nearest": -0.07305025055978337,
+      "wolv2_backbone|K5|random": 1.0569376714146328,
+      "wolv2_placement|K3|adversarial_nearest": 0.021599129539921807,
+      "wolv2_placement|K3|random": 1.0236829647604315,
+      "wolv2_placement|K5|adversarial_nearest": 0.04920446364936257,
+      "wolv2_placement|K5|random": 0.9612049570773811
+    },
+    "spearman_t_vs_N_pooled": {
+      "adversarial_nearest": 0.04491285622432798,
+      "random": 0.9810801651675027
+    },
+    "median_t_by_size": {
+      "adversarial_nearest": {
+        "64": {
+          "n": 6,
+          "median": 5.0,
+          "mean": 7.0,
+          "q25": 2,
+          "q75": 14,
+          "min": 1,
+          "max": 15
+        },
+        "100": {
+          "n": 6,
+          "median": 5.0,
+          "mean": 11.5,
+          "q25": 2,
+          "q75": 22,
+          "min": 1,
+          "max": 34
+        },
+        "128": {
+          "n": 6,
+          "median": 4.0,
+          "mean": 4.333333333333333,
+          "q25": 3,
+          "q75": 4,
+          "min": 2,
+          "max": 9
+        },
+        "256": {
+          "n": 6,
+          "median": 6.0,
+          "mean": 7.5,
+          "q25": 2,
+          "q75": 9,
+          "min": 1,
+          "max": 21
+        },
+        "512": {
+          "n": 6,
+          "median": 3.0,
+          "mean": 4.833333333333333,
+          "q25": 2,
+          "q75": 10,
+          "min": 1,
+          "max": 10
+        },
+        "1000": {
+          "n": 6,
+          "median": 2.0,
+          "mean": 12.333333333333334,
+          "q25": 1,
+          "q75": 20,
+          "min": 1,
+          "max": 48
+        },
+        "1024": {
+          "n": 5,
+          "median": 3,
+          "mean": 8.0,
+          "q25": 2,
+          "q75": 5,
+          "min": 2,
+          "max": 28
+        },
+        "2048": {
+          "n": 5,
+          "median": 6,
+          "mean": 7.2,
+          "q25": 5,
+          "q75": 8,
+          "min": 3,
+          "max": 14
+        },
+        "4096": {
+          "n": 4,
+          "median": 2.0,
+          "mean": 4.0,
+          "q25": 2,
+          "q75": 2,
+          "min": 1,
+          "max": 11
+        },
+        "8192": {
+          "n": 6,
+          "median": 2.5,
+          "mean": 3.3333333333333335,
+          "q25": 2,
+          "q75": 5,
+          "min": 2,
+          "max": 6
+        },
+        "15953": {
+          "n": 6,
+          "median": 4.0,
+          "mean": 5.833333333333333,
+          "q25": 1,
+          "q75": 9,
+          "min": 1,
+          "max": 16
+        },
+        "16384": {
+          "n": 3,
+          "median": 10,
+          "mean": 8.0,
+          "q25": 4,
+          "q75": 10,
+          "min": 4,
+          "max": 10
+        },
+        "47151": {
+          "n": 5,
+          "median": 7,
+          "mean": 7.2,
+          "q25": 6,
+          "q75": 9,
+          "min": 4,
+          "max": 10
+        }
+      },
+      "random": {
+        "64": {
+          "n": 6,
+          "median": 24.0,
+          "mean": 27.833333333333332,
+          "q25": 21,
+          "q75": 39,
+          "min": 14,
+          "max": 45
+        },
+        "100": {
+          "n": 6,
+          "median": 58.0,
+          "mean": 59.166666666666664,
+          "q25": 50,
+          "q75": 73,
+          "min": 23,
+          "max": 93
+        },
+        "128": {
+          "n": 6,
+          "median": 59.0,
+          "mean": 61.666666666666664,
+          "q25": 57,
+          "q75": 66,
+          "min": 57,
+          "max": 72
+        },
+        "256": {
+          "n": 6,
+          "median": 131.0,
+          "mean": 123.66666666666667,
+          "q25": 106,
+          "q75": 134,
+          "min": 106,
+          "max": 134
+        },
+        "512": {
+          "n": 6,
+          "median": 297.0,
+          "mean": 287.3333333333333,
+          "q25": 258,
+          "q75": 307,
+          "min": 258,
+          "max": 307
+        },
+        "1000": {
+          "n": 6,
+          "median": 559.0,
+          "mean": 652.1666666666666,
+          "q25": 559,
+          "q75": 889,
+          "min": 410,
+          "max": 937
+        },
+        "1024": {
+          "n": 5,
+          "median": 793,
+          "mean": 650.0,
+          "q25": 433,
+          "q75": 793,
+          "min": 433,
+          "max": 798
+        },
+        "2048": {
+          "n": 5,
+          "median": 748,
+          "mean": 846.2,
+          "q25": 748,
+          "q75": 839,
+          "min": 638,
+          "max": 1258
+        },
+        "4096": {
+          "n": 4,
+          "median": 2863.0,
+          "mean": 2900.75,
+          "q25": 2186,
+          "q75": 3540,
+          "min": 2186,
+          "max": 3691
+        },
+        "8192": {
+          "n": 6,
+          "median": 3957.0,
+          "mean": 3433.1666666666665,
+          "q25": 1092,
+          "q75": 3985,
+          "min": 1092,
+          "max": 6516
+        },
+        "15953": {
+          "n": 6,
+          "median": 9665.0,
+          "mean": 9440.666666666666,
+          "q25": 7479,
+          "q75": 10218,
+          "min": 7479,
+          "max": 12138
+        },
+        "16384": {
+          "n": 3,
+          "median": 13756,
+          "mean": 14001.333333333334,
+          "q25": 13565,
+          "q75": 14683,
+          "min": 13565,
+          "max": 14683
+        },
+        "47151": {
+          "n": 5,
+          "median": 15629,
+          "mean": 20532.2,
+          "q25": 10006,
+          "q75": 32243,
+          "min": 10006,
+          "max": 34777
+        }
+      }
+    }
+  }
+}

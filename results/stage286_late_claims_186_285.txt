@@ -1,0 +1,758 @@
+### S186
+-- stage186_public_static_review.json | PASS_INDEPENDENT_STATIC_KNOWN_WEIGHT_POLYTOPE_REVIEW
+   role: Non-author full-source symbolic/control-flow review; no production imports or calls
+-- stage186_root_review.json | PASS_ROOT_KNOWN_WEIGHT_POLYTOPE_API_ACCEPTED_WITH_FIXED_VALIDATION
+   role: Root API acceptance after independent static review and preregistered execution replay
+   core: An independent exact affine physical model supports strict nonemptiness, closure extrema and endpoint-attainment certificates; source fraction uses a uniformly positive actual-length denominator.
+   limitations: Known associated source abundance is an explicit input; this validates a conditional oracle, not general unknown-weight recovery. | One three-leaf adversarial case, with code/theorem review for the general API scope; no empirical biological or performance claim. | The algorithm uses classical LP, weak duality, Charnes-Cooper and face-margin tests. Novelty belongs only to any sufficiently differentiated model-specific contribution. | Correct UNKNOWN behavior is part of the static contract, not an experimentally forced exhaustive failure-path test.
+-- stage186_root_static_review.json | PASS_ROOT_FULL_SOURCE_STATIC_REVIEW_READY_FOR_FIXED_VALIDATION
+   role: Root independent full-source and mathematical contract review
+   core: The implementation keeps closure optima separate from strict physical endpoint inclusion, with raw primal/dual certificates and a verified strict center establishing closure density.
+   limitations: Static review is not execution validation;187 remains separately preregistered. | Known associated weights and selected edges are required; no unknown-weight or support search claim. | Cooperative budgets require external watchdog. On interrupted verification a local partial verification ledger may be discarded, but raw solver phases are retained and no false certificate is issued. | The generic LP, Charnes-Cooper and strict-margin methods are classical.
+
+### S187
+-- stage187_public_protocol_review.json | PASS_INDEPENDENT_FROZEN_PROTOCOL_STATIC_REVIEW
+   role: Non-author complete508-line source/data/protocol audit; author of the earlier186independent source review
+-- stage187_root_protocol_review.json | PASS_ROOT_PROTOCOL_APPROVAL_FOR_ONE_FIXED_RUN
+   role: Root complete508-line source and protocol review after independent static PASS14
+   core: One observation-derived strict center and six fixed endpoints, at most26 LP, under external480s/1GiB limits; all raw phases saved before producer-independent checking.
+   limitations: One fixed adversarial three-leaf case; known abundance1 is an explicit conditional input. | A nonblocking setup-exception diagnostic flag can lose a previously set unreported-dual marker, but raw counters, FAIL and traceback persist; no false physical certificate. Frozen source retained. | A successful computation still requires non-author saved-only replay before scientific acceptance.
+-- stage187_root_review.json | PASS_ROOT_OPEN_ENDPOINT_VALIDATION_AND_INDEPENDENT_REPLAY_ACCEPTED
+   role: Root scientific acceptance after frozen producer execution and non-author saved-only replay
+   core: Verified complete ranges: source fraction[1/90,213/506), actual selected length[9/10,11/10], aggregate mean(0,231/1000]. Physical endpoint inclusion is separately proved, not inferred from the first closure optimizer.
+   limitations: Known associated source abundance is an explicit input; this validates a conditional oracle, not general unknown-weight recovery. | One three-leaf adversarial case, with code/theorem review for the general API scope; no empirical biological or performance claim. | The algorithm uses classical LP, weak duality, Charnes-Cooper and face-margin tests. Novelty belongs only to any sufficiently differentiated model-specific contribution. | Correct UNKNOWN behavior is part of the static contract, not an experimentally forced exhaustive failure-path test.
+
+### S188
+-- stage188_root_review.json | PASS_ROOT_DIRECT_PRIOR_COLLISION_ACCEPTED
+   role: Root primary-source and symbolic mapping review
+   core: Augment by s_e=1-2Q_e so each uncertain L_e occupies one independent coefficient. Oettli-Prager then gives exactly the signed edge compatibility constraints. Positive aggregate mean and strict-source physical interpretation remain additional model-specific obligations.
+   limitations: Bounded targeted primary-source review is not exhaustive global priority verification. | United/existential metric compatibility is not a robust-for-all-metrics set or Bayesian posterior. | No new experiment or production API was run for this audit.
+-- stage188_structure_interval_prior_audit.json | COMPLETE_BOUNDED_PRIMARY_COLLISION_AUDIT_DIRECT_ANTECEDENT_CONFIRMED
+   role: Independent primary-source and symbolic mapping reviewer; no production execution
+   summary: The exact relative-length edge condition and its fixed-sign linear inequalities are direct specializations of Oettli-Prager (1964), including rectangular systems and relative coefficient tolerances. Rohn (2015) gives a genuine earlier explicit homeomorphism theorem under different square-regular and thick-right-hand-side hypotheses. Neither generic sign-polyhedra nor generic homeomorphism is a novelty claim. The remaining project-specific candidate is the physical matching-mixture lift with strict endpoint and positive aggregate-pendant guarantees, together with exact certificate/attainment contracts; global priority is not established.
+
+### S189
+-- stage189_root_review.json | PASS_ROOT_GUARDED_GLOBAL_MINIMUM_SOURCE_POSTERIOR_COMPOSITION
+   role: Root symbolic scope and cross-stage dependency review, with independent prior certificate replays
+   core: The support gate gives a cap-free H lower bound and conditional unique support for at-mostH fits. A checked physicalH-world proves the global optimum isH. Whole-polyhedron physical exactness then turns fixed-support inference into the complete canonical minimum-source posterior.
+   limitations: Global ranges over strict source configurations on the verified A/B topology and metric box; no arbitrary-geometry or unknown-topology completeness. | Only minimum-source models are characterized; parsimony is not a guarantee of true biological species recovery. | No individual pendant identification, joint Cartesian marginal box, noisy biological coverage, or global novelty certification. | The second adversarial audit was by the composition-record author, not an additional independent human or external review. | The130 unqualified support-result sentence must retain its stated at-mostH premise; only forcing yields the cap-free lower bound.
+
+### S190
+-- stage190_root_graphic_identifiability_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_PROOF_AND_PRIOR_REVIEW
+   role: Root conjecture strengthened to a proposed self-contained proof; no new numerical experiment
+   model: tree=Any nontrivial finite tree with positive fixed edge lengths, all original leaves observed exactly. Degree-two vertices are allowed. ;; support=Any nonempty setF of distinct original edges, H=|F|. One normalized positive source in each open selected edge; free positive aggregate pendant y. Matching is not assumed. ;; canonical_parameters=Per edge two positive endpoint allocations q_eu,q_ev, normalized sum1, plus y>0; equivalent to p_e=q_eu+q_ev, xi_e=q_ev/p_e. Individual source pendants are not parameters identified by these data. ;; nonemptiness=Dimension and identifiability claims assume at least one strictly physical exact fit on F; empty fibers are not assigned this dimension.
+   limitations: Fixed known actual metric, exact reports and all original leaves are essential for the stated dimension. | Known aggregate mean adds a row and can reduce dimension; it is not covered by the same formula. | Unknown support can have multiple discrete alternatives even when every single support fiber is a singleton. | Topology-only rank does not provide length-independent conditioning or a uniform positive robustness radius. | This does not infer individual per-source pendant lengths. | P5 must be independently checked before the theorem is accepted or any validation is run.
+-- stage190_root_review.json | PASS_ROOT_GRAPHIC_FIXED_SUPPORT_DIMENSION_THEOREM
+   role: Root proof synthesis and independent17-check symbolic review acceptance
+   core: For H distinct selected edges with endpoint unionP, letnu be the maximum vertex-disjoint linkage from selected internal endpoints to untouched leaves. Every nonempty strict fixed-support fiber with free mean has dimension2H-|P intersect leaves|-nu, for every positive edge-length assignment.
+   limitations: Known fixed actual metric, all original leaves and free aggregate mean. Unknown metric joint inference and known mean require other arguments. | Strict nonempty fibers only; weak boundary fibers may have smaller local dimension and empty fibers have no claimed dimension. | Fixed-support uniqueness does not identify support globally or establish source-count parsimony. | Rank invariance does not imply metric-independent conditioning or a universal nonzero error tolerance. | Model-specific global priority is still unconfirmed; this is internal mathematical review, not human peer review.
+-- stage190_structure_graphic_review.json | PASS_INDEPENDENT_SYMBOLIC_GRAPHIC_DIMENSION_REVIEW
+   role: Independent derivation, adversarial edge-case check and bounded primary-source comparison; no numerical validation
+   verdict: checks_passed=17 ;; blockers= ;; changes_required=False ;; accepted=For every positive fixed edge metric and every nonempty strict fixed-support free-aggregate-mean fiber, d=2H-|P intersect leaves|-nu. The matching full-identifiability criterion follows. ;; priority=No global novelty conclusion; the inverse-minor/path-rank machinery is classical. The model-specific classification remains a scoped candidate contribution.
+
+### S191
+-- stage191_public_protocol_review.json | PASS_INDEPENDENT_STATIC_GRAPHIC_PROTOCOL_REVIEW
+   role: Non-author fullsource/data/protocol audit; metadata comparison only
+-- stage191_root_protocol_review.json | PASS_ROOT_PROTOCOL_REVIEW_AUTHORIZING_ONE_FROZEN_RUN
+-- stage191_root_review.json | PASS_ROOT_GRAPHIC_VALIDATION_REVIEW
+   scope: Implementation evidence for accepted190theorem; fixedknownmetric, knownsupport, freeaggregate mean and conditionalstrictcompatibility. No globalpriority, biologicalfit or unknownsupport/metric uniqueness claim.
+
+### S192
+-- stage192_public_symbolic_review.json | PASS_INDEPENDENT_INTERNAL_SYMBOLIC_PARTIAL_OBSERVATION_REVIEW
+   role: Independent internal mathematical audit by a different agent from the candidate author; not external peer review.
+   verdict: checks_passed=21 ;; blockers= ;; changes_required=False ;; accepted=For the stated strict fixed-support, fixed-known-positive-metric, free-mean model, the arbitrary-original-vertex dimension law, observed-vertex barriers, optimal removable-potential panel and leaf-basis consequences are valid. ;; priority=No novelty or external-review certification; see the separate bounded194 prior audit.
+-- stage192_root_review.json | PASS_ROOT_PARTIAL_OBSERVATION_THEOREM_REVIEW
+-- stage192_structure_partial_observation_candidate.json | SYMBOLIC_PARTIAL_OBSERVATION_CANDIDATE_PENDING_INDEPENDENT_REVIEW
+   role: Independent symbolic derivation requested after Stage190; no numerical or algorithm execution
+   theorem: dimension=d_R=alpha+k_R=2H-|P intersect R|-nu_R. ;; uniformity=This exact dimension is the same for every strictly positive assignment of the fixed tree edge lengths. The statement is not merely generic. ;; fiber=In edge-labelled endpoint-allocation/y coordinates, every nonempty strict exact fiber is a relatively open convex subset of its affine equality fiber, of dimension d_R. Reparameterization to weights/fractions preserves this dimension. ;; uniqueness=A strict nonempty fixed-F fiber is a singleton iff F is matching and nu_R=|S|. ;; counting_bound=d_R>=2H-|R|. In particular at least2H scalar original-vertex reports are necessary for unique canonical recovery when all weights and y are unknown. ;; R_equals_V=J and S are empty, nu_R=k_R=0, and d_V=alpha. Thus all original vertex reports leave precisely the shared-endpoint allocation kernel.
+   model: tree=A nontrivial finite tree T=(V,E) with a fixed known strictly positive metric. Degree-two vertices are allowed. All reports are potentials at ORIGINAL vertices of this unchanged tree. ;; sources=A fixed nonempty set F of H distinct original edges. One strictly interior source of unknown positive weight on each edge; weights sum1. The aggregate mean pendant y>0 is freely varying. The edge-labelled endpoint-allocation coordinates are positive. ;; observations=Exact reports at an arbitrary specified nonempty subset R of V. R may contain leaves, internal vertices and selected-edge endpoints. The dimension assertion is conditional on a nonempty strict fitting fiber. An empty-observation extension is stated separately. ;; canonical_scope=Parameters are edge-associated weights, fractions and aggregate y. Individual per-source pendant lengths are not identified. Support and actual metric are known; this is not an unknown-support or uncertain-metric theorem. ;; probe_scope=Additional reports refer to ORIGINAL vertices of the SAME tree and the SAME physical world. No edge subdivision, new reference leaf or altered strict-source promise is introduced.
+
+### S193
+-- stage193_public_protocol_review.json | PASS_INDEPENDENT_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+   role: Full source/data/protocol static review by a nonauthor; no runner import or execution.
+-- stage193_root_protocol_review.json | PASS_ROOT_PROTOCOL_REVIEW_AUTHORIZING_ONE_FROZEN_RUN
+-- stage193_root_review.json | PASS_ROOT_PARTIAL_PANEL_VALIDATION_REVIEW
+   scope: Known support and fixed known positive metric, free aggregate mean, conditional strict compatibility. Public-derived topology with synthetic composition is not biological validation. Preserving the full leaf information may preserve a nonzero ambiguity dimension.
+
+### S194
+-- stage194_public_identifiability_prior_audit.json | COMPLETE_BOUNDED_PRIMARY_PRIOR_AUDIT_NO_PRIORITY_GUARANTEE
+   role: Independent literature and contribution-scope review; not an independent proof acceptance of the pending Stage192 candidate.
+   verdict: closest_mechanism=The inherited Stage07 endpoint/Laplacian kernel together with classical inverse-minor/linkage rank is the closest mathematical antecedent to Stage190. The PDD conversion should be presented as a model-specific corollary or synthesis, not a new general rank theorem. ;; candidate_increment=Stage192 supplies a more explicit arbitrary-observation boundary reduction, forbids paths through observed vertices, and carries the every-positive-length statement into fixed-support information-equivalent panel selection. These are useful PDD-specific consequences, but the panel cardinality and greedy argument themselves are standard linear row-basis facts. ;; newly_read_direct_duplicate=None of the directed passages read below states the same normalized fixed-support distance-mixture fiber formula. This bounded observation is not an absence or global-priority claim. ;; priority_confidence=Low for any global novelty claim; high that generic graph-rank, boundary inverse and optimal-monitor-placement themes predate this project. ;; paper_scope=Use this package as an interpretable identifiability/panel certificate integrated with the actual inverse problem. A dense-nullity reformulation or a generic matroid-greedy claim alone is not a persuasive standalone main contribution.
+-- stage194_root_review.json | PASS_ROOT_BOUNDED_PRIOR_SCOPE_REVIEW
+
+### S195
+-- stage195_root_reference_erasure_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW
+   model: base=The192 fixed-known-positive-metric tree, fixed nonempty distinct original support F withH positive interior sources, normalized unknown weights and free aggregatey>0. Only original vertex/leaf reports; unchanged tree. ;; coordinates=q inR^(2H) positive endpoint copies, ypositive, sumq=1. V0 is the2H-dimensional normalization tangent in(q,y). ;; target=Canonical edge-associated weights/fractions and aggregatey. Individual pendants are excluded. Unknown support or metric, weakboundary, statistical missingness and noisyconditioning are not covered. ;; strictness=A strict physical point exists for any fixed support by choosing all endpointcopies positive normalized andypositive. For a prescribed report fiber, physical dimension statements retain192 strict-compatibility premise. ;; notation=P=selected endpoint union, B=alloriginalleaves, p=|P|, n=|V|. H remains sourcecount; p here is endpoint count, never abundance.
+-- stage195_root_review.json | PASS_ROOT_REFERENCE_ERASURE_THEOREM_REVIEW
+   scope: Noefficientcorruptedreportdecoder implemented, no noiseconditioningbound, no unknownsupport/metric recovery. Genericcospark anderrorcorrectionthresholdsareprior, citedfrom directedprimaryreads. Model-specific structural computation iscandidatecontribution withglobalpriorityunconfirmed.
+-- stage195_structure_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW
+   role: Non-author independent internal mathematical review; no numerical evaluation or external peer-review claim.
+   verdict: checks_passed=24 ;; blockers= ;; changes_required=False ;; accepted=The unified linkage rank, image-cospark separator formula, anticipated-activity tree DP and guarded erasure/corruption uniqueness consequences are sound for the stated fixed-support known-positive-metric strict model. ;; novelty=No global priority certification.
+
+### S196
+-- stage196_prior_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_PROTOCOL_REVIEW
+   role: Independent non-author static review only; not an executed validation
+   scope: Fixed known support/metric information-erasure validation. No biological robustness, statistical missingness, efficient corrupted-report decoding or global novelty claim.
+   verdict: checks_passed=18 ;; blockers= ;; source_changes_required=False ;; execution_performed=False ;; conclusion=The frozen implementation matches the accepted195 theorem and fixed196 design, with independent certificate/enumeration/physical checks and bounded single-run gates.
+-- stage196_root_protocol_review.json | PASS_ROOT_PROTOCOL_REVIEW_SINGLE_RUN_AUTHORIZED
+-- stage196_root_review.json | PASS_ROOT_ERASURE_VALIDATION_REVIEW
+   scope: Synthetic constructions and public-derived topology only. Exact known metric/support and free aggregate mean. Rank-deficient cases get information loss threshold, not canonical recovery. Correction threshold is identifiability, not an efficient decoder.
+
+### S197
+-- stage197_root_review.json | PASS_ROOT_BOUNDED_PRIOR_SCOPE_REVIEW
+-- stage197_structure_gammoid_prior_audit.json | COMPLETED_BOUNDED_PRIMARY_COMPARISON_NO_GLOBAL_PRIORITY_CLAIM
+   role: Independent bounded literature and symbolic mapping audit; no new algorithm or experiment.
+   conclusion: direct_classical_overlap=The quantity is exactly the cogirth/minimum one-unit rank reduction of the leaf-report matroid. The separator formulation follows classical endpoint-inclusive Menger, and its tree computation uses ordinary budgeted component DP. Those abstractions are not new. ;; not_established=The two directed primary fulltexts do not establish that the particular Stage195 tree-gammoid DP is a previously published identical algorithm, nor that it is novel. No general-class complexity conclusion is inferred. ;; safe_project_scope=The independently proved all-positive-metric PDD rank identification supplies a specific correlated tree report matroid; Stage195 computes its erasure distance with an explicit tree DP. Priority for this specialization remains unconfirmed. ;; global_priority=Unconfirmed; only the limited reads below were completed.
+
+### S198
+-- stage198_prior_symbolic_review.json | PASS_NONAUTHOR_SYMBOLIC_REVIEW
+   role: Independent internal non-author proof review; no implementation or numerical execution
+   limitations: Nonnegative cost is essential for identifying minimum-cost basis with minimum-cost unrestricted full-information panel. | Zero-cost additional vertices may create ties in addition count; the exact minimum count is asserted for unit missing-vertex costs. | No noise, metric uncertainty, support search, individual pendant reconstruction or efficient corruption decoder is established. | No new external literature search or global-priority certification was performed.
+   verdict: checks_passed=21 ;; blockers= ;; changes_required=False ;; accepted=Both constant-state tree recurrences, weighted basis/completion conclusions, endpoint-probe construction and the stated arithmetic complexity are sound under the candidate model.
+-- stage198_root_linear_panel_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW
+   model: Same192/195 known positive tree metric, distinct knownsupport F, normalizedpositiveinterior sources andfreeaggregatey. n=|V|, H=|F|, P=endpointunion. W subsetoriginalvertices isavailableobservationfamily, withfixednonnegative rationalmeasurementcostc(w). Fiberequivalence isconditionaloncompatibledata; knownweights/knownmean/unknownsupport/unknownmetric remainoutside.
+-- stage198_root_review.json | PASS_ROOT_LINEAR_PANEL_THEOREM_REVIEW
+-- stage198_structure_linear_panel_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW
+   role: Non-author internal symbolic review, including independently derived recurrences before reading the formal candidate.
+   verdict: checks_passed=24 ;; blockers= ;; changes_required=False ;; accepted=The four-state weighted packing DP, separate separator DP, exact full-information basis and minimum-cost completion corollaries are sound in the stated fixed-support known-metric model. ;; global_priority=Unconfirmed; no further literature expansion performed.
+
+### S199
+-- stage199_prior_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_PROTOCOL_REVIEW
+   role: Independent non-author static pre-execution review
+   verdict: checks_passed=18 ;; blockers= ;; changes_required=False ;; execution_performed=False ;; conclusion=The frozen source implements the accepted198 recurrences and fixed199 design with certified query ranks and an independent weighted-greedy cost comparison.
+-- stage199_root_protocol_review.json | PASS_ROOT_STATIC_REVIEW_SINGLE_RUN_AUTHORIZED
+   scope: Only fixed integer-cost archive validation. Conditional known support/metric, exact information-equivalent panel and minimum acquisition cost; no noise conditioning or biological validation.
+-- stage199_root_review.json | PASS_ROOT_LINEAR_PANEL_VALIDATION_REVIEW
+   scope: Fixed integer acquisition costs, known support and exact known positive metric. Does not validate noisy conditioning or arbitrary unknown support. A basis preserves existing full-information ambiguity when full rank<2H.
+
+### S200
+-- stage200_prior_symbolic_review.json | PASS_NONAUTHOR_SYMBOLIC_ERASURE_PROFILE_REVIEW
+   role: Independent internal non-author pure proof review
+   verdict: checks_passed=16 ;; blockers= ;; changes_required=False ;; accepted=The complete hierarchy, separator representation, saved-table reuse, exact/at-most erasure dimension curve, strict monotonicity and physical local lift follow under the stated free-mean strict fixed-support known-metric model.
+-- stage200_root_erasure_profile_candidate.json | CANDIDATE_SYMBOLIC_NOT_YET_INDEPENDENTLY_REVIEWED
+   model: tree=Finite tree with at least one edge and all known positive edge lengths. Original leaves B. Known distinct selected edges F, H>=1, endpoint set P. ;; parameters=Positive endpoint allocations q of length2H, sum(q)=1; free positive aggregate mean y. The normalization tangent has dimension2H. A nonempty strict compatible physical fiber is assumed. ;; rank=For any original observation set R, r(R)=lambda(P,R), including trivial common-terminal paths; full-leaf rank s=r(B)>=1, baseline canonical ambiguity d_B=2H-s. ;; report_image=The image C_B of the normalization-tangent report map, a real linear subspace of R^B of dimension s. A nonzero parameter direction with zero full report is excluded from the image support objective.
+-- stage200_root_review.json | PASS_ROOT_COMPLETE_ERASURE_PROFILE_THEOREM
+
+### S201
+-- stage201_prior_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_EXTRACTION_REVIEW
+   role: Independent non-author full static pre-execution audit
+   verdict: checks_passed=15 ;; blockers= ;; changes_required=False ;; execution_performed=False ;; conclusion=The frozen source implements the accepted200 hierarchy as saved-table extraction, with independent C-to-D witnesses and all-budget comparison to accepted saved enumeration.
+-- stage201_root_protocol_review.json | PASS_ROOT_STATIC_REVIEW_SINGLE_EXTRACTION_AUTHORIZED
+   scope: Complete erasure profile conditional on known support/metric and strict physical compatibility. Existing ambiguity is retained. No globalpriorityclaim.
+-- stage201_root_review.json | ACCEPTED_SAVED_TABLE_PROFILE_EXTRACTION_AND_INDEPENDENT_REPLAY
+   limitations: Seven fixed cases only; public topology carries synthetic fixed-support model, not biological validation. | Generalized Hamming weights and inverse dimension curves are classical. | This extraction is not an independent DP implementation; full Bellman certificate was checked at196. | Canonical uniqueness remains conditional on known support, known positive metric and nonempty strict physical fiber.
+
+### S202
+-- stage202_root_review.json | PASS_ROOT_TREE_MATROID_CLASS_OBSTRUCTIONS
+-- stage202_structure_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_MATROID_OBSTRUCTION_REVIEW
+   role: Non-author independent pure mathematical review
+   verdict: checks_passed=23 ;; blockers= ;; changes_required=False ;; accepted=The H2 arbitrary-presentation nontransversal obstruction, H6 nonlaminar obstruction with full rank12, and exact H2 robust-panel7-versus8 comparison hold under the stated fixed-support leaf-linkage model.
+
+### S203
+-- stage203_prior_protocol_review.json | PASS_NONAUTHOR_FULL_SOURCE_STATIC_REVIEW_NOT_EXECUTED
+   limitations: This review does not assert any execution outcome, measured resource use or H6 optimum value. | A hard kill can interrupt the current raw append; the wrapper preserves existing bytes, malformed-line evidence and explicit missing slots rather than promising a complete current table. | The source's --worker path is an internal execution mode; root's approved wrapper remains the authorized entry point for the unique validation run. | Full Bellman correctness on newly saved tables requires the separate nonauthor saved-only replay after execution.
+   verdict: No static blocker or required source modification found. The frozen runner implements the fixed two-topology design, preserves failed/unknown slots and original raw evidence, and limits the H6 panel claim to its nine-leaf rank-six restriction. Execution remains subject to root's separate single-run authorization.
+-- stage203_root_protocol_review.json | ROOT_AUTHORIZES_ONE_FROZEN_RUN_AFTER_STATIC_REVIEW
+-- stage203_root_review.json | ACCEPTED_EXHAUSTIVE_ORIGINAL_GRAPH_RANK_CERTIFICATES_AND_PANEL_BASELINES
+   scope: All saved ranks certified by independent original-tree lower and upper bounds. Complete raw Bellman tables retained and hash-bound, but their state recurrences were not replayed here; Stage199 already has full Bellman validation.
+   limitations: No Bellman-state replay of1537 zero-cost rank calls; original lower/upper certificates suffice to prove each exact rank. | H6 old9 panel rank6 is restricted information, not canonical fullrank12. | No Stage204 optimizer was run here, no biological data claim, no measuredspeedup.
+
+### S204
+-- stage204_prior_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW_NO_EXECUTION
+   verdict: The minimum-separator source replacement, fixed-panel feasibility-mask recurrence, antichain compression and fixed-t cost optimization are correct under the stated target-role erasure model. No mathematical blocker or required correction was found.
+-- stage204_public_robust_panel_candidate.json | SYMBOLIC_CANDIDATE_EXPLICIT_TREE_RECURRENCE_NOT_IMPLEMENTED_OR_TESTED
+-- stage204_root_review.json | ACCEPTED_SYMBOLIC_RECURRENCE_PENDING_IMPLEMENTATION_AND_PRIORITY_AUDIT
+   limitations: No code execution yet. | Arithmetic O(f(t)n), no practical constants or linear bit complexity established. | Known support and positive known metric in PDD; no new biological validation, decoder or noise-optimality.
+
+### S205
+-- stage205_root_robust_panel_prior_audit.json | COMPLETED_BOUNDED_PRIMARY_PRIOR_AUDIT_NO_PRIORITY_CLAIM
+
+### S206
+-- stage206_root_protocol_review.json | ROOT_AUTHORIZES_ONE_FROZEN_RUN_AFTER_FULL_STATIC_REVIEW
+-- stage206_root_review.json | ACCEPTED_AFTER_INDEPENDENT_SAVED_CERTIFICATE_REPLAY
+-- stage206_structure_protocol_review.json | PASS_INDEPENDENT_FULL_SOURCE_STATIC_REVIEW_PENDING_ROOT_EXECUTION_APPROVAL
+
+### S207
+-- stage207_root_review.json | ACCEPTED_DIRECT_GENERIC_COMPLEXITY_ANTECEDENT
+-- stage207_structure_mso_prior_audit.json | COMPLETED_BOUNDED_PRIMARY_AUDIT_DIRECT_GENERIC_COMPLEXITY_ANTECEDENT
+
+### S208
+-- stage208_root_review.json | ACCEPTED_SYMBOLIC_RESULT_NOT_GLOBAL_PRIORITY_CERTIFIED
+   scope: Rank6 restricted available information only, not fullrank12.
+-- stage208_structure_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_H6_CHARACTERIZATION_REVIEW
+
+### S209
+-- stage209_root_distance_profile_candidate.json | ROOT_SYMBOLIC_CANDIDATE_NOT_IMPLEMENTED_PENDING_INDEPENDENT_REVIEW
+-- stage209_root_review.json | ACCEPTED_SYMBOLIC_RESULT_NOT_GLOBAL_PRIORITY_CERTIFIED
+   scope: Use independent review deterministic radix implementation to substantiate worst-case lookup; O(n^33) is a loose theoretical bound, no practical-performance or novelty claim.
+-- stage209_structure_distance_profile_review.json | PASS_INDEPENDENT_SYMBOLIC_DISTANCE_PROFILE_REVIEW
+   scope: Exact fixed-support/known-positive-metric PDD information preservation only through the accepted linkage identity; the combinatorial theorem itself concerns labeled trees. No source recovery, conditioning, or global biological claim.
+
+### S210
+-- stage210_root_variable_budget_prior_audit.json | COMPLETED_BOUNDED_TARGETED_PRIOR_AUDIT_NO_GLOBAL_PRIORITY_CERTIFICATION
+
+### S211
+-- stage211_public_symbolic_review.json | PASS_NONAUTHOR_SYMBOLIC_BINARY_OBSTRUCTION_REVIEW
+   verdict: checks_passed=18 ;; blockers= ;; changes_required=False ;; accepted=The explicit U(2,4) report-matroid minor and the independent seven-circuit proof establish nonbinary, nongraphic and nonregular behavior in the frozen strictly binary internal-matching example.
+-- stage211_root_review.json | ACCEPTED_SYMBOLIC_U24_MINOR_AND_NONBINARY_OBSTRUCTION
+   limitations: Matroid contraction is not physical tree contraction. | Old nine-leaf restriction rank6 and full21-leaf rank12 are distinct. | No numerical execution proves or is required for these complete symbolic rank certificates. | The complete family remains a tree-linkage gammoid; no contradiction with gammoid membership or accepted specialized algorithms.
+-- stage211_structure_binary_obstruction_candidate.json | SYMBOLIC_CANDIDATE_U24_MINOR_PENDING_NONAUTHOR_REVIEW
+   model: tree=Exactly the Stage202 H6 three-arm strictly binary tree; no new tree or metric is introduced. ;; support=Six pairwise-disjoint internal source edges p_t-pp_t and q_t-qq_t for t=A,B,C. ;; original_sources=P={p_t,pp_t,q_t,qq_t:t=A,B,C}; all twelve endpoints are included in the report-rank linkage definition. ;; old_ground_set=aA | bA | cA | aB | bB | cB | aC | bC | cC ;; matroid=M is the restriction of the frozen report matroid to these nine original leaves. Rank is the maximum number of vertex-disjoint P-to-target paths, including endpoint-inclusive source usage. ;; metric_scope=The accepted fixed-support, fixed-known-positive-metric, free-aggregate-pendant rank identity transfers this graph obstruction to the corresponding PDD report information matroid. It is not an uncertain-metric theorem or an individual-pendant theorem. ;; no_numeric_dependency=No Stage203 numerical rank, robust-panel result, or validation output is read or used.
+
+### S212
+-- stage212_prior_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW_NO_EXECUTION
+   verdict: The completed-subtree chain lemma, exact minimum-fault profiles, deterministic indexing and stated subcubic arithmetic/storage bounds are correct under the accepted target-role erasure model. No required correction or blocker remains in the frozen candidate.
+-- stage212_root_review.json | ACCEPTED_SUBCUBIC_CHAIN_PROFILE_THEOREM_PENDING_IMPLEMENTATION_AND_PRIORITY_REVIEW
+-- stage212_root_subcubic_chain_profile_candidate.json | ROOT_SYMBOLIC_CANDIDATE_PENDING_FORMAL_INDEPENDENT_REVIEW
+
+### S213
+-- stage213_root_protocol_review.json | ROOT_AUTHORIZES_ONE_FROZEN_RUN_AFTER_FULL_STATIC_REVIEW
+-- stage213_root_review.json | ACCEPTED_AFTER_INDEPENDENT_FULL_SAVED_REPLAY
+   conclusion: All65 frozen jobs agree with complete saved-original-rank oracle. Forty-six nontrivial completed-chain optimizations and nineteen guards passed independent Bellman/traceback/objective replay; all28 shared206 costs/conclusions agree. eight_leaf unit t3 cost8 and t4 infeasibility included.
+-- stage213_structure_protocol_review.json | PASS_INDEPENDENT_FULL_SOURCE_STATIC_REVIEW_NO_EXECUTION
+
+### S214
+-- stage214_root_review.json | ACCEPTED_SCOPE_REDUCTION_NO_GLOBAL_PRIORITY
+   conclusion: Variable-unit-t polynomiality follows from generic capped whole-distance-vector synthesis for a fixed deterministic failure automaton. The explicit four-mask chain and exponent-six implementation are narrower candidate content; publication priority remains unconfirmed.
+-- stage214_structure_variable_budget_prior_audit.json | COMPLETED_BOUNDED_PRIMARY_AUDIT_WITH_GENERIC_CONSTRUCTION_SCOPE_REDUCTION_NO_GLOBAL_PRIORITY_CERTIFICATION
+
+### S215
+-- stage215_prior_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW_NO_EXECUTION
+   verdict: All five claims follow from the stated construction and endpoint-inclusive linkage model. No required correction or blocker found. The minimum-source-budget and finite-field claims have the appropriately limited quantifiers.
+-- stage215_root_review.json | ACCEPTED_SYMBOLIC_CONSTRUCTION_NO_GLOBAL_PRIORITY
+   scope: Classical uniform-matroid obstruction construction; no global novelty or biological validation.
+-- stage215_root_uniform_rank_two_family_candidate.json | FROZEN_SYMBOLIC_CANDIDATE_NOT_YET_FORMALLY_REVIEWED
+   scope: Known selected matching F, original leaf targets, endpoint-source linkage matroid corresponding to fixed positive metric PDD report rank. No numerical experiments or graph search.
+
+### S216
+-- stage216_prior_design_review.json | PASS_EARLY_INDEPENDENT_DESIGN_REVIEW_WITH_IMPLEMENTATION_GUARDS
+   verdict: The planned ten-versus-twelve acquisition comparison, physical report equations, full-basis deletion ambiguity and 31-system recovery schedule are coherent. No mathematical blocker found. The implementation must keep the weighted survey jobs outside the 31-system physical-recovery schedule and distinguish affine solutions from strict compositions.
+-- stage216_root_protocol_review.json | ROOT_AUTHORIZES_ONE_PUBLIC_RECOVERY_RUN_AFTER_FULL_STATIC_REVIEW
+-- stage216_root_review.json | ACCEPTED_FIRST_EXECUTION_WITH_INDEPENDENT_SAVED_ONLY_REPLAY
+   limitations: Known fixed support and transformed positive archived metric; reports are synthetic exact-model values. | Five raw negative branches floored at1/10000 upstream; not unaltered original ANI metric. | Nullity is not automatically abundance ambiguity: three saved nullspaces preserve all weights. | Full-parameter ten-vs-twelve acquisition result does not claim minimum abundance-only panel. | No unknown-support or biological-validation claim; generic redundancy saving and LS inference are not claimed novel. | Independent internal checking is not external peer review.
+-- stage216_structure_protocol_review.json | PASS_INDEPENDENT_FULL_STATIC_REVIEW
+   role: Non-author frozen-source and protocol review
+   verdict: PASS: no blocking mathematical, input-separation, certificate or execution-scope issue found. This review supports root authorization of the one frozen run; it does not itself execute or certify future numerical outcomes.
+
+### S217
+-- stage217_prior_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW_NO_EXECUTION
+   verdict: The locally impossible-interface pruning is safe for globally at-most-t robust panels. The retained profile count, exact whole-profile optimization and O(n(t+1)^4) arithmetic bound follow under the stated subcubic and unit-erasure assumptions. No blocker or required correction found.
+-- stage217_public_dead_state_pruning_candidate.json | SYMBOLIC_CANDIDATE_DEAD_INTERFACE_PRUNING_PENDING_INDEPENDENT_REVIEW
+-- stage217_root_review.json | ACCEPTED_SYMBOLIC_PRUNED_PROFILE_BOUND_IMPLEMENTATION_PENDING
+
+### S218
+-- stage218_prior_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_REVIEW_NO_EXECUTION
+   limitations: Static acceptance is not an execution result and does not certify that any budget will suffice. | Frozen213 local relation/parser reuse is explicit; this is not an independent implementation of those helpers. | Working cost-table bounds exclude serialized all-candidate evidence; operation differences on these fixed jobs do not establish an empirical asymptotic speedup. | Information-preserving panel status does not imply full canonical composition uniqueness on rank-deficient inputs. | Root must separately authorize the single execution.
+-- stage218_root_design_review.json | ROOT_ACCEPTS_PREPARE_ONLY_DESIGN_NO_EXECUTION
+   scope: Read entire fixed65-job design and verified all10 dependency hashes. Reuse of213local min-plus relation/parser explicit; new217pruning/index/table propagation independently evaluated. No original-rank rescan or newfailure-distance optimization required.
+-- stage218_root_protocol_review.json | ROOT_AUTHORIZES_ONE_FROZEN_RUN_AFTER_FULL_STATIC_REVIEW
+-- stage218_root_review.json | ACCEPTED_FROZEN_FIRST_EXECUTION_AND_INDEPENDENT_SAVED_REPLAY
+   limitations: Finite-fixture correctness validation; asymptotic complexity follows217 proof, not these operation counts. | No unqualified timing speedup or biological recovery claim. | No new rank, flow, LP, world, or second optimization run; old2057 accepted failure slots reused without88966 subset rescan. | Independent internal checker is not external peer review.
+
+### S219
+-- stage219_root_robust_flow_prior_audit.json | COMPLETED_BOUNDED_PRIMARY_COMPARISON_NO_GLOBAL_PRIORITY
+   conclusion: No identical explicit O(n(t+1)^4) tree acquisition algorithm was verified in these targeted reads. Generic matroid robustness, sensor redundancy, min-plus profiles and fixed-state synthesis remain prior. Search omissions and unread bodies prevent any global first claim.
+
+### S220
+-- stage220_prior_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_REVIEW_NO_NUMERICAL_EXECUTION
+   limitations: Static review does not certify future numerical outcomes or completion within the budget. | Exact rational arithmetic avoids rounding in these certificates but does not establish floating-point stability of a normal-equations implementation. | Position gains and positivity radii use the archived benchmark truth; they are not observation-only inference guarantees. | More reports need not reduce every componentwise l_infinity LS gain, and no such monotonicity is assumed. | The finite ratio bound does not become a feasible-world certificate unless the separate strict physical-radius test also holds.
+-- stage220_root_protocol_review.json | APPROVED_ONE_FROZEN_WORKER_EXECUTION
+   scope: Classical specified-estimator sensitivity only. All6 full-parameter nonidentifiability slots retained including three whose weights are nevertheless identifiable. No optimized panels, new physical/noisy worlds, or novelty claim.
+-- stage220_root_review.json | ACCEPTED_FIRST_EXECUTION_AND_INDEPENDENT_SAVED_ONLY_REPLAY
+   limitations: Classical specified-estimator sensitivity, not novelty or estimator-independent minimax claim. | All gains concern knownF and transformed known metric; truth-dependent position/physical radii are benchmark quantities. | No noisy world, new biological measurement or floating-point stability experiment. | Six deficient labels concern full allocations/mean, not automatically weights: three have identifiable weights by accepted216. | Independent internal replay is not external validation.
+
+### S221
+-- stage221_public_symbolic_review.json | PASS_INDEPENDENT_INTERNAL_SYMBOLIC_ABUNDANCE_REVIEW
+   role: Non-author internal symbolic review. Reviewer authored the216 experimental runner, but not221;216 saved certificates also have an independent non-author replay. This record performs no new experimental or numerical replay.
+   verdict: checks_passed=24 ;; blockers= ;; changes_required=False ;; accepted=The stated abundance dimension, global uniqueness at nonempty strict fibers, contrast-kernel characterization, metric uniformity and guarded panel corollaries hold. ;; priority=No external-review or global novelty certification.
+-- stage221_root_review.json | ACCEPTED_SYMBOLIC_THEOREM_WITH_INDEPENDENT_INTERNAL_REVIEW
+   limitations: Known fixed support/knownpositive metric/freepositive aggregate mean/nonempty strict fiber. | Abundance contrasts describe affine hull, not complete positive physical posterior. | Generic functional observability and contrasts are prior; model-specific result/globalpriorityunconfirmed.
+-- stage221_structure_abundance_identifiability_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW_NO_EXPERIMENTS
+   role: Independent derivation requested after216 saved-only replay; root supplied convergent nuisance-space reasoning and requested freeze.
+   model: tree=Any finite nontrivial tree with a fixed KNOWN strictly positive metric. Original vertex and edge identities are unchanged; degree-two vertices are allowed in the main theorem. ;; support=A fixed nonempty set F of H DISTINCT original edges, one unknown strictly interior source of unknown positive weight on each edge. Matching is not assumed for the main dimension formula. ;; normalization=Weights are edge-associated and sum1. The aggregate mean pendant y is unknown, freely varying and strictly positive. Individual pendant vectors are not recovered. ;; reports=Exact potential reports on any specified subset R of ORIGINAL vertices, including the empty set, leaves or internal vertices. ;; nonemptiness=All physical dimension and identification claims are conditional on a nonempty strict fitting fiber. No weak-boundary or empty-model inference is made. ;; abundance_target=Only the vector p=(p_e) for the fixed edge identities. Position fractions xi and aggregate mean may remain ambiguous.
+
+### S222
+-- stage222_public_abundance_prior_audit.json | COMPLETE_BOUNDED_PRIMARY_AUDIT_NO_PRIORITY_CLAIM
+   role: Internal bounded literature audit, independent of the Stage221 author; not an external peer review or exhaustive priority search.
+-- stage222_root_review.json | ACCEPTED_BOUNDED_PRIOR_SCOPE_AUDIT_NOT_GLOBAL_PRIORITY
+
+### S223
+-- stage223_root_abundance_acquisition_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_ALGORITHM_EXECUTION
+   model: tree=Finite nontrivial original tree; fixed distinct nonempty supportF; positive known metric for statistical interpretation. Arbitrary vertex degree is allowed. ;; availability=A subset of original vertices, optional mandatory observationsM subsetA, nonnegative rational additional acquisition costs onA\M. Costs onM treated as0. ;; statistical_scope=Same strict fixed-support, unknownpositiveweights/positions/freepositiveaggregate-mean model as221. Theorem uses221 projected equality-kernel, not physical posterior equality. ;; notation=H=|F|,P=endpointunion, c(Z)=number of T\F components intersectingZ, lambda(P,Z)=maximum vertex-disjoint source-target linkage cardinality, g(Z)=lambda(P,Z)-c(Z).
+-- stage223_root_review.json | ACCEPTED_SYMBOLIC_THEOREM_WITH_INDEPENDENT_INTERNAL_REVIEW
+   limitations: Depends on221 formula, which remains under independent review at freeze time. | Known support/metric, strict positive compatible world, free aggregate mean; no unknown-support guarantee. | No noise-optimality, report-failure robustness, optimal cardinality among zero-cost ties, or physical-posterior equality guarantee. | Generic tree DP, nuisance elimination and functional observability are classical; explicit model-specific formulation/runtime is a candidate contribution with global priority unconfirmed. | The proof is symbolic. No producer, DP, rank, flow, LP, physical world or exhaustive oracle has been executed for223.
+-- stage223_structure_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW
+   role: Non-author formal review of root223 candidate; reviewer authored the separate221 dependency, so this record does not substitute for independent221 review.
+   verdict: PASS: all ten proof steps and the counterexample are sound conditional on the stated221 theorem. No mathematical blocker or candidate modification requested.
+
+### S224
+-- stage224_public_protocol_review.json | PASS_INDEPENDENT_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+   role: Independent non-author full-source static review. No import or execution of224/199; no DP, rank, subset-cost experiment, report or physical world was generated.
+   verdict: checks_passed=23 ;; blockers= ;; changes_required=False ;; execution_gate=The root may separately authorize one invocation under the frozen protocol; this audit performs no producer call.
+-- stage224_public_replay_static_review.json | PASS_INDEPENDENT_NONAUTHOR_REPLAYER_STATIC_REVIEW
+   role: Non-author full static audit of the benchmark-authored independent saved-only replayer; separate from the prior-authored producer and from actual certificate replay.
+   verdict: checks_passed=20 ;; blockers= ;; changes_required=False ;; execution_gate=Root authorization remains required for the single frozen saved-only replay.
+-- stage224_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_WORKER
+-- stage224_root_review.json | ACCEPTED_FIRST_BOUNDED_RUN_AND_INDEPENDENT_COMPLETE_SAVED_REPLAY
+   limitations: Knownsupport/metric conditional strict compatibility; no noisy or biological inference. | Public cost optimum uses complete Bellman proof, not full2^27subset enumeration. | Classical weighted bases reused;223 eight-state algorithm not implemented. | Frozen replayer specifically handles this complete PASS output, not arbitrary partial producers.
+
+### S225
+-- stage225_public_protocol_review.json | PASS_INDEPENDENT_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+   role: Non-author full-source static review; no producer import, worker, inverse, rank, distance calculation or physical experiment.
+   verdict: checks_passed=20 ;; blockers= ;; changes_required=False ;; execution_gate=Static review only. The root retains authority for one frozen approved worker invocation.
+-- stage225_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_WORKER
+-- stage225_root_review.json | ACCEPTED_FIRST_BOUNDED_RUN_AND_INDEPENDENT_SAVED_REPLAY
+   limitations: One existing synthetic exact world on a transformed public-tree metric, with known source support. | No physical mean/position estimates or biological validation. | Classical LS/gain/FWL tools; no global novelty or noise-optimal panel claim.
+
+### S226
+-- stage226_public_symbolic_review.json | PASS_INDEPENDENT_INTERNAL_SYMBOLIC_COMPONENTWISE_ABUNDANCE_REVIEW
+   role: Non-author independent symbolic audit of226. Reviewer previously authored204/217 and216 runner; those inherited artifacts already have separate independent reviews. No new algorithm or experiment is performed here.
+   verdict: checks_passed=24 ;; blockers= ;; changes_required=False ;; accepted=Exact rank/information factorization, local rank-preservation and erasure equivalence, cost separability, guarded full-weight consequences and inherited scoped runtime. ;; priority=Internal mathematical review only; no external priority certificate.
+-- stage226_root_review.json | ACCEPTED_SYMBOLIC_REDUCTION_WITH_INDEPENDENT_REVIEW
+   limitations: The information target remainsoriginalg(A) under faults; replacing it byg(A minusD) would be a weaker and different problem. | Mandatory M is included in output but is still erasable. No unerasable-report assumption is introduced. | Whenr_C<|P_C|, use effective source normalization before an all-source-covering robust solver. | Inactive components may still constrain absolute reports and physical position/mean feasibility. Ignoring them preserves affine identifiable abundance functionals, not the entire strict physical posterior. | H1 hasg(A)=0, no active component, and no optional report is necessary even for arbitrarily large fault budget. | Nonnegative costs are needed for dropping unnecessary optional reports without worsening the objective. | No runtime claim for arbitrary-degree217 calls, no observed noisy-world reconstruction, no unknownsupport or unknownmetric guarantee.
+-- stage226_structure_componentwise_abundance_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW_NO_ALGORITHM_EXECUTION
+   role: Root proposed selected-edge direct-sum simplification after223; independently derived last-source trimming proof and frozen on root instruction.
+   model: tree=Any finite nontrivial tree with fixed distinct nonempty source-edge supportF. For physical interpretation use a known positive metric, normalized strictly positive edge-associated weights, one strict source per edge and free positive aggregate mean, as221. ;; observations=Exact reports at selected ORIGINAL vertices; availabilityA subsetV and mandatoryM subsetA. No new leaf attachments or topology modifications. ;; costs=Nonnegative rational additional costs onA minusM; mandatory cost0 for optimization. ;; robustness=Integer t>=0 counts arbitrary erased selected reports, including mandatory ones. The target information g(A) is computed from the original complete availability, not from a post-fault available set. ;; nonemptiness=The statistical interpretation is conditional on a compatible strict world. The acquisition reduction itself is purely topological.
+
+### S227
+-- stage227_public_symbolic_review.json | PASS_INDEPENDENT_INTERNAL_SYMBOLIC_ABUNDANCE_ERASURE_REVIEW
+   role: Non-author symbolic audit of the root-authored candidate; no extraction from experimental profiles and no new solver work.
+   verdict: checks_passed=22 ;; blockers= ;; changes_required=False ;; accepted=Exact acquisition counts, local-to-global abundance erasure thresholds, worst strict fiber dimension, real relative-weight identity, and arbitrary-original-target extension of the separator activity DP. ;; priority=Internal theorem validity only; no global novelty claim.
+-- stage227_root_abundance_erasure_profile_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW_NO_NUMERIC_WORK
+   model: Known positive fixed tree metric and distinct fixed source edges, strict normalized positive weights/positions/freepositive mean as221. Z is a fixed original-vertex observation panel, with data inherited from a strict compatible world. Erasures remove report roles only.
+-- stage227_root_review.json | ACCEPTED_INTERNAL_SYMBOLIC_THEOREM_NOT_GLOBAL_PRIORITY
+
+### S228
+-- stage228_prior_design_review.json | PASS_INDEPENDENT_DESIGN_ONLY_REVIEW_PENDING_SOURCE
+   role: Non-author preimplementation scope/construction/count audit, not a source review or run approval.
+   verdict: blockers= ;; checks=9 ;; source_review_still_required=True
+-- stage228_prior_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_REVIEW
+   limitations: Static review does not certify runtime outcomes or empirical profiles. | Exact minimal-witness loss and conditional fiber dimension statements rely on accepted227/221/226. | The public947-separator comparison is a new prescribed combinatorial check; it is not an inherited result or a physical experiment. | A future independent saved-only replay must verify actual saved evidence; this review does not replace it.
+   decision: No execution blocker found; one separately root-approved run may proceed under the frozen protocol.
+-- stage228_prior_replay_protocol_review.json | PASS_NONAUTHOR_FULL_SAVED_REPLAYER_STATIC_REVIEW
+-- stage228_root_preexecution_review.json | ROOT_APPROVED_ONE_BOUNDED_VALIDATION_RUN
+   scope: 9cases31components;6DP8316transitionattempts;256newrankcertificates947publiccuts and4224subset-threshold checks. No physical data, metrics, rank API, LP, or new reports.
+-- stage228_root_replay_preexecution_review.json | ROOT_APPROVED_ONE_SAVED_ONLY_REPLAY
+   scope: Verify existing9case certificates,174tables8316predecessors15803journal events; no new DP/rank/flow/LP/query/metric/world.
+-- stage228_root_review.json | ACCEPTED_COMPLETE_ABUNDANCE_ERASURE_PROFILES_AND_INDEPENDENT_REPLAY
+   limitations: All dimension interpretations conditional onstrictcompatible data and knownsupport/positivefixedmetric. No physicalworld ornoise/biologicalvalidation generated. | Rank0/1components contribute no available abundance dimension; emptyprofile is not universally fullweightidentification. | Generalized relative Hamming-weight andseparator/minplus principles classical; project-specific characterization/algorithm remains priority-unconfirmed. | Actual allpositive edge lengths need notbe generated for topologyrank calculation; newfixture is topologyonly.
+
+### S229
+-- stage229_prior_scope_addendum_review.json | PASS_ADDITIVE_SCOPE_CLARIFICATION_REVIEW
+   role: Non-author symbolic follow-up; original16-step review retained unchanged.
+   scope: Same frozen four-reference family,0<epsilon<1/2. Pure symbolic algebra,0 numerical cases/DP/rank/inverse/LP/worlds. No no-fault-LS-monotonicity or global physical-minimax claim.
+   verdict: All five clarification entries agree with the independently derived T15 analysis. The exact optimal ordinary gain, direction and exact ratio are correct, and resolve the sole wording clarification in the main review. No mathematical or algorithmic blocker remains.
+-- stage229_prior_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW_WITH_EXPLICIT_RATIO_DIRECTION
+   role: Non-author mathematical review. No implementation, numerical counterexample search, matrix evaluation or generated world.
+   verdict: checks=16 ;; blocking_errors= ;; algorithm_and_complexity=Accepted within the declared exactly4/unit-cost/equal-error/single-active-tripod scope. ;; clarification=Read the T15 unbounded separation as robust worst-survivor gain divided by best ordinary triple gain; do not call its displayed4/3 triple the optimizer. An additive wording clarification is recommended, without changing any algorithm or proof.
+-- stage229_public_scope_clarification.json | ADDITIVE_SYMBOLIC_SCOPE_CLARIFICATION_NO_EXPERIMENT
+-- stage229_public_tripod_conditioning_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW_NO_ALGORITHM_RUN
+   model: support=Known positive metric tree; fixed matching H3 support with one rank3 active selected-edge component incident to all three source edges. Three outward anchor vertices are fixed and distinct. All candidate references are original vertices inside that component. ;; parameters=Normalized strictly positive weights, strict source positions and free positive aggregate physical mean for the physical interpretation; estimator solves the normalized affine abundance model with a free component intercept. ;; errors=Common coordinatewise absolute report-error bound with exact geometry. Criterion is the exact infinity-to-infinity norm of the unique affine inverse after each one-report deletion. ;; design=Choose exactly four distinct available original references. No acquisition costs or mandatory references. Require every three-survivor panel to have rank3. Return one minimizer or proof that no pattern is eligible. ;; metric_degeneracy=All tree edge lengths are strictly positive. Median-arm length0 is allowed when one anchor lies on the path between the others; only positive projection radii enter arm lists.
+-- stage229_root_review.json | ACCEPTED_INTERNAL_SYMBOLIC_EXACT_TRIPOD_OPTIMIZER_PENDING_IMPLEMENTATION_AND_PRIORITY
+   scope: KnownH3matchingquotientstar with single rank3activecomponent; allreferencesinsideit;exactly4,unitcost,equalabsoluteerrorbounds. | Originaltargetprojectiongroups only; no invented observedprojectionnodes. | O(n)arithmetic/space, bitcomplexity separate; inputtree traversal supplies order. | No globalminimax physical estimator, generalH/supportshape, unequalcost/error/mandatoryextension or globalpriority claim. | Zeroanchorarm is a harmless general geometricguard; strictoutwardmatchingstar anchors actually havepositivearms.
+
+### S230
+-- stage230_prior_design_review.json | PASS_INDEPENDENT_DESIGN_ONLY_REVIEW_PENDING_SOURCE
+   role: Non-author preimplementation scope/construction/count audit, not a source review or run approval.
+   verdict: blockers= ;; checks=9 ;; source_review_still_required=True
+-- stage230_prior_protocol_review.json | PASS_INDEPENDENT_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+   role: Non-author full-source preexecution audit; previously independently reviewed229 theory and230 design.
+   verdict: checks_passed=24 ;; blockers= ;; source_changes_required=False ;; execution_authorized_by_this_review=False
+-- stage230_prior_replay_protocol_review.json | PASS_NONAUTHOR_FULL_SAVED_REPLAYER_STATIC_REVIEW
+   role: Nonauthor of both producer and saved replayer; earlier producer static reviewer.
+   limitations: This is source/protocol review, not a completed saved-evidence replay. | Reading the fixed archive and checking every prescribed combination is certificate coverage, not a fresh panel optimizer; no new geometry or panel candidate is introduced. | The replayer is intentionally bound to the completed producer PASS; it makes no broader partial-producer compatibility claim.
+-- stage230_root_preexecution_review.json | ROOT_APPROVED_ONE_BOUNDED_VALIDATION_RUN
+   scope: 13 predefined cases,1520 triples,6186 quadruples; genuine new cofactor inverses counted. No physical world/report generation or unqualified minimax interpretation.
+-- stage230_root_replay_preexecution_review.json | ROOT_APPROVED_ONE_SAVED_ONLY_REPLAY
+   scope: Verify every existing geometry/cofactor/inverse/scan/quad/event certificate. No new optimizer, inverse, distance map, physical world or report.
+-- stage230_root_review.json | ACCEPTED_EXACT_TRIPOD_OPTIMIZER_AND_COMPLETE_INDEPENDENT_REPLAY
+   limitations: Known H3 quotient-star support and exactly4 original references; global original-model or all-budget optimum not claimed. | No empirical biological validation, unknown support/metric, heteroscedasticity or arbitrary cost/mandatory-target claim. | Original public ANI negatives were floored upstream; transformedpositive metric disclosed. | O(n) exactarithmetic proof comes from229, notruntime evidence. | Classicalnoise/erasure/designprior from231/232; globalexactpriorityunconfirmed. | 234 supplies only a separate local strictphysical interpretation below a sufficient center-dependent radius;230 itself evaluated no such radius.
+
+### S231
+-- stage231_prior_scope_review.json | PASS_INDEPENDENT_LIMITED_SCOPE_PRIOR_REVIEW
+   role: Non-author review of the bounded231 record; not an exhaustive novelty search or review of the1989 full text.
+   verdict: blockers= ;; changes_required=False ;; accepted=The record appropriately treats functional estimability, target-specific erasure breakdown, and precision after erasure as established concepts, while keeping the proposed tree-specific algorithm unverified for priority.
+-- stage231_root_abundance_design_prior_audit.json | BOUNDED_PRIMARY_PRIOR_AUDIT_PENDING_NONAUTHOR_REVIEW
+   purpose: Scope abundance-specific erasure robustness and metric-sensitive design novelty while229 geometric algorithm is being derived.
+-- stage231_root_review.json | ACCEPTED_BOUNDED_PRIOR_SCOPE_NOT_GLOBAL_NOVELTY
+   conclusion: Generic functional estimability, target-specific worst-erasure breakdown and residual precision are established statistical-design prior. Candidate contribution must lie in exact tree/PDD specialization and algorithms; bounded search does not certify global priority.
+
+### S232
+-- stage232_root_bibliographic_correction.json | ADDITIVE_METADATA_CORRECTION
+-- stage232_root_numerical_erasure_prior_audit.json | BOUNDED_PRIMARY_PRIOR_AUDIT_PENDING_NONAUTHOR_REVIEW
+   purpose: Check whether numerical stability after erasure or target-specific bounded-error design could support generic novelty claims for229; they cannot.
+-- stage232_root_review.json | ACCEPTED_BOUNDED_PRIMARY_PRIOR_PLACEMENT_WITH_BIBLIOGRAPHIC_CORRECTION
+   conclusion: Numerical erasure robustness, nuisance-target design and bounded-error optimal design are established prior. Exact229 model-specific algorithm priority remains unconfirmed.
+-- stage232_structure_primary_review.json | PASS_INDEPENDENT_BOUNDED_PRIMARY_SCOPE_REVIEW
+   role: Non-author independent targeted primary-source verification of the root note plus its additive bibliographic correction.
+
+### S233
+-- stage233_prior_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW
+   limitations: No guarantee that arbitrary noisy extreme-pair estimates admit strict positions and positive aggregate mean. | The intercept k_j is not the physical mean. No mean, positions, unknown support or uncertain-metric recovery is asserted. | Exact unrestricted minimax is over signed normalized weights and free independent intercepts; physical lower-bound witnesses apply only for sufficiently small noise at each strict baseline. | The globally single erasure has known identity and targets original labels. Unequal noise, weighted costs, mandatory references, unknown corruptions and larger-cardinality competitors are not covered. | O(n) is indexed-tree exact-arithmetic/storage complexity, not bit complexity. | No new rank, projection, inverse, optimization, enumeration, physical world or literature query was executed.
+-- stage233_public_path_conditioning_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_NUMERICAL_EXECUTION
+   model: tree_support=Known strictly positive metric on a finite tree; H>=1 fixed DISTINCT MATCHING source edges F. Contracting the H+1 components of T minus F gives a PATH. Order the selected edges e1,...,eH and components C0,...,CH along that path. Degree-two or higher-degree original vertices are allowed. ;; physical_parameters=One strictly interior source per selected edge, normalized strictly positive weights p1,...,pH, and an unknown freely varying positive aggregate mean y. No weights, source fractions or mean are supplied to the estimator. Physical interpretations are conditional on a strict compatible baseline. ;; references=An arbitrary fixed subset A of ORIGINAL vertices. Different original labels at the same path projection are separate deletable observations, with equal coordinatewise noise radius. No new reference attachment or metric uncertainty. ;; design_objective=Lexicographic: first minimize the number of selected references subject to all weights being identifiable after any at-most-one selected-report erasure; among those minimum-cardinality panels, minimize worst-coordinate deterministic bounded-error gain after the globally single erasure. Erased identities are known. No costs, mandatory targets, unequal noise or unknown corruptions. ;; minimax_scope=The exact global minimax equality is for the UNRESTRICTED normalized affine model with signed normalized weights/cu
+-- stage233_root_review.json | ACCEPTED_EXACT_MINIMUM_CARDINALITY_AND_GAIN_FOR_MATCHING_QUOTIENT_PATH
+   result: For general H quotient-path, each inner component requires3 distinct projections, or4 labels across exactly2groups with2copies each; otherwise infeasible. Minimum size3(H-1)+number of two-group components. Extreme/midpoint selections simultaneously maximize original/residual ranges and minimize exact worst abundance gain among minimum-size robust panels in O(n) arithmetic.
+
+### S234
+-- stage234_root_local_physical_minimax_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW
+   model: support=Known three matching source edges with one common central component; outward endpoints u_i, lengths ell_i>0. All three references are original vertices in central component. ;; physical_world=p_i>0,sum p_i=1; fixed original fractions xi_i in(0,1) measured from outward endpoint, and y>0. Source locations may vary in the full model but the witness lift keeps xi fixed. ;; data=f_r=sum_i p_i D(r,u_i)+k, k=y-sum_i p_i xi_i ell_i. At a fixed strictly compatible center f0, observe only the chosen three coordinates with common deterministic error bound epsilon. ;; matrix=B has rows (D1-D3,D2-D3,1), detB nonzero. K=B^{-1}. theta=(p1,p2,k); adjusted reports b=f-D3; H rows K1,K2,-K1-K2. ;; risk=Conditional set-membership minimax radius of the feasible weight set at the specified nominal data center under infinity norm, with unrestricted real-vector output (the attaining center p0 is itself physical). Not global finite-noise minimax over all supports/metrics/physical worlds.
+   purpose: Strengthen interpretation of229 without mislabeling generic bounded-error minimax as novel. No new experiment, inverse, physical world or numeric radius is constructed.
+-- stage234_root_review.json | ACCEPTED_LOCAL_PHYSICAL_CONDITIONAL_MINIMAX_INTERPRETATION
+-- stage234_structure_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW
+   role: Non-author adversarial symbolic review of all P1-P7, with orientation, strict lifts and risk quantifiers derived independently.
+   limitations: No new numerical radius or physical example evaluated. No original candidate or other frozen file modified. No global priority certification.
+
+### S235
+-- stage235_prior_design_review.json | PASS_INDEPENDENT_STATIC_DESIGN_REVIEW
+-- stage235_public_protocol_review.json | PASS_COMPLETE_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+-- stage235_public_static_scope_addendum.json | STATIC_REVIEW_LIMITATION_CONFIRMED_BY_ZERO_COUNT_RUNTIME_FAILURE
+   scope: No new235 worker or scientific check was run to produce this addendum. A separately frozen241 repair, if approved, must carry its own audit and execution record.
+   finding: The original static reviewer missed that geometry.references is a list of dictionaries. fixed_inputs calls set(geometry.references), which raises TypeError: unhashable type: dict before any radius, world or report computation.
+-- stage235_root_preexecution_review.json | PASS_ROOT_COMPLETE_STATIC_APPROVED_SINGLE_BOUNDED_RUN
+   limitations: KnownF knowntransformedmetric and freepositive aggregate mean; no unknownsupport/metric or realdata validation. | Only surviving3 reports are constraints. Generated other24reference reports may depart from the nominal data by more than epsilon and are not required to fit old exact data. | Common epsilon depends on supplied synthetic truth and everyavailable triple; not a data-only diagnostic or useful universal guarantee. | Exact local minimax principle is classical; this validates its application to the model-specific230 optimizer.
+
+### S236
+-- stage236_prior_symbolic_review.json | PASS_INDEPENDENT_ADVERSARIAL_SYMBOLIC_REVIEW
+-- stage236_root_cached_minimax_frontier_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW
+   model: Known positive metric, H3 quotient-star support, original central references, normalized weights and free intercept. Common report bound epsilon. Conditional feasible-set radius at an exact strictly compatible nominal center; no hidden old exact reports.
+-- stage236_root_review.json | ACCEPTED_LOCAL_MINIMAX_TRIPLE_CACHE_AND_MULTIPLICITY_COMPRESSION
+
+### S237
+-- stage237_public_design_review.json | PASS_INDEPENDENT_METADATA_AND_SYMBOLIC_DESIGN_REVIEW
+-- stage237_public_protocol_review.json | PASS_COMPLETE_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+-- stage237_root_preexecution_review.json | PASS_ROOT_COMPLETE_STATIC_APPROVED_SINGLE_BOUNDED_RUN
+   scope: Local conditional infinity-loss coefficient at exact strictly compatible nominalcenter. Additional budget may improve stability or may plateau; alloutcomes retained. Known-support positive transformedmetric; duplicate labels separateerasures. Classical duality/symmetry acknowledged, no general polynomial-time or empiricalbiological claim.
+-- stage237_root_review.json | ACCEPTED_PRODUCER_AND_INDEPENDENT_SAVED_REPLAY
+   limitations: Known matching F and transformed positive metric, equal homogeneous errors at exactly compatible center. No arbitrary noisy-center or biological validation; no first-saturation universality.
+
+### S238
+-- stage238_prior_design_review.json | PASS_INDEPENDENT_METADATA_AND_SYMBOLIC_DESIGN_REVIEW
+   limitations: Most synthetic fixtures are not binary; only the archived-topology fixture is labeled strict binary. | Original targets include internal vertices and may be only a subset of leaves; this is the general233observation model. | Ten fixed nonuniform mixtures validate this implementation, not all physical mixtures; xi/y are generated but not recovered. | Scalar gains are unrestricted-affine/local-physical coefficients. Infeasibility means no finite full-abundance gain, not an infinite physical simplex radius. | Oracle geometry is independent, while its risk formula is inherited233 rather than a second minimax proof.
+-- stage238_public_protocol_review.json | PASS_COMPLETE_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+-- stage238_root_preexecution_review.json | APPROVED_UNIQUE_FROZEN_PRODUCER_INVOCATION
+   scope: 10 fixed synthetic positive metrics; one fixed nonuniform world per case; all original subsets and single erasures. Exact selected-report abundance recovery only. Not biological validation or novelty confirmation.
+-- stage238_root_review.json | ACCEPTED_AFTER_COMPLETE_INDEPENDENT_SAVED_REPLAY
+   limitations: Finite fixed synthetic metrics validate implementations, not a proof of the general theorem or independent biological evidence. | Known matching support; positive metric; positions/mean nuisance. Exact-data selected-report recovery here; noisy validation separate. | 247 independence means nonauthor computational audit, not human external validation.
+   finding: All10 fixed cases,4940 original subsets and32732 no/single original-label faults match the closed-form path design. Seven robust panels optimal by cardinality then gain; three infeasible cases retained. All44 selected-report recovery scenarios reconstruct original-source weights. Independent saved-map,geometry,event and count checks passed.
+-- stage238_root_validation_clarification.json | PREEXECUTION_ADDITIVE_CLARIFICATION_AND_TRUTH_STRENGTHENING
+   scope: One nonuniform fixed strict baseline tests each declared geometry/order; no claim of randomized population performance or exhaustive all physical mixtures. Symbolic233supports general physical parameters locally; this finite test validates implementation.
+
+### S239
+-- stage239_public_symbolic_review.json | PASS_INDEPENDENT_NONAUTHOR_SYMBOLIC_REVIEW
+-- stage239_root_review.json | ACCEPTED_SYMBOLIC_WITH_EXPLICIT_SCOPE_AND_CLASSICAL_PRIOR_GUARDS
+   scope: KnownFmatching,knownpositivefixedmetric,freepositiveaggregate mean,exactcompatiblecenter,equalbands,knownerasureidentity. Physicalminimaxonlybelowsufficienttruth-dependentpositivityradius. Internalreviewsare nothumanexternalvalidation. Globalnoveltyunconfirmed.
+   decision: Accept15symbolicclaims afterrootfullproofaudit and15independentnonauthorchecks. Exactarbitrarymatchingquotient-treebranchcoordinate/gain/erasurescoring withconstructive localphysicalWEIGHTprojectionguard; no numericimplementation/globalpriority claim.
+-- stage239_root_symbolic_audit.json | PASS_ROOT_SYMBOLIC_AUDIT_PENDING_ADDITIONAL_NONAUTHOR_REVIEW
+   scope: Symbolic correctness only; no new metric/panel/world/gain arithmetic or global-priority claim. Additional independent nonauthor review remains queued before promoting239as fully accepted dependency.
+-- stage239_structure_general_quotient_minimax_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW_NO_NUMERICAL_EXECUTION
+   model: tree=Finite nontrivial tree with a fixed known positive edge metric; original vertex labels and geometry are unchanged. ;; support=Known nonempty matching F of H original edges, one positive normalized strict source per edge; H may be1. ;; parameters=Unknown edge-associated weights and source fractions; free positive aggregate mean y. Only canonical weights are the risk target; individual source pendants are not identified. ;; data=A fixed original-vertex panel Z, centered at the exact reports f0 of a compatible strict baseline. Each retained report has the same closed absolute error radius epsilon. ;; faults=At most t deleted selected ORIGINAL labels, with deletion identities observed. Repeated projection labels remain distinct deletable reports. ;; risk=Conditional set-membership infinity-loss minimax radius for the fixed edge-weight vector. Physical equality is proved only below a sufficient strict-baseline-dependent radius.
+
+### S240
+-- stage240_root_design_prior_and_benchmark_audit.json | BOUNDED_PRIMARY_SOURCE_AUDIT_NOT_GLOBAL_NOVELTY_CERTIFICATION
+
+### S241
+-- stage241_public_protocol_review.json | PASS_COMPLETE_NONAUTHOR_STATIC_CORRECTED_PROTOCOL_REVIEW
+-- stage241_root_preexecution_review.json | PASS_ROOT_CORRECTED_FULL_IMPLEMENTATION_REVIEW_APPROVED_SINGLE_RUN
+   scope: KnownF knowntransformedmetric and freepositive aggregate mean; no unknownsupport/metric or realdata validation. | Only surviving3 reports are constraints. Generated other24reference reports may depart from the nominal data by more than epsilon and are not required to fit old exact data. | Common epsilon depends on supplied synthetic truth and everyavailable triple; not a data-only diagnostic or useful universal guarantee. | Exact local minimax principle is classical; this validates its application to the model-specific230 optimizer.
+-- stage241_root_review.json | ACCEPTED_PRODUCER_AND_INDEPENDENT_SAVED_REPLAY
+   limitations: 235original schema failure preserved;241is additive corrected stage, not retry of235. Only surviving3reports constrained;630unselected exceedances retained. Fixed-xi mean attainment not full mean posterior. Truth-dependent tiny local chamber, not sequencing-noise performance.
+-- stage241_root_schema_correction_design.json | ADDITIVE_SCHEMA_CORRECTION_DESIGN_NO_REEXECUTION_OF235
+   limitations: KnownF knowntransformedmetric and freepositive aggregate mean; no unknownsupport/metric or realdata validation. | Only surviving3 reports are constraints. Generated other24reference reports may depart from the nominal data by more than epsilon and are not required to fit old exact data. | Common epsilon depends on supplied synthetic truth and everyavailable triple; not a data-only diagnostic or useful universal guarantee. | Exact local minimax principle is classical; this validates its application to the model-specific230 optimizer.
+-- stage241_structure_schema_audit.json | PASS_METADATA_SCHEMA_INSPECTION_NO_SCIENTIFIC_EXECUTION
+   limitations: This is schema/AST inspection only. It does not replace full nonauthor review, the corrected worker, or later independent saved replay. | The235 failure and the static reviews that missed it remain immutable and visible.
+
+### S242
+-- stage242_root_bounded_degree_design_candidate.json | SYMBOLIC_CANDIDATE_PENDING239_ACCEPTANCE_AND_INDEPENDENT_REVIEW
+   model: Knownpositivefixedtree metric, knownmatchingF, optionaloriginalvertexreferences, equalreporterrorradii, unitcardinality, atmostoneglobalknownerasure, abundanceonly, freeaggregate mean. Maxdegree refers to quotientQ, notoriginalbinarytree.
+-- stage242_root_review.json | ACCEPTED_SYMBOLIC_WITH_EXPLICIT_SCOPE_AND_CLASSICAL_PRIOR_GUARDS
+   scope: KnownFmatching,knownpositivefixedmetric,freepositiveaggregate mean,exactcompatiblecenter,equalbands,knownerasureidentity. Physicalminimaxonlybelowsufficienttruth-dependentpositivityradius. Internalreviewsare nothumanexternalvalidation. Globalnoveltyunconfirmed.
+   decision: Accept11symbolicclaims after16independentchecks andaccepted239dependency. Exactminimum-cardinality thenminimumsinglefaultgain catalog/bottleneckDP forfixedquotientdegree. Cardinalitybound2d requiresfullavailabilityrankdandno coloops. PolynomialexponentdependsDelta; notFPT,notoriginalbinarydegree,norpracticaltimingclaim.
+-- stage242_structure_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW_CONDITIONAL_ON239_ACCEPTANCE
+   scope: All claims are conditional on239 acceptance; this is not a self-review of that parent theorem. | No general original-model/unknown-support/unknown-metric optimization claim. | No generic polynomial robust-design novelty or global-priority certification. | No practical runtime or implemented solver validation.
+
+### S243
+-- stage243_prior_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_REPLAYER_REVIEW
+-- stage243_root_replay_preexecution_review.json | APPROVED_UNIQUE_FROZEN_SAVED_REPLAY
+   scope: Saved certificate verification only. No new scientific candidates, inverse, optimizer, metrics or worlds. Original failures remain unchanged.
+
+### S244
+-- stage244_prior_targeted_literature_audit.json | BOUNDED_PRIMARY_SOURCE_AUDIT_COMPLETE_DIRECT_GENERIC_RULE_OVERLAP
+-- stage244_public_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW_OF_CORRECTED_THEOREM_ONLY
+-- stage244_root_closed_segment_correction.json | ADDITIVE_PREVALIDATION_CORRECTION_AND_STRONGER_BOUND
+   scope: Correctedtheoremonly; no actual core constructed, no subset/gain/worldexperiment. Globalprioritystillunconfirmed. Originalfalsecounterexampleis disclosed;newproofrequiresindependentreview.
+-- stage244_root_erasure_saturation_core_candidate.json | SYMBOLIC_CANDIDATE_PENDING239_ACCEPTANCE_AND_INDEPENDENT_REVIEW
+-- stage244_root_priority_scope_addendum.json | MATHEMATICALLY_ACCEPTED_BUT_GENERIC_CORE_RULE_HAS_DIRECT_PRIOR
+   finding: AHY2008collinearfirst/lastt+1ruleandHW2004extreme-slope/compositionmechanism aredirectprior. Treat244 asPDDfeature-skeletonspecialization ofclassicalgeometriccoresets, notnewgeneralcoresettheory. No claimglobalpriorityverified.
+-- stage244_root_review.json | ACCEPTED_CORRECTED_SYMBOLIC_THEOREM_WITH_LIMITS
+
+### S245
+-- stage245_root_replay_preexecution_review.json | APPROVED_UNIQUE_FROZEN_SAVED_REPLAY
+   scope: Saved certificate verification only. No new scientific candidates, inverse, optimizer, metrics or worlds. Original failures remain unchanged.
+-- stage245_structure_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_REVIEW
+
+### S246
+-- stage246_prior_protocol_review.json | PASS22_NONAUTHOR_FULL_STATIC_PROTOCOL_REVIEW_NO_EXECUTION
+   limitations: No producer/helper imports or construction/map/projection/scenario execution occurred. Static PASS does not replace the separately approved run and independent saved-output replay. | The5 archive geometries are fixed validated inputs; this runner is not presented as a generic untrusted-input API. | The original235 failure and other historical artifacts are untouched. This review writes only its new246 prior record.
+-- stage246_public_design_review.json | PASS_NONAUTHOR_METADATA_AND_SYMBOLIC_DESIGN_REVIEW
+   scope: Design and literal archived metadata only; no producer source exists in this review scope and no scientific worker was run.
+-- stage246_root_preexecution_review.json | APPROVED_SINGLE_FROZEN_RUN
+-- stage246_root_review.json | ACCEPTED_AFTER_COMPLETE_NONAUTHOR_SAVED_REPLAY
+   scope: Coreselection is a PDDspecialization of classical orderedextremes/peeling, notnewgenericcoreset. | Doesnotpreserve size-constrainedoptimalpanel orarbitraryinconsistent noisycenters. | KnownoriginalmatchingF, positivefloor1e-4transformedmetric, publictrees reused; notnewbiological validation.
+
+### S247
+-- stage247_root_preexecution_review.json | APPROVED_SINGLE_FROZEN_RUN
+-- stage247_structure_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_REVIEW
+
+### S248
+-- stage248_root_external_benchmark_audit.json | PRIMARY_DATA_ACCESS_AND_MODEL_ADAPTATION_AUDIT_ONLY
+
+### S249
+-- stage249_prior_targeted_design_audit.json | BOUNDED_TARGETED_PRIMARY_AUDIT_COMPLETE_NO_GLOBAL_PRIORITY_CERTIFICATION
+   purpose: Test direct prior overlap for the precise229/233/242 acquisition problems, rather than repeat generic optimal-design/erasure surveys231/232/240.
+-- stage249_prior_wsd2013_fulltext_audit.json | ADDITIVE_FULL_SIX_PAGE_PRIMARY_AUDIT_COMPLETE_NO_GLOBAL_PRIORITY_CERTIFICATION
+   conclusion: The full primary text gives a clearer and stronger generic-prior overlap than the earlier limited read. The correct safe transfer is scalar target basis optimization, and coordinatewise combination on a fixed panel. It does not justify one common optimal vector basis or arbitrary overdetermined least-squares optimality. The research contribution, if retained, must be the precise PDD geometry, erasure composition, specialized exact algorithms and physical scope, not general bounded-error estimation or basis sparsity.
+   scope: Read every extracted page1-6 of the saved WSD2013 primary author PDF, including both estimation sections, selection formulations, examples, conclusion and references. This extends, and does not overwrite, the previous explicitly limited indexed-text audit. No original Tempo1988 theorem-body audit is claimed.
+
+### S250
+-- stage250_prior_scope_addendum_review.json | PASS_ALL_SYMBOLIC_CLAIMS_WITH_MANDATORY_ROOT_CLARIFICATION_BOUND
+-- stage250_prior_symbolic_review.json | PASS_WITH_MANDATORY_EXPLICIT_FINITE_GAIN_SCOPE_QUALIFICATION
+-- stage250_root_noisy_path_decoder_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW
+   scope: Known positive tree metric, matching known F with quotientpath, free nuisance mean/positions, known selected surviving originalreports. No assumption supplied reportvector itself is exactlygenerated. Unit common error epsilon>=0. Initially unrestricted affine model; physical statements explicitlylocal.
+-- stage250_root_review.json | ACCEPTED_SYMBOLIC_WITH_MANDATORY_SCOPE_CLARIFICATION
+   limitations: No numerical noisy experiment performed here. | Affine unboundedness is not physical simplex unboundedness. | Classical regression/minimax machinery; only model-specific factorization is a contribution candidate, no global-priority claim. | Decoder quadratic in retained local labels, geometry panel optimizer linear.
+-- stage250_root_scope_clarification.json | MANDATORY_ADDITIVE_SCOPE_CLARIFICATION_BEFORE_NUMERICAL_VALIDATION
+
+### S251
+-- stage251_root_preexecution_review.json | APPROVED_SINGLE_FROZEN_RUN
+-- stage251_root_review.json | ACCEPTED_AFTER_COMPLETE_NONAUTHOR_SAVED_REPLAY
+   scope: Seven fixed archived path geometries;22 deterministic diagnostic vectors including one negative control; affine arbitrary-center interval/weight minimax correctness only. No physical positivity or biological validation claim.
+-- stage251_structure_design_review.json | PASS_INDEPENDENT_SYMBOLIC_DESIGN_REVIEW_WITH_ACCOUNTING_CLARIFICATION
+-- stage251_structure_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_PROTOCOL_REVIEW
+   role: Independent nonauthor static reviewer of the case-agent-authored457-line producer; no execution or production import. This reviewer also wrote the earlier symbolic design review.
+   scope: Full-static acceptance for the frozen fixed affine noisy-path validation only. A separate explicit root one-run approval is still required. No biological or strict physical minimax conclusion.
+
+### S252
+-- stage252_public_protocol_review.json | PASS_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+   limitations: A hard OS timeout can retain only the last atomic audit checkpoint plus the wrapper failure receipt, not necessarily the latest in-memory equation counters. Complete original producer evidence remains frozen and no completed-replay claim is made. | This is a full static/source/schema audit. No replay worker or certificate arithmetic was run.
+-- stage252_root_preexecution_review.json | APPROVED_SINGLE_FROZEN_SAVED_REPLAY
+
+### S253
+-- stage253_prior_protocol_review.json | PASS27_NONAUTHOR_FULL_STATIC_PROTOCOL_REVIEW_NO_EXECUTION
+-- stage253_root_preexecution_review.json | ROOT_APPROVED_SINGLE_FROZEN_EXECUTION
+   scope: Four fixed transformed-positive public-derived original-support cases plus one retained nonmatching case. Exact model-generated reports; not biological validation or global novelty confirmation.
+-- stage253_root_review.json | ACCEPTED_EXACT_ORIGINAL_SUPPORT_TRIPOD_NUMERICS_AFTER_COMPLETE_NONAUTHOR_REPLAY
+   scope: Known original matchingF on four transformed positive public tree geometries. No replacementF used. | Exact best robust4 affine weight risk verified against every distinct groupquad. Multiplicities retained for full/core deletion risks. | All16 selected-three original noiseless model-report recoveries reproduce archived ordered weights. κ=y+sum weighted source-to-central-port distances; no source-position/mean uniqueness. | Four-reference minimality does not imply full-pool precision: severe finite-vs-accurate gap retained. | Model-generated public geometry validation, not raw-read or biological truth. Common-radius exact-compatible affine deviation scope. | No globalnovelty certification, no external human review, no Stage186+seal.
+-- stage253_structure_design_review.json | PASS_INDEPENDENT_SYMBOLIC_AND_METADATA_DESIGN_REVIEW
+   role: Nonauthor review of the root-authored fixed design before implementation; this reviewer authored246producer and therefore does not claim independent246 saved validation. That remains delegated to252.
+   scope: Design acceptance only. Root must approve implementation scope; frozen source/data/protocol require independent full-static review and separate execution approval.
+
+### S254
+-- stage254_prior_fixed_section_review.json | PASS_FIXED_SECTION_EQUIVALENCE_WITH_EXPLICIT_RATIONALITY_QUALIFICATION
+   role: Independent nonauthor pure-symbolic review of the case-agent criterion; no implementation or numerical work.
+-- stage254_public_adaptive_terminal_review.json | PASS_INDEPENDENT_ADAPTIVE_TERMINAL_SYMBOLIC_REVIEW
+   scope: No selected terminal reports; finite complete slope box; free unknown mean and positions. | Adaptive completion uses a single fixed positive tau for the whole box, measured outward FROM each active port. | The formal tau=0 intermediate is not reported as a strict physical world. | No scientific execution or expansion of frozen Stage251 validation.
+-- stage254_public_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW
+-- stage254_root_adaptive_review.json | ACCEPTED_ADAPTIVE_OBSERVABLE_PHYSICAL_CERTIFICATE
+   scope: H>=2 path, noselectedterminalreports, finitecompleteaffineintervalbox; H1emptycase separate. | Failingguardisnotoriginalmodelinfeasibility; othersectionsmaywork. | Genericaffinerules/boxrobustconstraints establishedprior; PDDexplicitcompletionapplication only. | No numericphysicalexperiment yet.
+-- stage254_root_adaptive_terminal_candidate.json | SYMBOLIC_ADAPTIVE_TERMINAL_STRENGTHENING_CANDIDATE
+-- stage254_root_affine_rule_prior_audit.json | BOUNDED_TARGETED_PRIOR_CHECK_NO_GLOBAL_PRIORITY_CERTIFICATE
+-- stage254_root_observable_physical_path_certificate_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW
+   scope: Known matching supportF, positive fixed metric, quotientpath, H>=2; no selected reports in the two degree1 quotient components; every active component has a finite nonempty250 slope interval with feasible intercept witnesses at both endpoints. Unknown sourcepositions and mean remain free. Strict physical means a_i>0,b_i>0,y>0. H1 empty-selectedpanel treated separately.
+-- stage254_root_review.json | ACCEPTED_OBSERVABLE_SUFFICIENT_PHYSICAL_CERTIFICATE
+   limitations: Fixed terminal fraction1/2 and selectedinterceptsection are sufficientchoices only; failure is not infeasibility. | H>=2 quotientpath, finitecompleteactiveintervalbox, unobservedterminalcomponents; H1emptycase separately trivial. | Positions/mean lift is one feasiblechoice, notidentified orjointminimax. | O(H²) coefficientwork givennecessarymetricvalues; bitcost/treepreprocessing excluded. | No numericalphysicalcertificate evaluated yet; classicalaffine-section/box machinery, globalpriorityunconfirmed.
+
+### S255
+-- stage255_root_preexecution_review.json | ROOT_APPROVED_SINGLE_FROZEN_SAVED_REPLAY
+   scope: Saved251 affine evidence only; independent supplied-bound identities/attainers, endpoints, corners, minimax and all1970events/1969refs. No fresh noise, world, map, inverse or interval optimization.
+-- stage255_structure_protocol_review.json | PASS_INDEPENDENT_FULL_STATIC_REVIEW
+   role: Nonauthor full-source static protocol reviewer; no scientific replay executed
+
+### S256
+-- stage256_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_WORKER
+   scope: Accepted254 sufficient physical WEIGHT certificate only; Stage258 is not used to alter experiment conclusions. Failed section is not physical infeasibility.
+   decision: Run exactly once at the frozen protocol digest; retain all failures and UNKNOWN. No edits/retries.
+-- stage256_root_review.json | ACCEPTED_NUMERICAL_WITH_INDEPENDENT264_AND_ADDITIVE258_SCOPE
+-- stage256_structure_design_review.json | PASS_INDEPENDENT_DESIGN_REVIEW
+   role: Nonauthor symbolic and literal-metadata design reviewer
+-- stage256_structure_protocol_review.json | PASS_INDEPENDENT_FULL_STATIC_PROTOCOL_REVIEW
+   role: Nonauthor256 full-source reviewer; previously reviewed its design
+   scope: Frozen254 sufficient-section validation only;258 and261 proofs do not expand this numerical schedule. Separate root unique-run authorization required.
+
+### S257
+-- stage257_public_protocol_review.json | PASS_NONAUTHOR_FULL_STATIC_REVIEW_NO_EXECUTION
+-- stage257_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_WORKER
+   scope: Saved exact affine abundance risks and original ordered abundance recovery only. Do not infer source-position or physical mean recovery from the three-coordinate regression. | Full/core equality concerns homogeneous common-radius deviations with an exact-compatible center, not arbitrary inconsistent centers. | No generic minimax novelty claim: WSD2013 and related prior cover the generic coordinate-specific scalar estimator principle; the accepted model-specific scan and physical scope remain separately bound. | Known original F and transformed positive public geometry remain assumptions; no unknown-support learning, rawANI error guarantee or new biological validation.
+   decision: Run exactly once at the frozen protocol digest; retain all failures and UNKNOWN. No edits/retries.
+
+### S258
+-- stage258_prior_symbolic_review.json | PASS15_NONAUTHOR_SYMBOLIC_REVIEW_WITH_RATIONAL_INPUT_QUALIFICATION
+   verdict: No mathematical blocker under the explicit complete finite closed interval, fixed matching quotient-path, unobserved-terminal and free-positive-mean hypotheses. T1-T10 establish the four-way equivalence and an excluded-corner certificate.
+-- stage258_public_complete_physical_path_box_candidate.json | SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW_NO_SCIENTIFIC_EXECUTION
+   scope: Known positive fixed tree metric and a fixed matching support F with H>=2; the quotient T\F is a path. | All selected observed vertices lie in the H-1 active degree-two quotient components; both terminal components are unobserved. | Unknown normalized positive source weights, strict source positions on the specified original edges, and a free positive aggregate mean y. | Finite nonempty COMPLETE Stage250 local slope intervals, derived only by eliminating the intercept from all finite closed supplied equal-radius strips. No arbitrary truncation, positivity clipping, external slope prior or externally fixed mean. | All metric distances and orientation/quotient associations needed for the inherited Stage239 inverse are available or separately accounted for.
+-- stage258_root_affine_exactness_prior_audit.json | BOUNDED_PRIMARY_LITERATURE_COMPARISON_NOT_GLOBAL_NOVELTY_CERTIFICATION
+   conclusion: Keep claims model-specific: forced complete-interval endpoint intercepts + quotient-tree inverse + terminal completion yield an exact physical weight-projection criterion. Generic affine interpolation, box support functions, decision rules and minimax tools are not novel. Wider literature may still subsume parts; global novelty remains unconfirmed.
+-- stage258_root_review.json | ACCEPTED_SYMBOLIC_WITH_EXPLICIT_RATIONAL_INPUT_QUALIFICATION
+   theorem: For known matching support on a positive fixed quotient-path tree, no selected terminal rows, free strict positions/mean, and COMPLETE finite nonempty unrestricted local strip intervals: strict physical WEIGHT projection equals the complete affine weight box iff the canonical adaptive254 guard passes.
+   scope: No arbitrary clipped subbox, terminal observations, unknown support, uncertain geometry or externally fixed mean. | H1 separate. Over rational data O(H^2) exact arithmetic given intervals, excluding metric prep/bitcost; general interval decoding costs O(sum m_j^2). | Affine box extrema/interpolation and robust decision rules are prior; global novelty not confirmed. | This symbolic acceptance does not change frozen256experiment claims/counts; numerical endpoint-forcing evidence requires an additive saved-output check.
+
+### S259
+-- stage259_root_review.json | ACCEPTED_AFTER_ROOT_NONAUTHOR_SYMBOLIC_REVIEW
+   scope: Knownmatchingtripod, allthreepositivearmswithatleastt+1original labels, equalhomogeneous error atcompatiblecenter. Noisy heterogeneous centers, unknownsupport andglobalphysicalposterior excluded.
+-- stage259_structure_tripod_outer_core_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW
+   scope: Known matching support; fixed positive metric; true three-arm port tripod; exact compatible center and equal homogeneous report errors; original labels and their multiplicities retained.
+
+### S260
+-- stage260_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_WORKER
+-- stage260_root_protocol_review.json | PASS_FULL_NONAUTHOR_STATIC_REVIEW
+   scope: Full static review only. Not external human peerreview orglobalnovelty.
+-- stage260_root_review.json | ACCEPTED_NUMERICAL_AFTER_COMPLETE_INDEPENDENT266_REPLAY
+
+### S261
+-- stage261_root_general_complete_physical_projection_candidate.json | ROOT_SYMBOLIC_CANDIDATE_PENDING_INDEPENDENT_REVIEW_NO_SCIENTIFIC_EXECUTION
+   scope: Known fixed positive metric tree and matching support F of H>=2 edges; quotient Q=T\F is a tree with H+1 components. | Every selected report belongs to an active component of degree d_C>=2; degree-one quotient components have no selected observations. | At each active C, local B_C=[d_C-1 port-distance contrasts,1] has full column rank d_C. The finite closed equal-radius strip polytope P_C is nonempty. | All weights, strict source fractions and positive aggregate mean remain free. Support/geometry are supplied and exact; no external source-position/mean constraints. | Local projected polytopes are COMPLETE unrestricted affine branch-coordinate projections. No physical clipping, arbitrary subpolytope or truncated uncertainty set.
+-- stage261_root_review.json | ACCEPTED_SYMBOLIC_AFTER_NONAUTHOR_REVIEW
+   theorem: Underknownmatchingpositivetree,full-ranknonemptycomplete localstripprojections,noobservedterminalcomponents,freepositions/mean: strictphysicalWEIGHTprojectionequalscompleteaffineweightprojection iff everycanonical internalallocation/boundaryweight/activeportmeanguard has positive minimum over the PRODUCT OF LOCAL PROJECTED VERTEX LIFTS.
+-- stage261_structure_symbolic_review.json | PASS_INDEPENDENT_SYMBOLIC_REVIEW
+   role: Nonauthor261 independent symbolic reviewer; author of inherited239 is disclosed
+
+### S262
+-- stage262_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_WORKER
+   scope: 261 complete weight-projection equality only. Failed guard excludes its supplied affine weight, not all physical worlds, closure, or minimax risk. Actual strict model counts are outcomes, not assumptions.
+-- stage262_root_review.json | ACCEPTED_NUMERICAL_AFTER_COMPLETE_INDEPENDENT271_REPLAY
+-- stage262_structure_protocol_review.json | PASS_FULL_NONAUTHOR_STATIC_REVIEW_NO_EXECUTION
+   role: Nonauthor262source/design reviewer; inherited239author and261reviewer disclosed.
+
+### S263
+-- stage263_prior_projection_recourse_audit.json | BOUNDED_PRIMARY_MODEL_AND_THEOREM_COMPARISON_COMPLETE_NOT_GLOBAL_NOVELTY_CERTIFICATION
+
+### S264
+-- stage264_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_REPLAY
+   scope: Saved256 independent verification and separately labeled258 applicability; no new models, reports or decoder calls.
+-- stage264_root_protocol_review.json | PASS_FULL_NONAUTHOR_STATIC_REVIEW
+
+### S265
+-- stage265_public_symbolic_review.json | PASS19_INDEPENDENT_NONAUTHOR_SYMBOLIC_REVIEW
+   verdict: No mathematical blocker under the explicit exact-compatible-center, full-local-rank, known-matching, original-observation and unobserved-terminal hypotheses. R1-R13 establish a sharp finite strict complete-weight threshold; no numerical instance was evaluated.
+-- stage265_root_review.json | ACCEPTED_SYMBOLIC_AFTER_NONAUTHOR_REVIEW
+-- stage265_structure_sharp_physical_radius_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_SCIENTIFIC_EXECUTION
+   model: geometry=A finite known tree with positive fixed edge lengths, known matching F of H>=2 distinct original edges and one normalized strict positive source per selected edge. Original edge directions are retained. ;; quotient=Q=T\F has H+1 components. Active components have quotient degree d_C>=2; every selected original-vertex observation lies in an active component. There are no selected observations anywhere in a degree-one quotient component. ;; data=For every active C, B_C=[d_C-1 port-distance contrasts,1] has full column rank d_C. The exact center b_C is in the column space of B_C. Thus B_C z_C^0=b_C has a unique solution z_C^0=(theta_C^0,k_C^0). Algebraic exact compatibility is assumed and can be checked from the observed reports; strict physical compatibility is a separate observable guard test below. ;; uncertainty=All retained reports have the same closed radius epsilon>=0 around this one fixed exact center. The entire unrestricted local strip projection is used, without simplex clipping, hidden exact rows, external source-position restrictions or a prescribed mean. ;; free_parameters=Weights, source fractions and the positive aggregate mean are free. The theorem concerns complete edge-associated WEIGHT sets, not full parameter uniqueness or individual source pendants. ;; strict_baseline_information=No source positions, weights, physical mean or hidden strict-margin ora
+
+### S266
+-- stage266_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_REPLAY
+   scope: Complete saved260 verification only; no new frontier optimization or scientific inputs.
+-- stage266_root_protocol_review.json | PASS_FULL_NONAUTHOR_STATIC_REVIEW
+-- stage266_structure_design_review.json | PASS_DESIGN_REVIEW_NO_IMPLEMENTATION_OR_REPLAY
+   role: Nonauthor root266design reviewer; AUTHOR of260producer and inherited259 is explicitly disclosed. Future independent checker/replay is not authored or executed in this review.
+
+### S267
+-- stage267_public_symbolic_review.json | PASS16_INDEPENDENT_NONAUTHOR_SYMBOLIC_REVIEW
+   verdict: No blocker. Under the stated positive compatible center hypotheses, closure(S_epsilon)=W_epsilon for every finite epsilon; closure(S_epsilon)=Q_epsilon exactly through the inclusive epsilon_star boundary, while strict equality ends before it. The continuous-loss/common-action-space and infinity-loss statements have the required quantifiers.
+-- stage267_root_review.json | ACCEPTED_SYMBOLIC_AFTER_NONAUTHOR_REVIEW
+-- stage267_structure_physical_radius_closure_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_SCIENTIFIC_EXECUTION
+   scope: inherited=All265 hypotheses: known positive fixed tree metric, known matching F of H>=2 original edges, one canonical source per selected edge, original-vertex observations only in active quotient components, full-column-rank local B_C, exact compatible observed center, unrestricted complete affine projections, free source fractions and free positive aggregate mean. ;; positive_center=All zero-radius261 guards are strictly positive. Thus a strict exact-center endpoint model exists by261/265, without its hidden weights/positions/mean being inputs. ;; threshold=epsilon_star is the positive finite threshold from265, namely min_{g:r_g>0}g0/r_g. Candidate265 is separately awaiting nonauthor review; the present argument is conditional on its established guard-decay formula and the accepted261 criterion. ;; sets=Q_epsilon is the full affine weight projection. S_epsilon is the strict physical weight set with a_e>0,b_e>0,y>0 and sum_e(a_e+b_e)=1. W_epsilon is the corresponding CLOSED endpoint-model weight set with all those inequalities non-strict. A zero-weight edge is allowed only in W_epsilon and is not claimed to have an identified source fraction. ;; closure=All closures are in the finite-dimensional space R^H of edge-associated weight vectors. They do not identify individual source pendants or assert equality of full position/mean parameter sets.
+
+### S268
+-- stage268_root_review.json | ACCEPTED_FIXED_FIXTURE_ANALYTIC_RATES_AFTER_INDEPENDENT271
+
+### S269
+-- stage269_public_design_review.json | PASS20_NONAUTHOR_DESIGN_REVIEW_WITH_ACCOUNTING_CLARIFICATIONS
+   scope: Known exact metric and matching support, free weights/positions/mean, complete unrestricted local projections; no270action computation and no outcome-dependent selection.
+   verdict: No mathematical or fixed-domain blocker. The overdetermined fixture and independent3Dcompleteness oracle are meaningful. Two implementation counter-scope clarifications are required before freezing source/protocol; they do not change scientific cases or expected outcomes.
+-- stage269_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_PRODUCER
+   scope: Five fixed overdetermined H5 diagnostics; complete raw projection/oracle/physical-model evidence. No action optimization. Independent saved-output replay remains required before final empirical acceptance.
+-- stage269_structure_protocol_review.json | PASS30_NONAUTHOR_FULL_STATIC_PROTOCOL_REVIEW
+   verdict: No blocking source, mathematical completeness, schema, count or execution-gate issue found. Frozen source is unchanged. Scientific execution remains separately authorized by root.
+
+### S270
+-- stage270_prior_symbolic_review.json | PASS_SYMBOLIC_WITH_ACTION_SPACE_EXPOSITION_QUALIFICATION
+   role: Independent nonauthor symbolic audit; no scientific code or numerical/LP execution.
+-- stage270_root_normalized_abundance_minimax_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_CODE_EXPERIMENT
+-- stage270_root_review.json | ACCEPTED_SYMBOLIC_WITH_ACTION_SPACE_CLARIFICATION
+   scope: Q nonempty compact subset of closed simplex; action need not belong to Q. | PDD use requires261 whole physical projection equality or267 applicable closure equality. | Local extrema computation assumes complete vertex lists; exact arithmetic cost differs from bit complexity. | Generic classical interval/simplex centering specialization, no generic algorithmic novelty claim. | Internal independent review is not external peer review.
+
+### S271
+-- stage271_public_design_review.json | PASS20_NONAUTHOR_DESIGN_REVIEW_WITH_PRODUCER_ROLE_DISCLOSED
+   verdict: No design blocker. Complete saved262verification and268rate/radius arithmetic are separable, with the same-unperturbed-center restriction explicit. No implementation or execution authorized by this review.
+-- stage271_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_REPLAY
+   scope: Complete saved262replay and separately counted268rate arithmetic; no new scientific model or vertex generation.
+-- stage271_root_protocol_review.json | PASS21_FULL_NONAUTHOR_STATIC_REVIEW
+
+### S272
+-- stage272_prior_physical_action_gap_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_SCIENTIFIC_EXECUTION
+   scope: Pure hand algebra. The generic simplex formula is inherited270 and not a novelty claim. This candidate supplies a PDD realization and separates it from269, where only the raw midpoint action fails normalization.
+-- stage272_root_review.json | ACCEPTED_SYMBOLIC_STRICT_PHYSICAL_NORMALIZATION_GAP
+   finding: H3positive strict binary matching-support PDD posterior hasR_Delta/R_R3=22/21, with physically compatible positive optimal action. Generic minimax centering is inherited classical material; the accepted claim is its explicit physical PDD realization.
+-- stage272_root_symbolic_review.json | PASS16_FULL_NONAUTHOR_SYMBOLIC_REVIEW
+
+### S273
+-- stage273_prior_shift_location_gap_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_SCIENTIFIC_EXECUTION
+   scope: Continue272 by hand only. The generic Chebyshev/Jung bound is not claimed new; the PDD content is its realization through a four-row tree-distance strip system with positive physical guards. No implementation, numerical scan, new data fixture or LP.
+-- stage273_root_review.json | ACCEPTED_SYMBOLIC_PHYSICAL_FAMILY_APPROACHING_CLASSICAL_BOUND
+   claim: KnownH3matching support on positive strict binary leaf-reference trees realizes normalized-action radius ratios approaching4/3with a strictly positive posterior-compatible optimum and nonvanishing free radius epsilon/4 at fixed epsilon.
+-- stage273_root_symbolic_review.json | PASS18_FULL_NONAUTHOR_SYMBOLIC_REVIEW
+
+### S274
+-- stage274_root_centering_and_subset_prior_audit.json | TARGETED_PRIMARY_SOURCE_SCOPE_AUDIT_NOT_GLOBAL_NOVELTY_CERTIFICATION
+
+### S275
+-- stage275_prior_symbolic_review.json | PASS_SYMBOLIC_WITH_N1_CENTER_SCOPE_QUALIFICATION
+   role: Independent nonauthor full symbolic audit
+-- stage275_root_arbitrary_center_subset_obstruction_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_EXECUTION
+   statement: For any integer n>=1 and0<epsilon<=1/4, there exists a positive strict binary tree with known matching support H3, n+2observed leaves, and a nonempty bounded-error strict physical posterior such that deleting any one of n designated original observations strictly enlarges the physical WEIGHT posterior. Consequently any exact row-subset posterior representation for this instance retains all n designated rows, even if it may choose its subset after seeing the centers.
+-- stage275_root_review.json | ACCEPTED_SYMBOLIC_WITH_N1_SCOPE_CORRECTION
+   claim: At fixed knownH3onpositive strict binary partial-leaf trees, arbitrarily many original rows can each be necessary for complete strict physical weight-posterior preservation.
+
+### S276
+-- stage276_root_lp_basis_prior_audit.json | BOUNDED_PRIMARY_LITERATURE_AUDIT_NO_GLOBAL_NOVELTY_CLAIM
+   conclusion: 276positive target-only compression follows classical LP dual sparsity. Its single-deletion support recursion has clear preexisting LP-type ancestry. Potential contribution must be stated as the PDD physical-coordinate preservation consequence and its contrast with275full-posterior obstruction.
+-- stage276_root_review.json | ACCEPTED_SYMBOLIC_CONDITIONAL_TARGET_EXTREMA_SUBSET_CERTIFICATES
+   claim: After full261physical equality, data-dependent original-row union of optimal local scalar dual supports preserves every physical abundance coordinate bound and all same-fixed-action L-infinity losses.
+-- stage276_root_target_extrema_subset_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_SCIENTIFIC_EXECUTION
+-- stage276_structure_symbolic_review.json | PASS20_NONAUTHOR_SYMBOLIC_REVIEW
+   verdict: No mathematical blocker under the stated fixed-matching full affine/physical equality assumptions. T1-T6 and the separately conditional single-erasure corollary pass.
+
+### S277
+-- stage277_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_PRODUCER
+   scope: Onlyfourgeometry/eightfixedactiongapjobs withcomplete retainedoutcomes. Subsequentindependentsavedreplayrequired for finalempiricalacceptance.
+-- stage277_root_protocol_review.json | PASS26_FULL_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+-- stage277_structure_design_review.json | PASS28_INDEPENDENT_FULL_DESIGN_REVIEW_NO_SCIENTIFIC_EXECUTION
+   verdict: No blocking mathematical, count, scope or dependency issue. Implementation-only may proceed subject to root approval; scientific execution remains unauthorized.
+
+### S278
+-- stage278_prior_stage29_scope_audit.json | READ_ONLY_BOUNDED_HISTORICAL_SCOPE_AUDIT_NO_RECOMPUTATION
+   conclusion: Actual-input misfit optimization is already present. Stage29author_recovery stores true-support closed refit optima and unrestricted all-vertex closed model floors for seven filtered positive geometries. These must not be presented as a new experiment or confused with globally optimal H3 unknown-support inference. Separate model-matched controls and abundance tolerance profiles do not measure actual estimated-input recovery.
+-- stage278_public_design_review.json | PASS_NONAUTHOR_DESIGN_REVIEW_NO_SCIENCE
+   role: Independent nonauthor design and symbolic audit; not producer validation, saved numerical replay, external peer review, or run approval.
+-- stage278_root_preexecution_review.json | APPROVED_ONE_FROZEN_BOUNDED_PRODUCER
+   scope: Only278fixednecessityworlds/reports/exclusioncertificates;no282newextremumwork. Independent savedreplay required for finalempiricalacceptance.
+-- stage278_root_protocol_review.json | PASS17_FULL_NONAUTHOR_STATIC_PROTOCOL_REVIEW
+
+### S279
+-- stage279_prior_face_hull_literature_audit.json | BOUNDED_PRIMARY_AUDIT_COMPLETE_STRONG_GENERIC_OVERLAP_NOT_GLOBAL_NOVELTY_CERTIFICATION
+-- stage279_prior_symbolic_review.json | PASS_SYMBOLIC_WITH_EXPLICIT_RATIONAL_REQUEST_SCOPE
+   role: Independent nonauthor full symbolic audit; neither root-proposed idea nor candidate authorship belongs to reviewer
+-- stage279_root_review.json | ACCEPTED_SYMBOLIC_AFTER_NONAUTHOR_REVIEW
+-- stage279_structure_polynomial_physical_projection_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_SCIENTIFIC_EXECUTION
+   model: geometry=Finite known fixed positive metric tree with a known matching F of H>=2selected original edges, one normalized positive strict-interior source per selected edge; original directions retained. ;; quotient=The tree obtained by deleting F has H+1components. Every observed original vertex is in an active component C with degree d_C>=2. Degree-one quotient components contain no observations. ;; local_data=There are m_Cfinite original observations in each active component. B_C=[X_C,1] has full column rank d_C. All observations have the same finite closed radius epsilon>=0; b_C is the report vector after the known pivot-distance offset. The local strip set P_C is nonempty. ;; unknowns=Weights, strict source fractions and positive aggregate pendant mean are free. No true weights, source positions, mean or strict-margin oracle is supplied. No individual-pendant identification is claimed. ;; projection=Every local Omega_C is the entire unrestricted affine projection, with no clipping to positive branch weights or arbitrary feasible subset. ;; input_checks=Malformed topology/support/geometry, observed terminal components or deficient B_C are outside this theorem. A local EMPTY_AFFINE set is recognized separately: its full affine product and fixed-support physical set are both empty, and the nonempty strict-guard equivalence is not invoked.
+
+### S280
+
+### S281
+-- stage281_prior_design_review.json | DESIGN_PASS_WITH_ADDITIVE_REFERENCE_CORRECTION
+   role: Nonauthor independent design reviewer; not a Stage281 backend or oracle implementer. Prior reviewer of279 and author of some earlier archived preparation artifacts.
+
+### S282
+-- stage282_root_review.json | ACCEPTED_SYMBOLIC_AFTER_NONAUTHOR_REVIEW_WITH_C2_REPLACEMENT
+-- stage282_root_three_level_compression_candidate.json | SYMBOLIC_CANDIDATE_PENDING_NONAUTHOR_REVIEW_NO_SCIENTIFIC_EXECUTION
+   scope: epsilon=0<epsilon<=1/4 ;; radii=0<r1<...<rn<epsilon/8, n>=1; includes278 fixed rational sizes. ;; geometry=The accepted275 positive strictly binary known matching H3 tree, all selected active original-u endpoints, source lengths1, observed ai/ref2/ref3, no observed quotient terminals. ;; centers=Exact same275 supplied centers: adjusted origin X*(1/3,1/3)+3/2 plus ri^2 onai,2epsilon onref2,0 onref3. ;; interpretation=This is an explicit special-family strengthening of276, not a general4-row theorem, not an approximate coreset lower bound and not a new generic LP sparsity result.
+-- stage282_structure_symbolic_review.json | PASS24_INDEPENDENT_SYMBOLIC_REVIEW_WITH_ADDITIVE_C2_PROOF_REPLACEMENT
+   verdict: C1-C8 conclusions pass under the explicit physical epsilon<=1/100 scope. C2 is accepted using the additive proof below,not its unverified expanded expression. No frozen-file edit is requested.
+
+### S283
+-- stage283_structure_protocol_review.json | PASS_FULL_NONAUTHOR_STATIC_REVIEW_24_CHECKS_NO_EXECUTION
+   role: Nonauthor of283 checker and278 producer; internal static review,not external peer review. Reviewed source against frozen design and actual saved schema; no scientific replay.
+
+### S284
+
+### S285

@@ -1,0 +1,17 @@
+{
+ "stage": 300,
+ "step": "td_probe",
+ "name": "td_sample_101_published",
+ "status": "partial",
+ "pruned": false,
+ "n_leaves_after_prune": 10575,
+ "timings": {
+  "write_inputs": 0.3086373182013631,
+  "read_tree_newick": 0.09944000374525785,
+  "preprocess_input": 1.793119279667735,
+  "distance_matrix": 40.24303359910846,
+  "distance_matrix_entries": 111820050
+ },
+ "stopped_after_seconds_in_get_input_matrices": 3777,
+ "note": "the probe was stopped after about 63 minutes inside get_input_matrices, to keep the memory footprint of this stage small on a shared machine; the stages it did time are exact.  The end-to-end per-sample cost comes from the production runs instead."
+}

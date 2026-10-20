@@ -1,0 +1,14 @@
+records: exact=2626 fibre_true=2626 fibre_found=1075 decodiphy=5252
+computing W1 (stage289 wasserstein + point_distances)...
+wrote 2626 analysed records
+{
+ "records": 2626,
+ "exact_complete": 2150,
+ "support_match_overall": 1075,
+ "verification_all_witnesses_verified": true,
+ "verification_truth_inside_fibre_all": true,
+ "invariant_minimum_le_k_true": true,
+ "invariant_true_support_feasible": true,
+ "non_identifiable_true_support": 1827,
+ "non_identifiable_median_p_range": 0.0761
+}

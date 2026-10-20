@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-14T12:56:56.413414+00:00",
+  "protocol_sha256": "be43155afcddb5281f336a33ebe38ff57f9e0b3e928f18d0f9f1443d233c5852",
+  "result_sha256": "8472611cd2eeee4eb8a68b6c9b3506ea3d8902b67b89eff467a808ae21527ff5",
+  "frozen_source_hashes_checked": 19,
+  "prior_evidence_hashes_checked": 5,
+  "selection_rederived": true,
+  "stream_matches_result": true,
+  "total_input_cases": 48,
+  "original_and_structural_completed_agreement_cases": 48,
+  "all_returned_witnesses_replayed": 197,
+  "answer_counts": {
+    "feasible": 40,
+    "infeasible": 8
+  },
+  "new_witnesses": 3,
+  "scope": "Read-only artifact integrity and exact-distance feasibility replay. Enumeration answer agreement is a software cross-check, not formal independent proof of each minimum or NO."
+}

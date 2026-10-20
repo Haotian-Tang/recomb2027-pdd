@@ -1,0 +1,23 @@
+{
+ "stage": 294,
+ "amendment": 1,
+ "reason": "A fresh-context review found that the operable_ranks.conclusion string written into stage294_taxonomy_manifest.json contradicted the panel_taxonomic_breadth table computed by the same script: it asserted that no rank above genus is operable on this benchmark, while the table shows family and order each span at least two groups in 134 of 296 cases under the script's own operability rule. The conclusion string was corrected to state the measured per-rank counts and to record that the coarser ranks are left unused by design rather than by impossibility.",
+ "scope": "Text only. No measured value, no removal draw and no run input changed: the draw plan reads the frozen WoL rank table, not the manifest, and the plan digest is unchanged.",
+ "files": {
+  "data/stage294_taxonomy/stage294_taxonomy_manifest.json": {
+   "sha256_registered_in_protocol": "fc02df8a4082e721bfef165f33f7fa39562dcae71eaf2b5c65eb59b78fb2dd84",
+   "sha256_after_amendment": "4731687909f5f159f4a40dc29d86e5cad98fdc8e3790f13f24a09910dfdda1dc",
+   "superseded_text": "genus is operable in the cases whose panel spans more than one genus, species elsewhere; no rank above genus is operable on this benchmark, because a 10k-dataset instance panel is typically a single family"
+  },
+  "scripts/stage294_taxonomy.py": {
+   "sha256_after_amendment": "54f7c29864090f7d66ad8c76bb05739773d5e6d81716f35392a8c10dd2a939e1",
+   "change": "operable_ranks block only; the fetch, checksum and match computations are untouched"
+  },
+  "scripts/stage294_noisy.py": {
+   "sha256_registered_in_protocol": "52808cceb3b117703d04f2a372427f1d2aa99df6a7139e6a49c6a9e0963b8b2a",
+   "sha256_after_amendment": "3516b2ef06ddb192fb1c50358efe8d4791addf56f000af72f7b5031078de5779",
+   "change": "_check now accepts, for the files this amendment names and only for them, the recorded post-amendment hash; every other source file must still match the protocol exactly or the run aborts"
+  }
+ },
+ "run_integrity": "The DecoDiPhy arm was already running under the registered protocol when the amendment was made; the exact_matched arm verifies code hashes against the protocol and consults this amendment for the one file it names, so any undocumented source change still aborts the run."
+}

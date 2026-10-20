@@ -1,0 +1,725 @@
+{
+ "censored": [
+  {
+   "name": "k10k_tree_11_k10_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s2_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s2_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s3_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s4_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s5_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k10_s5_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 241,
+   "n_supports": 2303960,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s2_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s2_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s3_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s4_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s5_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k3_s5_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 255,
+   "n_supports": 2731135,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s2_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s2_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s3_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s4_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s5_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_11_k5_s5_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 251,
+   "n_supports": 2604125,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s2_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s2_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s3_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s4_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s5_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k10_s5_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s2_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s2_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s3_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s4_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s5_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k3_s5_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s1_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s1_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s2_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s2_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s3_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s3_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s4_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s4_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s5_exp_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "k10k_tree_15_k5_s5_uniform_krepp_estimated",
+   "family": "krepp_estimated_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s1_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s1_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s2_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s2_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s3_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s3_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s4_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s4_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s5_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k10_s5_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 199,
+   "n_supports": 1293699,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s1_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s1_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s2_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s2_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s3_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s3_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s4_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s4_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s5_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k3_s5_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 213,
+   "n_supports": 1587986,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s1_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s1_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s2_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s2_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s3_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s3_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s4_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s4_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s5_exp_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  },
+  {
+   "name": "plc_tree_15_k5_s5_uniform_krepp_placement",
+   "family": "krepp_placement_10k",
+   "k": 3,
+   "n_edges": 209,
+   "n_supports": 1499784,
+   "reason": "support_cap"
+  }
+ ],
+ "n": 90
+}

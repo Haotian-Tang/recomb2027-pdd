@@ -1,0 +1,25 @@
+{
+ "k1": {
+  "n": 356,
+  "boundary_x": 54,
+  "zero_mass": 0
+ },
+ "k2": {
+  "n": 300,
+  "boundary_x": 258,
+  "zero_mass": 0
+ },
+ "k3": {
+  "n": 203,
+  "boundary_x": 201,
+  "zero_mass": 0
+ },
+ "travelers": {
+  "n": 29,
+  "boundary_x": 0,
+  "zero_mass": 0,
+  "closed_form_boundary_x": 1,
+  "x_differs": 14
+ },
+ "note": "theta(S) is a minimum over the CLOSED mass set and can be attained on a face, so the attaining position is not unique; stage 296 proved the STRICT system is feasible for every eps > theta(S), which is why m(eps) uses a strict inequality."
+}

@@ -1,0 +1,2111 @@
+{
+  "stage": 50,
+  "purpose": "Finite development check of strictly binary reduction",
+  "code_sha256": {
+    "scripts/stage47_hidden_depth_checks.py": "0cc3268a0e03a4bb61c84fd0f4944860d5b55c8567a81d68552be52c02678a2d",
+    "scripts/stage50_binary_oracle_development.py": "4bf698a636ee748bb16016bae577358876566d94cc7cadea615aac79a458387e",
+    "scripts/stage50_binary_reduction.py": "ef1935a3cda382253cc5367200d8c1291dc1397d11e9927cd0e669e3fd7ba244"
+  },
+  "per_case_hard_seconds": 30,
+  "parallel_workers": 2,
+  "expected_computation": "Independent Cartesian product of discrete groups",
+  "oracle": "Stage47 standalone exact original-edge support and rational LP vertex enumeration",
+  "cases": [
+    {
+      "name": "binary_development_00",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/4800"
+        ],
+        [
+          "core0",
+          "g0_1",
+          "1/2"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_1",
+          "1/2"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ]
+      ],
+      "observed": {
+        "r0": "191/64",
+        "r1": "191/64",
+        "sentinel": "207/64",
+        "calibration": "9/4"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "target": 2,
+        "k": 2,
+        "amax": 1,
+        "c": "1/8",
+        "tau": "1/128",
+        "q": "63/128",
+        "delta": "63/128",
+        "epsilon": "1/4800",
+        "fan_edge_length": "1/4800",
+        "shape": "caterpillar",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/4800",
+          "1/4800"
+        ],
+        "overlap": [
+          [
+            "1/4800",
+            "1/4800"
+          ],
+          [
+            "1/4800",
+            "1/4800"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 7,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 9,
+        "observed_leaves": 4,
+        "missing_leaves": 2
+      },
+      "independent_expected": {
+        "minimum": 3,
+        "sum_solution": [
+          1,
+          1
+        ],
+        "group_count": 2,
+        "target": 2,
+        "groups": [
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_01",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/8000"
+        ],
+        [
+          "core0",
+          "g0_1",
+          "1/2"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_2",
+          "1/3"
+        ],
+        [
+          "g1_2",
+          "z1_2",
+          "1"
+        ],
+        [
+          "g1_2",
+          "r1",
+          "2/3"
+        ]
+      ],
+      "observed": {
+        "r0": "239/80",
+        "r1": "239/80",
+        "sentinel": "51/16",
+        "calibration": "11/5"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ],
+        "target": 3,
+        "k": 2,
+        "amax": 2,
+        "c": "1/10",
+        "tau": "1/160",
+        "q": "79/160",
+        "delta": "79/160",
+        "epsilon": "1/8000",
+        "fan_edge_length": "1/8000",
+        "shape": "balanced",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/8000",
+          "1/8000"
+        ],
+        "overlap": [
+          [
+            "1/8000",
+            "1/8000"
+          ],
+          [
+            "1/8000",
+            "1/8000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 2,
+              "gate": "g1_2",
+              "position": "1/3",
+              "hidden_edge": 7,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 9,
+        "observed_leaves": 4,
+        "missing_leaves": 2
+      },
+      "independent_expected": {
+        "minimum": 3,
+        "sum_solution": [
+          1,
+          2
+        ],
+        "group_count": 2,
+        "target": 3,
+        "groups": [
+          [
+            1
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_02",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/8000"
+        ],
+        [
+          "core0",
+          "g0_3",
+          "1/4"
+        ],
+        [
+          "g0_3",
+          "z0_3",
+          "1"
+        ],
+        [
+          "g0_3",
+          "g0_1",
+          "1/4"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_3",
+          "1/4"
+        ],
+        [
+          "g1_3",
+          "z1_3",
+          "1"
+        ],
+        [
+          "g1_3",
+          "g1_1",
+          "1/4"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ]
+      ],
+      "observed": {
+        "r0": "191/64",
+        "r1": "191/64",
+        "sentinel": "207/64",
+        "calibration": "9/4"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "target": 2,
+        "k": 2,
+        "amax": 3,
+        "c": "1/8",
+        "tau": "1/128",
+        "q": "63/128",
+        "delta": "63/128",
+        "epsilon": "1/8000",
+        "fan_edge_length": "1/8000",
+        "shape": "caterpillar",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/8000",
+          "1/8000"
+        ],
+        "overlap": [
+          [
+            "1/8000",
+            "1/8000"
+          ],
+          [
+            "1/8000",
+            "1/8000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 3,
+              "gate": "g0_3",
+              "position": "1/4",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 6,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 3,
+              "gate": "g1_3",
+              "position": "1/4",
+              "hidden_edge": 9,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 13,
+        "observed_leaves": 4,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": 3,
+        "sum_solution": [
+          1,
+          1
+        ],
+        "group_count": 2,
+        "target": 2,
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_03",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/10000"
+        ],
+        [
+          "core0",
+          "g0_3",
+          "1/4"
+        ],
+        [
+          "g0_3",
+          "z0_3",
+          "1"
+        ],
+        [
+          "g0_3",
+          "g0_1",
+          "1/4"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_3",
+          "1/4"
+        ],
+        [
+          "g1_3",
+          "z1_3",
+          "1"
+        ],
+        [
+          "g1_3",
+          "g1_1",
+          "1/4"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ]
+      ],
+      "observed": {
+        "r0": "239/80",
+        "r1": "239/80",
+        "sentinel": "51/16",
+        "calibration": "11/5"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "target": 3,
+        "k": 2,
+        "amax": 3,
+        "c": "1/10",
+        "tau": "1/160",
+        "q": "79/160",
+        "delta": "79/160",
+        "epsilon": "1/10000",
+        "fan_edge_length": "1/10000",
+        "shape": "balanced",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/10000",
+          "1/10000"
+        ],
+        "overlap": [
+          [
+            "1/10000",
+            "1/10000"
+          ],
+          [
+            "1/10000",
+            "1/10000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 3,
+              "gate": "g0_3",
+              "position": "1/4",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 6,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 3,
+              "gate": "g1_3",
+              "position": "1/4",
+              "hidden_edge": 9,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 13,
+        "observed_leaves": 4,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": null,
+        "sum_solution": null,
+        "group_count": 2,
+        "target": 3,
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_04",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/12000"
+        ],
+        [
+          "core0",
+          "g0_3",
+          "1/4"
+        ],
+        [
+          "g0_3",
+          "z0_3",
+          "1"
+        ],
+        [
+          "g0_3",
+          "g0_1",
+          "1/4"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_3",
+          "1/4"
+        ],
+        [
+          "g1_3",
+          "z1_3",
+          "1"
+        ],
+        [
+          "g1_3",
+          "g1_1",
+          "1/4"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ]
+      ],
+      "observed": {
+        "r0": "287/96",
+        "r1": "287/96",
+        "sentinel": "101/32",
+        "calibration": "13/6"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "target": 4,
+        "k": 2,
+        "amax": 3,
+        "c": "1/12",
+        "tau": "1/192",
+        "q": "95/192",
+        "delta": "95/192",
+        "epsilon": "1/12000",
+        "fan_edge_length": "1/12000",
+        "shape": "caterpillar",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/12000",
+          "1/12000"
+        ],
+        "overlap": [
+          [
+            "1/12000",
+            "1/12000"
+          ],
+          [
+            "1/12000",
+            "1/12000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 3,
+              "gate": "g0_3",
+              "position": "1/4",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 6,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 3,
+              "gate": "g1_3",
+              "position": "1/4",
+              "hidden_edge": 9,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 13,
+        "observed_leaves": 4,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": 3,
+        "sum_solution": [
+          1,
+          3
+        ],
+        "group_count": 2,
+        "target": 4,
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_05",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/14000"
+        ],
+        [
+          "core0",
+          "g0_3",
+          "1/4"
+        ],
+        [
+          "g0_3",
+          "z0_3",
+          "1"
+        ],
+        [
+          "g0_3",
+          "g0_1",
+          "1/4"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_3",
+          "1/4"
+        ],
+        [
+          "g1_3",
+          "z1_3",
+          "1"
+        ],
+        [
+          "g1_3",
+          "g1_1",
+          "1/4"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ]
+      ],
+      "observed": {
+        "r0": "335/112",
+        "r1": "335/112",
+        "sentinel": "351/112",
+        "calibration": "15/7"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "target": 5,
+        "k": 2,
+        "amax": 3,
+        "c": "1/14",
+        "tau": "1/224",
+        "q": "111/224",
+        "delta": "111/224",
+        "epsilon": "1/14000",
+        "fan_edge_length": "1/14000",
+        "shape": "balanced",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/14000",
+          "1/14000"
+        ],
+        "overlap": [
+          [
+            "1/14000",
+            "1/14000"
+          ],
+          [
+            "1/14000",
+            "1/14000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 3,
+              "gate": "g0_3",
+              "position": "1/4",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 6,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 3,
+              "gate": "g1_3",
+              "position": "1/4",
+              "hidden_edge": 9,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 13,
+        "observed_leaves": 4,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": null,
+        "sum_solution": null,
+        "group_count": 2,
+        "target": 5,
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_06",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/22400"
+        ],
+        [
+          "core0",
+          "g0_4",
+          "1/5"
+        ],
+        [
+          "g0_4",
+          "z0_4",
+          "1"
+        ],
+        [
+          "g0_4",
+          "g0_1",
+          "3/10"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_5",
+          "1/6"
+        ],
+        [
+          "g1_5",
+          "z1_5",
+          "1"
+        ],
+        [
+          "g1_5",
+          "g1_2",
+          "1/6"
+        ],
+        [
+          "g1_2",
+          "z1_2",
+          "1"
+        ],
+        [
+          "g1_2",
+          "r1",
+          "2/3"
+        ]
+      ],
+      "observed": {
+        "r0": "383/128",
+        "r1": "383/128",
+        "sentinel": "399/128",
+        "calibration": "17/8"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "target": 6,
+        "k": 2,
+        "amax": 5,
+        "c": "1/16",
+        "tau": "1/256",
+        "q": "127/256",
+        "delta": "127/256",
+        "epsilon": "1/22400",
+        "fan_edge_length": "1/22400",
+        "shape": "balanced",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/22400",
+          "1/22400"
+        ],
+        "overlap": [
+          [
+            "1/22400",
+            "1/22400"
+          ],
+          [
+            "1/22400",
+            "1/22400"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 4,
+              "gate": "g0_4",
+              "position": "1/5",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 6,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 5,
+              "gate": "g1_5",
+              "position": "1/6",
+              "hidden_edge": 9,
+              "hidden_length": "1"
+            },
+            {
+              "value": 2,
+              "gate": "g1_2",
+              "position": "1/3",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 13,
+        "observed_leaves": 4,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": 3,
+        "sum_solution": [
+          1,
+          5
+        ],
+        "group_count": 2,
+        "target": 6,
+        "groups": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_07",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/25200"
+        ],
+        [
+          "core0",
+          "g0_4",
+          "1/5"
+        ],
+        [
+          "g0_4",
+          "z0_4",
+          "1"
+        ],
+        [
+          "g0_4",
+          "g0_1",
+          "3/10"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core0",
+          "g1_5",
+          "1/6"
+        ],
+        [
+          "g1_5",
+          "z1_5",
+          "1"
+        ],
+        [
+          "g1_5",
+          "g1_2",
+          "1/6"
+        ],
+        [
+          "g1_2",
+          "z1_2",
+          "1"
+        ],
+        [
+          "g1_2",
+          "r1",
+          "2/3"
+        ]
+      ],
+      "observed": {
+        "r0": "431/144",
+        "r1": "431/144",
+        "sentinel": "149/48",
+        "calibration": "19/9"
+      },
+      "pendant": "1",
+      "cap": 3,
+      "reduction": {
+        "groups": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "target": 7,
+        "k": 2,
+        "amax": 5,
+        "c": "1/18",
+        "tau": "1/288",
+        "q": "143/288",
+        "delta": "143/288",
+        "epsilon": "1/25200",
+        "fan_edge_length": "1/25200",
+        "shape": "caterpillar",
+        "ports": [
+          "core0",
+          "core0"
+        ],
+        "root_distances": [
+          "1/25200",
+          "1/25200"
+        ],
+        "overlap": [
+          [
+            "1/25200",
+            "1/25200"
+          ],
+          [
+            "1/25200",
+            "1/25200"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 4,
+              "gate": "g0_4",
+              "position": "1/5",
+              "hidden_edge": 4,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 6,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 5,
+              "gate": "g1_5",
+              "position": "1/6",
+              "hidden_edge": 9,
+              "hidden_length": "1"
+            },
+            {
+              "value": 2,
+              "gate": "g1_2",
+              "position": "1/3",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 13,
+        "observed_leaves": 4,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": null,
+        "sum_solution": null,
+        "group_count": 2,
+        "target": 7,
+        "groups": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_08",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/54000"
+        ],
+        [
+          "core0",
+          "core1",
+          "1/54000"
+        ],
+        [
+          "core0",
+          "g0_1",
+          "1/2"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core1",
+          "g1_2",
+          "1/3"
+        ],
+        [
+          "g1_2",
+          "z1_2",
+          "1"
+        ],
+        [
+          "g1_2",
+          "r1",
+          "2/3"
+        ],
+        [
+          "core1",
+          "g2_3",
+          "1/4"
+        ],
+        [
+          "g2_3",
+          "z2_3",
+          "1"
+        ],
+        [
+          "g2_3",
+          "r2",
+          "3/4"
+        ]
+      ],
+      "observed": {
+        "r0": "439/144",
+        "r1": "439/144",
+        "r2": "439/144",
+        "sentinel": "455/144",
+        "calibration": "13/6"
+      },
+      "pendant": "1",
+      "cap": 4,
+      "reduction": {
+        "groups": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "target": 6,
+        "k": 3,
+        "amax": 3,
+        "c": "1/18",
+        "tau": "1/288",
+        "q": "143/288",
+        "delta": "143/288",
+        "epsilon": "1/27000",
+        "fan_edge_length": "1/54000",
+        "shape": "balanced",
+        "ports": [
+          "core0",
+          "core1",
+          "core1"
+        ],
+        "root_distances": [
+          "1/54000",
+          "1/27000",
+          "1/27000"
+        ],
+        "overlap": [
+          [
+            "1/54000",
+            "1/54000",
+            "1/54000"
+          ],
+          [
+            "1/54000",
+            "1/27000",
+            "1/27000"
+          ],
+          [
+            "1/54000",
+            "1/27000",
+            "1/27000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 5,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 2,
+              "gate": "g1_2",
+              "position": "1/3",
+              "hidden_edge": 8,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 3,
+              "gate": "g2_3",
+              "position": "1/4",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 13,
+        "observed_leaves": 5,
+        "missing_leaves": 3
+      },
+      "independent_expected": {
+        "minimum": 4,
+        "sum_solution": [
+          1,
+          2,
+          3
+        ],
+        "group_count": 3,
+        "target": 6,
+        "groups": [
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_09",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/42000"
+        ],
+        [
+          "core0",
+          "core1",
+          "1/42000"
+        ],
+        [
+          "core0",
+          "g0_3",
+          "1/4"
+        ],
+        [
+          "g0_3",
+          "z0_3",
+          "1"
+        ],
+        [
+          "g0_3",
+          "g0_1",
+          "1/4"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core1",
+          "g1_1",
+          "1/2"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ],
+        [
+          "core1",
+          "g2_1",
+          "1/2"
+        ],
+        [
+          "g2_1",
+          "z2_1",
+          "1"
+        ],
+        [
+          "g2_1",
+          "r2",
+          "1/2"
+        ]
+      ],
+      "observed": {
+        "r0": "49/16",
+        "r1": "49/16",
+        "r2": "49/16",
+        "sentinel": "359/112",
+        "calibration": "31/14"
+      },
+      "pendant": "1",
+      "cap": 4,
+      "reduction": {
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ],
+        "target": 4,
+        "k": 3,
+        "amax": 3,
+        "c": "1/14",
+        "tau": "1/224",
+        "q": "111/224",
+        "delta": "111/224",
+        "epsilon": "1/21000",
+        "fan_edge_length": "1/42000",
+        "shape": "caterpillar",
+        "ports": [
+          "core0",
+          "core1",
+          "core1"
+        ],
+        "root_distances": [
+          "1/42000",
+          "1/21000",
+          "1/21000"
+        ],
+        "overlap": [
+          [
+            "1/42000",
+            "1/42000",
+            "1/42000"
+          ],
+          [
+            "1/42000",
+            "1/21000",
+            "1/21000"
+          ],
+          [
+            "1/42000",
+            "1/21000",
+            "1/21000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 3,
+              "gate": "g0_3",
+              "position": "1/4",
+              "hidden_edge": 5,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 7,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 10,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 1,
+              "gate": "g2_1",
+              "position": "1/2",
+              "hidden_edge": 13,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 15,
+        "observed_leaves": 5,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": null,
+        "sum_solution": null,
+        "group_count": 3,
+        "target": 4,
+        "groups": [
+          [
+            1,
+            3
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_10",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/72000"
+        ],
+        [
+          "core0",
+          "core1",
+          "1/72000"
+        ],
+        [
+          "core0",
+          "g0_1",
+          "1/2"
+        ],
+        [
+          "g0_1",
+          "z0_1",
+          "1"
+        ],
+        [
+          "g0_1",
+          "r0",
+          "1/2"
+        ],
+        [
+          "core1",
+          "g1_4",
+          "1/5"
+        ],
+        [
+          "g1_4",
+          "z1_4",
+          "1"
+        ],
+        [
+          "g1_4",
+          "g1_1",
+          "3/10"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ],
+        [
+          "core1",
+          "g2_2",
+          "1/3"
+        ],
+        [
+          "g2_2",
+          "z2_2",
+          "1"
+        ],
+        [
+          "g2_2",
+          "r2",
+          "2/3"
+        ]
+      ],
+      "observed": {
+        "r0": "487/160",
+        "r1": "487/160",
+        "r2": "487/160",
+        "sentinel": "503/160",
+        "calibration": "43/20"
+      },
+      "pendant": "1",
+      "cap": 4,
+      "reduction": {
+        "groups": [
+          [
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ]
+        ],
+        "target": 7,
+        "k": 3,
+        "amax": 4,
+        "c": "1/20",
+        "tau": "1/320",
+        "q": "159/320",
+        "delta": "159/320",
+        "epsilon": "1/36000",
+        "fan_edge_length": "1/72000",
+        "shape": "balanced",
+        "ports": [
+          "core0",
+          "core1",
+          "core1"
+        ],
+        "root_distances": [
+          "1/72000",
+          "1/36000",
+          "1/36000"
+        ],
+        "overlap": [
+          [
+            "1/72000",
+            "1/72000",
+            "1/72000"
+          ],
+          [
+            "1/72000",
+            "1/36000",
+            "1/36000"
+          ],
+          [
+            "1/72000",
+            "1/36000",
+            "1/36000"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 1,
+              "gate": "g0_1",
+              "position": "1/2",
+              "hidden_edge": 5,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 4,
+              "gate": "g1_4",
+              "position": "1/5",
+              "hidden_edge": 8,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 10,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 2,
+              "gate": "g2_2",
+              "position": "1/3",
+              "hidden_edge": 13,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 15,
+        "observed_leaves": 5,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": 4,
+        "sum_solution": [
+          1,
+          4,
+          2
+        ],
+        "group_count": 3,
+        "target": 7,
+        "groups": [
+          [
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "name": "binary_development_11",
+      "edges": [
+        [
+          "root",
+          "sentinel",
+          "1"
+        ],
+        [
+          "root",
+          "calibration",
+          "1"
+        ],
+        [
+          "root",
+          "core0",
+          "1/57600"
+        ],
+        [
+          "core0",
+          "core1",
+          "1/57600"
+        ],
+        [
+          "core0",
+          "g0_2",
+          "1/3"
+        ],
+        [
+          "g0_2",
+          "z0_2",
+          "1"
+        ],
+        [
+          "g0_2",
+          "r0",
+          "2/3"
+        ],
+        [
+          "core1",
+          "g1_1",
+          "1/2"
+        ],
+        [
+          "g1_1",
+          "z1_1",
+          "1"
+        ],
+        [
+          "g1_1",
+          "r1",
+          "1/2"
+        ],
+        [
+          "core1",
+          "g2_4",
+          "1/5"
+        ],
+        [
+          "g2_4",
+          "z2_4",
+          "1"
+        ],
+        [
+          "g2_4",
+          "g2_1",
+          "3/10"
+        ],
+        [
+          "g2_1",
+          "z2_1",
+          "1"
+        ],
+        [
+          "g2_1",
+          "r2",
+          "1/2"
+        ]
+      ],
+      "observed": {
+        "r0": "391/128",
+        "r1": "391/128",
+        "r2": "391/128",
+        "sentinel": "407/128",
+        "calibration": "35/16"
+      },
+      "pendant": "1",
+      "cap": 4,
+      "reduction": {
+        "groups": [
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "target": 5,
+        "k": 3,
+        "amax": 4,
+        "c": "1/16",
+        "tau": "1/256",
+        "q": "127/256",
+        "delta": "127/256",
+        "epsilon": "1/28800",
+        "fan_edge_length": "1/57600",
+        "shape": "caterpillar",
+        "ports": [
+          "core0",
+          "core1",
+          "core1"
+        ],
+        "root_distances": [
+          "1/57600",
+          "1/28800",
+          "1/28800"
+        ],
+        "overlap": [
+          [
+            "1/57600",
+            "1/57600",
+            "1/57600"
+          ],
+          [
+            "1/57600",
+            "1/28800",
+            "1/28800"
+          ],
+          [
+            "1/57600",
+            "1/28800",
+            "1/28800"
+          ]
+        ],
+        "options": [
+          [
+            {
+              "value": 2,
+              "gate": "g0_2",
+              "position": "1/3",
+              "hidden_edge": 5,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 1,
+              "gate": "g1_1",
+              "position": "1/2",
+              "hidden_edge": 8,
+              "hidden_length": "1"
+            }
+          ],
+          [
+            {
+              "value": 4,
+              "gate": "g2_4",
+              "position": "1/5",
+              "hidden_edge": 11,
+              "hidden_length": "1"
+            },
+            {
+              "value": 1,
+              "gate": "g2_1",
+              "position": "1/2",
+              "hidden_edge": 13,
+              "hidden_length": "1"
+            }
+          ]
+        ],
+        "calibration_edge": 1,
+        "original_edges": 15,
+        "observed_leaves": 5,
+        "missing_leaves": 4
+      },
+      "independent_expected": {
+        "minimum": null,
+        "sum_solution": null,
+        "group_count": 3,
+        "target": 5,
+        "groups": [
+          [
+            2
+          ],
+          [
+            1
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      }
+    }
+  ]
+}

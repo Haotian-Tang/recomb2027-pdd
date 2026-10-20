@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "012b4a193cb270331acb7123ff7bc975931835087b55a179985613ad909ee932",
+  "result_sha256": "28ed03b399714969e0db782c2bc8b3beed4b80144e4089909ec60e9db78cff22",
+  "source_hashes_rechecked": 16,
+  "jsonl_jobs_reconciled": 256,
+  "independent_witnesses_reverified": 192,
+  "same_outcome_both_repetitions": true,
+  "exact_input_outcomes": {
+    "feasible": 39,
+    "infeasible_within_cap": 8,
+    "unknown": 1
+  },
+  "unknown_for_every_method": [
+    "fixed_random_15_n12_cap5_g6_hidden0"
+  ],
+  "distinct_unlabelled_shapes_by_leaf_count": {
+    "6": 1,
+    "8": 3,
+    "10": 4,
+    "12": 9
+  },
+  "report_sha256": "bec9886bfb826f1c22113d0fb3f2e368f620cb09bb8339bd915dbf11138fdb0b",
+  "caveat": "PASS covers finite integrity/agreement checks, not completion of all tasks or proof of correctness"
+}

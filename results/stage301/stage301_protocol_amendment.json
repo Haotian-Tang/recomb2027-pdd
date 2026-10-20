@@ -1,0 +1,18 @@
+{
+ "stage": 301,
+ "amends": "stage301_protocol.json",
+ "created_utc": "2026-10-19T12:07:43.426040+00:00",
+ "base_code_sha256_at_registration": "1206cefcf8e1b7972264faff55160ae120c0a33b2dd4c5235f1b881dc78a47e3",
+ "amended_code_sha256": {
+  "stage301_common.py": "3281a5d320e7c209eadd2ec6e05bd261c4d1d3b37ea7682254141ab0a69f0f15",
+  "stage301_validate.py": "d02b223100a18a33d3a6ba5017d4b1eeaa3cfe70a691c1815ec78befc6e504f9",
+  "stage301_protocol_amendment.py": "14581913d29cc8f61da2de6f918a6b587543665b7555f38f175628722ea2850f"
+ },
+ "changes": [
+  "sharpened one-sided tolerance bands tau_up / tau_dn",
+  "covering requirement POS \\ Sigma instead of POS \\ N[Sigma]",
+  "closed-form refutation threshold Theta_k >= eps_R"
+ ],
+ "direction": "both changes enlarge POS/NEG, i.e. strengthen necessary conditions; neither can admit a support the weaker screen excluded, and both are proved before use",
+ "timed_runs_before_amendment": "none"
+}

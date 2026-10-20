@@ -1,0 +1,5824 @@
+[
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 1,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.007640311028808355,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 2,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.06066559720784426,
+  "exit_status": 0,
+  "index": 0
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 3,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.007700314279645681,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 4,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.06121166702359915,
+  "exit_status": 0,
+  "index": 1
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 10,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.007758446037769318,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 11,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.061802877113223076,
+  "exit_status": 0,
+  "index": 2
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 30,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.007930970750749111,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 31,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.062430327758193016,
+  "exit_status": 0,
+  "index": 3
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 100,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.008372567128390074,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 101,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.06313953176140785,
+  "exit_status": 0,
+  "index": 4
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 300,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.01002114312723279,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 301,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.06372721260413527,
+  "exit_status": 0,
+  "index": 5
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 1000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.01658105803653598,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 1001,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.08129695523530245,
+  "exit_status": 0,
+  "index": 6
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 3000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.036774709820747375,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 3001,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.09954625926911831,
+  "exit_status": 0,
+  "index": 7
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 10000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.21366928797215223,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 60,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 10001,
+   "local_lp_calls": 60,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 60,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.275501174852252,
+  "exit_status": 0,
+  "index": 8
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 30000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 1.7158365589566529,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 886,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 30001,
+   "local_lp_calls": 886,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 886,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 1.7777774622663856,
+  "exit_status": 0,
+  "index": 9
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 100000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 68.58342804107815,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 4601,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 470758,
+   "mass_faces": 100001,
+   "local_lp_calls": 4601,
+   "interval_lp_calls": 151,
+   "enumerated_lp_calls": 584,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 4788,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 3430,
+   "inconsistent_equality_rejections": 436
+  },
+  "ok": true,
+  "harness_wall": 68.64531216211617,
+  "exit_status": 0,
+  "index": 10
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 300000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 600.0007833652198,
+  "status": "unknown",
+  "reason": "wall_time_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 9933,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 4229534,
+   "mass_faces": 258035,
+   "local_lp_calls": 9933,
+   "interval_lp_calls": 400,
+   "enumerated_lp_calls": 2463,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 17778,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 5590,
+   "inconsistent_equality_rejections": 1480
+  },
+  "ok": true,
+  "harness_wall": 600.0641452642158,
+  "exit_status": 0,
+  "index": 11
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 1000000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 600.0008507170714,
+  "status": "unknown",
+  "reason": "wall_time_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 9932,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 4217999,
+   "mass_faces": 258034,
+   "local_lp_calls": 9932,
+   "interval_lp_calls": 400,
+   "enumerated_lp_calls": 2462,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 17774,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 5590,
+   "inconsistent_equality_rejections": 1480
+  },
+  "ok": true,
+  "harness_wall": 600.0639474769123,
+  "exit_status": 0,
+  "index": 12
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 1,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.013127640821039677,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 2,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.07615302875638008,
+  "exit_status": 0,
+  "index": 13
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 3,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.013134160079061985,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 4,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.07817625673487782,
+  "exit_status": 0,
+  "index": 14
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 10,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.013311265967786312,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 11,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.07887252978980541,
+  "exit_status": 0,
+  "index": 15
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 30,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.013426920864731073,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 31,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.05704012280330062,
+  "exit_status": 0,
+  "index": 16
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 100,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.013944727834314108,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 101,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.05686596781015396,
+  "exit_status": 0,
+  "index": 17
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 300,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.015693076886236668,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 301,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.058344928082078695,
+  "exit_status": 0,
+  "index": 18
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 1000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.02204817533493042,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 1001,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.0644530481658876,
+  "exit_status": 0,
+  "index": 19
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 3000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.041117237880825996,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 3001,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.08368458598852158,
+  "exit_status": 0,
+  "index": 20
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 10000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.11709159100428224,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 0,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 10001,
+   "local_lp_calls": 0,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.15925668505951762,
+  "exit_status": 0,
+  "index": 21
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 30000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 0.6328058154322207,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 167,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 30001,
+   "local_lp_calls": 167,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 167,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.6745882052928209,
+  "exit_status": 0,
+  "index": 22
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 100000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 2.36813752213493,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 688,
+   "strict_faces": 0,
+   "growth_states": 1833,
+   "vertex_bases": 0,
+   "mass_faces": 100001,
+   "local_lp_calls": 688,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 688,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 2.4109399281442165,
+  "exit_status": 0,
+  "index": 23
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 300000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 21.002055829856545,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1833,
+   "cover_feasible_faces": 2940,
+   "strict_faces": 1,
+   "growth_states": 1833,
+   "vertex_bases": 131344,
+   "mass_faces": 300001,
+   "local_lp_calls": 2940,
+   "interval_lp_calls": 73,
+   "enumerated_lp_calls": 276,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 2370,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 1940,
+   "inconsistent_equality_rejections": 651
+  },
+  "incumbent_source_count": 10,
+  "ok": true,
+  "harness_wall": 21.04401623690501,
+  "exit_status": 0,
+  "index": 24
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_faces_K7case_cap10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 1000000,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 73.13115085987374,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1841,
+   "cover_feasible_faces": 15011,
+   "strict_faces": 1,
+   "growth_states": 1841,
+   "vertex_bases": 359516,
+   "mass_faces": 1000001,
+   "local_lp_calls": 15011,
+   "interval_lp_calls": 375,
+   "enumerated_lp_calls": 1069,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 10017,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 11065,
+   "inconsistent_equality_rejections": 2502
+  },
+  "incumbent_source_count": 10,
+  "ok": true,
+  "harness_wall": 73.1731297778897,
+  "exit_status": 0,
+  "index": 25
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 1,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 4.328723366837949,
+  "status": "unknown",
+  "reason": "vertex_bases_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 2157,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 2,
+   "mass_faces": 75246,
+   "local_lp_calls": 2157,
+   "interval_lp_calls": 2,
+   "enumerated_lp_calls": 1,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 23,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2127,
+   "inconsistent_equality_rejections": 27
+  },
+  "ok": true,
+  "harness_wall": 4.370279711205512,
+  "exit_status": 0,
+  "index": 26
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 10,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 4.252212677150965,
+  "status": "unknown",
+  "reason": "vertex_bases_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 2157,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 11,
+   "mass_faces": 75246,
+   "local_lp_calls": 2157,
+   "interval_lp_calls": 2,
+   "enumerated_lp_calls": 1,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 23,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2127,
+   "inconsistent_equality_rejections": 27
+  },
+  "ok": true,
+  "harness_wall": 4.304147265851498,
+  "exit_status": 0,
+  "index": 27
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 100,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 4.366279223002493,
+  "status": "unknown",
+  "reason": "vertex_bases_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 2189,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 101,
+   "mass_faces": 75750,
+   "local_lp_calls": 2189,
+   "interval_lp_calls": 6,
+   "enumerated_lp_calls": 4,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 76,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2137,
+   "inconsistent_equality_rejections": 42
+  },
+  "ok": true,
+  "harness_wall": 4.417570141144097,
+  "exit_status": 0,
+  "index": 28
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 1000,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 4.740206991788,
+  "status": "unknown",
+  "reason": "vertex_bases_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 2328,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 1001,
+   "mass_faces": 77056,
+   "local_lp_calls": 2328,
+   "interval_lp_calls": 17,
+   "enumerated_lp_calls": 16,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 245,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2193,
+   "inconsistent_equality_rejections": 102
+  },
+  "ok": true,
+  "harness_wall": 4.791081245057285,
+  "exit_status": 0,
+  "index": 29
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 10000,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 6.061416065786034,
+  "status": "unknown",
+  "reason": "vertex_bases_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 2508,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 10001,
+   "mass_faces": 77752,
+   "local_lp_calls": 2508,
+   "interval_lp_calls": 41,
+   "enumerated_lp_calls": 68,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 781,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2233,
+   "inconsistent_equality_rejections": 166
+  },
+  "ok": true,
+  "harness_wall": 6.112708163913339,
+  "exit_status": 0,
+  "index": 30
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 100000,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 17.279516642913222,
+  "status": "unknown",
+  "reason": "vertex_bases_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 2952,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 100001,
+   "mass_faces": 81918,
+   "local_lp_calls": 2952,
+   "interval_lp_calls": 89,
+   "enumerated_lp_calls": 241,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 2235,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2355,
+   "inconsistent_equality_rejections": 267
+  },
+  "ok": true,
+  "harness_wall": 17.32136751897633,
+  "exit_status": 0,
+  "index": 31
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 1000000,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 143.42887786310166,
+  "status": "unknown",
+  "reason": "vertex_bases_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 5487,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 1000001,
+   "mass_faces": 128494,
+   "local_lp_calls": 5487,
+   "interval_lp_calls": 169,
+   "enumerated_lp_calls": 787,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 6096,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 4003,
+   "inconsistent_equality_rejections": 528
+  },
+  "ok": true,
+  "harness_wall": 143.47026754077524,
+  "exit_status": 0,
+  "index": 32
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "prefix_bases_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": 10000000,
+    "max_faces": null,
+    "seconds": 600
+   },
+   "wall": 720,
+   "mem_gb": 6
+  },
+  "elapsed": 600.0007830960676,
+  "status": "unknown",
+  "reason": "wall_time_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 9934,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 4246943,
+   "mass_faces": 258037,
+   "local_lp_calls": 9934,
+   "interval_lp_calls": 400,
+   "enumerated_lp_calls": 2464,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 17782,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 5590,
+   "inconsistent_equality_rejections": 1480
+  },
+  "ok": true,
+  "harness_wall": 600.0421446119435,
+  "exit_status": 0,
+  "index": 33
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "cprofile",
+   "tag": "cprofile_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 20000,
+    "seconds": 900
+   },
+   "wall": 1100,
+   "mem_gb": 6
+  },
+  "elapsed": 4.500342496205121,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 927,
+   "cover_feasible_faces": 846,
+   "strict_faces": 0,
+   "growth_states": 927,
+   "vertex_bases": 0,
+   "mass_faces": 20001,
+   "local_lp_calls": 846,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 846,
+   "inconsistent_equality_rejections": 0
+  },
+  "profile": [
+   {
+    "file": "fractions.py",
+    "line": 186,
+    "name": "__new__",
+    "ncalls": 438885,
+    "primcalls": 438885,
+    "tottime": 0.501970892,
+    "cumtime": 1.035079003
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 23,
+    "name": "_parallel_reduce",
+    "ncalls": 846,
+    "primcalls": 846,
+    "tottime": 0.43188478300000005,
+    "cumtime": 2.888571358
+   },
+   {
+    "file": "fractions.py",
+    "line": 317,
+    "name": "_from_coprime_ints",
+    "ncalls": 665718,
+    "primcalls": 665718,
+    "tottime": 0.383843996,
+    "cumtime": 0.513215015
+   },
+   {
+    "file": "fractions.py",
+    "line": 758,
+    "name": "_div",
+    "ncalls": 334109,
+    "primcalls": 334109,
+    "tottime": 0.37296975800000004,
+    "cumtime": 0.767107171
+   },
+   {
+    "file": "fractions.py",
+    "line": 906,
+    "name": "__hash__",
+    "ncalls": 907038,
+    "primcalls": 907038,
+    "tottime": 0.27532463900000004,
+    "cumtime": 0.27552466000000003
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.isinstance>",
+    "ncalls": 888148,
+    "primcalls": 888148,
+    "tottime": 0.25546101200000004,
+    "cumtime": 0.543792425
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 140,
+    "name": "solve_mixed",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.23368005300000003,
+    "cumtime": 4.4623825660000005
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method __new__ of type object at 0xa44b40>",
+    "ncalls": 1104603,
+    "primcalls": 1104603,
+    "tottime": 0.21419258600000002,
+    "cumtime": 0.21419258600000002
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 17,
+    "name": "mixed_cover",
+    "ncalls": 20000,
+    "primcalls": 20000,
+    "tottime": 0.19306747700000002,
+    "cumtime": 0.320312667
+   },
+   {
+    "file": "fractions.py",
+    "line": 613,
+    "name": "forward",
+    "ncalls": 334470,
+    "primcalls": 334470,
+    "tottime": 0.187143729,
+    "cumtime": 1.000049483
+   },
+   {
+    "file": "<frozen abc>",
+    "line": 117,
+    "name": "__instancecheck__",
+    "ncalls": 553676,
+    "primcalls": 553676,
+    "tottime": 0.15029077400000002,
+    "cumtime": 0.28833141300000004
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method _abc._abc_instancecheck>",
+    "ncalls": 553676,
+    "primcalls": 553676,
+    "tottime": 0.13802237,
+    "cumtime": 0.13804063900000002
+   },
+   {
+    "file": "fractions.py",
+    "line": 849,
+    "name": "__neg__",
+    "ncalls": 297658,
+    "primcalls": 297658,
+    "tottime": 0.129171995,
+    "cumtime": 0.32497811200000004
+   },
+   {
+    "file": "fractions.py",
+    "line": 910,
+    "name": "__eq__",
+    "ncalls": 158680,
+    "primcalls": 158680,
+    "tottime": 0.12690785000000002,
+    "cumtime": 0.29229683900000003
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 73,
+    "name": "strict_vertex",
+    "ncalls": 846,
+    "primcalls": 846,
+    "tottime": 0.11399023500000001,
+    "cumtime": 3.4510460110000003
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 34,
+    "name": "<genexpr>",
+    "ncalls": 333940,
+    "primcalls": 333940,
+    "tottime": 0.113629846,
+    "cumtime": 1.006039998
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method math.gcd>",
+    "ncalls": 675876,
+    "primcalls": 675876,
+    "tottime": 0.104871027,
+    "cumtime": 0.104871027
+   },
+   {
+    "file": "fractions.py",
+    "line": 397,
+    "name": "numerator",
+    "ncalls": 499138,
+    "primcalls": 499138,
+    "tottime": 0.061795754,
+    "cumtime": 0.061795754
+   },
+   {
+    "file": "fractions.py",
+    "line": 401,
+    "name": "denominator",
+    "ncalls": 497446,
+    "primcalls": 497446,
+    "tottime": 0.05903814,
+    "cumtime": 0.05903814
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 88,
+    "name": "minimum_forest_cover",
+    "ncalls": 846,
+    "primcalls": 846,
+    "tottime": 0.048814743,
+    "cumtime": 0.077050696
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 28,
+    "name": "<genexpr>",
+    "ncalls": 33394,
+    "primcalls": 33394,
+    "tottime": 0.043495738000000006,
+    "cumtime": 0.078512577
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'update' of 'set' objects>",
+    "ncalls": 121247,
+    "primcalls": 121247,
+    "tottime": 0.03618177,
+    "cumtime": 0.041354053
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 91,
+    "name": "<genexpr>",
+    "ncalls": 118440,
+    "primcalls": 118440,
+    "tottime": 0.036033084,
+    "cumtime": 0.151895205
+   },
+   {
+    "file": "fractions.py",
+    "line": 969,
+    "name": "__bool__",
+    "ncalls": 152271,
+    "primcalls": 152271,
+    "tottime": 0.035016839,
+    "cumtime": 0.035016839
+   },
+   {
+    "file": "fractions.py",
+    "line": 853,
+    "name": "__abs__",
+    "ncalls": 33394,
+    "primcalls": 33394,
+    "tottime": 0.024836687000000003,
+    "cumtime": 0.056320187
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 210,
+    "name": "<genexpr>",
+    "ncalls": 79740,
+    "primcalls": 79740,
+    "tottime": 0.023461819000000002,
+    "cumtime": 0.097890536
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.sorted>",
+    "ncalls": 25244,
+    "primcalls": 25244,
+    "tottime": 0.020139511000000002,
+    "cumtime": 0.022155303
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.abs>",
+    "ncalls": 66836,
+    "primcalls": 33442,
+    "tottime": 0.018501719,
+    "cumtime": 0.069666079
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 207,
+    "name": "<genexpr>",
+    "ncalls": 57312,
+    "primcalls": 57312,
+    "tottime": 0.017022676,
+    "cumtime": 0.070856757
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 30,
+    "name": "touch",
+    "ncalls": 20928,
+    "primcalls": 20928,
+    "tottime": 0.015475566000000001,
+    "cumtime": 0.029597880000000003
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.next>",
+    "ncalls": 38124,
+    "primcalls": 38124,
+    "tottime": 0.013885139000000001,
+    "cumtime": 0.09361498700000001
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 28,
+    "name": "check",
+    "ncalls": 24550,
+    "primcalls": 24550,
+    "tottime": 0.008389198,
+    "cumtime": 0.012899741000000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.len>",
+    "ncalls": 56854,
+    "primcalls": 56854,
+    "tottime": 0.008377048,
+    "cumtime": 0.008377048
+   },
+   {
+    "file": "fractions.py",
+    "line": 931,
+    "name": "_richcmp",
+    "ncalls": 6518,
+    "primcalls": 6518,
+    "tottime": 0.008194256,
+    "cumtime": 0.01659354
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 204,
+    "name": "<genexpr>",
+    "ncalls": 7614,
+    "primcalls": 7614,
+    "tottime": 0.005802125,
+    "cumtime": 0.017671766000000002
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 34,
+    "name": "deficit_sets",
+    "ncalls": 927,
+    "primcalls": 927,
+    "tottime": 0.005315229,
+    "cumtime": 0.009817273000000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'append' of 'list' objects>",
+    "ncalls": 21814,
+    "primcalls": 21814,
+    "tottime": 0.005170825,
+    "cumtime": 0.005170825
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method time.perf_counter>",
+    "ncalls": 24551,
+    "primcalls": 24551,
+    "tottime": 0.004511053,
+    "cumtime": 0.004511053
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'get' of 'dict' objects>",
+    "ncalls": 22844,
+    "primcalls": 22844,
+    "tottime": 0.0044575050000000005,
+    "cumtime": 0.0044575050000000005
+   },
+   {
+    "file": "fractions.py",
+    "line": 953,
+    "name": "__lt__",
+    "ncalls": 6316,
+    "primcalls": 6316,
+    "tottime": 0.003390166,
+    "cumtime": 0.019541295
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.min>",
+    "ncalls": 8148,
+    "primcalls": 8148,
+    "tottime": 0.0032909930000000003,
+    "cumtime": 0.0032909930000000003
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'add' of 'set' objects>",
+    "ncalls": 15929,
+    "primcalls": 15929,
+    "tottime": 0.002853389,
+    "cumtime": 0.002853389
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 95,
+    "name": "<genexpr>",
+    "ncalls": 11444,
+    "primcalls": 11444,
+    "tottime": 0.002376982,
+    "cumtime": 0.002376982
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'extend' of 'list' objects>",
+    "ncalls": 8898,
+    "primcalls": 8898,
+    "tottime": 0.002333664,
+    "cumtime": 0.00256982
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.any>",
+    "ncalls": 847,
+    "primcalls": 847,
+    "tottime": 0.002211263,
+    "cumtime": 0.004651947
+   }
+  ],
+  "profile_total_tt": 4.464008691999999,
+  "ok": true,
+  "harness_wall": 4.552135680336505,
+  "exit_status": 0,
+  "index": 34
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 9,
+   "mode": "cprofile",
+   "tag": "cprofile_cap9",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 20000,
+    "seconds": 900
+   },
+   "wall": 1100,
+   "mem_gb": 6
+  },
+  "elapsed": 3.836246741004288,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 802,
+   "cover_feasible_faces": 837,
+   "strict_faces": 0,
+   "growth_states": 802,
+   "vertex_bases": 0,
+   "mass_faces": 20001,
+   "local_lp_calls": 837,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 837,
+   "inconsistent_equality_rejections": 0
+  },
+  "profile": [
+   {
+    "file": "fractions.py",
+    "line": 186,
+    "name": "__new__",
+    "ncalls": 362194,
+    "primcalls": 362194,
+    "tottime": 0.405945488,
+    "cumtime": 0.8363075010000001
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 23,
+    "name": "_parallel_reduce",
+    "ncalls": 837,
+    "primcalls": 837,
+    "tottime": 0.378537712,
+    "cumtime": 2.422373352
+   },
+   {
+    "file": "fractions.py",
+    "line": 758,
+    "name": "_div",
+    "ncalls": 275238,
+    "primcalls": 275238,
+    "tottime": 0.308840369,
+    "cumtime": 0.5936658890000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 317,
+    "name": "_from_coprime_ints",
+    "ncalls": 548159,
+    "primcalls": 548159,
+    "tottime": 0.2764684,
+    "cumtime": 0.38163955000000005
+   },
+   {
+    "file": "fractions.py",
+    "line": 906,
+    "name": "__hash__",
+    "ncalls": 744976,
+    "primcalls": 744976,
+    "tottime": 0.23727197200000003,
+    "cumtime": 0.237439914
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.isinstance>",
+    "ncalls": 767265,
+    "primcalls": 767265,
+    "tottime": 0.220138504,
+    "cumtime": 0.47091397500000004
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 140,
+    "name": "solve_mixed",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.20722709800000003,
+    "cumtime": 3.815841491
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 17,
+    "name": "mixed_cover",
+    "ncalls": 20000,
+    "primcalls": 20000,
+    "tottime": 0.196947954,
+    "cumtime": 0.32444301200000003
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method __new__ of type object at 0xa44b40>",
+    "ncalls": 910353,
+    "primcalls": 910353,
+    "tottime": 0.17532272200000001,
+    "cumtime": 0.17532272200000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 613,
+    "name": "forward",
+    "ncalls": 275600,
+    "primcalls": 275600,
+    "tottime": 0.153509,
+    "cumtime": 0.785048135
+   },
+   {
+    "file": "fractions.py",
+    "line": 910,
+    "name": "__eq__",
+    "ncalls": 167048,
+    "primcalls": 167048,
+    "tottime": 0.132217691,
+    "cumtime": 0.304963879
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method _abc._abc_instancecheck>",
+    "ncalls": 491663,
+    "primcalls": 491663,
+    "tottime": 0.127144584,
+    "cumtime": 0.127161845
+   },
+   {
+    "file": "<frozen abc>",
+    "line": 117,
+    "name": "__instancecheck__",
+    "ncalls": 491663,
+    "primcalls": 491663,
+    "tottime": 0.123613626,
+    "cumtime": 0.250775471
+   },
+   {
+    "file": "fractions.py",
+    "line": 849,
+    "name": "__neg__",
+    "ncalls": 241809,
+    "primcalls": 241809,
+    "tottime": 0.105742743,
+    "cumtime": 0.265353418
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 73,
+    "name": "strict_vertex",
+    "ncalls": 837,
+    "primcalls": 837,
+    "tottime": 0.099188258,
+    "cumtime": 2.907524066
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 34,
+    "name": "<genexpr>",
+    "ncalls": 275076,
+    "primcalls": 275076,
+    "tottime": 0.09211350500000001,
+    "cumtime": 0.7768891050000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method math.gcd>",
+    "ncalls": 557213,
+    "primcalls": 557213,
+    "tottime": 0.08819207300000001,
+    "cumtime": 0.08819207300000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 397,
+    "name": "numerator",
+    "ncalls": 450267,
+    "primcalls": 450267,
+    "tottime": 0.054612591,
+    "cumtime": 0.054612591
+   },
+   {
+    "file": "fractions.py",
+    "line": 401,
+    "name": "denominator",
+    "ncalls": 448593,
+    "primcalls": 448593,
+    "tottime": 0.052254353,
+    "cumtime": 0.052254353
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 88,
+    "name": "minimum_forest_cover",
+    "ncalls": 846,
+    "primcalls": 846,
+    "tottime": 0.048749565,
+    "cumtime": 0.077038174
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'update' of 'set' objects>",
+    "ncalls": 120226,
+    "primcalls": 120226,
+    "tottime": 0.035789512,
+    "cumtime": 0.040597239
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 28,
+    "name": "<genexpr>",
+    "ncalls": 30564,
+    "primcalls": 30564,
+    "tottime": 0.033372846000000005,
+    "cumtime": 0.062970685
+   },
+   {
+    "file": "fractions.py",
+    "line": 969,
+    "name": "__bool__",
+    "ncalls": 127323,
+    "primcalls": 127323,
+    "tottime": 0.029597839,
+    "cumtime": 0.029597839
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 91,
+    "name": "<genexpr>",
+    "ncalls": 97929,
+    "primcalls": 97929,
+    "tottime": 0.029542791000000002,
+    "cumtime": 0.12465567200000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 853,
+    "name": "__abs__",
+    "ncalls": 30564,
+    "primcalls": 30564,
+    "tottime": 0.022729228,
+    "cumtime": 0.051126222000000006
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.sorted>",
+    "ncalls": 25100,
+    "primcalls": 25100,
+    "tottime": 0.019988366,
+    "cumtime": 0.021952033000000003
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 210,
+    "name": "<genexpr>",
+    "ncalls": 63720,
+    "primcalls": 63720,
+    "tottime": 0.018638131000000002,
+    "cumtime": 0.07725308800000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.abs>",
+    "ncalls": 61170,
+    "primcalls": 30606,
+    "tottime": 0.016823044000000002,
+    "cumtime": 0.06326429800000001
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 30,
+    "name": "touch",
+    "ncalls": 20803,
+    "primcalls": 20803,
+    "tottime": 0.015186551000000001,
+    "cumtime": 0.029171534000000002
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 207,
+    "name": "<genexpr>",
+    "ncalls": 50112,
+    "primcalls": 50112,
+    "tottime": 0.014691389000000001,
+    "cumtime": 0.061403364
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.next>",
+    "ncalls": 35294,
+    "primcalls": 35294,
+    "tottime": 0.012873928000000001,
+    "cumtime": 0.077044469
+   },
+   {
+    "file": "fractions.py",
+    "line": 931,
+    "name": "_richcmp",
+    "ncalls": 8143,
+    "primcalls": 8143,
+    "tottime": 0.010284237,
+    "cumtime": 0.020710492
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 28,
+    "name": "check",
+    "ncalls": 24212,
+    "primcalls": 24212,
+    "tottime": 0.008159660000000001,
+    "cumtime": 0.012685680000000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.len>",
+    "ncalls": 54911,
+    "primcalls": 54911,
+    "tottime": 0.00797221,
+    "cumtime": 0.00797221
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 204,
+    "name": "<genexpr>",
+    "ncalls": 6696,
+    "primcalls": 6696,
+    "tottime": 0.005052502,
+    "cumtime": 0.015445702
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 34,
+    "name": "deficit_sets",
+    "ncalls": 802,
+    "primcalls": 802,
+    "tottime": 0.004808194,
+    "cumtime": 0.008832889
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'append' of 'list' objects>",
+    "ncalls": 20592,
+    "primcalls": 20592,
+    "tottime": 0.004642943,
+    "cumtime": 0.004642943
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method time.perf_counter>",
+    "ncalls": 24213,
+    "primcalls": 24213,
+    "tottime": 0.004526551,
+    "cumtime": 0.004526551
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'get' of 'dict' objects>",
+    "ncalls": 22701,
+    "primcalls": 22701,
+    "tottime": 0.004341664,
+    "cumtime": 0.004341664
+   },
+   {
+    "file": "fractions.py",
+    "line": 953,
+    "name": "__lt__",
+    "ncalls": 7941,
+    "primcalls": 7941,
+    "tottime": 0.004126367000000001,
+    "cumtime": 0.024373598
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.min>",
+    "ncalls": 8078,
+    "primcalls": 8078,
+    "tottime": 0.003412799,
+    "cumtime": 0.003412799
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'add' of 'set' objects>",
+    "ncalls": 15929,
+    "primcalls": 15929,
+    "tottime": 0.0029246510000000003,
+    "cumtime": 0.0029246510000000003
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 95,
+    "name": "<genexpr>",
+    "ncalls": 11444,
+    "primcalls": 11444,
+    "tottime": 0.002364234,
+    "cumtime": 0.002364234
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.any>",
+    "ncalls": 847,
+    "primcalls": 847,
+    "tottime": 0.002183482,
+    "cumtime": 0.004612007
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'extend' of 'list' objects>",
+    "ncalls": 8003,
+    "primcalls": 8003,
+    "tottime": 0.002060764,
+    "cumtime": 0.002278111
+   }
+  ],
+  "profile_total_tt": 3.8174517270000003,
+  "ok": true,
+  "harness_wall": 3.8877406953833997,
+  "exit_status": 0,
+  "index": 35
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 8,
+   "mode": "cprofile",
+   "tag": "cprofile_cap8",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": 20000,
+    "seconds": 900
+   },
+   "wall": 1100,
+   "mem_gb": 6
+  },
+  "elapsed": 5.33299216022715,
+  "status": "unknown",
+  "reason": "mass_faces_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 626,
+   "cover_feasible_faces": 1355,
+   "strict_faces": 0,
+   "growth_states": 626,
+   "vertex_bases": 0,
+   "mass_faces": 20001,
+   "local_lp_calls": 1355,
+   "interval_lp_calls": 0,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 1355,
+   "inconsistent_equality_rejections": 0
+  },
+  "profile": [
+   {
+    "file": "fractions.py",
+    "line": 186,
+    "name": "__new__",
+    "ncalls": 489459,
+    "primcalls": 489459,
+    "tottime": 0.5497222270000001,
+    "cumtime": 1.1241256430000002
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 23,
+    "name": "_parallel_reduce",
+    "ncalls": 1355,
+    "primcalls": 1355,
+    "tottime": 0.5382505900000001,
+    "cumtime": 3.371235918
+   },
+   {
+    "file": "fractions.py",
+    "line": 758,
+    "name": "_div",
+    "ncalls": 372187,
+    "primcalls": 372187,
+    "tottime": 0.423006357,
+    "cumtime": 0.8110537320000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 317,
+    "name": "_from_coprime_ints",
+    "ncalls": 748927,
+    "primcalls": 748927,
+    "tottime": 0.380076735,
+    "cumtime": 0.525281313
+   },
+   {
+    "file": "fractions.py",
+    "line": 906,
+    "name": "__hash__",
+    "ncalls": 1051113,
+    "primcalls": 1051113,
+    "tottime": 0.323436585,
+    "cumtime": 0.323652316
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.isinstance>",
+    "ncalls": 1089336,
+    "primcalls": 1089336,
+    "tottime": 0.315898726,
+    "cumtime": 0.6786727810000001
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 140,
+    "name": "solve_mixed",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.260187598,
+    "cumtime": 5.312296620000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method __new__ of type object at 0xa44b40>",
+    "ncalls": 1238386,
+    "primcalls": 1238386,
+    "tottime": 0.23969847300000002,
+    "cumtime": 0.23969847300000002
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 17,
+    "name": "mixed_cover",
+    "ncalls": 20000,
+    "primcalls": 20000,
+    "tottime": 0.223055405,
+    "cumtime": 0.417334955
+   },
+   {
+    "file": "fractions.py",
+    "line": 910,
+    "name": "__eq__",
+    "ncalls": 280442,
+    "primcalls": 280442,
+    "tottime": 0.22265209400000002,
+    "cumtime": 0.515630818
+   },
+   {
+    "file": "fractions.py",
+    "line": 613,
+    "name": "forward",
+    "ncalls": 372550,
+    "primcalls": 372550,
+    "tottime": 0.209965638,
+    "cumtime": 1.0720663830000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method _abc._abc_instancecheck>",
+    "ncalls": 716784,
+    "primcalls": 716784,
+    "tottime": 0.18260341500000002,
+    "cumtime": 0.18262034500000002
+   },
+   {
+    "file": "<frozen abc>",
+    "line": 117,
+    "name": "__instancecheck__",
+    "ncalls": 716784,
+    "primcalls": 716784,
+    "tottime": 0.18015371000000002,
+    "cumtime": 0.36277405500000004
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 73,
+    "name": "strict_vertex",
+    "ncalls": 1355,
+    "primcalls": 1355,
+    "tottime": 0.15955206500000002,
+    "cumtime": 4.155977815
+   },
+   {
+    "file": "fractions.py",
+    "line": 849,
+    "name": "__neg__",
+    "ncalls": 329697,
+    "primcalls": 329697,
+    "tottime": 0.14633785100000002,
+    "cumtime": 0.36596484300000004
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 34,
+    "name": "<genexpr>",
+    "ncalls": 372032,
+    "primcalls": 372032,
+    "tottime": 0.125476176,
+    "cumtime": 1.046287145
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method math.gcd>",
+    "ncalls": 753370,
+    "primcalls": 753370,
+    "tottime": 0.12078002600000001,
+    "cumtime": 0.12078002600000001
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 88,
+    "name": "minimum_forest_cover",
+    "ncalls": 1515,
+    "primcalls": 1515,
+    "tottime": 0.087751849,
+    "cumtime": 0.138430366
+   },
+   {
+    "file": "fractions.py",
+    "line": 397,
+    "name": "numerator",
+    "ncalls": 667632,
+    "primcalls": 667632,
+    "tottime": 0.08102617000000001,
+    "cumtime": 0.08102617000000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 401,
+    "name": "denominator",
+    "ncalls": 664922,
+    "primcalls": 664922,
+    "tottime": 0.078283637,
+    "cumtime": 0.078283637
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 28,
+    "name": "<genexpr>",
+    "ncalls": 46504,
+    "primcalls": 46504,
+    "tottime": 0.048052633000000004,
+    "cumtime": 0.089766472
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 91,
+    "name": "<genexpr>",
+    "ncalls": 144504,
+    "primcalls": 144504,
+    "tottime": 0.043843261,
+    "cumtime": 0.183726421
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'update' of 'set' objects>",
+    "ncalls": 136199,
+    "primcalls": 136199,
+    "tottime": 0.043401559,
+    "cumtime": 0.053832261000000006
+   },
+   {
+    "file": "fractions.py",
+    "line": 969,
+    "name": "__bool__",
+    "ncalls": 174274,
+    "primcalls": 174274,
+    "tottime": 0.041713839,
+    "cumtime": 0.041713839
+   },
+   {
+    "file": "fractions.py",
+    "line": 853,
+    "name": "__abs__",
+    "ncalls": 46504,
+    "primcalls": 46504,
+    "tottime": 0.034415221,
+    "cumtime": 0.078003846
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 210,
+    "name": "<genexpr>",
+    "ncalls": 88403,
+    "primcalls": 88403,
+    "tottime": 0.026218702,
+    "cumtime": 0.106570567
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.abs>",
+    "ncalls": 93056,
+    "primcalls": 46552,
+    "tottime": 0.025474442,
+    "cumtime": 0.09619712200000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.sorted>",
+    "ncalls": 27465,
+    "primcalls": 27465,
+    "tottime": 0.023818715,
+    "cumtime": 0.027363733
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.next>",
+    "ncalls": 55385,
+    "primcalls": 55385,
+    "tottime": 0.020198131,
+    "cumtime": 0.112200556
+   },
+   {
+    "file": "fractions.py",
+    "line": 931,
+    "name": "_richcmp",
+    "ncalls": 15158,
+    "primcalls": 15158,
+    "tottime": 0.018941644,
+    "cumtime": 0.038106115
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 207,
+    "name": "<genexpr>",
+    "ncalls": 63357,
+    "primcalls": 63357,
+    "tottime": 0.01882247,
+    "cumtime": 0.077213113
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 30,
+    "name": "touch",
+    "ncalls": 20627,
+    "primcalls": 20627,
+    "tottime": 0.015937506,
+    "cumtime": 0.030423122
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.len>",
+    "ncalls": 76179,
+    "primcalls": 76179,
+    "tottime": 0.011215315,
+    "cumtime": 0.011215315
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 28,
+    "name": "check",
+    "ncalls": 24771,
+    "primcalls": 24771,
+    "tottime": 0.009105411,
+    "cumtime": 0.013913243
+   },
+   {
+    "file": "fractions.py",
+    "line": 953,
+    "name": "__lt__",
+    "ncalls": 14956,
+    "primcalls": 14956,
+    "tottime": 0.0075771250000000005,
+    "cumtime": 0.045238443
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 204,
+    "name": "<genexpr>",
+    "ncalls": 9485,
+    "primcalls": 9485,
+    "tottime": 0.007336151000000001,
+    "cumtime": 0.02211557
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'append' of 'list' objects>",
+    "ncalls": 31516,
+    "primcalls": 31516,
+    "tottime": 0.007233341000000001,
+    "cumtime": 0.007233341000000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.min>",
+    "ncalls": 13622,
+    "primcalls": 13622,
+    "tottime": 0.005543582,
+    "cumtime": 0.005543582
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'add' of 'set' objects>",
+    "ncalls": 28924,
+    "primcalls": 28924,
+    "tottime": 0.005225907,
+    "cumtime": 0.005225907
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method time.perf_counter>",
+    "ncalls": 24772,
+    "primcalls": 24772,
+    "tottime": 0.0048083430000000005,
+    "cumtime": 0.0048083430000000005
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'get' of 'dict' objects>",
+    "ncalls": 23561,
+    "primcalls": 23561,
+    "tottime": 0.004650733000000001,
+    "cumtime": 0.004650733000000001
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 95,
+    "name": "<genexpr>",
+    "ncalls": 21174,
+    "primcalls": 21174,
+    "tottime": 0.004168888,
+    "cumtime": 0.004168888
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.any>",
+    "ncalls": 1516,
+    "primcalls": 1516,
+    "tottime": 0.003962709,
+    "cumtime": 0.00821469
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 34,
+    "name": "deficit_sets",
+    "ncalls": 626,
+    "primcalls": 626,
+    "tottime": 0.003954221,
+    "cumtime": 0.007241934
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.max>",
+    "ncalls": 10931,
+    "primcalls": 10931,
+    "tottime": 0.003581402,
+    "cumtime": 0.003649312
+   }
+  ],
+  "profile_total_tt": 5.3139048980000005,
+  "ok": true,
+  "harness_wall": 5.385922122746706,
+  "exit_status": 0,
+  "index": 36
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s4_exp_exact.json",
+   "name": "k10k_tree_16_k5_s4_exp_exact",
+   "cap": 5,
+   "mode": "cprofile",
+   "tag": "cprofile_full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 900
+   },
+   "wall": 1100,
+   "mem_gb": 6
+  },
+  "elapsed": 0.08018126618117094,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 72,
+   "cover_feasible_faces": 23,
+   "strict_faces": 1,
+   "growth_states": 72,
+   "vertex_bases": 0,
+   "mass_faces": 256,
+   "local_lp_calls": 23,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 3,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 15,
+   "inconsistent_equality_rejections": 7
+  },
+  "profile": [
+   {
+    "file": "fractions.py",
+    "line": 186,
+    "name": "__new__",
+    "ncalls": 4116,
+    "primcalls": 4116,
+    "tottime": 0.004699404,
+    "cumtime": 0.009105282000000001
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 23,
+    "name": "_parallel_reduce",
+    "ncalls": 24,
+    "primcalls": 24,
+    "tottime": 0.0041079670000000006,
+    "cumtime": 0.022395191000000002
+   },
+   {
+    "file": "fractions.py",
+    "line": 317,
+    "name": "_from_coprime_ints",
+    "ncalls": 7707,
+    "primcalls": 7707,
+    "tottime": 0.004039292,
+    "cumtime": 0.005626318
+   },
+   {
+    "file": "fractions.py",
+    "line": 758,
+    "name": "_div",
+    "ncalls": 2557,
+    "primcalls": 2557,
+    "tottime": 0.0033917780000000002,
+    "cumtime": 0.006175787
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.isinstance>",
+    "ncalls": 10959,
+    "primcalls": 10959,
+    "tottime": 0.003107837,
+    "cumtime": 0.006387175
+   },
+   {
+    "file": "fractions.py",
+    "line": 613,
+    "name": "forward",
+    "ncalls": 4949,
+    "primcalls": 4949,
+    "tottime": 0.0030935290000000002,
+    "cumtime": 0.015805372
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 140,
+    "name": "solve_mixed",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.00264932,
+    "cumtime": 0.052610133
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method __new__ of type object at 0xa44b40>",
+    "ncalls": 11823,
+    "primcalls": 11823,
+    "tottime": 0.00242922,
+    "cumtime": 0.00242922
+   },
+   {
+    "file": "fractions.py",
+    "line": 906,
+    "name": "__hash__",
+    "ncalls": 6857,
+    "primcalls": 6857,
+    "tottime": 0.002138736,
+    "cumtime": 0.0022635710000000002
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 88,
+    "name": "minimum_forest_cover",
+    "ncalls": 52,
+    "primcalls": 52,
+    "tottime": 0.002100377,
+    "cumtime": 0.003437218
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method math.gcd>",
+    "ncalls": 9905,
+    "primcalls": 9905,
+    "tottime": 0.002000379,
+    "cumtime": 0.002000379
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 73,
+    "name": "strict_vertex",
+    "ncalls": 23,
+    "primcalls": 23,
+    "tottime": 0.001732019,
+    "cumtime": 0.034069328
+   },
+   {
+    "file": "fractions.py",
+    "line": 910,
+    "name": "__eq__",
+    "ncalls": 2040,
+    "primcalls": 2040,
+    "tottime": 0.0017283550000000002,
+    "cumtime": 0.003927179
+   },
+   {
+    "file": "<frozen abc>",
+    "line": 117,
+    "name": "__instancecheck__",
+    "ncalls": 6008,
+    "primcalls": 6008,
+    "tottime": 0.001666556,
+    "cumtime": 0.003279338
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method _abc._abc_instancecheck>",
+    "ncalls": 6008,
+    "primcalls": 6008,
+    "tottime": 0.001595651,
+    "cumtime": 0.001612782
+   },
+   {
+    "file": "fractions.py",
+    "line": 710,
+    "name": "_add",
+    "ncalls": 1351,
+    "primcalls": 1351,
+    "tottime": 0.001590183,
+    "cumtime": 0.0030824760000000002
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 17,
+    "name": "mixed_cover",
+    "ncalls": 256,
+    "primcalls": 256,
+    "tottime": 0.0014593120000000002,
+    "cumtime": 0.0053579560000000005
+   },
+   {
+    "file": "fractions.py",
+    "line": 849,
+    "name": "__neg__",
+    "ncalls": 1994,
+    "primcalls": 1994,
+    "tottime": 0.0010140000000000001,
+    "cumtime": 0.002462978
+   },
+   {
+    "file": "fractions.py",
+    "line": 742,
+    "name": "_mul",
+    "ncalls": 763,
+    "primcalls": 763,
+    "tottime": 0.000910441,
+    "cumtime": 0.0017312170000000002
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 34,
+    "name": "<genexpr>",
+    "ncalls": 2250,
+    "primcalls": 2250,
+    "tottime": 0.0007862650000000001,
+    "cumtime": 0.0063221630000000004
+   },
+   {
+    "file": "fractions.py",
+    "line": 726,
+    "name": "_sub",
+    "ncalls": 586,
+    "primcalls": 586,
+    "tottime": 0.000770195,
+    "cumtime": 0.001469536
+   },
+   {
+    "file": "fractions.py",
+    "line": 931,
+    "name": "_richcmp",
+    "ncalls": 696,
+    "primcalls": 696,
+    "tottime": 0.0007489100000000001,
+    "cumtime": 0.001682916
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 34,
+    "name": "deficit_sets",
+    "ncalls": 73,
+    "primcalls": 73,
+    "tottime": 0.000699101,
+    "cumtime": 0.0012761720000000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 397,
+    "name": "numerator",
+    "ncalls": 5162,
+    "primcalls": 5162,
+    "tottime": 0.0006634000000000001,
+    "cumtime": 0.0006634000000000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 401,
+    "name": "denominator",
+    "ncalls": 5116,
+    "primcalls": 5116,
+    "tottime": 0.0006511910000000001,
+    "cumtime": 0.0006511910000000001
+   },
+   {
+    "file": "stage26_missing_leaf.py",
+    "line": 54,
+    "name": "observed_backbone",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.00060348,
+    "cumtime": 0.001717509
+   },
+   {
+    "file": "stage23_two_source_envelope.py",
+    "line": 48,
+    "name": "two_pass_envelope",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.000536508,
+    "cumtime": 0.0017561590000000002
+   },
+   {
+    "file": "stage26_missing_leaf.py",
+    "line": 32,
+    "name": "distances",
+    "ncalls": 10,
+    "primcalls": 10,
+    "tottime": 0.000527676,
+    "cumtime": 0.002036459
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.sorted>",
+    "ncalls": 579,
+    "primcalls": 579,
+    "tottime": 0.000468304,
+    "cumtime": 0.000593402
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 40,
+    "name": "_affine_equalities",
+    "ncalls": 8,
+    "primcalls": 8,
+    "tottime": 0.00044362300000000003,
+    "cumtime": 0.0023749300000000004
+   },
+   {
+    "file": "stage26_missing_leaf.py",
+    "line": 40,
+    "name": "observe",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.00040075800000000003,
+    "cumtime": 0.00640458
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'update' of 'set' objects>",
+    "ncalls": 1001,
+    "primcalls": 1001,
+    "tottime": 0.000398685,
+    "cumtime": 0.000503886
+   },
+   {
+    "file": "fractions.py",
+    "line": 627,
+    "name": "reverse",
+    "ncalls": 308,
+    "primcalls": 308,
+    "tottime": 0.00038081300000000003,
+    "cumtime": 0.001614512
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 91,
+    "name": "<genexpr>",
+    "ncalls": 1135,
+    "primcalls": 1135,
+    "tottime": 0.00037570100000000004,
+    "cumtime": 0.0014673770000000002
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.len>",
+    "ncalls": 2539,
+    "primcalls": 2539,
+    "tottime": 0.000360853,
+    "cumtime": 0.000360853
+   },
+   {
+    "file": "fractions.py",
+    "line": 853,
+    "name": "__abs__",
+    "ncalls": 456,
+    "primcalls": 456,
+    "tottime": 0.000344834,
+    "cumtime": 0.000783549
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.sum>",
+    "ncalls": 138,
+    "primcalls": 138,
+    "tottime": 0.000329983,
+    "cumtime": 0.003559305
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 28,
+    "name": "<genexpr>",
+    "ncalls": 456,
+    "primcalls": 456,
+    "tottime": 0.00031152100000000004,
+    "cumtime": 0.000562746
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'append' of 'list' objects>",
+    "ncalls": 1561,
+    "primcalls": 1561,
+    "tottime": 0.00030940700000000004,
+    "cumtime": 0.00030940700000000004
+   },
+   {
+    "file": "fractions.py",
+    "line": 969,
+    "name": "__bool__",
+    "ncalls": 1124,
+    "primcalls": 1124,
+    "tottime": 0.000305752,
+    "cumtime": 0.000305752
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.min>",
+    "ncalls": 677,
+    "primcalls": 677,
+    "tottime": 0.000297056,
+    "cumtime": 0.000724522
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.next>",
+    "ncalls": 754,
+    "primcalls": 754,
+    "tottime": 0.000292527,
+    "cumtime": 0.000967065
+   },
+   {
+    "file": "stage26_missing_leaf.py",
+    "line": 17,
+    "name": "geometry",
+    "ncalls": 2,
+    "primcalls": 2,
+    "tottime": 0.00027726300000000003,
+    "cumtime": 0.0008351690000000001
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 30,
+    "name": "touch",
+    "ncalls": 328,
+    "primcalls": 328,
+    "tottime": 0.00027224000000000004,
+    "cumtime": 0.000523797
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.abs>",
+    "ncalls": 941,
+    "primcalls": 485,
+    "tottime": 0.0002675,
+    "cumtime": 0.000980083
+   }
+  ],
+  "profile_total_tt": 0.06121317299999998,
+  "ok": true,
+  "harness_wall": 0.1318844980560243,
+  "exit_status": 0,
+  "index": 37
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 7,
+   "mode": "cprofile",
+   "tag": "cprofile_full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 900
+   },
+   "wall": 1100,
+   "mem_gb": 6
+  },
+  "elapsed": 4.312615961302072,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 1266,
+   "cover_feasible_faces": 819,
+   "strict_faces": 1,
+   "growth_states": 1266,
+   "vertex_bases": 0,
+   "mass_faces": 114688,
+   "local_lp_calls": 819,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 5,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 802,
+   "inconsistent_equality_rejections": 16
+  },
+  "profile": [
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 17,
+    "name": "mixed_cover",
+    "ncalls": 114688,
+    "primcalls": 114688,
+    "tottime": 0.8700660240000001,
+    "cumtime": 1.359774768
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 140,
+    "name": "solve_mixed",
+    "ncalls": 1,
+    "primcalls": 1,
+    "tottime": 0.468437005,
+    "cumtime": 4.283461383000001
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 23,
+    "name": "_parallel_reduce",
+    "ncalls": 820,
+    "primcalls": 820,
+    "tottime": 0.287690273,
+    "cumtime": 1.7812720080000002
+   },
+   {
+    "file": "fractions.py",
+    "line": 186,
+    "name": "__new__",
+    "ncalls": 250285,
+    "primcalls": 250285,
+    "tottime": 0.284500931,
+    "cumtime": 0.579622862
+   },
+   {
+    "file": "fractions.py",
+    "line": 758,
+    "name": "_div",
+    "ncalls": 190307,
+    "primcalls": 190307,
+    "tottime": 0.22644285900000002,
+    "cumtime": 0.43072998900000004
+   },
+   {
+    "file": "fractions.py",
+    "line": 317,
+    "name": "_from_coprime_ints",
+    "ncalls": 365368,
+    "primcalls": 365368,
+    "tottime": 0.18853613700000002,
+    "cumtime": 0.260144034
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 88,
+    "name": "minimum_forest_cover",
+    "ncalls": 3210,
+    "primcalls": 3210,
+    "tottime": 0.16752355100000002,
+    "cumtime": 0.268661077
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.isinstance>",
+    "ncalls": 532943,
+    "primcalls": 532943,
+    "tottime": 0.15627659800000002,
+    "cumtime": 0.33214967900000003
+   },
+   {
+    "file": "fractions.py",
+    "line": 906,
+    "name": "__hash__",
+    "ncalls": 461909,
+    "primcalls": 461909,
+    "tottime": 0.143840563,
+    "cumtime": 0.14417306000000002
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'update' of 'set' objects>",
+    "ncalls": 515787,
+    "primcalls": 515787,
+    "tottime": 0.140421646,
+    "cumtime": 0.14105377100000002
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method __new__ of type object at 0xa44b40>",
+    "ncalls": 615653,
+    "primcalls": 615653,
+    "tottime": 0.11996392500000001,
+    "cumtime": 0.11996392500000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 613,
+    "name": "forward",
+    "ncalls": 194799,
+    "primcalls": 194799,
+    "tottime": 0.111013526,
+    "cumtime": 0.578790084
+   },
+   {
+    "file": "fractions.py",
+    "line": 910,
+    "name": "__eq__",
+    "ncalls": 118429,
+    "primcalls": 118429,
+    "tottime": 0.096509379,
+    "cumtime": 0.223190471
+   },
+   {
+    "file": "<frozen abc>",
+    "line": 117,
+    "name": "__instancecheck__",
+    "ncalls": 338142,
+    "primcalls": 338142,
+    "tottime": 0.08936155200000001,
+    "cumtime": 0.17587308100000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method _abc._abc_instancecheck>",
+    "ncalls": 338142,
+    "primcalls": 338142,
+    "tottime": 0.086494058,
+    "cumtime": 0.086511529
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.sorted>",
+    "ncalls": 101589,
+    "primcalls": 101589,
+    "tottime": 0.080359053,
+    "cumtime": 0.087542144
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 30,
+    "name": "touch",
+    "ncalls": 115954,
+    "primcalls": 115954,
+    "tottime": 0.07563726300000001,
+    "cumtime": 0.150191857
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method math.gcd>",
+    "ncalls": 393064,
+    "primcalls": 393064,
+    "tottime": 0.06832956300000001,
+    "cumtime": 0.06832956300000001
+   },
+   {
+    "file": "fractions.py",
+    "line": 849,
+    "name": "__neg__",
+    "ncalls": 143038,
+    "primcalls": 143038,
+    "tottime": 0.065143951,
+    "cumtime": 0.16206155800000002
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 34,
+    "name": "<genexpr>",
+    "ncalls": 189459,
+    "primcalls": 189459,
+    "tottime": 0.064461183,
+    "cumtime": 0.5360984080000001
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 73,
+    "name": "strict_vertex",
+    "ncalls": 819,
+    "primcalls": 819,
+    "tottime": 0.057465863000000006,
+    "cumtime": 2.0630221090000003
+   },
+   {
+    "file": "fractions.py",
+    "line": 397,
+    "name": "numerator",
+    "ncalls": 316884,
+    "primcalls": 316884,
+    "tottime": 0.039355113000000004,
+    "cumtime": 0.039355113000000004
+   },
+   {
+    "file": "fractions.py",
+    "line": 401,
+    "name": "denominator",
+    "ncalls": 315246,
+    "primcalls": 315246,
+    "tottime": 0.037848241000000005,
+    "cumtime": 0.037848241000000005
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 28,
+    "name": "check",
+    "ncalls": 121795,
+    "primcalls": 121795,
+    "tottime": 0.037113513,
+    "cumtime": 0.058210288000000006
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.len>",
+    "ncalls": 198222,
+    "primcalls": 198222,
+    "tottime": 0.026240512,
+    "cumtime": 0.026240512
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 28,
+    "name": "<genexpr>",
+    "ncalls": 27077,
+    "primcalls": 27077,
+    "tottime": 0.02297826,
+    "cumtime": 0.043119761
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method time.perf_counter>",
+    "ncalls": 121796,
+    "primcalls": 121796,
+    "tottime": 0.021097325,
+    "cumtime": 0.021097325
+   },
+   {
+    "file": "fractions.py",
+    "line": 969,
+    "name": "__bool__",
+    "ncalls": 80741,
+    "primcalls": 80741,
+    "tottime": 0.020385601,
+    "cumtime": 0.020385601
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'get' of 'dict' objects>",
+    "ncalls": 117852,
+    "primcalls": 117852,
+    "tottime": 0.020257626,
+    "cumtime": 0.020257626
+   },
+   {
+    "file": "fractions.py",
+    "line": 853,
+    "name": "__abs__",
+    "ncalls": 27077,
+    "primcalls": 27077,
+    "tottime": 0.01993967,
+    "cumtime": 0.045343216000000006
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 91,
+    "name": "<genexpr>",
+    "ncalls": 54782,
+    "primcalls": 54782,
+    "tottime": 0.017108847,
+    "cumtime": 0.070004986
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.next>",
+    "ncalls": 45652,
+    "primcalls": 45652,
+    "tottime": 0.016115468,
+    "cumtime": 0.063554209
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.abs>",
+    "ncalls": 54215,
+    "primcalls": 27138,
+    "tottime": 0.014906208,
+    "cumtime": 0.055912155000000005
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 210,
+    "name": "<genexpr>",
+    "ncalls": 47112,
+    "primcalls": 47112,
+    "tottime": 0.014305184,
+    "cumtime": 0.057052343000000005
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.min>",
+    "ncalls": 30069,
+    "primcalls": 30069,
+    "tottime": 0.01161499,
+    "cumtime": 0.012112687
+   },
+   {
+    "file": "stage41_partial_fpt.py",
+    "line": 34,
+    "name": "deficit_sets",
+    "ncalls": 1267,
+    "primcalls": 1267,
+    "tottime": 0.010787995,
+    "cumtime": 0.01948563
+   },
+   {
+    "file": "fractions.py",
+    "line": 931,
+    "name": "_richcmp",
+    "ncalls": 8186,
+    "primcalls": 8186,
+    "tottime": 0.010499539,
+    "cumtime": 0.021295278
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'add' of 'set' objects>",
+    "ncalls": 57820,
+    "primcalls": 57820,
+    "tottime": 0.010045785,
+    "cumtime": 0.010045785
+   },
+   {
+    "file": "stage43_partial_fpt.py",
+    "line": 207,
+    "name": "<genexpr>",
+    "ncalls": 28830,
+    "primcalls": 28830,
+    "tottime": 0.008654108,
+    "cumtime": 0.034975421
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 95,
+    "name": "<genexpr>",
+    "ncalls": 44352,
+    "primcalls": 44352,
+    "tottime": 0.008411947000000001,
+    "cumtime": 0.008411947000000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.any>",
+    "ncalls": 3329,
+    "primcalls": 3228,
+    "tottime": 0.007874964,
+    "cumtime": 0.016498580000000002
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<built-in method builtins.max>",
+    "ncalls": 22848,
+    "primcalls": 22848,
+    "tottime": 0.007601600000000001,
+    "cumtime": 0.007692185000000001
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'append' of 'list' objects>",
+    "ncalls": 33404,
+    "primcalls": 33404,
+    "tottime": 0.007397422000000001,
+    "cumtime": 0.007397422000000001
+   },
+   {
+    "file": "stage27_general_fpt.py",
+    "line": 96,
+    "name": "<genexpr>",
+    "ncalls": 33480,
+    "primcalls": 33480,
+    "tottime": 0.007172411,
+    "cumtime": 0.007172411
+   },
+   {
+    "file": "~",
+    "line": 0,
+    "name": "<method 'remove' of 'set' objects>",
+    "ncalls": 36854,
+    "primcalls": 36854,
+    "tottime": 0.007063284,
+    "cumtime": 0.007063284
+   }
+  ],
+  "profile_total_tt": 4.293563448,
+  "ok": true,
+  "harness_wall": 4.355936334934086,
+  "exit_status": 0,
+  "index": 38
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s6_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.004386321175843477,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.05427312897518277,
+  "exit_status": 0,
+  "index": 39
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s3_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s3_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.004499143920838833,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04339894698932767,
+  "exit_status": 0,
+  "index": 40
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s8_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s8_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.004438671283423901,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.043513000942766666,
+  "exit_status": 0,
+  "index": 41
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s2_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s2_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.004475712776184082,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.043775219935923815,
+  "exit_status": 0,
+  "index": 42
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s1_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s1_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.004436712246388197,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04493886884301901,
+  "exit_status": 0,
+  "index": 43
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s10_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s10_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.004437421914190054,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04331992380321026,
+  "exit_status": 0,
+  "index": 44
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s5_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s5_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.0044582923874258995,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04380730073899031,
+  "exit_status": 0,
+  "index": 45
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s4_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s4_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.00440813135355711,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04461116762831807,
+  "exit_status": 0,
+  "index": 46
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s7_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s7_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.004457192961126566,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04314090730622411,
+  "exit_status": 0,
+  "index": 47
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k2_s9_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k2_s9_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.0045058042742311954,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04394549643620849,
+  "exit_status": 0,
+  "index": 48
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k2_s6_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s6_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005336303263902664,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04628327488899231,
+  "exit_status": 0,
+  "index": 49
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k2_s2_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k2_s2_noise0_exact",
+   "cap": 2,
+   "mode": "solve",
+   "tag": "full_K2",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005356815177947283,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 2,
+  "statistics": {
+   "deficit_sets": 1,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 1,
+   "vertex_bases": 0,
+   "mass_faces": 1,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.044206105172634125,
+  "exit_status": 0,
+  "index": 50
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s1_exp_exact.json",
+   "name": "k10k_tree_16_k3_s1_exp_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.0055133989080786705,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 5,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 5,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.053146660793572664,
+  "exit_status": 0,
+  "index": 51
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s5_exp_exact.json",
+   "name": "k10k_tree_16_k3_s5_exp_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005994795821607113,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 4,
+   "cover_feasible_faces": 3,
+   "strict_faces": 1,
+   "growth_states": 4,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 3,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04585614055395126,
+  "exit_status": 0,
+  "index": 52
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s1_uniform_exact.json",
+   "name": "k10k_tree_16_k3_s1_uniform_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.0054602366872131824,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 5,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 5,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04468548111617565,
+  "exit_status": 0,
+  "index": 53
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s3_exp_exact.json",
+   "name": "k10k_tree_16_k3_s3_exp_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005817388650029898,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 4,
+   "cover_feasible_faces": 2,
+   "strict_faces": 1,
+   "growth_states": 4,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 2,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 1,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.050953565165400505,
+  "exit_status": 0,
+  "index": 54
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s4_exp_exact.json",
+   "name": "k10k_tree_16_k3_s4_exp_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005962593946605921,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 4,
+   "cover_feasible_faces": 3,
+   "strict_faces": 1,
+   "growth_states": 4,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 3,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.05425097793340683,
+  "exit_status": 0,
+  "index": 55
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s3_uniform_exact.json",
+   "name": "k10k_tree_16_k3_s3_uniform_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005840820726007223,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 4,
+   "cover_feasible_faces": 2,
+   "strict_faces": 1,
+   "growth_states": 4,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 2,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 1,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04550159815698862,
+  "exit_status": 0,
+  "index": 56
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s5_uniform_exact.json",
+   "name": "k10k_tree_16_k3_s5_uniform_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.006027276162058115,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 4,
+   "cover_feasible_faces": 3,
+   "strict_faces": 1,
+   "growth_states": 4,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 3,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04507521400228143,
+  "exit_status": 0,
+  "index": 57
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s4_uniform_exact.json",
+   "name": "k10k_tree_16_k3_s4_uniform_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005966625176370144,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 4,
+   "cover_feasible_faces": 3,
+   "strict_faces": 1,
+   "growth_states": 4,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 3,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.05063112499192357,
+  "exit_status": 0,
+  "index": 58
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s2_uniform_exact.json",
+   "name": "k10k_tree_16_k3_s2_uniform_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005384385120123625,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 5,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 5,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.05232624290511012,
+  "exit_status": 0,
+  "index": 59
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k3_s2_exp_exact.json",
+   "name": "k10k_tree_16_k3_s2_exp_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005409775301814079,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 5,
+   "cover_feasible_faces": 1,
+   "strict_faces": 1,
+   "growth_states": 5,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 1,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 0,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.04509004391729832,
+  "exit_status": 0,
+  "index": 60
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k3_s8_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k3_s8_noise0_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.005998316220939159,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 3,
+   "cover_feasible_faces": 3,
+   "strict_faces": 1,
+   "growth_states": 3,
+   "vertex_bases": 0,
+   "mass_faces": 16,
+   "local_lp_calls": 3,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.05039604660123587,
+  "exit_status": 0,
+  "index": 61
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k3_s3_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k3_s3_noise0_exact",
+   "cap": 3,
+   "mode": "solve",
+   "tag": "full_K3",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.006779411807656288,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 3,
+  "statistics": {
+   "deficit_sets": 5,
+   "cover_feasible_faces": 5,
+   "strict_faces": 1,
+   "growth_states": 5,
+   "vertex_bases": 0,
+   "mass_faces": 65,
+   "local_lp_calls": 5,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 0,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 4,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.0455235899426043,
+  "exit_status": 0,
+  "index": 62
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s4_exp_exact.json",
+   "name": "k10k_tree_16_k5_s4_exp_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.021757395938038826,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 72,
+   "cover_feasible_faces": 23,
+   "strict_faces": 1,
+   "growth_states": 72,
+   "vertex_bases": 0,
+   "mass_faces": 256,
+   "local_lp_calls": 23,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 3,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 15,
+   "inconsistent_equality_rejections": 7
+  },
+  "ok": true,
+  "harness_wall": 0.06054967315867543,
+  "exit_status": 0,
+  "index": 63
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s1_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s1_uniform_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.09471217496320605,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 62,
+   "cover_feasible_faces": 102,
+   "strict_faces": 1,
+   "growth_states": 62,
+   "vertex_bases": 0,
+   "mass_faces": 3136,
+   "local_lp_calls": 102,
+   "interval_lp_calls": 16,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 47,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 49,
+   "inconsistent_equality_rejections": 37
+  },
+  "ok": true,
+  "harness_wall": 0.1347990371286869,
+  "exit_status": 0,
+  "index": 64
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s1_exp_exact.json",
+   "name": "k10k_tree_16_k5_s1_exp_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.0786516540683806,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 75,
+   "cover_feasible_faces": 72,
+   "strict_faces": 1,
+   "growth_states": 75,
+   "vertex_bases": 0,
+   "mass_faces": 3136,
+   "local_lp_calls": 72,
+   "interval_lp_calls": 11,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 32,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 34,
+   "inconsistent_equality_rejections": 27
+  },
+  "ok": true,
+  "harness_wall": 0.11981698404997587,
+  "exit_status": 0,
+  "index": 65
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s4_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s4_uniform_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.02204747498035431,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 72,
+   "cover_feasible_faces": 23,
+   "strict_faces": 1,
+   "growth_states": 72,
+   "vertex_bases": 0,
+   "mass_faces": 256,
+   "local_lp_calls": 23,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 3,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 15,
+   "inconsistent_equality_rejections": 7
+  },
+  "ok": true,
+  "harness_wall": 0.06280413130298257,
+  "exit_status": 0,
+  "index": 66
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s3_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s3_uniform_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.051141011994332075,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 143,
+   "cover_feasible_faces": 24,
+   "strict_faces": 1,
+   "growth_states": 143,
+   "vertex_bases": 0,
+   "mass_faces": 5632,
+   "local_lp_calls": 24,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 3,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 23,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.09757387125864625,
+  "exit_status": 0,
+  "index": 67
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s5_exp_exact.json",
+   "name": "k10k_tree_16_k5_s5_exp_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.6150938286446035,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 104,
+   "cover_feasible_faces": 772,
+   "strict_faces": 1,
+   "growth_states": 104,
+   "vertex_bases": 0,
+   "mass_faces": 19776,
+   "local_lp_calls": 772,
+   "interval_lp_calls": 24,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 69,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 657,
+   "inconsistent_equality_rejections": 91
+  },
+  "ok": true,
+  "harness_wall": 0.6550424280576408,
+  "exit_status": 0,
+  "index": 68
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s3_exp_exact.json",
+   "name": "k10k_tree_16_k5_s3_exp_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.0512530948035419,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 143,
+   "cover_feasible_faces": 24,
+   "strict_faces": 1,
+   "growth_states": 143,
+   "vertex_bases": 0,
+   "mass_faces": 5632,
+   "local_lp_calls": 24,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 3,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 23,
+   "inconsistent_equality_rejections": 0
+  },
+  "ok": true,
+  "harness_wall": 0.09027550090104342,
+  "exit_status": 0,
+  "index": 69
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s5_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s5_uniform_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.6178227118216455,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 104,
+   "cover_feasible_faces": 772,
+   "strict_faces": 1,
+   "growth_states": 104,
+   "vertex_bases": 0,
+   "mass_faces": 19776,
+   "local_lp_calls": 772,
+   "interval_lp_calls": 24,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 69,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 657,
+   "inconsistent_equality_rejections": 91
+  },
+  "ok": true,
+  "harness_wall": 0.6572538525797427,
+  "exit_status": 0,
+  "index": 70
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s2_uniform_exact.json",
+   "name": "k10k_tree_16_k5_s2_uniform_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.2845130148343742,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 104,
+   "cover_feasible_faces": 303,
+   "strict_faces": 1,
+   "growth_states": 104,
+   "vertex_bases": 0,
+   "mass_faces": 15616,
+   "local_lp_calls": 303,
+   "interval_lp_calls": 7,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 20,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 290,
+   "inconsistent_equality_rejections": 6
+  },
+  "ok": true,
+  "harness_wall": 0.32385734282433987,
+  "exit_status": 0,
+  "index": 71
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k5_s2_exp_exact.json",
+   "name": "k10k_tree_16_k5_s2_exp_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.27987126586958766,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 104,
+   "cover_feasible_faces": 303,
+   "strict_faces": 1,
+   "growth_states": 104,
+   "vertex_bases": 0,
+   "mass_faces": 15616,
+   "local_lp_calls": 303,
+   "interval_lp_calls": 7,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 20,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 290,
+   "inconsistent_equality_rejections": 6
+  },
+  "ok": true,
+  "harness_wall": 0.3198947166092694,
+  "exit_status": 0,
+  "index": 72
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k5_s8_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k5_s8_noise0_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.2154107689857483,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 58,
+   "cover_feasible_faces": 301,
+   "strict_faces": 1,
+   "growth_states": 58,
+   "vertex_bases": 0,
+   "mass_faces": 4992,
+   "local_lp_calls": 301,
+   "interval_lp_calls": 25,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 74,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 212,
+   "inconsistent_equality_rejections": 64
+  },
+  "ok": true,
+  "harness_wall": 0.2549403519369662,
+  "exit_status": 0,
+  "index": 73
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k5_s3_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k5_s3_noise0_exact",
+   "cap": 5,
+   "mode": "solve",
+   "tag": "full_K5",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 0.15661598416045308,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 5,
+  "statistics": {
+   "deficit_sets": 77,
+   "cover_feasible_faces": 132,
+   "strict_faces": 1,
+   "growth_states": 77,
+   "vertex_bases": 0,
+   "mass_faces": 10496,
+   "local_lp_calls": 132,
+   "interval_lp_calls": 14,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 41,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 99,
+   "inconsistent_equality_rejections": 19
+  },
+  "ok": true,
+  "harness_wall": 0.19591112062335014,
+  "exit_status": 0,
+  "index": 74
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s6_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 1.9501007380895317,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 1266,
+   "cover_feasible_faces": 819,
+   "strict_faces": 1,
+   "growth_states": 1266,
+   "vertex_bases": 0,
+   "mass_faces": 114688,
+   "local_lp_calls": 819,
+   "interval_lp_calls": 1,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 5,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 802,
+   "inconsistent_equality_rejections": 16
+  },
+  "ok": true,
+  "harness_wall": 1.9898101780563593,
+  "exit_status": 0,
+  "index": 75
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s1_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s1_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 53.81198443006724,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 1527,
+   "cover_feasible_faces": 17918,
+   "strict_faces": 1,
+   "growth_states": 1527,
+   "vertex_bases": 240,
+   "mass_faces": 3512832,
+   "local_lp_calls": 17918,
+   "interval_lp_calls": 94,
+   "enumerated_lp_calls": 9,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 493,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 17108,
+   "inconsistent_equality_rejections": 707
+  },
+  "ok": true,
+  "harness_wall": 53.851837306283414,
+  "exit_status": 0,
+  "index": 76
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s4_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s4_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 35.79256637999788,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 949,
+   "cover_feasible_faces": 19214,
+   "strict_faces": 1,
+   "growth_states": 949,
+   "vertex_bases": 1856,
+   "mass_faces": 1868800,
+   "local_lp_calls": 19214,
+   "interval_lp_calls": 219,
+   "enumerated_lp_calls": 51,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1278,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 16247,
+   "inconsistent_equality_rejections": 2697
+  },
+  "ok": true,
+  "harness_wall": 35.83309418801218,
+  "exit_status": 0,
+  "index": 77
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s5_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s5_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 23.94393545994535,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 564,
+   "cover_feasible_faces": 11449,
+   "strict_faces": 1,
+   "growth_states": 564,
+   "vertex_bases": 114,
+   "mass_faces": 1232896,
+   "local_lp_calls": 11449,
+   "interval_lp_calls": 92,
+   "enumerated_lp_calls": 3,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 463,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 10309,
+   "inconsistent_equality_rejections": 1045
+  },
+  "ok": true,
+  "harness_wall": 23.983543366659433,
+  "exit_status": 0,
+  "index": 78
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s7_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s7_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 53.86056617833674,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 1436,
+   "cover_feasible_faces": 30829,
+   "strict_faces": 1,
+   "growth_states": 1436,
+   "vertex_bases": 3048,
+   "mass_faces": 2050048,
+   "local_lp_calls": 30829,
+   "interval_lp_calls": 153,
+   "enumerated_lp_calls": 67,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 1024,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 29886,
+   "inconsistent_equality_rejections": 723
+  },
+  "ok": true,
+  "harness_wall": 53.90047204401344,
+  "exit_status": 0,
+  "index": 79
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s3_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s3_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 3.11046525510028,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 464,
+   "cover_feasible_faces": 1238,
+   "strict_faces": 1,
+   "growth_states": 464,
+   "vertex_bases": 0,
+   "mass_faces": 184320,
+   "local_lp_calls": 1238,
+   "interval_lp_calls": 70,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 349,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 924,
+   "inconsistent_equality_rejections": 244
+  },
+  "ok": true,
+  "harness_wall": 3.1505144368857145,
+  "exit_status": 0,
+  "index": 80
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s2_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s2_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 18.824748027138412,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 603,
+   "cover_feasible_faces": 13631,
+   "strict_faces": 1,
+   "growth_states": 603,
+   "vertex_bases": 0,
+   "mass_faces": 491520,
+   "local_lp_calls": 13631,
+   "interval_lp_calls": 17,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 85,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 13509,
+   "inconsistent_equality_rejections": 105
+  },
+  "ok": true,
+  "harness_wall": 18.87384062865749,
+  "exit_status": 0,
+  "index": 81
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s10_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s10_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 5.011754835024476,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 447,
+   "cover_feasible_faces": 1634,
+   "strict_faces": 1,
+   "growth_states": 447,
+   "vertex_bases": 1533,
+   "mass_faces": 327680,
+   "local_lp_calls": 1634,
+   "interval_lp_calls": 116,
+   "enumerated_lp_calls": 42,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 747,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 1245,
+   "inconsistent_equality_rejections": 231
+  },
+  "ok": true,
+  "harness_wall": 5.052828763145953,
+  "exit_status": 0,
+  "index": 82
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s9_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s9_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 55.75368691701442,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 547,
+   "cover_feasible_faces": 39282,
+   "strict_faces": 1,
+   "growth_states": 547,
+   "vertex_bases": 48255,
+   "mass_faces": 1315840,
+   "local_lp_calls": 39282,
+   "interval_lp_calls": 1323,
+   "enumerated_lp_calls": 954,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 10129,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 30218,
+   "inconsistent_equality_rejections": 6787
+  },
+  "ok": true,
+  "harness_wall": 55.794213517103344,
+  "exit_status": 0,
+  "index": 83
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_bees-bosseret__bees-bosseret.tre_k7_s8_noise0_exact.json",
+   "name": "bio_bees-bosseret__bees-bosseret.tre_k7_s8_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 146.9994105878286,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 1534,
+   "cover_feasible_faces": 78816,
+   "strict_faces": 1,
+   "growth_states": 1534,
+   "vertex_bases": 0,
+   "mass_faces": 6983680,
+   "local_lp_calls": 78816,
+   "interval_lp_calls": 465,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 2264,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 75219,
+   "inconsistent_equality_rejections": 3132
+  },
+  "ok": true,
+  "harness_wall": 147.04019040521234,
+  "exit_status": 0,
+  "index": 84
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k7_s6_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k7_s6_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 17.07883442332968,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 2716,
+   "cover_feasible_faces": 3201,
+   "strict_faces": 1,
+   "growth_states": 2716,
+   "vertex_bases": 0,
+   "mass_faces": 1848320,
+   "local_lp_calls": 3201,
+   "interval_lp_calls": 11,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 54,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2946,
+   "inconsistent_equality_rejections": 244
+  },
+  "ok": true,
+  "harness_wall": 17.119330279063433,
+  "exit_status": 0,
+  "index": 85
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_biotrees/bio_mammals-song__mammals-song-castlespro.tre_k7_s1_noise0_exact.json",
+   "name": "bio_mammals-song__mammals-song-castlespro.tre_k7_s1_noise0_exact",
+   "cap": 7,
+   "mode": "solve",
+   "tag": "full_K7",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1200
+   },
+   "wall": 1400,
+   "mem_gb": 6
+  },
+  "elapsed": 25.10985253099352,
+  "status": "complete",
+  "reason": null,
+  "feasible": true,
+  "minimum": 7,
+  "statistics": {
+   "deficit_sets": 6694,
+   "cover_feasible_faces": 2552,
+   "strict_faces": 1,
+   "growth_states": 6694,
+   "vertex_bases": 0,
+   "mass_faces": 4558848,
+   "local_lp_calls": 2552,
+   "interval_lp_calls": 8,
+   "enumerated_lp_calls": 0,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 39,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 2519,
+   "inconsistent_equality_rejections": 25
+  },
+  "ok": true,
+  "harness_wall": 25.150257016066462,
+  "exit_status": 0,
+  "index": 86
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_exp_exact.json",
+   "name": "k10k_tree_16_k10_s5_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "full_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1800
+   },
+   "wall": 2000,
+   "mem_gb": 6
+  },
+  "elapsed": 1800.0008358820342,
+  "status": "unknown",
+  "reason": "wall_time_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 930,
+   "cover_feasible_faces": 55690,
+   "strict_faces": 0,
+   "growth_states": 930,
+   "vertex_bases": 13180704,
+   "mass_faces": 1375884,
+   "local_lp_calls": 55690,
+   "interval_lp_calls": 2282,
+   "enumerated_lp_calls": 11410,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 85754,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 28505,
+   "inconsistent_equality_rejections": 13493
+  },
+  "ok": true,
+  "harness_wall": 1800.0501605239697,
+  "exit_status": 0,
+  "index": 87
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s5_uniform_exact.json",
+   "name": "k10k_tree_16_k10_s5_uniform_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "full_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1800
+   },
+   "wall": 2000,
+   "mem_gb": 6
+  },
+  "elapsed": 1800.0011482550763,
+  "status": "unknown",
+  "reason": "wall_time_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 221,
+   "cover_feasible_faces": 373419,
+   "strict_faces": 0,
+   "growth_states": 221,
+   "vertex_bases": 9382145,
+   "mass_faces": 13730515,
+   "local_lp_calls": 373419,
+   "interval_lp_calls": 18520,
+   "enumerated_lp_calls": 36114,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 348008,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 207869,
+   "inconsistent_equality_rejections": 110916
+  },
+  "ok": true,
+  "harness_wall": 1800.0506421220489,
+  "exit_status": 0,
+  "index": 88
+ },
+ {
+  "row": {
+   "case": "data/stage287_instances/bank/cases/exact_10k/k10k_tree_16_k10_s2_exp_exact.json",
+   "name": "k10k_tree_16_k10_s2_exp_exact",
+   "cap": 10,
+   "mode": "solve",
+   "tag": "full_K10",
+   "knobs": {
+    "max_states": null,
+    "max_bases": null,
+    "max_faces": null,
+    "seconds": 1800
+   },
+   "wall": 2000,
+   "mem_gb": 6
+  },
+  "elapsed": 1800.0008010528982,
+  "status": "unknown",
+  "reason": "wall_time_limit",
+  "feasible": false,
+  "minimum": null,
+  "statistics": {
+   "deficit_sets": 1746,
+   "cover_feasible_faces": 320287,
+   "strict_faces": 0,
+   "growth_states": 1746,
+   "vertex_bases": 78315,
+   "mass_faces": 69174193,
+   "local_lp_calls": 320287,
+   "interval_lp_calls": 4194,
+   "enumerated_lp_calls": 1821,
+   "zero_dimensional_lp_calls": 0,
+   "eliminated_equality_rank": 43467,
+   "constant_row_rejections": 0,
+   "opposing_row_rejections": 230597,
+   "inconsistent_equality_rejections": 83675
+  },
+  "ok": true,
+  "harness_wall": 1800.0414966000244,
+  "exit_status": 0,
+  "index": 89
+ }
+]

@@ -1,0 +1,1581 @@
+{
+  "status": "PASS",
+  "protocol_sha256": "49549d856d56e0f50ec0e90e499cbed1a88f5d0e1fc8de2fce8abc0c82112b01",
+  "source_hashes_unchanged": true,
+  "summary": {
+    "base_inputs": 12,
+    "rescalings": 2,
+    "total": 14,
+    "complete": 14,
+    "unknown": 0,
+    "errors": 0,
+    "agreement": 14,
+    "disagreement": 0,
+    "yes": 7,
+    "no": 7,
+    "strict_promises_replayed": 14,
+    "strict_yes_replayed": 7
+  },
+  "rows": [
+    {
+      "name": "two_a_yes",
+      "base_index": 0,
+      "group_solutions": [
+        [
+          7,
+          4
+        ]
+      ],
+      "expected_closed_minimum_within_cap": 3,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": 3,
+          "witness": [
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "207/208"
+            },
+            {
+              "edge": 4,
+              "p": "4/13",
+              "x": "38099/38400"
+            },
+            {
+              "edge": 11,
+              "p": "5/26",
+              "x": "1"
+            }
+          ],
+          "statistics": {
+            "supports_examined": 183,
+            "range_rejections": 177,
+            "lp_supports": 6,
+            "bases_examined": 32
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 3,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "4/13",
+            "x": "62099/62400"
+          },
+          {
+            "edge": 11,
+            "p": "5/26",
+            "x": "62099/62400"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "207/208"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              7,
+              "1"
+            ]
+          ],
+          [
+            [
+              4,
+              "1"
+            ]
+          ]
+        ],
+        "means": [
+          "7",
+          "4"
+        ],
+        "source_count": 3,
+        "pendant": "1",
+        "active_masses": [
+          "4/13",
+          "5/26"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "207/208",
+        "hidden_moment": "62099/124800",
+        "common_hidden_position": "62099/62400",
+        "ideal_active_masses": [
+          "4/13",
+          "5/26"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": [
+        {
+          "edge": 4,
+          "p": "4/13",
+          "x": "62099/62400"
+        },
+        {
+          "edge": 11,
+          "p": "5/26",
+          "x": "62099/62400"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "207/208"
+        }
+      ],
+      "oracle_seconds": 0.06396170472726226
+    },
+    {
+      "name": "two_a_no",
+      "base_index": 1,
+      "group_solutions": [],
+      "expected_closed_minimum_within_cap": null,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": null,
+          "witness": null,
+          "statistics": {
+            "supports_examined": 377,
+            "range_rejections": 361,
+            "lp_supports": 16,
+            "bases_examined": 96
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 4,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "4/15",
+            "x": "71699/72000"
+          },
+          {
+            "edge": 11,
+            "p": "1/9",
+            "x": "71699/72000"
+          },
+          {
+            "edge": 9,
+            "p": "11/90",
+            "x": "71699/72000"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "239/240"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              7,
+              "1"
+            ]
+          ],
+          [
+            [
+              4,
+              "2/3"
+            ],
+            [
+              10,
+              "1/3"
+            ]
+          ]
+        ],
+        "means": [
+          "7",
+          "6"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "4/15",
+          "7/30"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "239/240",
+        "hidden_moment": "71699/144000",
+        "common_hidden_position": "71699/72000",
+        "ideal_active_masses": [
+          "4/15",
+          "7/30"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": null,
+      "oracle_seconds": 0.07637862209230661
+    },
+    {
+      "name": "two_b_yes",
+      "base_index": 2,
+      "group_solutions": [
+        [
+          5,
+          12
+        ]
+      ],
+      "expected_closed_minimum_within_cap": 3,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": 3,
+          "witness": [
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "303/304"
+            },
+            {
+              "edge": 6,
+              "p": "3/19",
+              "x": "11083/11200"
+            },
+            {
+              "edge": 9,
+              "p": "13/38",
+              "x": "1"
+            }
+          ],
+          "statistics": {
+            "supports_examined": 194,
+            "range_rejections": 183,
+            "lp_supports": 11,
+            "bases_examined": 62
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 3,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "9/38",
+            "x": "106049/106400"
+          },
+          {
+            "edge": 11,
+            "p": "7/76",
+            "x": "106049/106400"
+          },
+          {
+            "edge": 9,
+            "p": "13/76",
+            "x": "106049/106400"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "303/304"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              8,
+              "1"
+            ]
+          ],
+          [
+            [
+              6,
+              "1/2"
+            ],
+            [
+              12,
+              "1/2"
+            ]
+          ]
+        ],
+        "means": [
+          "8",
+          "9"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "9/38",
+          "5/19"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "303/304",
+        "hidden_moment": "106049/212800",
+        "common_hidden_position": "106049/106400",
+        "ideal_active_masses": [
+          "9/38",
+          "5/19"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": [
+        {
+          "edge": 6,
+          "p": "3/19",
+          "x": "106049/106400"
+        },
+        {
+          "edge": 9,
+          "p": "13/38",
+          "x": "106049/106400"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "303/304"
+        }
+      ],
+      "oracle_seconds": 0.06525601586326957
+    },
+    {
+      "name": "two_b_no",
+      "base_index": 3,
+      "group_solutions": [],
+      "expected_closed_minimum_within_cap": null,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": null,
+          "witness": null,
+          "statistics": {
+            "supports_examined": 377,
+            "range_rejections": 361,
+            "lp_supports": 16,
+            "bases_examined": 96
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 4,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "9/40",
+            "x": "111649/112000"
+          },
+          {
+            "edge": 11,
+            "p": "7/120",
+            "x": "111649/112000"
+          },
+          {
+            "edge": 9,
+            "p": "13/60",
+            "x": "111649/112000"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "319/320"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              8,
+              "1"
+            ]
+          ],
+          [
+            [
+              6,
+              "1/3"
+            ],
+            [
+              12,
+              "2/3"
+            ]
+          ]
+        ],
+        "means": [
+          "8",
+          "10"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "9/40",
+          "11/40"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "319/320",
+        "hidden_moment": "111649/224000",
+        "common_hidden_position": "111649/112000",
+        "ideal_active_masses": [
+          "9/40",
+          "11/40"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": null,
+      "oracle_seconds": 0.06474407995119691
+    },
+    {
+      "name": "three_a_yes",
+      "base_index": 4,
+      "group_solutions": [
+        [
+          2,
+          3,
+          9
+        ]
+      ],
+      "expected_closed_minimum_within_cap": 4,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": 4,
+          "witness": [
+            {
+              "edge": 1,
+              "p": "2797875669/5595812938",
+              "x": "758232653099/761022181968"
+            },
+            {
+              "edge": 5,
+              "p": "246874100/2797906469",
+              "x": "108475822254337/110797096080000"
+            },
+            {
+              "edge": 8,
+              "p": "329169867/2797906469",
+              "x": "1"
+            },
+            {
+              "edge": 11,
+              "p": "1645849335/5595812938",
+              "x": "1"
+            }
+          ],
+          "statistics": {
+            "supports_examined": 1123,
+            "range_rejections": 1117,
+            "lp_supports": 6,
+            "bases_examined": 145
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 4,
+      "promise": {
+        "sources": [
+          {
+            "edge": 5,
+            "p": "246874100/2797906469",
+            "x": "625535849337937/627857123163600"
+          },
+          {
+            "edge": 8,
+            "p": "329169867/2797906469",
+            "x": "625535849337937/627857123163600"
+          },
+          {
+            "edge": 11,
+            "p": "1645849335/5595812938",
+            "x": "625535849337937/627857123163600"
+          },
+          {
+            "edge": 1,
+            "p": "2797875669/5595812938",
+            "x": "758232653099/761022181968"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              2,
+              "1"
+            ]
+          ],
+          [
+            [
+              3,
+              "1"
+            ]
+          ],
+          [
+            [
+              9,
+              "1"
+            ]
+          ]
+        ],
+        "means": [
+          "2",
+          "3",
+          "9"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "246874100/2797906469",
+          "329169867/2797906469",
+          "1645849335/5595812938"
+        ],
+        "calibration_mass": "2797875669/5595812938",
+        "calibration_position": "758232653099/761022181968",
+        "hidden_moment": "625535849337937/1255700423287200",
+        "common_hidden_position": "625535849337937/627857123163600",
+        "ideal_active_masses": [
+          "3/34",
+          "2/17",
+          "5/17"
+        ],
+        "active_mass_l1_error": "261807/47564409973"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": [
+        {
+          "edge": 5,
+          "p": "246874100/2797906469",
+          "x": "625535849337937/627857123163600"
+        },
+        {
+          "edge": 8,
+          "p": "329169867/2797906469",
+          "x": "625535849337937/627857123163600"
+        },
+        {
+          "edge": 11,
+          "p": "1645849335/5595812938",
+          "x": "625535849337937/627857123163600"
+        },
+        {
+          "edge": 1,
+          "p": "2797875669/5595812938",
+          "x": "758232653099/761022181968"
+        }
+      ],
+      "oracle_seconds": 0.09455888299271464
+    },
+    {
+      "name": "three_a_no",
+      "base_index": 5,
+      "group_solutions": [],
+      "expected_closed_minimum_within_cap": null,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": null,
+          "witness": null,
+          "statistics": {
+            "supports_examined": 1940,
+            "range_rejections": 1927,
+            "lp_supports": 13,
+            "bases_examined": 364
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 5,
+      "promise": {
+        "sources": [
+          {
+            "edge": 5,
+            "p": "36965000/345006667",
+            "x": "1923389019127/1932061975200"
+          },
+          {
+            "edge": 8,
+            "p": "542162134/3795073337",
+            "x": "1923389019127/1932061975200"
+          },
+          {
+            "edge": 13,
+            "p": "813243201/7590146674",
+            "x": "1923389019127/1932061975200"
+          },
+          {
+            "edge": 11,
+            "p": "542162134/3795073337",
+            "x": "1923389019127/1932061975200"
+          },
+          {
+            "edge": 1,
+            "p": "345002267/690013334",
+            "x": "76936486741/77280507808"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              2,
+              "1"
+            ]
+          ],
+          [
+            [
+              3,
+              "1"
+            ]
+          ],
+          [
+            [
+              4,
+              "3/5"
+            ],
+            [
+              9,
+              "2/5"
+            ]
+          ]
+        ],
+        "means": [
+          "2",
+          "3",
+          "6"
+        ],
+        "source_count": 5,
+        "pendant": "1",
+        "active_masses": [
+          "36965000/345006667",
+          "542162134/3795073337",
+          "1897567469/7590146674"
+        ],
+        "calibration_mass": "345002267/690013334",
+        "calibration_position": "76936486741/77280507808",
+        "hidden_moment": "1923389019127/3864074670400",
+        "common_hidden_position": "1923389019127/1932061975200",
+        "ideal_active_masses": [
+          "3/28",
+          "1/7",
+          "1/4"
+        ],
+        "active_mass_l1_error": "30801/4830093338"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": null,
+      "oracle_seconds": 0.13593015586957335
+    },
+    {
+      "name": "three_b_yes",
+      "base_index": 6,
+      "group_solutions": [
+        [
+          6,
+          5,
+          7
+        ]
+      ],
+      "expected_closed_minimum_within_cap": 4,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": 4,
+          "witness": [
+            {
+              "edge": 1,
+              "p": "524950201/1049922002",
+              "x": "175861935335/176383267536"
+            },
+            {
+              "edge": 5,
+              "p": "87493500/524961001",
+              "x": "39329028607723/39687051600000"
+            },
+            {
+              "edge": 10,
+              "p": "1049954403/7349454014",
+              "x": "1"
+            },
+            {
+              "edge": 13,
+              "p": "699969602/3674727007",
+              "x": "1"
+            }
+          ],
+          "statistics": {
+            "supports_examined": 1134,
+            "range_rejections": 1130,
+            "lp_supports": 4,
+            "bases_examined": 89
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 4,
+      "promise": {
+        "sources": [
+          {
+            "edge": 5,
+            "p": "87493500/524961001",
+            "x": "118705581474523/119063604466800"
+          },
+          {
+            "edge": 10,
+            "p": "1049954403/7349454014",
+            "x": "118705581474523/119063604466800"
+          },
+          {
+            "edge": 13,
+            "p": "699969602/3674727007",
+            "x": "118705581474523/119063604466800"
+          },
+          {
+            "edge": 1,
+            "p": "524950201/1049922002",
+            "x": "175861935335/176383267536"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              6,
+              "1"
+            ]
+          ],
+          [
+            [
+              5,
+              "1"
+            ]
+          ],
+          [
+            [
+              7,
+              "1"
+            ]
+          ]
+        ],
+        "means": [
+          "6",
+          "5",
+          "7"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "87493500/524961001",
+          "1049954403/7349454014",
+          "699969602/3674727007"
+        ],
+        "calibration_mass": "524950201/1049922002",
+        "calibration_position": "175861935335/176383267536",
+        "hidden_moment": "118705581474523/238122310053600",
+        "common_hidden_position": "118705581474523/119063604466800",
+        "ideal_active_masses": [
+          "1/6",
+          "1/7",
+          "4/21"
+        ],
+        "active_mass_l1_error": "16201/1574883003"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": [
+        {
+          "edge": 5,
+          "p": "87493500/524961001",
+          "x": "118705581474523/119063604466800"
+        },
+        {
+          "edge": 10,
+          "p": "1049954403/7349454014",
+          "x": "118705581474523/119063604466800"
+        },
+        {
+          "edge": 13,
+          "p": "699969602/3674727007",
+          "x": "118705581474523/119063604466800"
+        },
+        {
+          "edge": 1,
+          "p": "524950201/1049922002",
+          "x": "175861935335/176383267536"
+        }
+      ],
+      "oracle_seconds": 0.07704526372253895
+    },
+    {
+      "name": "three_b_no",
+      "base_index": 7,
+      "group_solutions": [],
+      "expected_closed_minimum_within_cap": null,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": null,
+          "witness": null,
+          "statistics": {
+            "supports_examined": 1940,
+            "range_rejections": 1927,
+            "lp_supports": 13,
+            "bases_examined": 364
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 5,
+      "promise": {
+        "sources": [
+          {
+            "edge": 7,
+            "p": "23748390/601625881",
+            "x": "123046171769563/123455846941200"
+          },
+          {
+            "edge": 5,
+            "p": "55412910/601625881",
+            "x": "123046171769563/123455846941200"
+          },
+          {
+            "edge": 10,
+            "p": "189991749/1203251762",
+            "x": "123046171769563/123455846941200"
+          },
+          {
+            "edge": 13,
+            "p": "126661166/601625881",
+            "x": "123046171769563/123455846941200"
+          },
+          {
+            "edge": 1,
+            "p": "601615081/1203251762",
+            "x": "182292641943/182890984624"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              2,
+              "1/2"
+            ],
+            [
+              6,
+              "1/2"
+            ]
+          ],
+          [
+            [
+              5,
+              "1"
+            ]
+          ],
+          [
+            [
+              7,
+              "1"
+            ]
+          ]
+        ],
+        "means": [
+          "4",
+          "5",
+          "7"
+        ],
+        "source_count": 5,
+        "pendant": "1",
+        "active_masses": [
+          "79161300/601625881",
+          "189991749/1203251762",
+          "126661166/601625881"
+        ],
+        "calibration_mass": "601615081/1203251762",
+        "calibration_position": "182292641943/182890984624",
+        "hidden_moment": "123046171769563/246907261562400",
+        "common_hidden_position": "123046171769563/123455846941200",
+        "ideal_active_masses": [
+          "5/38",
+          "3/19",
+          "4/19"
+        ],
+        "active_mass_l1_error": "102605/11430891739"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": null,
+      "oracle_seconds": 0.15210106363520026
+    },
+    {
+      "name": "four_yes",
+      "base_index": 8,
+      "group_solutions": [
+        [
+          2,
+          4,
+          6,
+          13
+        ]
+      ],
+      "expected_closed_minimum_within_cap": 5,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": 5,
+          "witness": [
+            {
+              "edge": 1,
+              "p": "22708009507/45416523021",
+              "x": "21027850158723/21073032822496"
+            },
+            {
+              "edge": 6,
+              "p": "6264474007/121110728056",
+              "x": "82796346953443/84570399094500"
+            },
+            {
+              "edge": 9,
+              "p": "31322370035/363332184168",
+              "x": "1"
+            },
+            {
+              "edge": 12,
+              "p": "16444039507/136249569063",
+              "x": "1"
+            },
+            {
+              "edge": 15,
+              "p": "32888079014/136249569063",
+              "x": "1"
+            }
+          ],
+          "statistics": {
+            "supports_examined": 9878,
+            "range_rejections": 9849,
+            "lp_supports": 29,
+            "bases_examined": 3123
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 5,
+      "promise": {
+        "sources": [
+          {
+            "edge": 6,
+            "p": "6264474007/121110728056",
+            "x": "815732434362943/817506486504000"
+          },
+          {
+            "edge": 9,
+            "p": "31322370035/363332184168",
+            "x": "815732434362943/817506486504000"
+          },
+          {
+            "edge": 12,
+            "p": "16444039507/136249569063",
+            "x": "815732434362943/817506486504000"
+          },
+          {
+            "edge": 15,
+            "p": "32888079014/136249569063",
+            "x": "815732434362943/817506486504000"
+          },
+          {
+            "edge": 1,
+            "p": "22708009507/45416523021",
+            "x": "21027850158723/21073032822496"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              2,
+              "1"
+            ]
+          ],
+          [
+            [
+              4,
+              "1"
+            ]
+          ],
+          [
+            [
+              6,
+              "1"
+            ]
+          ],
+          [
+            [
+              13,
+              "1"
+            ]
+          ]
+        ],
+        "means": [
+          "2",
+          "4",
+          "6",
+          "13"
+        ],
+        "source_count": 5,
+        "pendant": "1",
+        "active_masses": [
+          "6264474007/121110728056",
+          "31322370035/363332184168",
+          "16444039507/136249569063",
+          "32888079014/136249569063"
+        ],
+        "calibration_mass": "22708009507/45416523021",
+        "calibration_position": "21027850158723/21073032822496",
+        "hidden_moment": "815732434362943/1634994828756000",
+        "common_hidden_position": "815732434362943/817506486504000",
+        "ideal_active_masses": [
+          "3/58",
+          "5/58",
+          "7/58",
+          "7/29"
+        ],
+        "active_mass_l1_error": "504007/90833046042"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": [
+        {
+          "edge": 6,
+          "p": "6264474007/121110728056",
+          "x": "815732434362943/817506486504000"
+        },
+        {
+          "edge": 9,
+          "p": "31322370035/363332184168",
+          "x": "815732434362943/817506486504000"
+        },
+        {
+          "edge": 12,
+          "p": "16444039507/136249569063",
+          "x": "815732434362943/817506486504000"
+        },
+        {
+          "edge": 15,
+          "p": "32888079014/136249569063",
+          "x": "815732434362943/817506486504000"
+        },
+        {
+          "edge": 1,
+          "p": "22708009507/45416523021",
+          "x": "21027850158723/21073032822496"
+        }
+      ],
+      "oracle_seconds": 1.086325217038393
+    },
+    {
+      "name": "four_no",
+      "base_index": 9,
+      "group_solutions": [],
+      "expected_closed_minimum_within_cap": null,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": null,
+          "witness": null,
+          "statistics": {
+            "supports_examined": 16663,
+            "range_rejections": 16604,
+            "lp_supports": 59,
+            "bases_examined": 6996
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 6,
+      "promise": {
+        "sources": [
+          {
+            "edge": 6,
+            "p": "3401467344342000/61226412212671219",
+            "x": "19791365940024341630531/19837526862419890956000"
+          },
+          {
+            "edge": 9,
+            "p": "5669129736486000/61226412212671219",
+            "x": "19791365940024341630531/19837526862419890956000"
+          },
+          {
+            "edge": 12,
+            "p": "15873693904857607/122452824425342438",
+            "x": "19791365940024341630531/19837526862419890956000"
+          },
+          {
+            "edge": 17,
+            "p": "11338352789184005/122452824425342438",
+            "x": "19791365940024341630531/19837526862419890956000"
+          },
+          {
+            "edge": 15,
+            "p": "15873693904857607/122452824425342438",
+            "x": "19791365940024341630531/19837526862419890956000"
+          },
+          {
+            "edge": 1,
+            "p": "61225889664787219/122452824425342438",
+            "x": "26388583663661295389/26449584335188078608"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              2,
+              "1"
+            ]
+          ],
+          [
+            [
+              4,
+              "1"
+            ]
+          ],
+          [
+            [
+              6,
+              "1"
+            ]
+          ],
+          [
+            [
+              9,
+              "1/2"
+            ],
+            [
+              13,
+              "1/2"
+            ]
+          ]
+        ],
+        "means": [
+          "2",
+          "4",
+          "6",
+          "11"
+        ],
+        "source_count": 6,
+        "pendant": "1",
+        "active_masses": [
+          "3401467344342000/61226412212671219",
+          "5669129736486000/61226412212671219",
+          "15873693904857607/122452824425342438",
+          "13606023347020806/61226412212671219"
+        ],
+        "calibration_mass": "61225889664787219/122452824425342438",
+        "calibration_position": "26388583663661295389/26449584335188078608",
+        "hidden_moment": "19791365940024341630531/39674715113810949912000",
+        "common_hidden_position": "19791365940024341630531/19837526862419890956000",
+        "ideal_active_masses": [
+          "1/18",
+          "5/54",
+          "7/54",
+          "2/9"
+        ],
+        "active_mass_l1_error": "2351479993219/551037709914040971"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": null,
+      "oracle_seconds": 2.2382775810547173
+    },
+    {
+      "name": "large_yes",
+      "base_index": 10,
+      "group_solutions": [
+        [
+          1000000000000000002,
+          2000000000000000009
+        ]
+      ],
+      "expected_closed_minimum_within_cap": 3,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": 3,
+          "witness": [
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "48000000000000000207/48000000000000000208"
+            },
+            {
+              "edge": 6,
+              "p": "1000000000000000003/6000000000000000026",
+              "x": "200000000000000001687500000000000003231/200000000000000001700000000000000003300"
+            },
+            {
+              "edge": 9,
+              "p": "1000000000000000005/3000000000000000013",
+              "x": "1"
+            }
+          ],
+          "statistics": {
+            "supports_examined": 194,
+            "range_rejections": 183,
+            "lp_supports": 11,
+            "bases_examined": 62
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 3,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "1000000000000000007/6000000000000000026",
+            "x": "600000000000000005887500000000000014231/600000000000000005900000000000000014300"
+          },
+          {
+            "edge": 11,
+            "p": "666666666666666668/3000000000000000013",
+            "x": "600000000000000005887500000000000014231/600000000000000005900000000000000014300"
+          },
+          {
+            "edge": 9,
+            "p": "333333333333333335/3000000000000000013",
+            "x": "600000000000000005887500000000000014231/600000000000000005900000000000000014300"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "48000000000000000207/48000000000000000208"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              1000000000000000006,
+              "1"
+            ]
+          ],
+          [
+            [
+              2000000000000000003,
+              "2/3"
+            ],
+            [
+              2000000000000000009,
+              "1/3"
+            ]
+          ]
+        ],
+        "means": [
+          "1000000000000000006",
+          "2000000000000000005"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "1000000000000000007/6000000000000000026",
+          "1000000000000000003/3000000000000000013"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "48000000000000000207/48000000000000000208",
+        "hidden_moment": "600000000000000005887500000000000014231/1200000000000000011800000000000000028600",
+        "common_hidden_position": "600000000000000005887500000000000014231/600000000000000005900000000000000014300",
+        "ideal_active_masses": [
+          "1000000000000000007/6000000000000000026",
+          "1000000000000000003/3000000000000000013"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": [
+        {
+          "edge": 6,
+          "p": "1000000000000000003/6000000000000000026",
+          "x": "600000000000000005887500000000000014231/600000000000000005900000000000000014300"
+        },
+        {
+          "edge": 9,
+          "p": "1000000000000000005/3000000000000000013",
+          "x": "600000000000000005887500000000000014231/600000000000000005900000000000000014300"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "48000000000000000207/48000000000000000208"
+        }
+      ],
+      "oracle_seconds": 0.05232714302837849
+    },
+    {
+      "name": "large_no",
+      "base_index": 11,
+      "group_solutions": [],
+      "expected_closed_minimum_within_cap": null,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": null,
+          "witness": null,
+          "statistics": {
+            "supports_examined": 377,
+            "range_rejections": 361,
+            "lp_supports": 16,
+            "bases_examined": 96
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 4,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "1000000000000000007/6000000000000000024",
+            "x": "600000000000000005687500000000000013131/600000000000000005700000000000000013200"
+          },
+          {
+            "edge": 11,
+            "p": "833333333333333335/3000000000000000012",
+            "x": "600000000000000005687500000000000013131/600000000000000005700000000000000013200"
+          },
+          {
+            "edge": 9,
+            "p": "333333333333333335/6000000000000000024",
+            "x": "600000000000000005687500000000000013131/600000000000000005700000000000000013200"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "48000000000000000191/48000000000000000192"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              1000000000000000006,
+              "1"
+            ]
+          ],
+          [
+            [
+              2000000000000000003,
+              "5/6"
+            ],
+            [
+              2000000000000000009,
+              "1/6"
+            ]
+          ]
+        ],
+        "means": [
+          "1000000000000000006",
+          "2000000000000000004"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "1000000000000000007/6000000000000000024",
+          "2000000000000000005/6000000000000000024"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "48000000000000000191/48000000000000000192",
+        "hidden_moment": "600000000000000005687500000000000013131/1200000000000000011400000000000000026400",
+        "common_hidden_position": "600000000000000005687500000000000013131/600000000000000005700000000000000013200",
+        "ideal_active_masses": [
+          "1000000000000000007/6000000000000000024",
+          "2000000000000000005/6000000000000000024"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": null,
+      "oracle_seconds": 0.06903570797294378
+    },
+    {
+      "name": "two_a_yes_integer_scaled",
+      "base_index": 0,
+      "group_solutions": [
+        [
+          7,
+          4
+        ]
+      ],
+      "expected_closed_minimum_within_cap": 3,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": 3,
+          "witness": [
+            {
+              "edge": 1,
+              "p": "1/2",
+              "x": "207/208"
+            },
+            {
+              "edge": 4,
+              "p": "4/13",
+              "x": "38099/38400"
+            },
+            {
+              "edge": 11,
+              "p": "5/26",
+              "x": "1"
+            }
+          ],
+          "statistics": {
+            "supports_examined": 183,
+            "range_rejections": 177,
+            "lp_supports": 6,
+            "bases_examined": 32
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 3,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "4/13",
+            "x": "62099/62400"
+          },
+          {
+            "edge": 11,
+            "p": "5/26",
+            "x": "62099/62400"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "207/208"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              7,
+              "1"
+            ]
+          ],
+          [
+            [
+              4,
+              "1"
+            ]
+          ]
+        ],
+        "means": [
+          "7",
+          "4"
+        ],
+        "source_count": 3,
+        "pendant": "1",
+        "active_masses": [
+          "4/13",
+          "5/26"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "207/208",
+        "hidden_moment": "62099/124800",
+        "common_hidden_position": "62099/62400",
+        "ideal_active_masses": [
+          "4/13",
+          "5/26"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": [
+        {
+          "edge": 4,
+          "p": "4/13",
+          "x": "62099/62400"
+        },
+        {
+          "edge": 11,
+          "p": "5/26",
+          "x": "62099/62400"
+        },
+        {
+          "edge": 1,
+          "p": "1/2",
+          "x": "207/208"
+        }
+      ],
+      "oracle_seconds": 0.05111667467281222
+    },
+    {
+      "name": "two_a_no_integer_scaled",
+      "base_index": 1,
+      "group_solutions": [],
+      "expected_closed_minimum_within_cap": null,
+      "oracle": {
+        "status": "complete",
+        "answer": {
+          "minimum": null,
+          "witness": null,
+          "statistics": {
+            "supports_examined": 377,
+            "range_rejections": 361,
+            "lp_supports": 16,
+            "bases_examined": 96
+          }
+        }
+      },
+      "agreement": true,
+      "certified_strict_minimum": 4,
+      "promise": {
+        "sources": [
+          {
+            "edge": 4,
+            "p": "4/15",
+            "x": "71699/72000"
+          },
+          {
+            "edge": 11,
+            "p": "1/9",
+            "x": "71699/72000"
+          },
+          {
+            "edge": 9,
+            "p": "11/90",
+            "x": "71699/72000"
+          },
+          {
+            "edge": 1,
+            "p": "1/2",
+            "x": "239/240"
+          }
+        ],
+        "convex_choices": [
+          [
+            [
+              7,
+              "1"
+            ]
+          ],
+          [
+            [
+              4,
+              "2/3"
+            ],
+            [
+              10,
+              "1/3"
+            ]
+          ]
+        ],
+        "means": [
+          "7",
+          "6"
+        ],
+        "source_count": 4,
+        "pendant": "1",
+        "active_masses": [
+          "4/15",
+          "7/30"
+        ],
+        "calibration_mass": "1/2",
+        "calibration_position": "239/240",
+        "hidden_moment": "71699/144000",
+        "common_hidden_position": "71699/72000",
+        "ideal_active_masses": [
+          "4/15",
+          "7/30"
+        ],
+        "active_mass_l1_error": "0"
+      },
+      "promise_replayed": true,
+      "strict_yes_witness": null,
+      "oracle_seconds": 0.0630509052425623
+    }
+  ]
+}

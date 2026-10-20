@@ -1,0 +1,31 @@
+# virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python build and cache output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# bulk data archive (a GitHub release asset / Zenodo deposit, never git-tracked)
+recomb2027_pdd_bulk_v1.tar.gz
+bulk/
+_bulk_staging/
+
+# outputs written by the reproduction scripts
+repro_b_output.json
+repro_out/
+
+# generated figure audit and obsolete nested figure-output directory
+figures/figures/
+figures/support/experiment_provenance.json
+
+# editor and OS noise
+.DS_Store
+*.swp
