@@ -1,0 +1,55 @@
+name: reproductions
+
+# Runs the cheap reproductions on a bare interpreter, with no packages installed.
+# A green run is the standing evidence for the README's claim that the solvers,
+# the eps-tolerant rational program and the Theta_1 closed form need nothing
+# beyond the Python 3.12 standard library.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  stdlib-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Confirm no third-party packages are importable
+        run: |
+          python -c "
+          import importlib.util as u
+          present = [m for m in ('numpy','scipy','matplotlib','treeswift','decodiphy')
+                     if u.find_spec(m) is not None]
+          assert not present, f'expected a bare interpreter, found {present}'
+          print('bare interpreter confirmed')
+          "
+
+      - name: A - exact solver versus the tolerant program
+        run: |
+          python -B repro/repro_a_exact_vs_tolerant.py --n 20 | tee a.log
+          grep -q 'RESULT: PASS' a.log
+
+      - name: B - a paper number on real estimated distances
+        run: |
+          python -B repro/repro_b_theta1_vs_residual.py | tee b.log
+          grep -q 'RESULT: PASS' b.log
+          grep -q '296 of 296' b.log
+
+      - name: C - two-source corollary, random reduced trees
+        run: |
+          python -B scripts/verify_two_source_corollary.py | tee c.log
+          grep -q '400/400 verified' c.log
+
+      - name: D - two-source corollary, registered controls
+        run: |
+          python -B scripts/stage23_two_source_envelope.py | tee d.log
+          grep -q '"passed": true' d.log
+          grep -q '"case_count": 140' d.log
