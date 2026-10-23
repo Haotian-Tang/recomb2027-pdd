@@ -17,7 +17,13 @@ rank correlation of the threshold with panel size, which the paper reports as
 the contrast between the adversarial and the random regime.
 
 Inputs are the records stage297_analyze.py pools, filtered the same way
-(`baseline_unique_true`).  `results/stage292_bridge_K2_3_5_7.jsonl` ships in the
+(`baseline_unique_true`) and de-duplicated the same way: one case can appear in
+more than one batch, because a case that timed out in the five-regime batch is
+re-measured in a regime-restricted one, so a (case, regime, seed) measurement is
+counted once.  Repeats are counted and checked for agreement rather than pooled
+twice.  De-duplicating by plotted coordinates would be wrong, since distinct
+cases can share a [panel size, threshold] pair, and de-duplicating by case alone
+would be wrong, since different seeds are planned distinct measurements.  `results/stage292_bridge_K2_3_5_7.jsonl` ships in the
 bulk archive rather than the repository tree; the script reports which inputs
 it found and refuses to write a record if any are missing.
 
@@ -97,13 +103,22 @@ def main():
     mode = defaultdict(lambda: defaultdict(int))
     thresholds = defaultdict(list)
     panel = defaultdict(list)
+    cases = defaultdict(set)
+    seen, repeats, repeats_agree = {}, 0, 0
     for r in rows:
         K = r['K']
         for g in r.get('regimes', []):
+            ident = (r['name'], g['regime'], g['seed'])
             t = g.get('t_unknown_sequence')
+            if ident in seen:
+                repeats += 1
+                repeats_agree += int(seen[ident] == t)
+                continue
+            seen[ident] = t
             if t is None:
                 continue
             reg = g['regime']
+            cases[reg].add(r['name'])
             thresholds[reg].append(t)
             panel[reg].append((r['R_size'], t))
             probe = {q['e']: q for q in g.get('probe_table', [])}.get(t + 1)
@@ -128,6 +143,9 @@ def main():
         'filter': 'baseline_unique_true, same as stage297_analyze.py pooled',
         'inputs': {str(p.relative_to(ROOT)): sha256(p) for p in paths},
         'bridge_records_used': len(rows),
+        'measurements_after_dedup': len(seen),
+        'repeated_measurements_skipped': repeats,
+        'repeated_measurements_agreeing': repeats_agree,
         'by_regime': {},
     }
     for reg in sorted(thresholds):
@@ -136,6 +154,7 @@ def main():
         rho, tstat = spearman(sizes, [b for _, b in panel[reg]])
         out['by_regime'][reg] = {
             'n_thresholds': len(v),
+            'distinct_cases': len(cases[reg]),
             'median_t_unknown': statistics.median(v),
             'min_t_unknown': min(v),
             'max_t_unknown': max(v),
@@ -149,9 +168,11 @@ def main():
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(out, indent=1) + '\n')
     print('wrote', OUT.relative_to(ROOT))
+    print(f"  {repeats} repeated (case, regime, seed) measurements skipped, "
+          f"{repeats_agree} of them agreeing with the first reading")
     for reg, d in out['by_regime'].items():
         print(f"  {reg:22s} n={d['n_thresholds']:5d}  median={d['median_t_unknown']}"
-              f"  panel {d['panel_size_min']}-{d['panel_size_max']}"
+              f"  cases={d['distinct_cases']:5d}  panel {d['panel_size_min']}-{d['panel_size_max']}"
               f"  rho={d['spearman_t_vs_panel_size']:.4f}  {d['first_failure_mode']}")
     return 0
 

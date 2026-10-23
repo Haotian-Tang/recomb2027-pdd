@@ -49,6 +49,26 @@ def series(fall, arm, regime):
     return np.array([block[l][0] if l in block else np.nan for l in LEVELS], dtype=float)
 
 
+def spearman(x, y):
+    # Rank correlation with midranks, so the annotation tracks the data.
+    x, y = np.asarray(x, float), np.asarray(y, float)
+
+    def ranks(v):
+        order = np.argsort(v, kind="mergesort")
+        r = np.empty(len(v), float)
+        i = 0
+        while i < len(v):
+            j = i
+            while j + 1 < len(v) and v[order[j + 1]] == v[order[i]]:
+                j += 1
+            r[order[i:j + 1]] = (i + j) / 2.0 + 1.0
+            i = j + 1
+        return r
+
+    a, b = ranks(x), ranks(y)
+    return float(np.corrcoef(a, b)[0, 1])
+
+
 def main():
     style()
     payload = json.loads(PAYLOAD.read_text())
@@ -104,11 +124,13 @@ def main():
     ax.set_xlim(17, 430)
     ax.set_xlabel("references in the panel")
     ax.set_ylabel("refs. erasable before\nthe answer changes")
-    ax.set_title("A bigger panel does not help")
-    ax.annotate(r"random  $\rho=0.82$", (23, 620), ha="left", va="center",
+    ax.set_title("Reference-loss tolerance by panel size")
+    rho_random = spearman(random_arm[:, 0], random_arm[:, 1])
+    rho_adv = spearman(adversarial[:, 0], adversarial[:, 1])
+    ax.annotate(r"random  $\rho=%.2f$" % rho_random, (23, 620), ha="left", va="center",
                 color="#4b93b8", fontsize=6)
-    ax.annotate(r"nearest to sources  $\rho=0.09$", (23, 230), ha="left", va="center",
-                color=COLOUR["nearest"], fontsize=6)
+    ax.annotate(r"nearest to sources  $\rho=%.2f$" % rho_adv, (23, 230), ha="left",
+                va="center", color=COLOUR["nearest"], fontsize=6)
 
     for letter, ax in zip("abc", axes):
         ax.margins(0.04)
@@ -122,6 +144,8 @@ def main():
     fig.savefig(out / "incompleteness.pdf")
     fig.savefig(out / "incompleteness.png", dpi=300)
     print("wrote", out / "incompleteness.pdf", "and", out / "incompleteness.png")
+    print("  panel (c): %d adversarial (rho=%.4f) and %d random (rho=%.4f) measurements"
+          % (len(adversarial), rho_adv, len(random_arm), rho_random))
 
 
 if __name__ == "__main__":

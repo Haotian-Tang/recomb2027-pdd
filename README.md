@@ -179,10 +179,16 @@ independently, as the two documents have separate `.aux` files.
   `python3 -B figures/support/make_figures.py`; it overwrites
   `figures/performance.pdf` and `.png` and writes an ignored audit JSON under
   `figures/support/`.
-* `tolerance_axis.pdf` (**main-text Figure 3**), `real_incompleteness.pdf`
-  (**supplement Figure 1**) and `real_data_axis.pdf` (**supplement Figure 2**) -
-  **the plotting code for these three was written ad hoc and was not retained
-  in the project tree.** The figures are included as vectors, the rasters they
+* `tolerance_axis.pdf` (**main-text Figure 3**) is rebuilt by
+  `figures/make_fig_tolerance_axis.py`, which reads every plotted value directly
+  from `results/stage296/stage296_payload.json`, so there is no intermediate
+  payload that can drift. It replaces ad hoc code that was not retained; the
+  rebuilt figure shows the worst-leaf residual on every error row, the statistic
+  the first-drop tolerance is defined with, where the original mixed median-leaf
+  and worst-leaf rows.
+* `real_incompleteness.pdf` (**supplement Figure 1**) and `real_data_axis.pdf`
+  (**supplement Figure 2**) - **the plotting code for these two was written ad
+  hoc and was not retained in the project tree.** The figures are included as vectors, the rasters they
   were wrapped from are in `results/stage296/`, `results/stage299/` and
   `results/stage298/`, and the numeric payloads behind every plotted value are
   `results/stage296/stage296_payload.json`,

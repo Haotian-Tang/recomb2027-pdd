@@ -14,37 +14,43 @@
   "results/stage297/stage297_bridge_pilot_k10_baseline.jsonl": "0d642a14946eb989637675ddf5ef5a8c4eecdbf53266f85ad8c74de63d6b9b5d"
  },
  "bridge_records_used": 744,
+ "measurements_after_dedup": 3496,
+ "repeated_measurements_skipped": 18,
+ "repeated_measurements_agreeing": 18,
  "by_regime": {
   "adversarial_nearest": {
-   "n_thresholds": 723,
+   "n_thresholds": 713,
+   "distinct_cases": 713,
    "median_t_unknown": 2,
    "min_t_unknown": 0,
    "max_t_unknown": 115,
    "panel_size_min": 20,
    "panel_size_max": 361,
-   "spearman_t_vs_panel_size": 0.09194157504361426,
-   "spearman_t_statistic": 2.4792651440985742,
+   "spearman_t_vs_panel_size": 0.099257308197405,
+   "spearman_t_statistic": 2.659789328184393,
    "first_failure_mode": {
-    "competing_support_same_size": 680,
-    "minimum_fell_below_K": 43
+    "competing_support_same_size": 671,
+    "minimum_fell_below_K": 42
    }
   },
   "random": {
-   "n_thresholds": 1336,
-   "median_t_unknown": 32.0,
+   "n_thresholds": 1330,
+   "distinct_cases": 686,
+   "median_t_unknown": 32.5,
    "min_t_unknown": 0,
    "max_t_unknown": 337,
    "panel_size_min": 20,
    "panel_size_max": 361,
-   "spearman_t_vs_panel_size": 0.8188796795742214,
-   "spearman_t_statistic": 52.108963489522786,
+   "spearman_t_vs_panel_size": 0.8203893891265084,
+   "spearman_t_statistic": 52.28425564040476,
    "first_failure_mode": {
-    "competing_support_same_size": 1254,
-    "minimum_fell_below_K": 82
+    "competing_support_same_size": 1249,
+    "minimum_fell_below_K": 81
    }
   },
   "whole_clade": {
    "n_thresholds": 1379,
+   "distinct_cases": 694,
    "median_t_unknown": 18,
    "min_t_unknown": 0,
    "max_t_unknown": 328,

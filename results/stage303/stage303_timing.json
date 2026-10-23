@@ -1,0 +1,116 @@
+{
+ "stage": 303,
+ "what": "paired per-case wall-time ratio, DecoDiPhy 1.5.0 over the exact method",
+ "pairing": "per case name, median over repetitions within each arm, then the ratio; only cases where both arms completed",
+ "caveats": [
+  "cases where the exact arm did not complete are absent, so every ratio is favourable to the exact method",
+  "hardware was not recorded for this batch, so these are ratios on one machine and not absolute times",
+  "DecoDiPhy was run outside the per-read pipeline it was designed for, on one seed family and only its operable code paths"
+ ],
+ "input": {
+  "results/stage289/stage289_headtohead_runs.jsonl": "939125904d87f7054f8a031cd161db73cb894da2377b8d3811309aa98237a96a"
+ },
+ "runs": 9504,
+ "distinct_cases": 1188,
+ "status_by_method": {
+  "dd_default": {
+   "complete": 2364,
+   "error": 12
+  },
+  "dd_resolution": {
+   "complete": 2362,
+   "error": 14
+  },
+  "dd_true_k": {
+   "complete": 2354,
+   "error": 22
+  },
+  "exact_stage43_partial": {
+   "complete": 1936,
+   "unknown": 440
+  }
+ },
+ "ratios": {
+  "process_wall_seconds|dd_true_k": {
+   "n": 957,
+   "median": 46.36551781865018,
+   "q25": 26.302869794148528,
+   "q75": 73.8907548176926,
+   "min": 0.023582662809943245,
+   "max": 1570.6393431634326,
+   "exact_faster_in": 907
+  },
+  "process_wall_seconds|dd_default": {
+   "n": 962,
+   "median": 49.06962548855615,
+   "q25": 26.656741864327493,
+   "q75": 98.70515151869878,
+   "min": 0.01668996494142553,
+   "max": 2249.9450392691215,
+   "exact_faster_in": 912
+  },
+  "process_wall_seconds|dd_resolution": {
+   "n": 961,
+   "median": 49.31507127782662,
+   "q25": 26.53888604827538,
+   "q75": 93.14586057714999,
+   "min": 0.01663691299657171,
+   "max": 1616.9567113112632,
+   "exact_faster_in": 911
+  },
+  "solver_wall_seconds|dd_true_k": {
+   "n": 957,
+   "median": 66.94355049132255,
+   "q25": 36.343888097029954,
+   "q75": 114.31447189992663,
+   "min": 0.023391984847084633,
+   "max": 3680.4865441558395,
+   "exact_faster_in": 907
+  },
+  "solver_wall_seconds|dd_default": {
+   "n": 962,
+   "median": 67.29218123093614,
+   "q25": 36.379030630069124,
+   "q75": 145.67229240095128,
+   "min": 0.01652779353520534,
+   "max": 4610.584227912766,
+   "exact_faster_in": 912
+  },
+  "solver_wall_seconds|dd_resolution": {
+   "n": 961,
+   "median": 67.25369605612633,
+   "q25": 36.23611240411333,
+   "q75": 155.7108355054696,
+   "min": 0.01648493657643842,
+   "max": 4929.404102171166,
+   "exact_faster_in": 911
+  },
+  "child_cpu_seconds|dd_true_k": {
+   "n": 957,
+   "median": 57.64300705546129,
+   "q25": 32.98928383078468,
+   "q75": 95.55783328274903,
+   "min": 0.02349213753475797,
+   "max": 2323.628263337117,
+   "exact_faster_in": 907
+  },
+  "child_cpu_seconds|dd_default": {
+   "n": 962,
+   "median": 59.41588731723631,
+   "q25": 32.897360971784735,
+   "q75": 125.26315493003264,
+   "min": 0.016609412736388836,
+   "max": 3078.9455282319004,
+   "exact_faster_in": 912
+  },
+  "child_cpu_seconds|dd_resolution": {
+   "n": 961,
+   "median": 59.00043206281818,
+   "q25": 32.732715091620996,
+   "q75": 130.52310179282784,
+   "min": 0.016574456737451414,
+   "max": 2785.9482669425765,
+   "exact_faster_in": 911
+  }
+ }
+}
