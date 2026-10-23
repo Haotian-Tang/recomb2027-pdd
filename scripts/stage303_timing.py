@@ -64,6 +64,22 @@ def main():
         return 1
     rows = [json.loads(line) for line in RUNS.open()]
 
+    # The pooled ratio mixes two tasks. On an exactly generated profile the exact
+    # arm returns an explanation; on a noisy one it returns infeasibility while the
+    # heuristic goes on fitting. Stratify on what the exact arm actually did.
+    feasible = {}
+    for r in rows:
+        if r['method'] == EXACT and str(r['result'].get('status')) in DONE:
+            feasible.setdefault(r['name'], set()).add(bool(r['result'].get('feasible')))
+
+    def stratum(name):
+        f = feasible.get(name)
+        if f == {True}:
+            return 'exactly_generated'
+        if f == {False}:
+            return 'noisy_exact_infeasible'
+        return 'mixed'
+
     status = defaultdict(lambda: defaultdict(int))
     for r in rows:
         status[r['method']][str(r['result'].get('status'))] += 1
@@ -99,6 +115,7 @@ def main():
             per[r['name']][r['method']].append(v)
         for arm in ARMS:
             ratios, faster = [], 0
+            strata = defaultdict(list)
             for name, m in per.items():
                 if EXACT not in m or arm not in m:
                     continue
@@ -107,10 +124,12 @@ def main():
                 if e <= 0:
                     continue
                 ratios.append(d / e)
+                strata[stratum(name)].append(d / e)
                 faster += int(d > e)
             if ratios:
                 rec = describe(ratios)
                 rec['exact_faster_in'] = faster
+                rec['by_stratum'] = {k: describe(v) for k, v in sorted(strata.items())}
                 out['ratios']['%s|%s' % (field, arm)] = rec
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -119,6 +138,8 @@ def main():
     for k, v in out['ratios'].items():
         print('  %-38s n=%4d  median=%7.2f  q25=%6.2f  q75=%7.2f  exact faster %d'
               % (k, v['n'], v['median'], v['q25'], v['q75'], v['exact_faster_in']))
+        for sk, sv in v.get('by_stratum', {}).items():
+            print('      %-32s n=%4d  median=%7.2f' % (sk, sv['n'], sv['median']))
     return 0
 
 

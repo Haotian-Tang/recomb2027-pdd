@@ -1,0 +1,141 @@
+{
+ "stage": 304,
+ "what": "attaining-edge sets against the canonical representative",
+ "definitions": {
+  "representative_changed": "argmin(R) != argmin(R')",
+  "move_forced": "the attaining sets are disjoint",
+  "undecidable": "at least one attaining list is truncated at 200 entries"
+ },
+ "input": {
+  "results/stage299/stage299_td_runs.jsonl": "b3e3a43817a3eedd2378dd84855e769f889c6e835c638aa4cb8df22b86f3c7f8"
+ },
+ "leaf_sets": 754,
+ "full_panels": 29,
+ "with_tied_optima": 108,
+ "max_tied_optima": 1405,
+ "attaining_lists_truncated": 40,
+ "representative_is_terminal": 0,
+ "attaining_set_contains_terminal": 92,
+ "by_regime_level": {
+  "clade|0.10": {
+   "n": 58,
+   "representative_changed": 14,
+   "intersecting": 44,
+   "disjoint": 14,
+   "undecidable": 0
+  },
+  "clade|0.25": {
+   "n": 58,
+   "representative_changed": 16,
+   "intersecting": 42,
+   "disjoint": 16,
+   "undecidable": 0
+  },
+  "clade|0.50": {
+   "n": 58,
+   "representative_changed": 40,
+   "intersecting": 18,
+   "disjoint": 40,
+   "undecidable": 0
+  },
+  "clade|0.75": {
+   "n": 58,
+   "representative_changed": 58,
+   "intersecting": 0,
+   "disjoint": 58,
+   "undecidable": 0
+  },
+  "clade|one": {
+   "n": 58,
+   "representative_changed": 0,
+   "intersecting": 58,
+   "disjoint": 0,
+   "undecidable": 0
+  },
+  "nearest_theta1|0.10": {
+   "n": 29,
+   "representative_changed": 15,
+   "intersecting": 15,
+   "disjoint": 14,
+   "undecidable": 0
+  },
+  "nearest_theta1|0.25": {
+   "n": 29,
+   "representative_changed": 22,
+   "intersecting": 10,
+   "disjoint": 10,
+   "undecidable": 9,
+   "disjoint_after_resolution": 12
+  },
+  "nearest_theta1|0.50": {
+   "n": 29,
+   "representative_changed": 26,
+   "intersecting": 4,
+   "disjoint": 13,
+   "undecidable": 12
+  },
+  "nearest_theta1|0.75": {
+   "n": 29,
+   "representative_changed": 28,
+   "intersecting": 2,
+   "disjoint": 13,
+   "undecidable": 14
+  },
+  "nearest_theta1|one": {
+   "n": 29,
+   "representative_changed": 0,
+   "intersecting": 29,
+   "disjoint": 0,
+   "undecidable": 0
+  },
+  "random|0.10": {
+   "n": 58,
+   "representative_changed": 4,
+   "intersecting": 54,
+   "disjoint": 4,
+   "undecidable": 0
+  },
+  "random|0.25": {
+   "n": 58,
+   "representative_changed": 4,
+   "intersecting": 54,
+   "disjoint": 4,
+   "undecidable": 0
+  },
+  "random|0.50": {
+   "n": 58,
+   "representative_changed": 5,
+   "intersecting": 54,
+   "disjoint": 4,
+   "undecidable": 0
+  },
+  "random|0.75": {
+   "n": 58,
+   "representative_changed": 14,
+   "intersecting": 46,
+   "disjoint": 12,
+   "undecidable": 0
+  },
+  "random|one": {
+   "n": 58,
+   "representative_changed": 0,
+   "intersecting": 58,
+   "disjoint": 0,
+   "undecidable": 0
+  }
+ },
+ "resolved_undecidable": {
+  "nearest_theta1|0.25": {
+   "checked": 9,
+   "disjoint": 2,
+   "intersecting": 7
+  }
+ },
+ "terminal_classification": {
+  "draw|complete|none": 633,
+  "draw|complete|terminal": 52,
+  "draw|truncated|terminal": 40,
+  "full|complete|none": 29
+ },
+ "terminal_undecided": 0
+}

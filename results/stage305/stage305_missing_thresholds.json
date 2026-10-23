@@ -1,0 +1,59 @@
+{
+ "stage": 305,
+ "what": "deterministic bounds on the median deletion threshold when some searches did not finish",
+ "monotonicity": "along a fixed deletion order the property is lost once and for all, so a completed probe bounds an unfinished search from one side",
+ "caveats": [
+  "not confidence intervals",
+  "restricted to cases whose generating support is the unique minimum on the full panel",
+  "says nothing about the rank correlations"
+ ],
+ "inputs": {
+  "results/stage292_bridge_K2_3_5_7.jsonl": "6b9bb4fed63ac1012d1d72a3c15e98e416775b8c9664623c81f0ab9f4e86ef31",
+  "results/stage292_bridge_K7_resume.jsonl": "adf09b3efa7906da5324a97032e2815acb01592ca4283b2aa3f8fd77ab1ea494",
+  "results/stage297/stage297_bridge_k10_adv_large.jsonl": "d535d91f2ae551e53ecc8f5bc4d73824c205afa3894cfad9f081e11092e749c0",
+  "results/stage297/stage297_bridge_k10_rand_large.jsonl": "5737e2a3c843fbc87d2c9785ba36e44e24da80b7d3acab34d2106e63d094be3d",
+  "results/stage297/stage297_bridge_k12_baseline.jsonl": "b9440c690f6bacac18071bb698cdf644d79f3405607e0d062f9c2c2a3a4126f6",
+  "results/stage297/stage297_bridge_main_k10.jsonl": "9dd43c16d86dda6d5fd4cf5115eb5664a3368056bc87585522f89cbc7717a51a",
+  "results/stage297/stage297_bridge_main_k10_extra.jsonl": "911919ec3ac0282745b1ee425f922a167f779a12162128e09ddc0774e2ccf7af",
+  "results/stage297/stage297_bridge_pilot_k10_baseline.jsonl": "0d642a14946eb989637675ddf5ef5a8c4eecdbf53266f85ad8c74de63d6b9b5d"
+ },
+ "baseline_unique_cases": 718,
+ "by_regime": {
+  "adversarial_nearest": {
+   "balanced_grid": 718,
+   "completed": 713,
+   "recorded_cells": 718,
+   "observed_median": 2,
+   "bounded_median_low": 2.0,
+   "bounded_median_high": 2.0,
+   "threshold_status": {
+    "found": 713,
+    "unknown_probe": 5
+   }
+  },
+  "random": {
+   "balanced_grid": 1436,
+   "completed": 1330,
+   "recorded_cells": 1390,
+   "observed_median": 32.5,
+   "bounded_median_low": 32.0,
+   "bounded_median_high": 36.0,
+   "threshold_status": {
+    "found": 1330,
+    "unknown_probe": 60
+   }
+  },
+  "whole_clade": {
+   "balanced_grid": 1436,
+   "completed": 1379,
+   "recorded_cells": 1388,
+   "observed_median": 18,
+   "bounded_median_low": 17.0,
+   "bounded_median_high": 19.0,
+   "threshold_status": {
+    "found": 1379,
+    "unknown_probe": 9
+   }
+  }
+ }
+}
