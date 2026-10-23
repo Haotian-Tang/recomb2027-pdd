@@ -6,7 +6,10 @@ Solvers, instance bank and measurement records for
 
 > **Report the tolerance, not the count: exact phylogenetic distance deconvolution
 > with incomplete references.** Haotian Tang, Mohamed bin Zayed University of
-> Artificial Intelligence. Manuscript for RECOMB 2027.
+> Artificial Intelligence.
+> Preprint: [arXiv:2610.30776](https://arxiv.org/abs/2610.30776) \[q-bio.PE\],
+> [doi:10.48550/arXiv.2610.30776](https://doi.org/10.48550/arXiv.2610.30776).
+> The supplementary appendices are an ancillary file on the arXiv record.
 
 ## The problem
 
@@ -318,6 +321,27 @@ current as of the submitted manuscript and supersedes them where they differ.
 Every protocol JSON under `results/` records the script hashes frozen before
 its runs, the registered seeds and budgets, and the machine. Every per-run
 stream retains all runs, including failures and timeouts.
+
+## Citing this work
+
+Cite the paper for the results and this repository for the code and records.
+`CITATION.cff` in the root carries both, so GitHub's "Cite this repository"
+button produces them directly.
+
+```bibtex
+@article{tang2026tolerance,
+  title   = {Report the tolerance, not the count: exact phylogenetic distance
+             deconvolution with incomplete references},
+  author  = {Tang, Haotian},
+  journal = {arXiv},
+  year    = {2026},
+  eprint  = {2610.30776},
+  archivePrefix = {arXiv},
+  primaryClass  = {q-bio.PE},
+  doi     = {10.48550/arXiv.2610.30776},
+  url     = {https://arxiv.org/abs/2610.30776}
+}
+```
 
 ## Licence
 

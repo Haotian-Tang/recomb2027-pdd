@@ -15,6 +15,7 @@ authors:
   - family-names: Tang
     given-names: Haotian
     affiliation: Mohamed bin Zayed University of Artificial Intelligence
+    orcid: 'https://orcid.org/0009-0000-2410-9092'
 license: MIT
 version: 1.0.0
 date-released: '2026-10-20'
@@ -26,7 +27,7 @@ keywords:
   - parameterized complexity
   - reference incompleteness
 preferred-citation:
-  type: unpublished
+  type: article
   title: >-
     Report the tolerance, not the count: exact phylogenetic distance
     deconvolution with incomplete references
@@ -34,5 +35,10 @@ preferred-citation:
     - family-names: Tang
       given-names: Haotian
       affiliation: Mohamed bin Zayed University of Artificial Intelligence
+      orcid: 'https://orcid.org/0009-0000-2410-9092'
   year: 2026
-  notes: Manuscript for RECOMB 2027.
+  month: 10
+  journal: arXiv
+  doi: 10.48550/arXiv.2610.30776
+  url: 'https://arxiv.org/abs/2610.30776'
+  notes: Preprint, arXiv:2610.30776 [q-bio.PE].
