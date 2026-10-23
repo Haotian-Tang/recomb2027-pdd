@@ -37,19 +37,22 @@ RED, ORANGE, BLUE, PALE = "#b2182b", "#ef8a62", "#4b93b8", "#92c5de"
 
 # label, record accessor, colour.  Bottom row first.
 # The median-leaf values are retained only for the shaded reference band.
+# Row labels are deliberately terse: RECOMB requires a 10 pt minimum for
+# ordinary figure text, and at 10 pt the descriptive forms do not fit beside a
+# panel this wide.  The caption carries the full definitions.
 ROWS = [
-    ("first drop below the true count", "first_drop", "0.25"),
-    ("simulated noise 2, 10 kb", "published_noise2_l10000", PALE),
-    ("simulated noise 2, 100 bp", "published_noise2_l100", PALE),
-    ("simulated noise 1 (any length)", "noise1_pooled", BLUE),
-    ("real ANI (krepp), worst leaf", "krepp_max", RED),
+    ("first drop", "first_drop", "0.25"),
+    ("noise 2, 10 kb", "published_noise2_l10000", PALE),
+    ("noise 2, 100 bp", "published_noise2_l100", PALE),
+    ("noise 1", "noise1_pooled", BLUE),
+    ("real ANI", "krepp_max", RED),
 ]
 
 
 def style():
     plt.rcParams.update({
-        "font.size": 7.5, "axes.labelsize": 7.5, "axes.titlesize": 8.5,
-        "xtick.labelsize": 7, "ytick.labelsize": 7, "legend.fontsize": 7,
+        "font.size": 10, "axes.labelsize": 10, "axes.titlesize": 10,
+        "xtick.labelsize": 10, "ytick.labelsize": 10, "legend.fontsize": 10,
         "axes.spines.top": False, "axes.spines.right": False,
         "axes.linewidth": 0.6, "xtick.major.width": 0.6,
         "ytick.major.width": 0.6, "figure.dpi": 150,
@@ -85,17 +88,21 @@ def panel_a(ax, data, rng):
         ax.scatter(v, y + jitter, s=4.5, color=colour, alpha=0.55, lw=0, zorder=2)
         med = float(np.median(v))
         ax.plot([med, med], [y - 0.3, y + 0.3], color=colour, lw=1.8, zorder=3)
-        ax.annotate(("%.2g" % med), (med, y + 0.38), ha="center", va="bottom",
-                    fontsize=6.5, color=colour)
+        label_on_right = key == "published_noise2_l10000"
+        ax.annotate(("%.2g" % med), (med, y + 0.17),
+                    xytext=(3 if label_on_right else -3, 2),
+                    textcoords="offset points",
+                    ha="left" if label_on_right else "right", va="bottom",
+                    color=colour)
     ax.set_yticks(range(len(ROWS)))
     ax.set_yticklabels([r[0] for r in ROWS])
     ax.set_ylim(-0.7, len(ROWS) - 0.25)
     ax.set_xscale("log")
     ax.set_xlim(3e-6, 3e0)
+    ax.set_xticks([1e-5, 1e-3, 1e-1])
     ax.xaxis.set_minor_locator(NullLocator())
-    ax.set_xlabel(r"tolerance $\varepsilon$ /" + "\nmedian observed distance", labelpad=1.5)
-    ax.set_title("Real distance error exceeds\nthe first-drop tolerance",
-                 loc="left", fontsize=8.5)
+    ax.set_xlabel(r"tolerance $\varepsilon$ (relative)", labelpad=2)
+    ax.set_title("Error exceeds the\nfirst-drop tolerance", loc="left")
     ax.tick_params(axis="y", length=0)
 
 
@@ -119,23 +126,21 @@ def panel_b(ax, payload, data):
     lo = float(np.median(data["krepp_median"]))
     hi = float(np.median(data["krepp_max"]))
     ax.axvspan(lo, hi, color=RED, alpha=0.08, lw=0, zorder=1)
-    for key, colour, label in (("fall_nearest", RED, "nearest to sources"),
-                               ("fall_clade", ORANGE, "whole clade"),
+    for key, colour, label in (("fall_nearest", RED, "nearest"),
+                               ("fall_clade", ORANGE, "clade"),
                                ("fall_random", BLUE, "random")):
         ax.plot(x, [r[key] for r in rows], color=colour, lw=1.5, marker="o",
                 ms=2.8, zorder=3, label=label)
     ax.set_xscale("log")
     ax.set_xlim(3e-6, 3e0)
     ax.set_ylim(0, None)
+    ax.set_xticks([1e-5, 1e-3, 1e-1])
     ax.xaxis.set_minor_locator(NullLocator())
-    ax.set_xlabel(r"tolerance $\varepsilon$ /" + "\nmedian observed distance", labelpad=1.5)
-    ax.set_ylabel("fraction of draws below\ntheir full-panel count\nat the same "
-                  r"$\varepsilon$", labelpad=5)
-    ax.set_title("Structured loss hurts more\nthan random before collapse",
-                 loc="left", fontsize=8.5)
-    ax.legend(frameon=False, loc="upper right", handlelength=1.3, borderaxespad=0.1, labelspacing=0.25)
-    ax.annotate("full-panel count = 1:\nno further fall possible",
-                (2.2, 0.52), ha="right", va="center", fontsize=6.5, color="0.45")
+    ax.set_xlabel(r"tolerance $\varepsilon$ (relative)", labelpad=2)
+    ax.set_ylabel("fraction of draws\nbelow full-panel count", labelpad=3)
+    ax.set_title("Structured loss hurts\nmore than random", loc="left")
+    ax.legend(frameon=False, loc="upper right", handlelength=1.1,
+              borderaxespad=0.1, labelspacing=0.2)
 
 
 def main():
@@ -143,16 +148,17 @@ def main():
     payload = json.loads(RECORD.read_text())
     data = collect(payload)
     rng = np.random.default_rng(0)
-    fig, axes = plt.subplots(1, 2, figsize=(6.5, 2.02),
+    fig, axes = plt.subplots(1, 2, figsize=(6.5, 2.60),
                              gridspec_kw=dict(width_ratios=[1.12, 1.0]))
     panel_a(axes[0], data, rng)
     panel_b(axes[1], payload, data)
     for letter, ax in zip("ab", axes):
-        ax.text(-0.06, 1.18, letter, transform=ax.transAxes, fontsize=8,
+        ax.text(-0.05, 1.04, letter, transform=ax.transAxes, fontsize=10,
                 fontweight="bold", va="bottom", ha="right")
-    # Explicit margins keep both panels inside the unchanged 6.5 by 2.02 inch canvas.
-    axes[0].set_position([0.275, 36 / 145.44, 0.29, 76 / 145.44])
-    axes[1].set_position([0.71, 36 / 145.44, 0.275, 76 / 145.44])
+    # Explicit margins: the canvas is 6.5 by 2.60 inches and every ordinary
+    # label is 10 pt, so the panels are placed rather than tight-layouted.
+    axes[0].set_position([0.195, 0.200, 0.295, 0.600])
+    axes[1].set_position([0.685, 0.200, 0.300, 0.600])
     out = ROOT / "figures"
     fig.savefig(out / "tolerance_axis.pdf", bbox_inches=None)
     fig.savefig(out / "tolerance_axis.png", dpi=300, bbox_inches=None)

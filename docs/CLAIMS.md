@@ -68,8 +68,8 @@ Records marked **(bulk)** are in the data archive, not in this repository - see
 |---|---|---|
 | With no reference removed the minimum first drops below the exact count at a median tolerance 0.0147 of the case's median observed distance, over 43 cases | `stage296_tolerance.py`, `stage296_analyze.py` | `results/stage296/stage296_analysis.json` `/threshold_distribution`, `/full_panel[*]/first_drop_eps_rel` |
 | It tracks the smallest constituent far more closely than the panel size (`rho = 0.665` against `0.187`) | `stage296_analyze.py` | `results/stage296/stage296_analysis.json` `/threshold_scaling/vs_min_p/spearman`, `/threshold_scaling/vs_N/spearman` |
-| Real ANI distances deviate by 0.34 of a median observed distance at the worst leaf, 7.3 to 14.5 times that tolerance in 15 of 15 cases | `stage296_tolerance.py` phase `calibrate` | `results/stage296/stage296_calibration.json`; `results/stage296/stage296_analysis.json` |
-| At a tolerance holding that error the model's own minimum is one source in all 15, against three at tolerance zero in 14 of them | `stage296_analyze.py` | `results/stage296/stage296_analysis.json`; `results/stage296/stage296_tolerance_titration.md` |
+| Real ANI distances deviate from their exact partners by 0.34 of a median observed distance at the worst leaf, exceeding the paired exact profile's first-drop threshold in 15 of 15 cases at a median ratio 14.5 (quartiles 10.9 and 31.6) | `stage296_tolerance.py` phase `calibrate` | `results/stage296/stage296_calibration.json`; `results/stage296/stage296_analysis.json` |
+| On the exact partner's tolerance ladder, a tolerance holding that error leaves a minimum of one source in all 15, against three at tolerance zero in 14 of them. This is a statement about the exact twin's ladder, not about `Theta_1` of the observed profile | `stage296_analyze.py` | `results/stage296/stage296_analysis.json`; `results/stage296/stage296_tolerance_titration.md` |
 | Figure 3 (tolerance axis) | `figures/make_fig_tolerance_axis.py` | `results/stage296/stage296_payload.json` (every plotted value, read directly by the script); vector `figures/tolerance_axis.pdf` |
 
 ### Real distances

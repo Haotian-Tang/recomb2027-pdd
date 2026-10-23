@@ -43,6 +43,15 @@ def median(xs):
     return s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2
 
 
+def split_by_boundary(rows, zero_key, above_key):
+    """Cases whose refitted optimum is interior vs on the y = 0 boundary."""
+    out = {}
+    for label, flag in (('positive', False), ('zero', True)):
+        g = [r for r in rows if r[zero_key] is flag]
+        out[label] = dict(n=len(g), above=sum(1 for r in g if r[above_key]))
+    return out
+
+
 def main():
     theta = s300.theta1_table()
     entries = s300.case_entries(COLLECTION)
@@ -116,7 +125,10 @@ def main():
             n_y_zero=sum(1 for r in have_t if r['y_inf_is_zero']),
             n_beat=len(beat_t),
             n_beat_with_y_zero=sum(1 for r in beat_t if r['y_inf_is_zero']),
-            beat_min_gap=min([r['ratio_free'] for r in beat_t], default=None),
+            beat_min_ratio=min([r['ratio_free'] for r in beat_t], default=None),
+            beat_min_margin=min([1 - r['ratio_free'] for r in beat_t], default=None),
+            by_pendant_boundary=split_by_boundary(
+                have_t, 'y_inf_is_zero', 'above_theta1_free'),
         ),
         ssr=dict(
             n=len(have_l),
@@ -125,6 +137,8 @@ def main():
             n_y_zero=sum(1 for r in have_l if r['y_two_is_zero']),
             n_beat=len(beat_l),
             n_beat_with_y_zero=sum(1 for r in beat_l if r['y_two_is_zero']),
+            by_pendant_boundary=split_by_boundary(
+                have_l, 'y_two_is_zero', 'above_lambda1_free'),
         ),
     )
     out_dir = s300.OUT.parent / 'stage306'
@@ -141,6 +155,13 @@ def main():
           % (s['median_ratio_fixed'], s['median_ratio_free'], s['ties_free']))
     print('             y* = 0 in %d of %d; %d beat Theta_1, %d of them at y* = 0'
           % (s['n_y_zero'], s['n'], s['n_beat'], s['n_beat_with_y_zero']))
+    for label, block, norm in ((('worst leaf',), summary['linf'], 'Theta_1'),
+                               (('sum squares',), summary['ssr'], 'Lambda_1')):
+        for where in ('positive', 'zero'):
+            b = block['by_pendant_boundary'][where]
+            print('%-11s y* %-3s n=%3d  still above %s in %3d  %.1f%%'
+                  % (label[0], '> 0' if where == 'positive' else '= 0',
+                     b['n'], norm, b['above'], 100.0 * b['above'] / b['n']))
     q = summary['ssr']
     print('sum squares: above Lambda_1 %d/%d fixed -> %d/%d refitting y only'
           % (q['above_lambda1_fixed'], q['n'], q['above_lambda1_free'], q['n']))

@@ -54,7 +54,8 @@ def describe(v):
     v = sorted(v)
     q = statistics.quantiles(v, n=4) if len(v) >= 4 else [None, None, None]
     return dict(n=len(v), median=statistics.median(v), q25=q[0], q75=q[2],
-                min=v[0], max=v[-1])
+                min=v[0], max=v[-1],
+                exact_faster_in=sum(1 for x in v if x > 1))
 
 
 def main():

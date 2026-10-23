@@ -6816,7 +6816,18 @@
   "linf": {
    "above_theta1_fixed": 296,
    "above_theta1_free": 248,
-   "beat_min_gap": 0.6990481959939503,
+   "beat_min_margin": 0.0027946331396452306,
+   "beat_min_ratio": 0.6990481959939503,
+   "by_pendant_boundary": {
+    "positive": {
+     "above": 123,
+     "n": 166
+    },
+    "zero": {
+     "above": 125,
+     "n": 130
+    }
+   },
    "median_ratio_fixed": 2.864682479420348,
    "median_ratio_free": 1.2948694336594124,
    "n": 296,
@@ -6829,6 +6840,16 @@
   "ssr": {
    "above_lambda1_fixed": 294,
    "above_lambda1_free": 223,
+   "by_pendant_boundary": {
+    "positive": {
+     "above": 130,
+     "n": 198
+    },
+    "zero": {
+     "above": 93,
+     "n": 98
+    }
+   },
    "n": 296,
    "n_beat": 73,
    "n_beat_with_y_zero": 5,
