@@ -37,10 +37,10 @@ LABEL = {"nearest": "nearest to sources", "clade": "whole clade",
 
 def style():
     plt.rcParams.update({
-        "font.size": 7, "axes.labelsize": 7, "axes.titlesize": 8,
-        "xtick.labelsize": 6, "ytick.labelsize": 6, "legend.fontsize": 6,
+        "font.size": 7.5, "axes.labelsize": 7.5, "axes.titlesize": 8.5,
+        "xtick.labelsize": 7, "ytick.labelsize": 7, "legend.fontsize": 7,
         "axes.spines.top": False, "axes.spines.right": False,
-        "figure.dpi": 150, "savefig.bbox": "tight", "pdf.fonttype": 42,
+        "figure.dpi": 150, "savefig.bbox": None, "pdf.fonttype": 42,
     })
 
 
@@ -75,7 +75,7 @@ def main():
     fall, points = payload["fall"], payload["threshold_vs_panel"]
     x = np.arange(len(LEVELS))
 
-    fig, axes = plt.subplots(1, 3, figsize=(6.9, 2.12))
+    fig, axes = plt.subplots(1, 3, figsize=(6.5, 1.80))
 
     for ax, (arm, title) in zip(axes[:2], [("exact_partner", "Exact distances"),
                                            ("krepp_ani", "Real ANI distances")]):
@@ -90,10 +90,12 @@ def main():
         ax.set_title(title)
     axes[0].set_ylabel(r"median fall in $\Theta_1$")
     axes[1].set_yticklabels([])
-    for regime, xy in [("nearest", (2.0, 0.46)), ("clade", (4.35, 0.90)),
-                       ("taxon", (4.35, 0.345)), ("random", (4.35, 0.19))]:
-        axes[0].annotate(LABEL[regime], xy, ha="right", va="center",
-                         color=COLOUR[regime], fontsize=6)
+    for regime, xy, align in [("nearest", (0.15, 0.70), "left"),
+                              ("clade", (4.35, 0.97), "right"),
+                              ("taxon", (4.35, 0.42), "right"),
+                              ("random", (4.35, 0.14), "right")]:
+        axes[0].annotate(LABEL[regime], xy, ha=align, va="center",
+                         color=COLOUR[regime], fontsize=7)
 
     adversarial = np.asarray(points["adversarial_nearest"], dtype=float)
     random_arm = np.asarray(points["random"], dtype=float)
@@ -123,26 +125,26 @@ def main():
     ax.set_ylim(-0.3, 1400)
     ax.set_xlim(17, 430)
     ax.set_xlabel("references in the panel")
-    ax.set_ylabel("refs. erasable before\nthe answer changes")
-    ax.set_title("Reference-loss tolerance by panel size")
+    ax.set_ylabel("references erasable\nbefore answer changes")
+    ax.set_title("Reference-loss tolerance\nby panel size")
     rho_random = spearman(random_arm[:, 0], random_arm[:, 1])
     rho_adv = spearman(adversarial[:, 0], adversarial[:, 1])
     ax.annotate(r"random  $\rho=%.2f$" % rho_random, (23, 620), ha="left", va="center",
-                color="#4b93b8", fontsize=6)
+                color="#4b93b8", fontsize=7)
     ax.annotate(r"nearest to sources  $\rho=%.2f$" % rho_adv, (23, 230), ha="left",
-                va="center", color=COLOUR["nearest"], fontsize=6)
+                va="center", color=COLOUR["nearest"], fontsize=7)
 
     for letter, ax in zip("abc", axes):
         ax.margins(0.04)
-        ax.text(-0.17, 1.06, letter, transform=ax.transAxes, fontsize=8,
+        ax.text(-0.18, 1.35, letter, transform=ax.transAxes, fontsize=8,
                 fontweight="bold", va="bottom", ha="left")
-    fig.text(0.012, 0.945, "higher = more damage", fontsize=6, color="0.35")
-    fig.tight_layout(rect=(0, 0, 1, 0.935))
-    fig.subplots_adjust(wspace=0.30)
+    # Fixed canvas: reserve explicit space for labels rather than expand the PDF.
+    fig.text(0.09, 0.975, "higher = more damage", fontsize=6.5, color="0.35", va="top")
+    fig.subplots_adjust(left=0.09, right=0.985, bottom=0.25, top=0.70, wspace=0.47)
 
     out = ROOT / "figures"
-    fig.savefig(out / "incompleteness.pdf")
-    fig.savefig(out / "incompleteness.png", dpi=300)
+    fig.savefig(out / "incompleteness.pdf", bbox_inches=None)
+    fig.savefig(out / "incompleteness.png", dpi=300, bbox_inches=None)
     print("wrote", out / "incompleteness.pdf", "and", out / "incompleteness.png")
     print("  panel (c): %d adversarial (rho=%.4f) and %d random (rho=%.4f) measurements"
           % (len(adversarial), rho_adv, len(random_arm), rho_random))

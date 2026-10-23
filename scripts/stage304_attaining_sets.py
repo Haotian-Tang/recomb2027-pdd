@@ -11,10 +11,11 @@ whether reference loss moved the best position is therefore two questions:
 with A(R) = {e : theta_R({e}) = Theta_1(R)}. They differ: ties are common.
 Stage299 stores `attaining` truncated to the first 200 entries alongside the
 untruncated count `n_attaining`, so for a draw with more than 200 optima the
-intersection cannot be decided from the stream alone; those cases are reported
-as undecidable here and resolved separately by recomputing both attaining sets
-in full (see `resolved_undecidable` below, produced by rerunning the closed form
-on the recorded leaf sets).
+intersection cannot always be decided from the stream alone. For each unresolved
+comparison, this script recomputes the draw's full attaining set with the frozen
+closed form and intersects it with the full panel's complete saved set. The
+results and per-case counts are recorded in `resolved_undecidable`; a truncated
+full-panel set cannot be resolved by this procedure.
 
 Truncation would in principle make the terminal-edge count a lower bound, since
 a terminal optimum beyond entry 200 would be invisible. It does not here: every
@@ -28,6 +29,7 @@ Writes results/stage304/stage304_attaining_sets.json. No third-party imports.
 import hashlib
 import json
 import sys
+from fractions import Fraction
 from collections import defaultdict
 from pathlib import Path
 
@@ -35,9 +37,11 @@ ROOT = Path(__file__).resolve().parents[1]
 RUNS = ROOT / 'results' / 'stage299' / 'stage299_td_runs.jsonl'
 OUT = ROOT / 'results' / 'stage304' / 'stage304_attaining_sets.json'
 
-# resolved by recomputing both attaining sets in full on the recorded leaf sets;
-# 2 of the 9 undecidable nearest-to-attainer draws at 25% loss are disjoint.
-RESOLVED = {'nearest_theta1|0.25': {'checked': 9, 'disjoint': 2, 'intersecting': 7}}
+# Resolve each undecidable comparison by recomputing all draw-edge optima with
+# the frozen closed form, then intersecting the full attaining set with the
+# complete saved full-panel set. An empty intersection means the move was forced.
+# Requires the stage299 protocol and case files; no LP is used.
+RESOLVE = True
 
 
 def sha256(path):
@@ -46,6 +50,66 @@ def sha256(path):
         for chunk in iter(lambda: fh.read(1 << 20), b''):
             h.update(chunk)
     return h.hexdigest()
+
+
+
+def resolve_cell(rows, full, regime, level):
+    """Resolve truncated draw lists via full closed-form attaining sets."""
+    import sys as _sys
+    _sys.path.insert(0, str(ROOT / 'scripts'))
+    import stage298_common as s298
+    import stage299_common as s299
+
+    proto_path = ROOT / 'results' / 'stage299' / 'stage299_protocol.json'
+    if not proto_path.exists():
+        return None
+    proto = json.loads(proto_path.read_text())
+    cases = {}
+    for row in proto['cases']:
+        if row['arm'] != s299.TD_ARM:
+            continue
+        cases[row['name']] = s299.prepare_case(
+            s299.load_json(row['path'], row['sha256']), row['name'])
+    sets = {}
+    for row in proto['leafsets']:
+        if row['arm'] != s299.TD_ARM:
+            continue
+        sets[(row['name'], str(row['level']), row['regime'])] = row
+
+    per_case, disjoint = [], 0
+    for r in rows:
+        if r['regime'] != regime or str(r['level']) != str(level):
+            continue
+        f = full.get(r['name'])
+        if f is None:
+            continue
+        a_full = set(f.get('attaining') or [])
+        a_new = set(r['result'].get('attaining') or [])
+        trunc = ((f.get('n_attaining') or 0) > len(a_full) or
+                 (r['result'].get('n_attaining') or 0) > len(a_new))
+        if (a_full & a_new) or not trunc:
+            continue
+        if (f.get('n_attaining') or 0) > len(a_full):
+            per_case.append(dict(name=r['name'], decided=False,
+                                 why='full-panel list truncated too'))
+            continue
+        row = sets.get((r['name'], str(level), regime))
+        case = cases.get(r['name'])
+        if row is None or case is None:
+            per_case.append(dict(name=r['name'], decided=False, why='leaf set not found'))
+            continue
+        removed = set(int(x) for x in row['removed'])
+        leaves = [q for q in sorted(case['observed']) if q not in removed]
+        dvals = [case['observed'][q] for q in leaves]
+        cf = s298.theta1_all_edges(case['edges'], leaves, dvals)
+        a_draw_full = set(s299.attaining(cf['theta'], cf['theta1']))
+        hits = sorted(a_full & a_draw_full)
+        per_case.append(dict(name=r['name'], decided=True, old_optima=len(a_full),
+                             still_optimal=len(hits), disjoint=not hits))
+        disjoint += int(not hits)
+    return dict(checked=sum(1 for p in per_case if p['decided']), disjoint=disjoint,
+                intersecting=sum(1 for p in per_case if p['decided'] and not p['disjoint']),
+                per_case=per_case)
 
 
 def main():
@@ -82,7 +146,6 @@ def main():
         'attaining_set_contains_terminal': sum(1 for r in rows
                                                if r['result'].get('attaining_terminal')),
         'by_regime_level': {},
-        'resolved_undecidable': RESOLVED,
     }
 
     tc = defaultdict(int)
@@ -121,11 +184,15 @@ def main():
             c['undecidable'] += 1
         else:
             c['disjoint'] += 1
+    out['resolved_undecidable'] = {}
     for key in sorted(cells):
         c = cells[key]
-        res = RESOLVED.get(key)
-        if res:
-            c['disjoint_after_resolution'] = c['disjoint'] + res['disjoint']
+        if RESOLVE and c['undecidable']:
+            regime, level = key.split('|')
+            res = resolve_cell(rows, full, regime, level)
+            if res is not None:
+                out['resolved_undecidable'][key] = res
+                c['disjoint_after_resolution'] = c['disjoint'] + res['disjoint']
         out['by_regime_level'][key] = c
 
     OUT.parent.mkdir(parents=True, exist_ok=True)

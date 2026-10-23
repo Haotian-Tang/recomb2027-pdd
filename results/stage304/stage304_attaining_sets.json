@@ -72,14 +72,16 @@
    "representative_changed": 26,
    "intersecting": 4,
    "disjoint": 13,
-   "undecidable": 12
+   "undecidable": 12,
+   "disjoint_after_resolution": 15
   },
   "nearest_theta1|0.75": {
    "n": 29,
    "representative_changed": 28,
    "intersecting": 2,
    "disjoint": 13,
-   "undecidable": 14
+   "undecidable": 14,
+   "disjoint_after_resolution": 16
   },
   "nearest_theta1|one": {
    "n": 29,
@@ -124,18 +126,279 @@
    "undecidable": 0
   }
  },
- "resolved_undecidable": {
-  "nearest_theta1|0.25": {
-   "checked": 9,
-   "disjoint": 2,
-   "intersecting": 7
-  }
- },
  "terminal_classification": {
   "draw|complete|none": 633,
   "draw|complete|terminal": 52,
   "draw|truncated|terminal": 40,
   "full|complete|none": 29
  },
- "terminal_undecided": 0
+ "terminal_undecided": 0,
+ "resolved_undecidable": {
+  "nearest_theta1|0.25": {
+   "checked": 9,
+   "disjoint": 2,
+   "intersecting": 7,
+   "per_case": [
+    {
+     "name": "td_sample_125_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_147_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_45_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_50070_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_523_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 0,
+     "disjoint": true
+    },
+    {
+     "name": "td_sample_540_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_6128_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_715_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 0,
+     "disjoint": true
+    },
+    {
+     "name": "td_sample_80142_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    }
+   ]
+  },
+  "nearest_theta1|0.50": {
+   "checked": 12,
+   "disjoint": 2,
+   "intersecting": 10,
+   "per_case": [
+    {
+     "name": "td_sample_125_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_147_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_3_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_45_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_50070_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_523_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 0,
+     "disjoint": true
+    },
+    {
+     "name": "td_sample_540_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_6128_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_715_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 0,
+     "disjoint": true
+    },
+    {
+     "name": "td_sample_78_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_80129_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_80142_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    }
+   ]
+  },
+  "nearest_theta1|0.75": {
+   "checked": 14,
+   "disjoint": 3,
+   "intersecting": 11,
+   "per_case": [
+    {
+     "name": "td_sample_101_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_125_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_147_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_3_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_45_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_50070_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_540_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 0,
+     "disjoint": true
+    },
+    {
+     "name": "td_sample_560_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_6128_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_678_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 0,
+     "disjoint": true
+    },
+    {
+     "name": "td_sample_715_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 0,
+     "disjoint": true
+    },
+    {
+     "name": "td_sample_78_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_80129_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    },
+    {
+     "name": "td_sample_80142_published",
+     "decided": true,
+     "old_optima": 1,
+     "still_optimal": 1,
+     "disjoint": false
+    }
+   ]
+  }
+ }
 }

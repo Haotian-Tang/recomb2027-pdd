@@ -48,12 +48,12 @@ ROWS = [
 
 def style():
     plt.rcParams.update({
-        "font.size": 7, "axes.labelsize": 7, "axes.titlesize": 8,
-        "xtick.labelsize": 6, "ytick.labelsize": 6, "legend.fontsize": 6,
+        "font.size": 7.5, "axes.labelsize": 7.5, "axes.titlesize": 8.5,
+        "xtick.labelsize": 7, "ytick.labelsize": 7, "legend.fontsize": 7,
         "axes.spines.top": False, "axes.spines.right": False,
         "axes.linewidth": 0.6, "xtick.major.width": 0.6,
         "ytick.major.width": 0.6, "figure.dpi": 150,
-        "pdf.fonttype": 42, "ps.fonttype": 42,
+        "pdf.fonttype": 42, "ps.fonttype": 42, "savefig.bbox": None,
     })
 
 
@@ -86,16 +86,16 @@ def panel_a(ax, data, rng):
         med = float(np.median(v))
         ax.plot([med, med], [y - 0.3, y + 0.3], color=colour, lw=1.8, zorder=3)
         ax.annotate(("%.2g" % med), (med, y + 0.38), ha="center", va="bottom",
-                    fontsize=5.6, color=colour)
+                    fontsize=6.5, color=colour)
     ax.set_yticks(range(len(ROWS)))
     ax.set_yticklabels([r[0] for r in ROWS])
     ax.set_ylim(-0.7, len(ROWS) - 0.25)
     ax.set_xscale("log")
     ax.set_xlim(3e-6, 3e0)
     ax.xaxis.set_minor_locator(NullLocator())
-    ax.set_xlabel(r"tolerance $\varepsilon$ / median observed distance")
-    ax.set_title("Real distance error exceeds the tolerance\nthat already removes a constituent",
-                 loc="left", fontsize=7.4)
+    ax.set_xlabel(r"tolerance $\varepsilon$ /" + "\nmedian observed distance", labelpad=1.5)
+    ax.set_title("Real distance error exceeds\nthe first-drop tolerance",
+                 loc="left", fontsize=8.5)
     ax.tick_params(axis="y", length=0)
 
 
@@ -128,14 +128,14 @@ def panel_b(ax, payload, data):
     ax.set_xlim(3e-6, 3e0)
     ax.set_ylim(0, None)
     ax.xaxis.set_minor_locator(NullLocator())
-    ax.set_xlabel(r"tolerance $\varepsilon$ / median observed distance")
-    ax.set_ylabel("draws whose count falls below their\nown full-panel answer at the same "
-                  r"$\varepsilon$")
-    ax.set_title("Structured loss hurts more than random,\nup to where the baseline dies",
-                 loc="left", fontsize=7.4)
-    ax.legend(frameon=False, loc="upper right", handlelength=1.3)
-    ax.annotate("full-panel answer already\ncollapsed to 1: no fall possible",
-                (2.2, 0.52), ha="right", va="center", fontsize=5.6, color="0.45")
+    ax.set_xlabel(r"tolerance $\varepsilon$ /" + "\nmedian observed distance", labelpad=1.5)
+    ax.set_ylabel("fraction of draws below\ntheir full-panel count\nat the same "
+                  r"$\varepsilon$", labelpad=5)
+    ax.set_title("Structured loss hurts more\nthan random before collapse",
+                 loc="left", fontsize=8.5)
+    ax.legend(frameon=False, loc="upper right", handlelength=1.3, borderaxespad=0.1, labelspacing=0.25)
+    ax.annotate("full-panel count = 1:\nno further fall possible",
+                (2.2, 0.52), ha="right", va="center", fontsize=6.5, color="0.45")
 
 
 def main():
@@ -143,18 +143,19 @@ def main():
     payload = json.loads(RECORD.read_text())
     data = collect(payload)
     rng = np.random.default_rng(0)
-    fig, axes = plt.subplots(1, 2, figsize=(6.9, 2.55),
+    fig, axes = plt.subplots(1, 2, figsize=(6.5, 2.02),
                              gridspec_kw=dict(width_ratios=[1.12, 1.0]))
     panel_a(axes[0], data, rng)
     panel_b(axes[1], payload, data)
     for letter, ax in zip("ab", axes):
-        ax.text(-0.02, 1.10, letter, transform=ax.transAxes, fontsize=8,
+        ax.text(-0.06, 1.18, letter, transform=ax.transAxes, fontsize=8,
                 fontweight="bold", va="bottom", ha="right")
-    fig.tight_layout()
-    fig.subplots_adjust(wspace=0.42)
+    # Explicit margins keep both panels inside the unchanged 6.5 by 2.02 inch canvas.
+    axes[0].set_position([0.275, 36 / 145.44, 0.29, 76 / 145.44])
+    axes[1].set_position([0.71, 36 / 145.44, 0.275, 76 / 145.44])
     out = ROOT / "figures"
-    fig.savefig(out / "tolerance_axis.pdf")
-    fig.savefig(out / "tolerance_axis.png", dpi=300)
+    fig.savefig(out / "tolerance_axis.pdf", bbox_inches=None)
+    fig.savefig(out / "tolerance_axis.png", dpi=300, bbox_inches=None)
     print("wrote", out / "tolerance_axis.pdf", "and", out / "tolerance_axis.png")
     for label, key, _ in ROWS:
         v = data[key]
