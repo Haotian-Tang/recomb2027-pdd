@@ -90,10 +90,10 @@ def main():
         ax.set_title(title)
     axes[0].set_ylabel(r"median fall in $\Theta_1$")
     axes[1].set_yticklabels([])
-    for regime, xy, align in [("nearest", (0.15, 0.70), "left"),
-                              ("clade", (4.35, 0.97), "right"),
-                              ("taxon", (4.35, 0.42), "right"),
-                              ("random", (4.35, 0.14), "right")]:
+    for regime, xy, align in [("clade", (0.12, 0.98), "left"),
+                              ("nearest", (0.12, 0.83), "left"),
+                              ("taxon", (0.12, 0.68), "left"),
+                              ("random", (0.12, 0.53), "left")]:
         axes[0].annotate(LABEL[regime], xy, ha=align, va="center",
                          color=COLOUR[regime], fontsize=7)
 
