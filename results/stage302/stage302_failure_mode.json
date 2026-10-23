@@ -1,0 +1,61 @@
+{
+ "stage": 302,
+ "what": "classification of the first erasure that breaks uniqueness, at e = t_unknown + 1",
+ "threshold_convention": "t_unknown is the last deletion count at which the true support is still the unique minimum; the first failure is at t_unknown + 1",
+ "filter": "baseline_unique_true, same as stage297_analyze.py pooled",
+ "inputs": {
+  "results/stage292_bridge_K2_3_5_7.jsonl": "6b9bb4fed63ac1012d1d72a3c15e98e416775b8c9664623c81f0ab9f4e86ef31",
+  "results/stage292_bridge_K7_resume.jsonl": "adf09b3efa7906da5324a97032e2815acb01592ca4283b2aa3f8fd77ab1ea494",
+  "results/stage297/stage297_bridge_k10_adv_large.jsonl": "d535d91f2ae551e53ecc8f5bc4d73824c205afa3894cfad9f081e11092e749c0",
+  "results/stage297/stage297_bridge_k10_rand_large.jsonl": "5737e2a3c843fbc87d2c9785ba36e44e24da80b7d3acab34d2106e63d094be3d",
+  "results/stage297/stage297_bridge_k12_baseline.jsonl": "b9440c690f6bacac18071bb698cdf644d79f3405607e0d062f9c2c2a3a4126f6",
+  "results/stage297/stage297_bridge_main_k10.jsonl": "9dd43c16d86dda6d5fd4cf5115eb5664a3368056bc87585522f89cbc7717a51a",
+  "results/stage297/stage297_bridge_main_k10_extra.jsonl": "911919ec3ac0282745b1ee425f922a167f779a12162128e09ddc0774e2ccf7af",
+  "results/stage297/stage297_bridge_pilot_k10_baseline.jsonl": "0d642a14946eb989637675ddf5ef5a8c4eecdbf53266f85ad8c74de63d6b9b5d"
+ },
+ "bridge_records_used": 744,
+ "by_regime": {
+  "adversarial_nearest": {
+   "n_thresholds": 723,
+   "median_t_unknown": 2,
+   "min_t_unknown": 0,
+   "max_t_unknown": 115,
+   "panel_size_min": 20,
+   "panel_size_max": 361,
+   "spearman_t_vs_panel_size": 0.09194157504361426,
+   "spearman_t_statistic": 2.4792651440985742,
+   "first_failure_mode": {
+    "competing_support_same_size": 680,
+    "minimum_fell_below_K": 43
+   }
+  },
+  "random": {
+   "n_thresholds": 1336,
+   "median_t_unknown": 32.0,
+   "min_t_unknown": 0,
+   "max_t_unknown": 337,
+   "panel_size_min": 20,
+   "panel_size_max": 361,
+   "spearman_t_vs_panel_size": 0.8188796795742214,
+   "spearman_t_statistic": 52.108963489522786,
+   "first_failure_mode": {
+    "competing_support_same_size": 1254,
+    "minimum_fell_below_K": 82
+   }
+  },
+  "whole_clade": {
+   "n_thresholds": 1379,
+   "median_t_unknown": 18,
+   "min_t_unknown": 0,
+   "max_t_unknown": 328,
+   "panel_size_min": 20,
+   "panel_size_max": 361,
+   "spearman_t_vs_panel_size": 0.6513250953929758,
+   "spearman_t_statistic": 31.85210553637284,
+   "first_failure_mode": {
+    "competing_support_same_size": 1325,
+    "minimum_fell_below_K": 54
+   }
+  }
+ }
+}
