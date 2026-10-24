@@ -376,7 +376,12 @@ def choose_constraints(view, eps, n_edges, sample, n_keep, rng):
     for s in pick:
         con = envelope_constraint(view, s, eps, exact=False)
         if con['rho'] < 0:
-            return None, dict(infeasible_at=s)
+            # float rounding can turn a tiny positive rho negative; the
+            # rejection has to be made in exact arithmetic, not in the
+            # float pass that is only there to order the constraints.
+            con = envelope_constraint(view, s, eps, exact=True)
+            if con['rho'] < 0:
+                return None, dict(infeasible_at=s)
         size = int(constraint_mask(view, con, n_edges).sum())
         scored.append((size, s))
     scored.sort()
