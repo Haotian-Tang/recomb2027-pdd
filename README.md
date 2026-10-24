@@ -150,6 +150,103 @@ control with a degree-two internal vertex: f != h in 96/300 draws
 
 which are the two figures the supplement quotes. Standard library only.
 
+### Computing Theta_1 on your own profile
+
+`scripts/stage298_common.theta1_all_edges(edges, leaves, dvals)` is the entry
+point. It takes
+
+* `edges` - a list of `(u, v, length)` with nonnegative integer vertex ids and
+  positive `fractions.Fraction` lengths,
+* `leaves` - a nonempty list of distinct vertex ids of the observed references, and
+* `dvals` - the observed distance to each of those references, in the same
+  order, also as `Fraction`.
+
+Input must be exact rationals: the guarantee is an exact arithmetic one, and
+floats would silently turn an exact answer into an approximate one.
+
+Run this from the repository root with `python3`:
+
+```python
+from fractions import Fraction as F
+from scripts.stage298_common import theta1_all_edges
+
+# three-leaf unit star: centre 0, leaves 1, 2, 3, every edge of length 1
+edges  = [(0, 1, F(1)), (0, 2, F(1)), (0, 3, F(1))]
+leaves = [1, 2, 3]
+dvals  = [F(3, 2), F(12, 5), F(13, 5)]
+
+out = theta1_all_edges(edges, leaves, dvals)
+print(out["theta1"])                      # 1/10
+print(edges[out["best"]][:2],
+      out["x"][out["best"]])              # (0, 1) at 9/20
+print([str(t) for t in out["theta"]])      # ['1/10', '11/20', '11/20']
+```
+
+`theta1` is the minimum worst-leaf error in the closed single-source model
+(`0 <= x <= 1`, `y >= 0`), and the infimum for the strict interior-source,
+positive-pendant model. `best` indexes an edge attaining the closed minimum;
+`x` is the fraction of that edge's length measured from its first endpoint
+(the distance along the edge is `x * length`). `theta` gives the closed minimum
+restricted to each edge in turn. In this example the optimum is strict, with
+`x = 9/20` and pendant `y = 21/20`.
+
+Theta_1 is a tolerance, not a count. A zero value means that the profile has an
+exact single-source explanation in the closed model; it does not by itself
+certify an exact explanation with a strictly interior source and `y > 0`.
+Boundary optima may only be approached in the strict model. Any error budget
+strictly greater than `theta1` permits a strict single-source explanation;
+at equality, attainment must be checked. Comparing a fitted mixture's residual
+against this threshold is the check the paper recommends. The tolerance ladder
+`Theta_2`, `Theta_3`, ... describes larger supports; the strict exact minimum
+source count requires the exact solver, not just a zero in that ladder.
+
+### Checking the tree pairing used for the ANI cases
+
+`scripts/stage307_tree_pairing.py` compares the two branch-length calibrations
+for each of the ten trees behind the 296 ANI cases. It checks leaf labels and
+unrooted topology, counts nonpositive ANI-calibrated edges, and compares all
+leaf-to-leaf path sums. It does not recompute any source count or tolerance.
+
+The 20 upstream Newick files are excluded from git and from the bulk archive.
+From the repository root, fetch just these inputs using the pinned URLs and
+SHA-256 values in the existing download manifest (standard library only):
+
+```bash
+python3 - <<'PY_FETCH'
+import hashlib
+import json
+from pathlib import Path
+from urllib.request import urlopen
+
+root = Path(".")
+manifest = json.loads((root / "data/stage287_instances/download_manifest.json").read_text())
+paths = {f"data/stage287_instances/demixing_10k/trees/tree_{i}{suffix}.tre"
+         for i in range(8, 18) for suffix in ("", "-ani_blen")}
+entries = [e for e in manifest["files"] if e["local_path"] in paths]
+assert len(entries) == 20 and {e["local_path"] for e in entries} == paths
+for entry in entries:
+    path = root / entry["local_path"]
+    if path.exists():
+        data = path.read_bytes()
+    else:
+        with urlopen(entry["url"], timeout=30) as response:
+            data = response.read()
+    assert hashlib.sha256(data).hexdigest() == entry["sha256"], path
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if not path.exists():
+        path.write_bytes(data)
+print("20 of 20 input hashes verified")
+PY_FETCH
+python3 -B scripts/stage307_tree_pairing.py tree_8 tree_9 tree_10 tree_11 \
+    tree_12 tree_13 tree_14 tree_15 tree_16 tree_17
+```
+
+The second command rewrites `results/stage307/stage307_tree_pairing.json`.
+It reports the median ANI/original path-sum ratio and median absolute relative
+difference for each tree. These quantify the geometry change from substituting
+the positive-length backbone; residuals on that pairing reflect disagreement
+with the chosen model and tree, not distance-estimator error alone.
+
 ## Paper claim to script to record
 
 Every claim in the paper that cites a number, with the script that produced it and the record

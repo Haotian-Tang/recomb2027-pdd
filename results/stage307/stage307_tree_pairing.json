@@ -1,0 +1,126 @@
+{
+ "kind": "tree_pairing_geometry",
+ "stage": 307,
+ "trees": [
+  {
+   "median_abs_rel_diff": 0.15110101532474943,
+   "median_path_ratio": 0.8489421143002199,
+   "n_edges_ani": 103,
+   "n_leaves": 53,
+   "n_negative_edges_ani": 12,
+   "n_pairs": 1378,
+   "n_zero_edges_ani": 0,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_8"
+  },
+  {
+   "median_abs_rel_diff": 0.08312789437778394,
+   "median_path_ratio": 0.9338389600878799,
+   "n_edges_ani": 97,
+   "n_leaves": 50,
+   "n_negative_edges_ani": 4,
+   "n_pairs": 1225,
+   "n_zero_edges_ani": 0,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_9"
+  },
+  {
+   "median_abs_rel_diff": 0.16228612443498536,
+   "median_path_ratio": 0.8390217609597703,
+   "n_edges_ani": 119,
+   "n_leaves": 61,
+   "n_negative_edges_ani": 12,
+   "n_pairs": 1830,
+   "n_zero_edges_ani": 2,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_10"
+  },
+  {
+   "median_abs_rel_diff": 0.044778209882234826,
+   "median_path_ratio": 1.0290003168618185,
+   "n_edges_ani": 261,
+   "n_leaves": 132,
+   "n_negative_edges_ani": 13,
+   "n_pairs": 8646,
+   "n_zero_edges_ani": 2,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_11"
+  },
+  {
+   "median_abs_rel_diff": 0.030639250195986116,
+   "median_path_ratio": 1.0198534848525145,
+   "n_edges_ani": 119,
+   "n_leaves": 61,
+   "n_negative_edges_ani": 5,
+   "n_pairs": 1830,
+   "n_zero_edges_ani": 0,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_12"
+  },
+  {
+   "median_abs_rel_diff": 0.052699427069959615,
+   "median_path_ratio": 0.95019302465489,
+   "n_edges_ani": 109,
+   "n_leaves": 56,
+   "n_negative_edges_ani": 7,
+   "n_pairs": 1540,
+   "n_zero_edges_ani": 0,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_13"
+  },
+  {
+   "median_abs_rel_diff": 0.03657017612810991,
+   "median_path_ratio": 0.9886747588985829,
+   "n_edges_ani": 71,
+   "n_leaves": 37,
+   "n_negative_edges_ani": 2,
+   "n_pairs": 666,
+   "n_zero_edges_ani": 0,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_14"
+  },
+  {
+   "median_abs_rel_diff": 0.05125812628891301,
+   "median_path_ratio": 1.0506223082735173,
+   "n_edges_ani": 219,
+   "n_leaves": 111,
+   "n_negative_edges_ani": 11,
+   "n_pairs": 6105,
+   "n_zero_edges_ani": 2,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_15"
+  },
+  {
+   "median_abs_rel_diff": 0.06448173328964601,
+   "median_path_ratio": 1.0636117439711128,
+   "n_edges_ani": 57,
+   "n_leaves": 30,
+   "n_negative_edges_ani": 4,
+   "n_pairs": 435,
+   "n_zero_edges_ani": 0,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_16"
+  },
+  {
+   "median_abs_rel_diff": 0.02836213959037554,
+   "median_path_ratio": 1.013301678092274,
+   "n_edges_ani": 65,
+   "n_leaves": 34,
+   "n_negative_edges_ani": 6,
+   "n_pairs": 561,
+   "n_zero_edges_ani": 0,
+   "same_leaf_labels": true,
+   "same_topology": true,
+   "stem": "tree_17"
+  }
+ ]
+}
