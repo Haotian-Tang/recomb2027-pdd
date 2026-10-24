@@ -119,7 +119,13 @@ def registered_candidates(bulk_root):
 
 
 def strictify(run, scale, n_edges):
-    """One uniform map from a float candidate to a strict configuration."""
+    """Apply the uniform map only when the original candidate meets its domain.
+
+    Weights must be positive, original positions must lie in [0, 1], edges
+    must be distinct and valid, and the registered scale must be positive.
+    An invalid candidate receives a reason; out-of-range positions are never
+    repaired merely because contraction would bring them inside the edge.
+    """
     try:
         src = run['sources']
         weights = [F(s['p']) for s in src]
@@ -128,23 +134,31 @@ def strictify(run, scale, n_edges):
         pendant = F(run['pendant_total'])
         scale = F(scale)
     except (ValueError, TypeError, KeyError, ZeroDivisionError, OverflowError):
-        return None
-    if (not src or scale <= 0 or any(p <= 0 for p in weights)
-            or any(e.denominator != 1 or not 0 <= e < n_edges for e in indices)):
-        return None
+        return None, 'invalid_numeric_input'
+    if not src:
+        return None, 'empty_sources'
+    if scale <= 0:
+        return None, 'nonpositive_scale'
+    if any(p <= 0 for p in weights):
+        return None, 'nonpositive_weight'
+    if any(not 0 <= position <= 1 for position in positions):
+        return None, 'position_out_of_range'
+    if any(e.denominator != 1 or not 0 <= e < n_edges for e in indices):
+        return None, 'invalid_edge'
     tot = sum(weights)
     sources, seen = [], set()
     for edge, p, position in zip(indices, weights, positions):
         e = int(edge)
         if e in seen:                      # distinct original edges only
-            return None
+            return None, 'repeated_edge'
         seen.add(e)
         x = (1 - DELTA) * position + DELTA / 2
         sources.append(dict(edge=e, p=p / tot, x=x))
     y = max(F(0), pendant) + DELTA * scale
-    if any(s['p'] <= 0 or not (0 < s['x'] < 1) for s in sources) or y <= 0:
-        return None
-    return sources, y
+    require(all(s['p'] > 0 and 0 < s['x'] < 1 for s in sources)
+            and sum(s['p'] for s in sources) == 1 and y > 0,
+            'strictification postcondition failed')
+    return (sources, y), 'ok'
 
 
 def example_lower_certificate(edges, leaves, dvals):
@@ -197,11 +211,12 @@ def main():
                 and F(base['theta1']) == t1['theta1'] == F(selected_fit['theta1'])
                 and t1['own_median_observed'] == s300.median_observed(dvals)
                 == F(base['own_median_observed']), 'baseline/panel mismatch: ' + name)
-        origin = {k: run.get(k) for k in ('source_stage', 'source_file',
+        origin = {k: run.get(k) for k in ('arm', 'source_stage', 'source_file',
                                          'source_line', 'source_sha256')}
-        made = strictify(run, t1['own_median_observed'], len(edges))
+        made, why = strictify(run, t1['own_median_observed'], len(edges))
         if made is None:
-            rows.append(dict(name=name, status='not_strictifiable', canonical=origin))
+            rows.append(dict(name=name, status=why, canonical_run=origin,
+                             case_path=entry['path'], case_sha256=entry['sha256']))
             continue
         sources, y = made
         require(sum(s['p'] for s in sources) == 1, 'strict weights do not sum to one')
@@ -209,14 +224,15 @@ def main():
         r_fit = max(map(abs, residuals))
         theta1 = t1['theta1']
         rec = dict(name=name, status='ok', k_fit=len(sources),
-                   n_leaves=len(leaves), r_fit=str(r_fit), theta1=str(theta1),
+                   n_leaves=len(leaves), n_edges=len(edges),
+                   r_fit=str(r_fit), theta1=str(theta1),
                    separates=bool(r_fit < theta1),
                    relative_width=(float((theta1 - r_fit) / theta1)
                                    if r_fit < theta1 else None),
                    stored_r_dd_over_theta1=run.get('r_dd_over_theta1'),
-                   canonical=origin, case_path=entry['path'], case_sha256=entry['sha256'],
+                   canonical_run=origin, case_path=entry['path'], case_sha256=entry['sha256'],
                    scale=str(t1['own_median_observed']),
-                   strict_witness=s300.serial(dict(sources=sources, pendant=y)))
+                   witness=s300.serial(dict(sources=sources, pendant=y)))
         rows.append(rec)
         if name == EXAMPLE:
             example = dict(rec, n_edges=len(edges), eps=str(EXAMPLE_EPS),
