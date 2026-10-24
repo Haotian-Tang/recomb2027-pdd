@@ -27,6 +27,9 @@ stage300_harvest.jsonl and stage300_fits_krepp_ani.jsonl. Fetch the README's bul
 archive first, or pass --bulk-root PATH to use an existing copy. All strict
 witnesses and their candidate identities are retained; the example additionally
 retains every residual and a three-reference lower certificate for Theta_1.
+Each separating candidate is also compared with the exact Stage 301 counting
+bound at K_fit - 1. A failed sufficient criterion does not disprove its fitted
+count or rule out a stronger certificate. No support LP or Theta_2 is computed.
 Writes results/stage312/stage312_positive_intervals.json; --output redirects it.
 """
 import argparse
@@ -41,6 +44,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import stage300_common as s300                          # noqa: E402
 import stage300_analyze as s300an                        # noqa: E402
+import stage301_common as s301                          # noqa: E402
 
 COLLECTION = 'krepp_ani'
 ARM = 'dd_default'
@@ -177,6 +181,43 @@ def example_lower_certificate(edges, leaves, dvals):
                        'close the observed gap by at most 2*eps.')
 
 
+def candidate_screen(edges, leaves, dvals, k_fit, r_fit, theta1):
+    """Test whether the counting lower bound meets this strict candidate.
+
+    eps_R(K-1) <= Theta_(K-1), while the witness has Theta_K <= r_fit.
+    Thus r_fit < eps < eps_R(K-1) certifies m(eps) = K. We use an open
+    interval to avoid an endpoint claim; its nonemptiness is exactly the
+    strict comparison below. Zero is a valid vacuous bound, not a failure.
+    """
+    require(isinstance(k_fit, int) and 2 <= k_fit <= len(edges),
+            'screen requires a valid fitted count of at least two')
+    require(isinstance(r_fit, F) and isinstance(theta1, F) and 0 <= r_fit < theta1,
+            'screen requires an exact separating residual')
+    require(len(leaves) == len(dvals) and len(set(leaves)) == len(leaves),
+            'screen observation panel is inconsistent')
+    view = s301.backbone_view(edges, dict(zip(leaves, dvals)))
+    require(set(view['leaves']) == set(leaves), 'screen backbone changed the panel')
+    k = k_fit - 1
+    bound, info = s301.refutation_threshold(view, k)
+    require(isinstance(bound, F) and 0 <= bound <= theta1,
+            'invalid counting bound or bound exceeds Theta_1')
+    require(all(isinstance(info[key], F) and info[key] >= 0
+                for key in ('eps_from_pos', 'eps_from_neg'))
+            and bound == max(info['eps_from_pos'], info['eps_from_neg']),
+            'counting bound disagrees with its components')
+    require(info['pos_cap'] == (2*k if k <= 2 else 3*k - 2)
+            and info['neg_cap'] == max(0, 4*k - 8)
+            and all(isinstance(info[key], int) and info[key] >= 0
+                    for key in ('n_pos_total', 'n_neg_total')),
+            'counting metadata is inconsistent')
+    return dict(eps_refute_k_minus_1=str(bound),
+                eps_refute_positive=bool(bound > 0),
+                certifies_k_fit=bool(r_fit < bound),
+                screen=s300.serial(dict(status='complete', k=k,
+                    n_references=len(view['leaves']),
+                    n_backbone_edges=len(view['backbone']), **info)))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--bulk-root', type=Path, default=ROOT)
@@ -233,6 +274,9 @@ def main():
                    canonical_run=origin, case_path=entry['path'], case_sha256=entry['sha256'],
                    scale=str(t1['own_median_observed']),
                    witness=s300.serial(dict(sources=sources, pendant=y)))
+        if rec['separates']:
+            rec.update(candidate_screen(edges, leaves, dvals,
+                                        len(sources), r_fit, theta1))
         rows.append(rec)
         if name == EXAMPLE:
             example = dict(rec, n_edges=len(edges), eps=str(EXAMPLE_EPS),
@@ -249,10 +293,15 @@ def main():
 
     ok = [r for r in rows if r['status'] == 'ok']
     sep = [r for r in ok if r['separates']]
+    screened = [r for r in sep if 'certifies_k_fit' in r]
+    require(len(screened) == len(sep), 'not all separating candidates were screened')
     summary = dict(collection=COLLECTION, arm=ARM, n_cases=len(rows),
                    n_scored=len(ok), n_separating=len(sep),
                    median_relative_width=(statistics.median(
-                       sorted(r['relative_width'] for r in sep)) if sep else None))
+                       sorted(r['relative_width'] for r in sep)) if sep else None),
+                   n_screened=len(screened),
+                   n_screen_bound_positive=sum(r['eps_refute_positive'] for r in screened),
+                   n_certifying_k_fit=sum(r['certifies_k_fit'] for r in screened))
     require(example is not None and example['interval_holds'],
             'worked example does not certify its stated interval')
     args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -265,7 +314,19 @@ def main():
                        provenance=dict(inputs_sha256=inputs,
                            canonical_rule='stage300_analyze.canonical on evaluated frozen fits; '
                                           'join saved parameters by case, arm, source stage/file/line',
-                           theta2_used=False, refitting=False)), fh,
+                           theta2_used=False, refitting=False,
+                           counting_screen=dict(
+                               function='stage301_common.refutation_threshold',
+                               domain='reduced observed backbone at k = K_fit - 1',
+                               criterion='r_fit < eps_R(K_fit - 1)',
+                               interpretation='A sufficient condition for a nonempty interval '
+                                              'with m(eps) = K_fit; failure does not '
+                                              'disprove K_fit or rule out stronger certificates.',
+                               source_sha256={p: s300.sha(ROOT / p) for p in (
+                                   'scripts/stage301_common.py',
+                                   'scripts/stage26_missing_leaf.py',
+                                   'scripts/stage25_deficit_extension.py',
+                                   'scripts/stage23_two_source_envelope.py')}))), fh,
                   indent=1, sort_keys=True)
 
     if example:
@@ -280,6 +341,10 @@ def main():
     print('separating candidates: %d of %d scored (%d cases), median relative '
           'width %.4f' % (summary['n_separating'], summary['n_scored'],
                           summary['n_cases'], summary['median_relative_width']))
+    print('screen vs candidate: %d checked at k = K_fit - 1, %d with a positive '
+          'bound, %d with r_fit < eps_R(K_fit - 1)'
+          % (summary['n_screened'], summary['n_screen_bound_positive'],
+             summary['n_certifying_k_fit']))
 
 
 if __name__ == '__main__':
