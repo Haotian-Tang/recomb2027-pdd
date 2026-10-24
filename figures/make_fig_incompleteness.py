@@ -75,7 +75,7 @@ def main():
     fall, points = payload["fall"], payload["threshold_vs_panel"]
     x = np.arange(len(LEVELS))
 
-    fig, axes = plt.subplots(1, 3, figsize=(6.5, 2.22))
+    fig, axes = plt.subplots(1, 3, figsize=(6.5, 2.14))
 
     for ax, (arm, title) in zip(axes[:2], [("exact_partner", "Exact distances"),
                                            ("krepp_ani", "Real ANI distances")]):
@@ -90,11 +90,11 @@ def main():
         ax.set_title(title)
     axes[0].set_ylabel(r"median fall in $\Theta_1$")
     axes[1].set_yticklabels([])
-    for regime, xy, align in [("nearest", (0.12, 0.98), "left"),
-                              ("clade", (0.12, 0.83), "left"),
+    for regime, xy, align in [("clade", (0.12, 0.98), "left"),
+                              ("nearest", (0.12, 0.83), "left"),
                               ("taxon", (0.12, 0.68), "left"),
                               ("random", (0.12, 0.53), "left")]:
-        axes[0].annotate(LABEL[regime], xy, ha=align, va="center",
+        axes[1].annotate(LABEL[regime], xy, ha=align, va="center",
                          color=COLOUR[regime])
 
     adversarial = np.asarray(points["adversarial_nearest"], dtype=float)
@@ -140,7 +140,7 @@ def main():
                 fontweight="bold", va="bottom", ha="left")
     # Fixed canvas, every ordinary label at 10 pt: reserve explicit space rather
     # than let tight layout expand the PDF and shrink the text on inclusion.
-    fig.subplots_adjust(left=0.115, right=0.985, bottom=0.212, top=0.782, wspace=0.52)
+    fig.subplots_adjust(left=0.115, right=0.985, bottom=0.220, top=0.790, wspace=0.52)
 
     out = ROOT / "figures"
     fig.savefig(out / "incompleteness.pdf", bbox_inches=None)

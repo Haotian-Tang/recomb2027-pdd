@@ -1,4 +1,5 @@
 {
+ "all_single_deletions_unique": true,
  "case": "bio_bees-bosseret__bees-bosseret.tre_k2_s3_noise0_exact",
  "deletion_order": [
   20,
@@ -7,6 +8,453 @@
  ],
  "k_true": 2,
  "kind": "uniqueness_before_count",
+ "nearest_order_safe_prefix": 2,
+ "pair_deletion": {
+  "minimum": 2,
+  "n_references": 26,
+  "n_supports": 3,
+  "removed": [
+   20,
+   17
+  ],
+  "status": "complete",
+  "supports": [
+   [
+    23,
+    38
+   ],
+   [
+    23,
+    47
+   ],
+   [
+    23,
+    48
+   ]
+  ]
+ },
+ "single_deletions": [
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    0
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    1
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    2
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    3
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    4
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    5
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    6
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    7
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    8
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    9
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    10
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    11
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    12
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    13
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    14
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    15
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    16
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    17
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    18
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    19
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    20
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    21
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    22
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    23
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    24
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    25
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    26
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    27
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  }
+ ],
  "stage": 310,
  "steps": [
   {
@@ -82,5 +530,6 @@
  "weights": [
   "779459097278954/1385722962267845",
   "606263864988891/1385722962267845"
- ]
+ ],
+ "worst_case_safe_radius": 1
 }

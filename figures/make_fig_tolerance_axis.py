@@ -148,17 +148,17 @@ def main():
     payload = json.loads(RECORD.read_text())
     data = collect(payload)
     rng = np.random.default_rng(0)
-    fig, axes = plt.subplots(1, 2, figsize=(6.5, 2.60),
+    fig, axes = plt.subplots(1, 2, figsize=(6.5, 2.50),
                              gridspec_kw=dict(width_ratios=[1.12, 1.0]))
     panel_a(axes[0], data, rng)
     panel_b(axes[1], payload, data)
     for letter, ax in zip("ab", axes):
         ax.text(-0.05, 1.04, letter, transform=ax.transAxes, fontsize=10,
                 fontweight="bold", va="bottom", ha="right")
-    # Explicit margins: the canvas is 6.5 by 2.60 inches and every ordinary
+    # Explicit margins: the canvas is 6.5 by 2.50 inches and every ordinary
     # label is 10 pt, so the panels are placed rather than tight-layouted.
-    axes[0].set_position([0.195, 0.200, 0.295, 0.600])
-    axes[1].set_position([0.685, 0.200, 0.300, 0.600])
+    axes[0].set_position([0.195, 0.207, 0.295, 0.613])
+    axes[1].set_position([0.685, 0.207, 0.300, 0.613])
     out = ROOT / "figures"
     fig.savefig(out / "tolerance_axis.pdf", bbox_inches=None)
     fig.savefig(out / "tolerance_axis.png", dpi=300, bbox_inches=None)

@@ -1,0 +1,453 @@
+{
+ "backbone": {
+  "exact_ordered_edges_sha256": "91151b847d9d9c2996723eb9790441e0e976929a304b5eead497ff354d74e508",
+  "identical_across_samples": true,
+  "leaf_labels_sha256": "6e75d055d11dcefbdceaa5eacae013a5b73938d0c6d78e18f46d28e306f5feed",
+  "n_edges": 21147,
+  "n_observed": 10575,
+  "observed_ids_sha256": "0d9dcb5a98f814df60e86e8a28aea403ff2e764b7d6cca2618f86a07ee27f0af",
+  "tree_source_sha256": "1d71bd0903537d7a200fdcba36263c849a15255f81f3b4a3a07f256a0e0e5184"
+ },
+ "deletion_sets": [
+  {
+   "clade_detail": {
+    "clade_vertex": 18142,
+    "complement": true
+   },
+   "fraction_of_panel": 0.7156501182033097,
+   "median_loss": 0.8920336487363407,
+   "median_loss_exact": "237608968232944021/266367718941479459",
+   "n_removed": 7568,
+   "n_results": 29,
+   "removed_ids_sha256": "b8cd5ede18f51b59c79f2030cf7b7a87037085cec0b3cbbcb61d526f7a392d6f",
+   "replicates": [
+    1
+   ]
+  },
+  {
+   "clade_detail": {
+    "clade_vertex": 18597,
+    "complement": true
+   },
+   "fraction_of_panel": 0.758676122931442,
+   "median_loss": 0.900701050651172,
+   "median_loss_exact": "239917684310146643/266367718941479459",
+   "n_removed": 8023,
+   "n_results": 29,
+   "removed_ids_sha256": "033c3054dc79fb7047a2655bb4ffb1dd75bc75472f4b06a230ce0360dc56187b",
+   "replicates": [
+    0
+   ]
+  }
+ ],
+ "kind": "shared_mask_audit",
+ "level": "0.75",
+ "mask_nesting": {
+  "intersection_size": 7568,
+  "larger_minus_smaller": 455,
+  "larger_size": 8023,
+  "smaller_size": 7568,
+  "strict_subset": true
+ },
+ "max_random_loss": 0.17672289351303483,
+ "max_random_loss_exact": "42802931258123521/242203657982582989",
+ "min_clade_loss": 0.40413794370527095,
+ "min_clade_loss_exact": "442462144512246471/1094829504143081689",
+ "n_clade_deletion_sets": 2,
+ "n_clade_results": 58,
+ "n_samples": 29,
+ "panel_size": 10575,
+ "per_sample": [
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "389045913946920029/416965588619982808",
+    "386894075099980715/416965588619982808"
+   ],
+   "name": "td_sample_101_published",
+   "random_losses_exact": [
+    "969895069548486/52120698577497851",
+    "225/52120698577497851"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "487058377319166853/632709877613239844",
+    "458768080862313551/632709877613239844"
+   ],
+   "name": "td_sample_10_published",
+   "random_losses_exact": [
+    "510212978607565/28759539891510902",
+    "11224685529366833/632709877613239844"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "399412539269603060/410217975537611009",
+    "398634183709146034/410217975537611009"
+   ],
+   "name": "td_sample_125_published",
+   "random_losses_exact": [
+    "33408461804960021/410217975537611009",
+    "33408461804960021/410217975537611009"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "256934674532923043/286852424057394000",
+    "254297067594159701/286852424057394000"
+   ],
+   "name": "td_sample_147_published",
+   "random_losses_exact": [
+    "7513015909512901/57370484811478800",
+    "37565079547565237/286852424057394000"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "626566062019032953/1110542457136596966",
+    "546135440414435981/1110542457136596966"
+   ],
+   "name": "td_sample_156_published",
+   "random_losses_exact": [
+    "330591554055601/555271228568298483",
+    "2591937183775909/555271228568298483"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "53259263048320295/91961729998665876",
+    "74552151439626979/153269549997776460"
+   ],
+   "name": "td_sample_160_published",
+   "random_losses_exact": [
+    "2281256940014077/229904324996664690",
+    "9245225205325711/1149521624983323450"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "239808401579751023/243403719323269998",
+    "159659601326381235/162269146215513332"
+   ],
+   "name": "td_sample_3_published",
+   "random_losses_exact": [
+    "215/40567286553878333",
+    "18252661233697/121701859661634999"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "68897617846354607/74928898211228823",
+    "205097665345480037/224786694633686469"
+   ],
+   "name": "td_sample_45_published",
+   "random_losses_exact": [
+    "9052800557281700/224786694633686469",
+    "0"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "239917684310146643/266367718941479459",
+    "237608968232944021/266367718941479459"
+   ],
+   "name": "td_sample_50070_published",
+   "random_losses_exact": [
+    "6514853062371850/266367718941479459",
+    "6514853062371459/266367718941479459"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "341045150542977668/581054333567261633",
+    "283994547410748666/581054333567261633"
+   ],
+   "name": "td_sample_50076_published",
+   "random_losses_exact": [
+    "30810839364174743/581054333567261633",
+    "24300364498014753/581054333567261633"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "608348670267594746/776087117975927325",
+    "189546597559756237/258695705991975775"
+   ],
+   "name": "td_sample_50395_published",
+   "random_losses_exact": [
+    "0",
+    "39723318011456807/776087117975927325"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "644364030291490801/647530534041118788",
+    "644077362439759765/647530534041118788"
+   ],
+   "name": "td_sample_510_published",
+   "random_losses_exact": [
+    "4812375748743901/161882633510279697",
+    "0"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "1105852884869114648/1138853951560122605",
+    "1102928856761910593/1138853951560122605"
+   ],
+   "name": "td_sample_521_published",
+   "random_losses_exact": [
+    "44398034094385404/1138853951560122605",
+    "42957946739022216/1138853951560122605"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "405983207046478668/416982214793996291",
+    "36817989460006559/37907474072181481"
+   ],
+   "name": "td_sample_523_published",
+   "random_losses_exact": [
+    "66909875626879/833964429587992582",
+    "70573715385173755/833964429587992582"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "148419274895970629/164165290381680759",
+    "735153223808219386/820826451908403795"
+   ],
+   "name": "td_sample_528_published",
+   "random_losses_exact": [
+    "2012630439523778/820826451908403795",
+    "2012630439524492/820826451908403795"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "1281863525097958512/1328662350278915509",
+    "1277737649723467499/1328662350278915509"
+   ],
+   "name": "td_sample_538_published",
+   "random_losses_exact": [
+    "91169215844071214/1328662350278915509",
+    "104139576379804985/1328662350278915509"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "204779030191690757/213936747335132407",
+    "611971889237580827/641810242005397221"
+   ],
+   "name": "td_sample_540_published",
+   "random_losses_exact": [
+    "2246726966102201/641810242005397221",
+    "25319796209068384/641810242005397221"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "212799488811887663/214001917802126351",
+    "212719076122829106/214001917802126351"
+   ],
+   "name": "td_sample_560_published",
+   "random_losses_exact": [
+    "12825226902599169/428003835604252702",
+    "63292057390532087/428003835604252702"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "241286186141095433/242203657982582989",
+    "34453616502945854/34600522568940427"
+   ],
+   "name": "td_sample_6128_published",
+   "random_losses_exact": [
+    "1002497888630554/242203657982582989",
+    "42802931258123521/242203657982582989"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "245917063494025099/410767491981372401",
+    "210088899076235121/410767491981372401"
+   ],
+   "name": "td_sample_6163_published",
+   "random_losses_exact": [
+    "37877398026988599/410767491981372401",
+    "3541951811650588/410767491981372401"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "24805696767545569/47741618606543158",
+    "371201201099094413/811607516311233686"
+   ],
+   "name": "td_sample_6165_published",
+   "random_losses_exact": [
+    "179207338708657/811607516311233686",
+    "207722906894260057/8116075163112336860"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "145975799515476759/221786590481041450",
+    "422532116228278781/731895748587436785"
+   ],
+   "name": "td_sample_6168_published",
+   "random_losses_exact": [
+    "4574687652624/243965249529145595",
+    "3298/731895748587436785"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "565665205366645071/970066998724457377",
+    "533957661458766190/970066998724457377"
+   ],
+   "name": "td_sample_678_published",
+   "random_losses_exact": [
+    "1104160058547367/970066998724457377",
+    "1104160058548167/970066998724457377"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "446933315913109423/480935357113246272",
+    "444245300515441175/480935357113246272"
+   ],
+   "name": "td_sample_715_published",
+   "random_losses_exact": [
+    "45543978223878551/480935357113246272",
+    "4973475652561105/480935357113246272"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "1413857082404392477501/2737073760357704222500",
+    "442462144512246471/1094829504143081689"
+   ],
+   "name": "td_sample_76_published",
+   "random_losses_exact": [
+    "2463956827583374089/109482950414308168900",
+    "113/1094829504143081689"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "419682102314597119/731927223853993691",
+    "354266806588831415/731927223853993691"
+   ],
+   "name": "td_sample_78_published",
+   "random_losses_exact": [
+    "60748100021355315/731927223853993691",
+    "380314005025722789/73192722385399369100"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "678769944739392433/731949684003787391",
+    "674095395183030389/731949684003787391"
+   ],
+   "name": "td_sample_80129_published",
+   "random_losses_exact": [
+    "13341623733158684/731949684003787391",
+    "25155866207032994/731949684003787391"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "471180043239654052/574304521571831905",
+    "92416040858799305/114860904314366381"
+   ],
+   "name": "td_sample_80142_published",
+   "random_losses_exact": [
+    "1089243327471960/114860904314366381",
+    "1434795600383298/574304521571831905"
+   ]
+  },
+  {
+   "both_clade_exceed_both_random": true,
+   "clade_losses_exact": [
+    "516049151572599098/891344388066543107",
+    "469379836571682131/891344388066543107"
+   ],
+   "name": "td_sample_80152_published",
+   "random_losses_exact": [
+    "6491208945152443/891344388066543107",
+    "1319/891344388066543107"
+   ]
+  }
+ ],
+ "provenance": {
+  "inputs_sha256": {
+   "bulk_manifest.json": "4422a47ae9f05c2ba63051bfaaa1c52416d5282c64163b2db28bf0390bc0f981",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_101_published.json": "970fb9163152a943f4b3e4e945aba260ff465cb38a0d0fbf828d7133826159da",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_10_published.json": "c4c11f1a32919608b5329c153957e095a342c0c0c33efc41f92dd028a79b47de",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_125_published.json": "380696db489e10c39deb3c376f9809cb14b825da68f77faa2e9c264a4fe6f698",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_147_published.json": "f96867c43dca85f21c3d7a65128f54241648b75740a6938426813633150013c3",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_156_published.json": "5675d2c0787c5015891465716f29c58223d9f5aabc3df8fdd4afb3cf10e40abd",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_160_published.json": "7a3f164e131ba2508bd21205d9de075297b6e90466955a669a0d92a1ba1f22e4",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_3_published.json": "e11ba0f936ddc76ad3de9b49a9173d175502a08300332d39572bef646d449ab6",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_45_published.json": "89458f2908fdbaeaa04c6468d85039867a8807d704ae42e5a7a798e0e0ee86d6",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_50070_published.json": "f29384b7e84c791e692b0f91a7ce77087a0c873d4c49c4ed299b185c6dabdbc4",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_50076_published.json": "82340259eaa6c8ca65024d57c36a59a5aba22e9ef8b2c6278c03d9612cd9a03f",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_50395_published.json": "0e2977ec6641bbe024f0edf64f14878e5037ea64bab4413ba0471f9973594b2a",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_510_published.json": "3c74562c24df5c39cf4a0697296cd46687b18502bc52007d8d541b65b99c592b",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_521_published.json": "39308ea92c6a701d1b3b559b399649f78e5e7eecad1dbe22e8797d90e28a6c4d",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_523_published.json": "a3033d87c3a870cb02781654f3fa28e709dacf22ec4605fdcf2d022f98a89c76",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_528_published.json": "5eecd312b2d8b347b854058e52e2e23fca57127d8d9a523dc10e1ed805c12d83",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_538_published.json": "69baa5854fd5e40a112dde4939ceab2bff4029ebf27a16a9efc7df5c20054ac2",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_540_published.json": "87249dc72d08879d4b038cb084d35477103c74ce8433a1a87240a844c47211e6",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_560_published.json": "382dff00fccffc5e79c626f5dd5b86977b9c3974afe2fd5c5f2ab20988c41f36",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6128_published.json": "81c942030f17066de9f381bcb5cafac505847cf0cacf4dd39b173ef74379ec7c",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6163_published.json": "9e4d70de8c207a68ddc6f6fa06115bb07f16efc180989b3e30a5084fe2daac0e",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6165_published.json": "3dfd6325c29ad57feb522112e4281accd2e736ddc5ddf917b61be204692b9441",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_6168_published.json": "5878c0f78a548832640912ffe610aeeb057ae69d3c6fb4ae2f314618d3a95fe3",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_678_published.json": "19334a1822ba3c3c86b1a39c185c31058b4b3ace5f011cd2a79ded6301d69b3a",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_715_published.json": "8d8c0c185593e0b788a2fe551ccb6635de30c49648c1e0c29cfc01e79139d948",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_76_published.json": "f674f25cfff5bc1bacb2ff049ff1ecda63f530046007bc044564c8ad94b8dc46",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_78_published.json": "d9acd22501cfbf70c60d899e964a263eb674bfabf9e71fac43d9c23bd125b9e4",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_80129_published.json": "001956a0a1442e788acbad6bae6e33f1854ffcaa64f4900f0bc0e778c458f5da",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_80142_published.json": "6d6a2107ccf72cbd4c3798608e350196215c806c6b00c8b1c5d1ddf6f5a900a5",
+   "data/stage287_instances/bank/cases/published_travelers_diarrhea/td_sample_80152_published.json": "5d8180a8fe95b4aaff64e669133b8efbe044ff999adaa6b34efc57f17459b464",
+   "data/stage287_instances/bank/index.json": "bf53a419d5cec84a744337721cb32a2ead605015f344bbf4d63283dd48c0b2ce",
+   "results/stage299/stage299_protocol.json": "7fb2e82ad6598d6be480eba35c17df99e8c1819e56ac0144bae5b6a8acc2101c",
+   "results/stage299/stage299_td_runs.jsonl": "b3e3a43817a3eedd2378dd84855e769f889c6e835c638aa4cb8df22b86f3c7f8"
+  },
+  "limitation": "The compact run log omits removed IDs; identity is established through its frozen registered plan and the producer that consumes it. No solver or removal-plan generation is rerun.",
+  "mask_identity_encoding": "SHA-256 of compact JSON of sorted original reference IDs",
+  "matched_run_plan_identities": 754,
+  "method": "Explicit registered masks joined to complete frozen runs by (arm,name,level,regime,replicate), with matching counts and detail; case files prove common exact tree, reference labels and panel."
+ },
+ "samples_where_both_clade_exceed_both_random": 29,
+ "stage": 311
+}
