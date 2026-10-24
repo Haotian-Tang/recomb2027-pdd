@@ -1,0 +1,86 @@
+{
+ "case": "bio_bees-bosseret__bees-bosseret.tre_k2_s3_noise0_exact",
+ "deletion_order": [
+  20,
+  13,
+  17
+ ],
+ "k_true": 2,
+ "kind": "uniqueness_before_count",
+ "stage": 310,
+ "steps": [
+  {
+   "minimum": 2,
+   "n_references": 28,
+   "n_supports": 1,
+   "removed": [],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 27,
+   "n_supports": 1,
+   "removed": [
+    20
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 26,
+   "n_supports": 1,
+   "removed": [
+    20,
+    13
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     47
+    ]
+   ]
+  },
+  {
+   "minimum": 2,
+   "n_references": 25,
+   "n_supports": 3,
+   "removed": [
+    20,
+    13,
+    17
+   ],
+   "status": "complete",
+   "supports": [
+    [
+     23,
+     38
+    ],
+    [
+     23,
+     47
+    ],
+    [
+     23,
+     48
+    ]
+   ]
+  }
+ ],
+ "weights": [
+  "779459097278954/1385722962267845",
+  "606263864988891/1385722962267845"
+ ]
+}
